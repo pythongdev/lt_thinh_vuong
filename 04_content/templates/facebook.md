@@ -65,16 +65,23 @@ Thiếu giá hoặc cấu hình → **dừng**, không viết. Ghi vào `01_comp
 
 ---
 
-## 5. Verification (bắt buộc tick đủ trước khi đăng)
+## 5. Verification — 7 gate (bắt buộc tick đủ trước khi đăng)
+Chi tiết: `10_gates/README.md`.
+- [ ] **Gate 0 — Strategy:** đúng 1 persona + 1 journey + 1 objective + 1 pillar, ô hợp lệ trong `content-matrix.md`
 - [ ] **Gate 1 — Fact:** mọi thông số truy được về `02_products/products.md`
-- [ ] **Gate 2 — Commercial:** giá khớp trang nguồn, kiểm tra trong hôm nay
+- [ ] **Gate 2 — Commercial:** giá + tồn kho khớp trang nguồn, kiểm tra trong hôm nay
 - [ ] **Gate 3 — Brand:** không có forbidden claim trong `brand.md`
-- [ ] **Gate 4 — Claim:** không có "nhất/duy nhất/cam kết tuyệt đối" không nguồn
-- [ ] **Gate 5 — Human:** người chịu trách nhiệm đã duyệt
+- [ ] **Gate 4 — Claim:** không có "nhất/duy nhất/cam kết tuyệt đối" không nguồn, không tên đối thủ
+- [ ] **Gate 5 — Quality:** đủ 12 thành phần Content Package, hook khớp nội dung, có measurement plan
+- [ ] **Gate 6 — Human:** người chịu trách nhiệm đã duyệt (ghi `approved_by` + ngày)
 - [ ] Bảo hành viết đúng `policies.md` (máy cũ = 6 tháng, KHÔNG phải 12)
 - [ ] Không hứa trả góp / freeship / còn hàng khi chưa xác minh
 
 ## 6. Output kèm theo mỗi bài
-- 3 phương án hook để A/B
+Đầu ra chuẩn là **Content Package** 12 thành phần — `04_content/content-package.md`.
+Tối thiểu:
+- 3 phương án hook để A/B (mỗi cái khác pattern)
 - 5 câu trả lời comment thường gặp
 - Gợi ý ảnh/video cần chụp
+- First comment + hashtag
+- Measurement plan: chỉ số nào quyết định bài này thành/bại (theo objective đã khai báo)
