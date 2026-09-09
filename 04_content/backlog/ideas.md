@@ -42,8 +42,12 @@ cta: "Comment ngân sách + ngành học, mình gợi ý máy phù hợp."
 proof: [products.md#PRD-002, policies.md]
 risk: high
 priority: 5.0
-status: idea
-note: "Bắt buộc kiểm tra giá + tồn kho PRD-002 trong ngày đăng."
+status: 🔒 BLOCKED
+blocked_reason: "PRD-002 giá 4.290.000đ thuộc phân khúc dưới 5 triệu — chủ shop đóng phân khúc
+  này ngày 2026-09-09, không làm content bán nữa. Xem products.md mục 0."
+note: "KHÔNG ĐĂNG. Góc 'tầm tiền X mua được máy thế nào' vẫn tốt — muốn dùng lại thì đổi
+  nguyên liệu sang máy rẻ nhất được phép viết: Dell Latitude 7400 vân carbon 6.880.000đ
+  (kho 3 máy xác thực), và đổi khung ngân sách trong problem/hook cho khớp."
 ```
 
 ```yaml

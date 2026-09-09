@@ -1,4 +1,49 @@
-# Lấy dữ liệu Facebook Page — hướng dẫn
+# tools/ — script lấy dữ liệu
+
+Hai script:
+
+| Script | Lấy gì | Chạy khi nào |
+|---|---|---|
+| `catalog_fetch.py` | **Toàn bộ sản phẩm + giá + cấu hình + tồn kho** từ laptoptv.vn | **Mỗi tuần** (bắt buộc — xem dưới) |
+| `fb_fetch.py` | Bài đăng + số liệu hiệu quả từ Facebook Page | Khi cần phân tích content |
+
+---
+
+# 1. catalog_fetch.py — cập nhật database sản phẩm
+
+Website chạy trên nền Sapo/Bizweb nên có sẵn **API JSON công khai**. Không cần token,
+không cần đăng nhập, không phải scraping:
+
+```bash
+python3 tools/catalog_fetch.py
+```
+
+Kết quả:
+- Ghi file `02_products/catalog/catalog-<ngày>.csv` — 593 sản phẩm với đủ
+  giá, giá gốc, cấu hình, bảo hành, tồn kho, link.
+- In ra màn hình **cảnh báo dữ liệu** ứng với các mục trong
+  `01_company/facts/UNVERIFIED.md` (#17 bảo hành bất thường, #18 giá gốc sai,
+  #21 tag tình trạng lệch).
+
+### ⚠️ Vì sao phải chạy mỗi tuần
+Quy tắc 10 trong `CLAUDE.md`: `verified_at` quá 7 ngày là phải kiểm tra lại.
+Giá laptop cũ đổi liên tục và máy bị gỡ khỏi web bất cứ lúc nào —
+ví dụ Dell Latitude E7440 đã biến mất khỏi catalog chỉ sau 4 ngày.
+
+### Sau khi chạy xong, làm 3 việc:
+1. So CSV mới với `02_products/products.md` → cập nhật giá và `verified_at`.
+2. Máy nào **không còn trong CSV** → đánh dấu đã gỡ, ngừng viết bài.
+3. Cảnh báo mới in ra màn hình → ghi vào `UNVERIFIED.md`.
+
+### 🔴 Điều quan trọng nhất script này cho biết
+Cột `stock_tracked`: chỉ **39/593 sản phẩm** có bật quản lý tồn kho.
+554 máy còn lại web **luôn hiện "còn hàng"** dù thực tế có thể đã hết.
+
+> ⛔ Chỉ được viết "còn hàng / còn X máy" cho sản phẩm có `stock_tracked=yes` và `qty>0`.
+
+---
+
+# 2. fb_fetch.py — lấy dữ liệu Facebook Page
 
 Mục đích: kéo bài đăng cũ + số liệu hiệu quả của page **Laptop Thịnh Vượng** về máy,
 để AI phân tích xem kiểu content nào thật sự ra đơn, rồi viết bài mới theo đúng kiểu đó.

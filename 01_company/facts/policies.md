@@ -26,17 +26,19 @@
 | 24 tháng | 1 | ⚠️ Ngoại lệ (PC Dell Tower ECT1250) |
 | Không có tag | 47 | Áp dụng chính sách chung theo tình trạng máy |
 
-### ⚠️ NGOẠI LỆ QUAN TRỌNG — 2 máy chỉ bảo hành 1 THÁNG
+### ⚠️ NGOẠI LỆ ĐÃ GHI NHẬN — 2 máy bảo hành 1 THÁNG (nay đã hết hàng)
 
-| Máy | Giá | Bảo hành ghi trên web |
-|---|---|---|
-| Dell Latitude 7480 i5-6300U \| 8GB \| 256GB \| 14" FHD IPS | 4.900.000đ | **1 Tháng** |
-| Dell Latitude 7480 i5-7200U [7300U] \| 8GB \| 256GB \| 14" FHD | 5.190.000đ | **1 Tháng** |
+| Máy | Giá | Bảo hành ghi trên web | Tình trạng |
+|---|---|---|---|
+| Dell Latitude 7480 i5-6300U \| 8GB \| 256GB \| 14" FHD IPS | 4.900.000đ | **1 Tháng** | ⛔ Hết hàng |
+| Dell Latitude 7480 i5-7200U [7300U] \| 8GB \| 256GB \| 14" FHD | 5.190.000đ | **1 Tháng** | ⛔ Hết hàng |
 
-> 🔴 **Đây là 2 máy đang có tồn kho lớn nhất và rẻ nhất còn hàng** (17 máy + 1 máy).
-> Rất dễ bị chọn để viết bài "máy giá rẻ cho sinh viên" — nhưng **KHÔNG được viết
-> "bảo hành 6 tháng"** cho 2 máy này. Phải kiểm tra lại từng máy trước khi viết.
-> Đã đưa vào UNVERIFIED #17 để chủ shop xác nhận đây là chính sách thật hay lỗi nhập liệu.
+> ✅ **Đã xử lý xong (2026-09-09):** chủ shop xác nhận **cả 2 máy đã hết hàng**, và quyết định
+> **đóng phân khúc dưới 5 triệu** — không làm content cho nhóm này nữa. UNVERIFIED #17 đã đóng.
+>
+> 🔴 **Vì sao vẫn giữ bản ghi này:** đây là bằng chứng rằng **bảo hành KHÔNG luôn là 6 tháng**
+> cho máy cũ. Nếu 2 máy này về hàng lại, hoặc gặp máy khác có tag bảo hành lạ,
+> **phải hỏi lại trước khi viết** — đừng mặc định 6 tháng.
 
 ### Quy tắc dùng bảo hành trong content
 1. **Luôn đọc tag `baohanh_` của đúng máy đó** trong `catalog-2026-09-09.csv` trước khi viết.
@@ -105,4 +107,6 @@ Tóm tắt: tiền mặt tại shop · COD (khu vực có giao hàng miễn phí
 ❌ Không được viết: "1 đổi 1 trong 30 ngày", "hoàn tiền 100%" — sai chính sách.
 ❌ Không được viết: bảo hành rơi vỡ / vào nước.
 ❌ Không được viết: "freeship", "trả góp 0%", "giao trong ngày".
-❌ Không được viết: "bảo hành 6 tháng" cho **2 máy Latitude 7480** ở trên.
+❌ Không được viết: bài bán cho **phân khúc dưới 5 triệu** — đã đóng 2026-09-09
+   (xem `02_products/products.md` mục 0). Tư vấn inbox thì vẫn bình thường.
+❌ Không được viết: "bảo hành 6 tháng" cho **2 máy Latitude 7480** nếu chúng về hàng lại.

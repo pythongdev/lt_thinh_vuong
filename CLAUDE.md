@@ -17,8 +17,23 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
 7. Mọi bài phải qua **7 gate** trong `10_gates/README.md` trước khi đăng.
 8. **AI không tự đăng content thương mại.** Gate 6 phải có người ký.
 9. **Không nêu tên đối thủ trong bài đăng.** So sánh chỉ ở mức mặt bằng chung.
-10. Giá thay đổi liên tục → nếu `verified_at` quá 7 ngày, mở lại trang nguồn kiểm tra.
-11. Sản phẩm **hết hàng** → không viết bài bán.
+10. Giá thay đổi liên tục → nếu `verified_at` quá 7 ngày, chạy `python3 tools/catalog_fetch.py`.
+11. Sản phẩm **hết hàng / đã gỡ khỏi web** → không viết bài bán.
+12. **Không được viết "còn hàng", "còn X máy", "sắp hết"** trừ khi sản phẩm có
+    `stock_tracked=yes` và `qty>0` trong `02_products/catalog/catalog-<ngày>.csv`.
+    Web hiện "còn hàng" cho 554/593 máy **không** có quản lý tồn kho → tín hiệu này vô nghĩa.
+13. **Cấu hình lấy theo TÊN sản phẩm, không lấy theo tag.** Tag trên web có lỗi ở nhiều máy
+    (sai CPU, sai RAM, sai GPU, sai tình trạng cũ/mới). Tag lệch tên → không viết thông số đó.
+14. **Bảo hành đọc theo từng máy** (cột `warranty_tag`), không mặc định 6 tháng — đã gặp
+    máy cũ chỉ bảo hành **1 tháng** (2 máy Latitude 7480). Xem `01_company/facts/policies.md`.
+    Máy nào có tag bảo hành khác chuẩn → hỏi lại trước khi viết.
+15. Trước khi viết "giảm giá X%", kiểm tra `compare_at > price`. Có **10 máy** trên web
+    ghi giá gốc thấp hơn giá bán → viết giảm giá cho chúng là bịa.
+16. ⛔ **Phân khúc dưới 5 triệu ĐÃ ĐÓNG** (chủ shop, 2026-09-09) — không viết bài bán,
+    không làm hook "laptop 4 triệu". Máy rẻ nhất được viết: **6.880.000đ** (Latitude 7400
+    vân carbon). Tư vấn inbox/comment cho khách hỏi máy 4 triệu thì **vẫn làm bình thường**.
+17. **Lời chủ shop ghi đè dữ liệu web.** Web báo còn 17 máy mà chủ shop nói hết là **hết**.
+    Các ghi đè đã chốt nằm ở `02_products/products.md` mục 0 — đọc mục đó trước khi viết.
 
 ## Bốn trục phân loại (không được nhầm mã)
 | Trục | Mã | File |
@@ -36,7 +51,9 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)
-- **Thêm sản phẩm:** fetch trang sản phẩm → ghi vào `02_products/products.md` kèm source + verified_at
+- **Cập nhật giá/sản phẩm:** `python3 tools/catalog_fetch.py` → sinh
+  `02_products/catalog/catalog-<ngày>.csv` (593 SP) + in cảnh báo dữ liệu. Chạy **mỗi tuần**.
+- **Thêm sản phẩm:** lấy từ CSV trên → ghi vào `02_products/products.md` kèm source + verified_at
 - **Thiếu thông tin:** ghi vào `01_company/facts/UNVERIFIED.md`, đừng đoán
 - **Đọc số liệu / rút pattern:** `09_workflows/weekly-learning.md`
 - **Kéo dữ liệu page Facebook:** xem `tools/README.md`
@@ -51,7 +68,7 @@ Vòng đời file: `04_content/drafts/` → `approved/` → `published/`.
 ## Cấu trúc thư mục
 ```
 01_company/    facts (công ty, chính sách) + brand (định vị, tone)
-02_products/   database sản phẩm đã xác minh
+02_products/   database sản phẩm đã xác minh + catalog/ (snapshot CSV toàn web)
 03_customers/  5 personas
 04_content/    strategy/ (objectives, pillars, journey, matrix, facebook-strategy)
                formats/ (reels, post, carousel, story, comparison, review, customer-story)
@@ -70,7 +87,7 @@ Vòng đời file: `04_content/drafts/` → `approved/` → `published/`.
 14_roadmap/    7 phase
 15_competitors/ phân tích đối thủ (đọc trước khi tìm góc content mới)
 16_research/   tài liệu nghiên cứu/tham khảo (chưa phải nguồn fact — không trích vào bài)
-tools/         script lấy dữ liệu Facebook Page (Graph API)
+tools/         catalog_fetch.py (sản phẩm+giá) · fb_fetch.py (Facebook Graph API)
 ```
 
 ## Giọng văn

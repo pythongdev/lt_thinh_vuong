@@ -3,9 +3,21 @@ product: PRD-003 (Dell Latitude 5470)
 persona: P1 — Sinh viên / mua máy đầu tiên
 objective: Inbox/Lead
 channel: Facebook
-status: draft — chờ duyệt
+status: ⛔ BLOCKED — không đăng (phân khúc dưới 5tr đã đóng 2026-09-09)
 created: 2026-09-05
+blocked_at: 2026-09-09
 ---
+
+> # ⛔ KHÔNG ĐĂNG — GIỮ LÀM BÀI MẪU THAM CHIẾU
+>
+> Bài dựng trên **PRD-003 — Dell Latitude 5470, 4.600.000đ**, thuộc **phân khúc dưới 5 triệu
+> mà chủ shop đã ngừng làm content** (2026-09-09). Hook "4,6 triệu" cũng phải bỏ.
+>
+> ✅ **Vẫn giữ file vì đây là bài mẫu tốt về cách viết**: dịch thông số thành tình huống đời
+> thực, xử lý phản đối "bố mẹ bảo mua máy mới", đúng 1 persona + 1 CTA.
+> Học cách viết ở đây, nhưng **đổi sang máy được phép bán**: rẻ nhất hiện nay là
+> **Dell Latitude 7400 vân carbon — 6.880.000đ** (kho 3 máy xác thực).
+> Xem `02_products/products.md` mục 0.
 
 # Bài đăng (bản chính)
 
@@ -13,9 +25,9 @@ Bố mẹ bảo "mua máy mới cho chắc", nhưng 4,6 triệu thì máy mới 
 
 Thật ra ở tầm giá này, máy mới thường là Celeron/Pentium + 4GB RAM — mở vài tab Chrome với file Word là đã ì ạch. Trong khi cùng số tiền đó, bạn mua được một chiếc máy vốn được sản xuất cho dân văn phòng doanh nghiệp.
 
-💻 **Dell Latitude 5470** — likenew, nguyên zin chưa qua sửa chữa
+💻 **Dell Latitude 5470** — máy cũ, nguyên zin chưa qua sửa chữa
 • Core i5-6300U
-• RAM 8GB DDR4
+• RAM 8GB
 • SSD NVMe 256GB
 • Màn 14"
 
@@ -55,7 +67,7 @@ Vệ sinh, tra keo tản nhiệt, cài Win và phần mềm — miễn phí tr�
 # 5 câu trả lời comment thường gặp
 
 **1. "Máy cũ dùng được bao lâu?"**
-> Latitude là dòng business, thiết kế để chạy liên tục nhiều năm trong môi trường công sở. Máy bên mình là likenew, nguyên zin chưa qua sửa chữa, bảo hành 6 tháng main-màn-phím. Bạn dùng có vấn đề gì trong 15 ngày đầu là đổi máy miễn phí nhé.
+> Latitude là dòng business, thiết kế để chạy liên tục nhiều năm trong môi trường công sở. Máy bên mình là máy cũ, nguyên zin chưa qua sửa chữa, bảo hành 6 tháng main-màn-phím. Bạn dùng có vấn đề gì trong 15 ngày đầu là đổi máy miễn phí nhé.
 
 **2. "Sao rẻ vậy, có phải máy dựng không?"**
 > Máy bên mình cam kết nguyên zin, chưa qua sửa chữa. Bạn ghé 71 Thiên Hiền, Mỹ Đình test trực tiếp trước khi quyết định — mình không giục.
@@ -73,7 +85,7 @@ Vệ sinh, tra keo tản nhiệt, cài Win và phần mềm — miễn phí tr�
 
 # Ảnh/video cần chụp
 1. Ảnh máy mở góc 45°, nền sạch — ảnh chính.
-2. Cận bàn phím + mặt lưng (chứng minh tình trạng likenew).
+2. Cận bàn phím + mặt lưng (cho khách tự đánh giá ngoại hình máy cũ).
 3. Video 15s: bấm nút nguồn → bấm giờ tới màn hình desktop (chứng minh SSD).
 4. Ảnh chụp màn hình cấu hình trong System Information.
 5. Ảnh cửa hàng thật ở 71 Thiên Hiền (tăng tin cậy).
@@ -85,9 +97,11 @@ Vệ sinh, tra keo tản nhiệt, cài Win và phần mềm — miễn phí tr�
 | Claim trong bài | Nguồn |
 |---|---|
 | Dell Latitude 5470 | products.md PRD-003 |
-| Core i5-6300U / 8GB DDR4 / SSD NVMe 256GB / 14" | products.md PRD-003 (laptoptv.vn/laptop-cu, 2026-09-05) |
+| Core i5-6300U / 8GB / SSD NVMe 256GB / 14" | products.md PRD-003 (verified 2026-09-09) |
+| *(không nêu loại RAM, không nêu "FHD")* | UNVERIFIED #15 — màn HD/FHD chưa chốt; loại RAM không phải điểm bán |
 | 4.600.000đ | products.md PRD-003 — ⚠️ verify lại trước khi đăng |
-| "likenew, nguyên zin chưa qua sửa chữa" | company-facts.md — nguyên văn laptoptv.vn |
+| "máy cũ" | products.md PRD-003 `condition: Cũ` + tên SP "Laptop cũ…" trên web |
+| "nguyên zin chưa qua sửa chữa" | company-facts.md — ⚠️ nguyên văn web là "Laptop **Likenew 99%** cam kết nguyên zin", câu cam kết gắn với phân khúc Likenew. Dùng cho máy Cũ cần shop xác nhận — `UNVERIFIED.md` #24 |
 | Bảo hành 6 tháng main/màn/phím, pin 3 tháng | policies.md |
 | Lỗi trong 15 ngày đổi máy miễn phí | policies.md |
 | Vệ sinh/tra keo/cài Win miễn phí trọn đời | policies.md |

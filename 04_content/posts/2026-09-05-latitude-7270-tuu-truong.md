@@ -5,9 +5,21 @@ objective: Inbox/Lead
 channel: Facebook
 pillar: Product
 angle: Mùa tựu trường — máy nhỏ gọn mang đi học cả ngày
-status: draft — chờ duyệt
+status: ⛔ BLOCKED — không đăng (phân khúc dưới 5tr đã đóng 2026-09-09)
 created: 2026-09-05
+blocked_at: 2026-09-09
 ---
+
+> # ⛔ KHÔNG ĐĂNG — PHÂN KHÚC ĐÃ ĐÓNG (2026-09-09)
+>
+> Bài này dựng trên **PRD-002 — Dell Latitude 7270, 4.290.000đ**, thuộc **phân khúc dưới
+> 5 triệu mà chủ shop đã quyết định ngừng làm content** (2026-09-09).
+> Gate 2 sẽ chặn bài này. Các dấu tick gate bên dưới là của lần soạn trước, **không còn hiệu lực**.
+>
+> Giữ file để tham chiếu cách viết. Muốn dùng lại góc này → đổi sang máy rẻ nhất được phép:
+> **Dell Latitude 7400 vân carbon — 6.880.000đ** (i5-8365U · 8GB · 256GB · 14" FHD ·
+> BH 6 tháng · kho 3 máy xác thực) và chỉnh lại khung ngân sách trong bài.
+> Xem `02_products/products.md` mục 0.
 
 > ⚠️ **Ghi chú chọn sản phẩm:** yêu cầu ban đầu là "máy bán chạy nhất". Repo **không có
 > dữ liệu doanh số** (xem UNVERIFIED.md mục 13). Máy rẻ nhất — E7440, 3.78tr — đã **hết hàng
@@ -24,7 +36,7 @@ Nhiều bạn chọn máy 15.6" cho "màn to nhìn cho sướng". Được hai t
 
 💻 **Dell Latitude 7270** — likenew 99%, cam kết nguyên zin chưa qua sửa chữa
 • Core i5-6300U
-• RAM 8GB DDR4
+• RAM 8GB
 • SSD NVMe 256GB
 • Màn 12.5"
 
@@ -97,7 +109,7 @@ Vệ sinh, tra keo tản nhiệt, cài Win và phần mềm — miễn phí tr�
 | Claim trong bài | Nguồn |
 |---|---|
 | Dell Latitude 7270 | products.md PRD-002 |
-| Core i5-6300U / 8GB DDR4 / SSD NVMe 256GB / màn 12.5" | products.md PRD-002 (laptoptv.vn/laptop-cu, verify 2026-09-05) |
+| Core i5-6300U / 8GB / SSD NVMe 256GB / màn 12.5" | products.md PRD-002 (verify 2026-09-09) — *loại RAM chỉ có trong tag, không đưa vào bài* |
 | 4.290.000đ | products.md PRD-002 — **đã mở lại laptoptv.vn/laptop-cu ngày 2026-09-05, giá khớp** (giảm 39% từ 6.980.000đ) |
 | "likenew 99%, cam kết nguyên zin chưa qua sửa chữa" | company-facts.md — nguyên văn laptoptv.vn |
 | Bảo hành 6 tháng main/màn/phím, pin 3 tháng | policies.md |

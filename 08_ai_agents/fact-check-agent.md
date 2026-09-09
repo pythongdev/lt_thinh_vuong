@@ -28,7 +28,11 @@ Với **mỗi** con số và mỗi khẳng định trong bài, trả lời: *fac
 - Giá không khớp trang nguồn.
 - Sản phẩm hết hàng nhưng bài đang bán.
 - Ghi bảo hành 12 tháng cho máy cũ (đúng là 6 tháng, pin 3 tháng).
-- Dùng thông số đang mâu thuẫn (vd RAM DDR3/DDR4 của PRD-003 — `UNVERIFIED.md` #15).
+- Dùng thông số đang mâu thuẫn (vd màn HD/FHD của PRD-003 — `UNVERIFIED.md` #15).
+- Lấy **con số** (CPU, RAM, ổ cứng, độ phân giải, pin) từ **phần mô tả sản phẩm** trên laptoptv.vn.
+  Đã đo: 31/593 máy có mô tả mâu thuẫn với chính tên máy — xem `02_products/catalog/loi-mo-ta-2026-09-09.csv`
+  và `UNVERIFIED.md` #22. Mô tả chỉ dùng lấy ý, không dùng làm nguồn fact.
+  Thứ tự tin cậy: **máy thật > spec hãng > tên sản phẩm > tag > mô tả**.
 - Hứa trả góp / freeship / COD / thời gian giao hàng khi chưa xác minh.
 - Số liệu pin, FPS, thời gian render không có nguồn đo.
 

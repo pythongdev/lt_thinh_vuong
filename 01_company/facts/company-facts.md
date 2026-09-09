@@ -62,8 +62,8 @@
 | Trong đó là laptop | **546** | như trên | 2026-09-09 |
 | Linh kiện / phụ kiện | 33 | như trên | 2026-09-09 |
 | PC để bàn | 6 | như trên | 2026-09-09 |
-| Hãng áp đảo | **Dell — 345/593 sản phẩm (~58%)** | như trên | 2026-09-09 |
-| Kế tiếp | Lenovo 75, HP 55, Acer 27, Asus 21 | như trên | 2026-09-09 |
+| Hãng áp đảo | **Dell — 350/593 sản phẩm (~59%)** | như trên | 2026-09-09 |
+| Kế tiếp | Lenovo 78, HP 55, Acer 28, Asus 23 | như trên | 2026-09-09 |
 
 **Phân bổ laptop theo tình trạng** (đọc từ tên sản phẩm):
 Cũ 205 · Likenew 171 · Mới 100% 165 · chưa rõ 5.
@@ -71,7 +71,7 @@ Cũ 205 · Likenew 171 · Mới 100% 165 · chưa rõ 5.
 **Phân bổ laptop theo nhóm:**
 Xoay gập/2in1 123 · Văn phòng 116 · Cao cấp 112 · Gaming 79 · Đồ hoạ 47 · chưa phân nhóm 69.
 
-> 💡 **Góc content từ dữ liệu này**: Dell chiếm ~58% catalog và 2in1/xoay gập là nhóm
+> 💡 **Góc content từ dữ liệu này**: Dell chiếm ~59% catalog và 2in1/xoay gập là nhóm
 > đông nhất (123 máy) — đây là thế mạnh thật của shop, không phải gaming.
 > Định vị content nên bám vào **Dell doanh nhân + máy xoay gập**, không đua gaming.
 

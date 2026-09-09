@@ -295,7 +295,7 @@ Sau khi đăng thêm: `published_url`, `published_at`.
 
 | Claim trong bài | Nguồn |
 |---|---|
-| 4.290.000đ | `products.md#PRD-002` (laptoptv.vn, verified 2026-09-05, **check lại ngày đăng**) |
+| 4.290.000đ | `products.md#PRD-002` (laptoptv.vn, verified **2026-09-09**, **check lại ngày đăng**) |
 | Bảo hành 6 tháng main/màn/phím | `policies.md` |
 | Vệ sinh, cài Win miễn phí trọn đời | `policies.md` |
 | 71 Thiên Hiền, Mỹ Đình 1 | `company-facts.md` |
@@ -353,10 +353,19 @@ Atom  ──▶ ┌─────────────────┐
 ### Gate 2 — Commercial Check *(giá / kho / bảo hành)*
 - [ ] Giá khớp trang nguồn, kiểm tra **trong ngày đăng**
 - [ ] Tồn kho kiểm tra **trong ngày đăng** — hết hàng thì không đăng bài bán
-- [ ] Bảo hành đúng `policies.md`: máy cũ **6 tháng** main/màn/phím, **pin 3 tháng**, máy mới 12 tháng
-- [ ] `verified_at` không quá **7 ngày**, quá thì đã mở lại trang nguồn
+- [ ] **Không viết "còn hàng / còn X máy"** trừ khi máy đó có `stock_tracked=yes` và `qty>0`
+      trong `02_products/catalog/catalog-<ngày>.csv` (chỉ **39/593** máy đạt điều kiện này)
+- [ ] Bảo hành đọc theo **cột `warranty_tag` của đúng máy đó**, không mặc định 6 tháng —
+      đã gặp máy cũ chỉ ghi **1 tháng** (2 máy Latitude 7480, nay hết hàng). Mặc định: cũ 6 tháng
+      main/màn/phím + pin 3 tháng, mới 12 tháng
+- [ ] Viết "giảm X%" thì phải có `compare_at > price` — **10 máy** trên web ghi giá gốc
+      thấp hơn giá bán, viết giảm giá cho chúng là bịa
+- [ ] `verified_at` không quá **7 ngày**, quá thì đã chạy `python3 tools/catalog_fetch.py`
+- [ ] ⛔ **Máy không thuộc phân khúc dưới 5 triệu** — phân khúc này đã đóng 2026-09-09,
+      máy rẻ nhất được viết bài là **6.880.000đ**
 - [ ] Không hứa trả góp / freeship / COD / thời gian giao hàng chưa xác minh
-- [ ] Không dùng thông số đang mâu thuẫn (ví dụ PRD-003: RAM DDR3/DDR4 và "FHD" đang chưa thống nhất)
+- [ ] Thông số lấy theo **tên sản phẩm**, không lấy theo tag (tag web sai ở nhiều máy).
+      Không dùng thông số đang mâu thuẫn (ví dụ PRD-003: màn "HD" hay "FHD" — chỉ máy thật mới chốt được)
 
 ### Gate 3 — Brand Check *(đúng tone & định vị)*
 - [ ] Tên đúng: **Laptop Thịnh Vượng** — TV = Thịnh Vượng, **không phải tivi**
@@ -525,7 +534,9 @@ Các bước: nạp facts → **check `stock`** (hết hàng = không làm conte
 (quá 7 ngày = mở lại trang nguồn) → liệt kê persona → lấy nỗi đau → sinh atom → tính priority →
 vào `ideas.md` → chọn atom cao nhất chạy tiếp.
 
-**Sản phẩm mới:** fetch trang → ghi vào `products.md` kèm `source` + `verified_at` → **mới được** sinh atom.
+**Sản phẩm mới:** chạy `python3 tools/catalog_fetch.py` → lấy dòng của máy đó trong
+`02_products/catalog/catalog-<ngày>.csv` → ghi vào `products.md` kèm `source` + `verified_at`
+→ **mới được** sinh atom.
 Không viết bài từ thông tin chưa vào database.
 
 ### 7.3 `idea-to-content.md` — từ atom ra package
@@ -726,19 +737,47 @@ Trả lời được 4 câu này là mở khoá 5 góc content mạnh nhất + 2
 
 ### Lỗi dữ liệu đang treo
 
-- **PRD-001 (E7440) HẾT HÀNG** → không viết bài bán (cả bản i5 và i7). `UNVERIFIED.md` #16.
-- **PRD-003 (5470)**: RAM DDR3 hay DDR4? Màn HD hay FHD? Trang nguồn khác bản ghi trong `products.md`
-  → ⛔ **không được đưa loại RAM và chữ "FHD" vào bài** cho tới khi kỹ thuật xác nhận. `UNVERIFIED.md` #15.
+- **PRD-001 (E7440) ĐÃ BỊ GỠ KHỎI WEBSITE** (quét toàn bộ 593 SP ngày 2026-09-09, không còn kết quả).
+  → không viết bài, không nhắc tên máy. `UNVERIFIED.md` #16.
+- **PRD-003 (5470)**: RAM **chốt = DDR4 2133** ✅ theo sổ tay Dell (E5470 **không có** tuỳ chọn DDR3).
+  Kết luận "DDR3" trước đó **đã bị đảo** — hai "nguồn" trên trang SP thật ra là một (mô tả copy-paste).
+  Nhưng **màn HD hay FHD thì web không bao giờ trả lời được**: Dell bán E5470 với cả panel
+  HD 1366×768 lẫn FHD 1920×1080 → phải bật máy thật mới biết.
+  → ⛔ **chỉ được viết "màn 14 inch"**, không đưa "FHD" vào bài. `UNVERIFIED.md` #15.
+- **Phần mô tả sản phẩm không dùng để lấy con số.** Đo trên cả 593 SP: 105 máy (17%) dùng chung khối
+  mô tả với máy khác → **31 máy (5,2%) có mô tả mâu thuẫn với chính tên máy** (12 sai CPU, 15 sai RAM,
+  5 tên FHD/mô tả HD, 3 tự mâu thuẫn HD-FHD). Danh sách: `02_products/catalog/loi-mo-ta-2026-09-09.csv`.
+  ⛔ Mô tả chỉ dùng lấy ý, **không làm nguồn fact**. `UNVERIFIED.md` #22.
+- **12 máy nền tảng DDR4 bị gắn tag RAM `DDR3`** → không viết loại RAM theo tag. `UNVERIFIED.md` #23.
+- **Tồn kho không đáng tin**: 554/593 máy không bật quản lý kho → web luôn hiện "còn hàng".
+  ⛔ Không được nói về số lượng cho những máy này. `UNVERIFIED.md` #19.
+- ✅ **ĐÃ ĐÓNG — 2 máy Latitude 7480 bảo hành 1 tháng**: chủ shop xác nhận **hết hàng** (2026-09-09),
+  và **đóng luôn phân khúc dưới 5 triệu**. Không viết bài bán nhóm này nữa. `UNVERIFIED.md` #16, #17.
+  Bài học giữ lại: **bảo hành máy cũ không luôn là 6 tháng** — phải đọc `warranty_tag` từng máy.
+- **10 máy có giá gốc thấp hơn giá bán** → cấm viết "giảm giá" cho chúng. `UNVERIFIED.md` #18.
+- **Tag cấu hình & tình trạng sai lệch** ở nhiều máy → lấy thông số theo tên SP. `UNVERIFIED.md` #20, #21.
 - **Thời lượng pin thực tế**: chưa đo → P1 coi "pin đi cả buổi" là tiêu chí mua nhưng **chưa được phép hứa**. #14.
 
 ---
 
 ## PHẦN 10 — Đi hết một bài từ đầu đến cuối (ví dụ có thật)
 
+> ⛔ **LƯU Ý 2026-09-09 — bài ví dụ này HIỆN KHÔNG ĐƯỢC ĐĂNG.**
+> `FB-IDEA-002` dựng trên PRD-002 (4.290.000đ), mà **phân khúc dưới 5 triệu đã đóng**
+> theo quyết định của chủ shop. Ví dụ vẫn giữ nguyên vì nó dạy đúng **quy trình 14 bước** —
+> và ở bước ⑧ nó cho thấy hệ thống chặn bài như thế nào khi phân khúc bị đóng.
+>
+> 👉 Muốn chạy thật quy trình này, thay nguyên liệu bằng máy rẻ nhất **được phép viết**:
+> **Dell Latitude 7400 vân carbon — 6.880.000đ** (i5-8365U · 8GB · 256GB · 14" FHD ·
+> BH 6 tháng · **kho 3 máy xác thực**). Persona đổi từ P1 sang **P1/P2 tầm 7 triệu**.
+
 Lấy `FB-IDEA-002` trong `04_content/backlog/ideas.md`.
 
-**① Nguyên liệu** — `products.md#PRD-002`: Dell Latitude 7270, i5-6300U, 8GB DDR4, SSD 256GB,
-12.5", **4.290.000đ**, còn hàng, BH 6 tháng, `verified_at: 2026-09-05`.
+**① Nguyên liệu** — `products.md#PRD-002`: Dell Latitude 7270, i5-6300U, 8GB, SSD 256GB,
+12.5" HD, **4.290.000đ**, BH 6 tháng, `verified_at: 2026-09-09`.
+⚠️ **Tồn kho KHÔNG xác định** (máy này không bật quản lý kho) → bài không được nói "còn hàng",
+phải gọi shop xác nhận trước khi đăng. Loại RAM chỉ có trong tag (DDR4), tên SP không ghi
+→ **không đưa "DDR4" vào bài**.
 
 **② Atom**
 ```yaml
@@ -766,9 +805,16 @@ dịch thông số thành đời thực: "12.5 inch" → "bỏ vừa balo, mang 
 **⑦ Package** — đủ 12 thành phần, lưu `04_content/drafts/2026-09-09-FB-IDEA-002-4-trieu-ruoi.md`
 với header `gates: { g0: ✅, g1: ⬜, ... }`.
 
-**⑧ Gate 1–2 (agent 08)** — 4.290.000đ ↔ `products.md#PRD-002` ✅ · BH 6 tháng ↔ `policies.md` ✅ ·
-`verified_at 2026-09-05`, **nếu hôm nay quá 7 ngày → phải mở lại laptoptv.vn** ·
-tồn kho check **trong ngày đăng** ✅.
+**⑧ Gate 1–2 (agent 08)** — ⛔ **BÀI BỊ CHẶN Ở ĐÂY (từ 2026-09-09).**
+- 4.290.000đ ↔ `products.md#PRD-002` ✅ (giá đúng)
+- BH 6 tháng ↔ `warranty_tag` ✅
+- `verified_at 2026-09-09` ✅ — quá 7 ngày thì chạy `python3 tools/catalog_fetch.py`
+- tồn kho `stock_tracked=no` → ⚠️ không được nói "còn hàng"
+- ⛔ **4.290.000đ nằm trong phân khúc dưới 5 triệu đã đóng → KHÔNG ĐĂNG.**
+
+> 💡 **Đây chính là điểm hay của hệ thống gate**: bài đã đi qua 7 bước, viết xong, hook xong —
+> nhưng một quyết định kinh doanh ở tầng fact vẫn chặn được nó trước khi ra khách.
+> Nếu không có Gate 2 thì bài này đã đăng và shop phải trả lời khách về máy không bán nữa.
 
 **⑨ Gate 3–4 (agent 09)** — tên "Laptop Thịnh Vượng" ✅ · không "rẻ nhất"/"chính hãng" ✅ ·
 không nêu tên đối thủ ✅ · không khan hiếm giả ✅.
@@ -796,6 +842,9 @@ Nếu ≥3 bài cùng chiều → viết `LP-###` confidence `medium` → mới 
 - ❌ Bịa giá, cấu hình, tồn kho, thời gian giao hàng
 - ❌ Dùng số "tham khảo" khi không có nguồn
 - ❌ Viết bài bán cho sản phẩm **hết hàng**
+- ❌ Viết bài bán cho **phân khúc dưới 5 triệu** — đóng từ 2026-09-09, máy rẻ nhất được
+  viết là **6.880.000đ**. (Tư vấn inbox/comment cho khách hỏi máy 4 triệu thì **vẫn làm**)
+- ❌ Tin dữ liệu web khi **chủ shop đã nói khác** — lời chủ shop thắng, xem `products.md` mục 0
 - ❌ Đăng bài có giá mà chưa check trang nguồn **trong ngày**
 - ❌ Dùng `16_research/` làm nguồn fact (đó là tài liệu tham khảo)
 
@@ -838,7 +887,7 @@ Nếu ≥3 bài cùng chiều → viết `LP-###` confidence `medium` → mới 
 | **Viết một bài** | Gõ `/viet-bai` → trả lời: sản phẩm + persona + objective + format |
 | **Lập kế hoạch tuần** | `12_prompts/facebook/strategy/weekly-plan.md` |
 | **Từ 1 sản phẩm tìm nhiều góc** | `12_prompts/facebook/idea/product-to-angles.md` + `09_workflows/product-to-content.md` |
-| **Thêm sản phẩm mới** | Fetch trang → ghi vào `02_products/products.md` kèm `source` + `verified_at` → **rồi mới** sinh atom |
+| **Thêm sản phẩm mới** | `python3 tools/catalog_fetch.py` → lấy dòng trong catalog CSV → ghi vào `02_products/products.md` kèm `source` + `verified_at` → **rồi mới** sinh atom |
 | **Thiếu thông tin** | Thêm dòng vào `01_company/facts/UNVERIFIED.md` — **đừng đoán** |
 | **Kéo số liệu Facebook** | `export FB_PAGE_TOKEN=...` → `python3 tools/fb_fetch.py` (xem `tools/README.md`) |
 | **Rút pattern cuối tuần** | `09_workflows/weekly-learning.md` → xuất `07_analytics/reports/YYYY-Www.md` |

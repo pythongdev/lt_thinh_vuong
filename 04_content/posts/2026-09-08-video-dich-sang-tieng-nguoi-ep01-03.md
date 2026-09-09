@@ -5,6 +5,16 @@
 > ⚠️ **Trước khi quay:** mở lại laptoptv.vn/laptop-cu xác minh giá + tồn kho trong ngày.
 > Giá dưới đây lấy từ `products.md`, verified_at **2026-09-05**.
 
+> # ⛔ EP01 KHÔNG QUAY — PHÂN KHÚC ĐÃ ĐÓNG (2026-09-09)
+>
+> **EP01 dựng trên PRD-002 (Dell Latitude 7270, 4.290.000đ)** — thuộc phân khúc dưới 5 triệu
+> mà chủ shop đã ngừng làm content (2026-09-09). Hook "Tôi 4 triệu 2" cũng phải bỏ.
+>
+> 👉 Muốn giữ EP01: đổi nhân vật sang **Dell Latitude 7400 vân carbon — 6.880.000đ**
+> (kho 3 máy xác thực) và viết lại hook theo tầm giá mới.
+> **EP02, EP03 kiểm tra lại từng máy** trước khi quay — máy nào dưới 5 triệu thì bỏ.
+> Xem `02_products/products.md` mục 0.
+
 ---
 
 ## EP01 — "Tôi 4 triệu 2. Nghe thì rẻ, để tôi kể bạn nghe tôi làm được gì"

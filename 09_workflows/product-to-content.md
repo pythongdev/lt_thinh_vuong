@@ -40,7 +40,8 @@ P1: "có 4-5 triệu", "sợ mua máy dựng", "bố mẹ hỏi sao không mua m
 - ... (tiếp tục theo từng persona × từng nỗi đau)
 ```
 
-⚠️ Với PRD-003 hiện **không được** đưa loại RAM (DDR3/DDR4) và chữ "FHD" vào bài — đang mâu thuẫn dữ liệu.
+⚠️ Với PRD-003 hiện **không được** đưa chữ "FHD" vào bài — Dell bán máy này cả bản HD lẫn FHD,
+chỉ bật máy thật mới biết (UNVERIFIED #15). RAM đã chốt DDR4 nhưng **loại RAM không phải điểm bán** → cứ viết "RAM 8GB".
 
 ---
 
