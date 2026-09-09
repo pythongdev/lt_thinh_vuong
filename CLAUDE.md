@@ -31,6 +31,7 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
 > Pillar dùng tiền tố `CP` để không lẫn với persona `P1–P5`.
 
 ## Cách dùng
+- **Hiểu toàn bộ hệ thống:** `HE-THONG-HOAT-DONG.md` (workflow · luật · 7 gate · đo · học)
 - **Viết bài mới:** gõ `/viet-bai` (skill trong `.claude/skills/viet-bai/`)
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`

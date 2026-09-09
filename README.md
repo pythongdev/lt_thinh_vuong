@@ -48,6 +48,7 @@ LEARNING ENGINE       pattern · hypothesis · experiment · winner
 Mỗi content = **đúng 1 của mỗi loại**. Ghép sai → Gate 0 chặn.
 
 ## Bắt đầu nhanh
+0. **Chưa hiểu hệ thống chạy thế nào? Đọc `HE-THONG-HOAT-DONG.md`** — giải thích đầy đủ workflow, luật, 7 gate, cách đo và học.
 1. Mở Claude Code trong thư mục này.
 2. Viết bài: gõ `/viet-bai` → trả lời sản phẩm + persona + objective → nhận Content Package đã fact-check.
 3. Lập kế hoạch tuần: `12_prompts/facebook/strategy/weekly-plan.md`.
