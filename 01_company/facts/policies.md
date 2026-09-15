@@ -41,7 +41,7 @@
 > **phải hỏi lại trước khi viết** — đừng mặc định 6 tháng.
 
 ### Quy tắc dùng bảo hành trong content
-1. **Luôn đọc tag `baohanh_` của đúng máy đó** trong `catalog-2026-09-09.csv` trước khi viết.
+1. **Luôn đọc tag `baohanh_` của đúng máy đó** trong `catalog-<ngày mới nhất>.csv` (hiện là `catalog-2026-09-15.csv`) trước khi viết.
 2. Không có tag → dùng chính sách chung theo tình trạng (cũ 6 tháng / mới 12 tháng).
 3. Tag mâu thuẫn với tình trạng máy → **không viết số**, hỏi kỹ thuật.
 

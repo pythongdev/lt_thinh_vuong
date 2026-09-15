@@ -27,7 +27,7 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
 14. **Bảo hành đọc theo từng máy** (cột `warranty_tag`), không mặc định 6 tháng — đã gặp
     máy cũ chỉ bảo hành **1 tháng** (2 máy Latitude 7480). Xem `01_company/facts/policies.md`.
     Máy nào có tag bảo hành khác chuẩn → hỏi lại trước khi viết.
-15. Trước khi viết "giảm giá X%", kiểm tra `compare_at > price`. Có **10 máy** trên web
+15. Trước khi viết "giảm giá X%", kiểm tra `compare_at > price`. Có **11 máy** trên web (2026-09-15)
     ghi giá gốc thấp hơn giá bán → viết giảm giá cho chúng là bịa.
 16. ⛔ **Phân khúc dưới 5 triệu ĐÃ ĐÓNG** (chủ shop, 2026-09-09) — không viết bài bán,
     không làm hook "laptop 4 triệu". Máy rẻ nhất được viết: **6.880.000đ** (Latitude 7400
@@ -44,6 +44,51 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
 | Pillar — viết về cái gì | **CP01–CP10** | `04_content/strategy/content-pillars.md` |
 
 > Pillar dùng tiền tố `CP` để không lẫn với persona `P1–P5`.
+
+### ⛔ Không bao giờ viết mã trơn — luôn kèm tên
+Người dùng không nhớ hết mã. **Mọi lần** nhắc P / J / O / CP — trong câu trả lời chat,
+kế hoạch tuần, báo cáo, backlog, calendar, metadata Content Package, file draft — phải
+viết **mã + tên tiếng Việt** ngay cạnh nhau, kể cả khi đã nhắc ở dòng trên.
+
+- ✅ `P2 (Nhân viên văn phòng)` · `J3 (Đang so sánh)` · `O3 (Tin công ty)` · `CP08 (Sai lầm khi mua)`
+- ❌ `P2` · `J3/O3` · `CP08` · "bài này nhắm P2, J3"
+- Trong bảng: cột ghi `P2 — Nhân viên văn phòng`, không để cột chỉ có mã.
+- Liệt kê nhiều mã: `O3 (Tin công ty), O4 (Cân nhắc mua)` — không viết `O3, O4`.
+
+Bảng tra (tên chuẩn lấy từ 4 file trên):
+
+| Mã | Tên ghi kèm |
+|---|---|
+| P1 | Sinh viên / mua máy đầu tiên |
+| P2 | Nhân viên văn phòng |
+| P3 | Game thủ |
+| P4 | Đồ họa / kỹ thuật |
+| P5 | Doanh nghiệp nhỏ mua theo lô |
+| J0 | Chưa biết shop |
+| J1 | Đã thấy shop |
+| J2 | Bắt đầu quan tâm laptop cũ |
+| J3 | Đang so sánh máy / shop |
+| J4 | Đã inbox / gọi / ghé shop |
+| J5 | Đã mua |
+| J6 | Quay lại (nâng cấp, mua thêm, bảo hành) |
+| J7 | Giới thiệu người khác |
+| O1 | Tiếp cận |
+| O2 | Hiểu vấn đề |
+| O3 | Tin công ty |
+| O4 | Cân nhắc mua |
+| O5 | Tạo lead / đơn |
+| CP01 | Tư vấn mua |
+| CP02 | Kiến thức |
+| CP03 | So sánh |
+| CP04 | Quy trình kiểm tra |
+| CP05 | Đánh giá sản phẩm |
+| CP06 | Chuyện khách hàng |
+| CP07 | Hậu trường |
+| CP08 | Sai lầm khi mua |
+| CP09 | Thị trường & công nghệ |
+| CP10 | Hàng & ưu đãi |
+
+Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 
 ## Cách dùng
 - **Hiểu toàn bộ hệ thống:** `HE-THONG-HOAT-DONG.md` (workflow · luật · 7 gate · đo · học)

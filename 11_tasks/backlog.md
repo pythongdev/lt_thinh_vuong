@@ -29,7 +29,16 @@
 - [ ] Nối `tools/fb_fetch.py` vào `07_analytics/content-performance.md`
 - [ ] Quy trình ghi inbox / qualified lead (hiện chưa có)
 - [ ] Chạy EXP-001 (hook cảnh báo vs hook liệt kê)
-- [ ] Lấy khung giờ tốt từ Page Insights → cập nhật `facebook-strategy.md` mục 3
+- [~] Lấy khung giờ tốt → cập nhật `facebook-strategy.md` mục 3 (2026-09-09: đã mở đường)
+  - Đã thêm **cột Giờ** vào `07_analytics/content-performance.md` — điều kiện tiên quyết,
+    không ghi giờ từng bài thì mãi mãi không có dữ liệu
+  - Đã thêm **EXP-004** (posting-time) làm đường lùi khi Page Insights trống
+  - Đã cho `tools/fb_fetch.py` tự gom bài cũ theo **giờ Hà Nội** (mục "Phân bố theo giờ
+    đăng" trong `fb_posts.md`) + in ra những giờ chưa từng đăng bài nào
+  - Việc còn lại, **cần người có quyền admin page**: (a) mở Meta Business Suite → Insights
+    → Audience xem có bảng giờ follower hoạt động không → có thì xong luôn; (b) chạy
+    `tools/fb_fetch.py` xem bài cũ; (c) cả hai trống → chạy EXP-004
+  - ⚠️ EXP-004 phải xong **trước** EXP-001 và EXP-003 (hai cái đó cần khung giờ làm hằng số)
 
 ## P2 — Tự động hoá
 - [ ] Planner tự lập kế hoạch tuần

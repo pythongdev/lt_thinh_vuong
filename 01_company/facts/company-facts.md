@@ -92,7 +92,7 @@ Xoay gập/2in1 123 · Văn phòng 116 · Cao cấp 112 · Gaming 79 · Đồ ho
 - **Trọng tâm catalog là 12–18 triệu** (175 máy), không phải phân khúc giá rẻ.
 
 > ⚠️ Giá thay đổi liên tục. Trước khi đưa giá vào bất kỳ content nào, **phải mở lại trang
-> sản phẩm để xác minh**. Snapshot đầy đủ: `02_products/catalog/catalog-2026-09-09.csv`.
+> sản phẩm để xác minh**. Snapshot đầy đủ: `02_products/catalog/catalog-2026-09-15.csv`.
 
 ## Thanh toán (nguồn: /chinh-sach-thanh-toan, 2026-09-09)
 

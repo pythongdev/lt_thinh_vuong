@@ -9,7 +9,7 @@
 
 | Persona | J0–J1 (chưa biết) | J2 (quan tâm) | J3 (cân nhắc) | J4 (lead) |
 |---|---|---|---|---|
-| **P1 Sinh viên** | CP08 sai lầm · Reels · O1 | CP02 kiến thức · O2 | CP01 tư vấn ngân sách · O4 | CP05 review máy 3–6tr · O5 |
+| **P1 Sinh viên** | CP08 sai lầm · Reels · O1 | CP02 kiến thức · O2 | CP01 tư vấn ngân sách · O4 | CP05 review máy 10–15tr · O5 |
 | **P2 Văn phòng** | CP09 thị trường · Reels · O1 | CP02 · O2 | CP03 so sánh dòng · O4 | CP10 máy có sẵn · O5 |
 | **P3 Game thủ** | CP08 · Reels · O1 | CP02 (GPU/FPS) · O2 | CP03 cùng tầm giá · O4 | CP05 review · O5 |
 | **P4 Đồ hoạ/kỹ thuật** | CP09 · O1 | CP02 (RAM/VRAM) · O2 | CP05 theo phần mềm · O4 | CP05 · O5 |

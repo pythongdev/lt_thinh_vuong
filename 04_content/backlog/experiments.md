@@ -67,6 +67,25 @@ status: planned
 result: ""
 ```
 
+```yaml
+id: EXP-004
+hypothesis: "Khung 20:00–21:00 (tối, khách rảnh) cho reach cao hơn khung 11:30–12:30 (giờ nghỉ trưa)."
+variable: posting-time
+control: "11:30–12:30"
+variant: "20:00–21:00"
+constant: [format, pillar, persona, hook, độ dài, thứ trong tuần]
+metric: "Reach organic 24h. Phụ: tỉ lệ comment/reach."
+sample: "6 cặp bài — mỗi khung 6 bài, cùng thứ trong tuần, cách nhau 1 tuần"
+duration: "3 tuần"
+status: planned
+result: ""
+note: >
+  Chạy khi Page Insights không có dữ liệu "giờ follower online" (page mới / dưới 100 follow).
+  ⚠️ Phải chạy XONG trước EXP-001 và EXP-003 — hai thí nghiệm đó khai báo
+  "khung giờ đăng" là hằng số, không thể giữ hằng số khi chưa biết chọn khung nào.
+  Thắng → ghi vào facebook-strategy.md mục 3 kèm nguồn "EXP-004" và ngày.
+```
+
 ---
 
 ## Quy tắc

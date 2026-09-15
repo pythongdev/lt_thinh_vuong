@@ -46,7 +46,7 @@ INPUT
 - Sản phẩm: [PRD-xxx — điền từ 02_products/products.md]
 - Cấu hình đã xác minh: [dán nguyên các field từ products.md]
 - Giá đã xác minh lại hôm nay: [số tiền + ngày kiểm tra]
-- Persona: P1 — sinh viên, ngân sách 3–6 triệu, học online, Word/Excel/PPT, mang tới trường
+- Persona: P1 — sinh viên, ngân sách 10–15 triệu, học online, Word/Excel/PPT, mang tới trường
 - Format: [F1 máy độc thoại / F2 phiên dịch viên / F3 máy tự thú]
 - CTA duy nhất: "Inbox mình tư vấn theo ngành học của bạn"
 

@@ -21,9 +21,12 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 API = "https://graph.facebook.com/v21.0"
+# Graph API trả created_time theo UTC. Khách của shop ở Hà Nội → phải đổi sang +07,
+# nếu không thì mọi kết luận về khung giờ đều lệch 7 tiếng.
+HANOI = timezone(timedelta(hours=7))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "07_analytics")
 
@@ -102,6 +105,46 @@ def fetch_insights(post_id):
     return out
 
 
+def posted_at(p):
+    """Giờ đăng theo giờ Hà Nội. Trả về None nếu Facebook không cho created_time."""
+    raw = p.get("created_time")
+    if not raw:
+        return None
+    try:
+        return datetime.strptime(raw, "%Y-%m-%dT%H:%M:%S%z").astimezone(HANOI)
+    except ValueError:
+        return None
+
+
+def median(xs):
+    xs = sorted(xs)
+    if not xs:
+        return 0
+    mid = len(xs) // 2
+    return xs[mid] if len(xs) % 2 else (xs[mid - 1] + xs[mid]) / 2
+
+
+def by_hour(posts):
+    """Gom bài theo giờ đăng. Dùng trung vị vì 1 bài viral kéo lệch trung bình."""
+    buckets = {}
+    for p in posts:
+        t = posted_at(p)
+        if t:
+            buckets.setdefault(t.hour, []).append(p)
+    rows = []
+    for hour in sorted(buckets):
+        group = buckets[hour]
+        reaches = [r for r in (p["insights"].get("post_impressions_unique")
+                               for p in group) if isinstance(r, int)]
+        rows.append({
+            "hour": hour,
+            "n": len(group),
+            "eng": median([engagement(p) for p in group]),
+            "reach": median(reaches) if reaches else None,
+        })
+    return rows
+
+
 def engagement(p):
     r = (p.get("reactions") or {}).get("summary", {}).get("total_count", 0)
     c = (p.get("comments") or {}).get("summary", {}).get("total_count", 0)
@@ -136,22 +179,48 @@ def main():
                 f"{len(posts)} bài\n\n")
         f.write("Điểm tương tác = reaction + comment×3 + share×5 "
                 "(comment/share thể hiện ý định mua mạnh hơn).\n\n")
-        f.write("| # | Ngày | Điểm | React | Cmt | Share | Reach | Dòng đầu |\n")
-        f.write("|---|---|---|---|---|---|---|---|\n")
+        f.write("| # | Ngày | Giờ | Điểm | React | Cmt | Share | Reach | Dòng đầu |\n")
+        f.write("|---|---|---|---|---|---|---|---|---|\n")
         for i, p in enumerate(posts, 1):
             msg = (p.get("message") or "").split("\n")[0][:60].replace("|", "/")
-            date = p.get("created_time", "")[:10]
+            t = posted_at(p)
+            date = f"{t:%Y-%m-%d}" if t else "—"
+            hhmm = f"{t:%H:%M}" if t else "—"
             r = (p.get("reactions") or {}).get("summary", {}).get("total_count", 0)
             c = (p.get("comments") or {}).get("summary", {}).get("total_count", 0)
             s = (p.get("shares") or {}).get("count", 0)
             reach = p["insights"].get("post_impressions_unique", "—")
-            f.write(f"| {i} | {date} | {engagement(p)} | {r} | {c} | {s} | "
+            f.write(f"| {i} | {date} | {hhmm} | {engagement(p)} | {r} | {c} | {s} | "
                     f"{reach} | {msg} |\n")
+
+        rows = by_hour(posts)
+        f.write("\n---\n\n# Phân bố theo giờ đăng (giờ Hà Nội)\n\n")
+        if not rows:
+            f.write("Không đọc được `created_time` của bài nào.\n")
+        else:
+            f.write("| Giờ | Số bài | Điểm tương tác (trung vị) | Reach (trung vị) | Đủ mẫu? |\n")
+            f.write("|---|---|---|---|---|\n")
+            for row in rows:
+                reach = row["reach"] if row["reach"] is not None else "—"
+                enough = "✅" if row["n"] >= 3 else f"⚠️ mới {row['n']} bài"
+                f.write(f"| {row['hour']:02d}:00 | {row['n']} | {row['eng']:g} | "
+                        f"{reach} | {enough} |\n")
+            gio_trong = [h for h in range(6, 24)
+                         if h not in {row["hour"] for row in rows}]
+            f.write("\n⛔ **Bảng này KHÔNG nói được khung giờ nào tốt nhất.** Nó chỉ nói "
+                    "giờ nào đã từng đăng thì kết quả ra sao. Giờ chưa đăng bao giờ thì "
+                    "không có dữ liệu — không phải là giờ xấu.\n\n")
+            if gio_trong:
+                f.write("Giờ trong ngày (06:00–23:00) **chưa từng đăng bài nào**: "
+                        + ", ".join(f"{h:02d}h" for h in gio_trong) + "\n\n")
+            f.write("Dòng ⚠️ (dưới 3 bài) là nhiễu, không được kết luận. Muốn có câu trả "
+                    "lời thật → chạy EXP-004 trong `04_content/backlog/experiments.md`.\n")
 
         f.write("\n---\n\n# Toàn văn 10 bài tốt nhất\n\n")
         for i, p in enumerate(posts[:10], 1):
-            f.write(f"## {i}. {p.get('created_time','')[:10]} — "
-                    f"{engagement(p)} điểm\n\n")
+            t = posted_at(p)
+            when = f"{t:%Y-%m-%d %H:%M}" if t else "không rõ ngày"
+            f.write(f"## {i}. {when} — {engagement(p)} điểm\n\n")
             f.write(f"{p.get('permalink_url','')}\n\n```\n"
                     f"{p.get('message') or '(không có caption)'}\n```\n\n")
 

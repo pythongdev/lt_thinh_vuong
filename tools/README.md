@@ -91,8 +91,23 @@ python3 tools/fb_fetch.py
 
 | File | Nội dung |
 |---|---|
-| `07_analytics/fb_posts.md` | Bảng xếp hạng bài theo tương tác + toàn văn 10 bài tốt nhất |
+| `07_analytics/fb_posts.md` | Bảng xếp hạng bài theo tương tác + **phân bố theo giờ đăng** + toàn văn 10 bài tốt nhất |
 | `07_analytics/fb_posts_raw.json` | Dữ liệu thô để phân tích sâu |
+
+### Mục "Phân bố theo giờ đăng"
+Script đổi `created_time` từ UTC sang **giờ Hà Nội (+07)** rồi gom bài theo giờ,
+tính **trung vị** điểm tương tác và reach (trung vị chứ không phải trung bình —
+một bài viral kéo lệch trung bình).
+
+Đọc bảng này đúng cách:
+- Giờ có **≥3 bài** (dấu ✅) mới đáng nhìn. Dưới 3 bài là nhiễu.
+- ⛔ Bảng **không** trả lời "giờ nào tốt nhất". Nó chỉ nói *giờ đã từng đăng* thì ra sao.
+  Script in thêm danh sách **giờ chưa từng đăng bài nào** — những giờ đó không có dữ liệu,
+  không phải là giờ xấu.
+- Muốn biết thật sự giờ nào tốt → chạy **EXP-004** (`04_content/backlog/experiments.md`),
+  vì chỉ thí nghiệm mới thử được giờ chưa đăng bao giờ.
+
+→ Ba nguồn lấy khung giờ và thứ tự ưu tiên: `04_content/strategy/facebook-strategy.md` mục 3.
 
 Sau đó mở Claude Code và nói:
 > "Phân tích `07_analytics/fb_posts.md`, rút ra công thức content đang hiệu quả"
@@ -112,7 +127,8 @@ Sau đó mở Claude Code và nói:
 | `Thiếu FB_PAGE_TOKEN` | Chưa chạy dòng `export`. Chạy lại bước 2. |
 | `Graph API lỗi (190)` | Token hết hạn → tạo lại ở bước 1. |
 | `Token không quản lý page nào` | Tài khoản chưa phải admin page, hoặc thiếu quyền `pages_show_list`. |
-| Cột Reach toàn `—` | Thiếu quyền `read_insights`, hoặc app chưa được duyệt. Bài + tương tác vẫn lấy được bình thường. |
+| Cột Reach toàn `—` | Thiếu quyền `read_insights`, hoặc app chưa được duyệt. Bài + tương tác + giờ đăng vẫn lấy được bình thường. |
+| Cột Giờ toàn `—` | Facebook không trả `created_time` (hiếm). Không phân tích giờ được. |
 
 ---
 

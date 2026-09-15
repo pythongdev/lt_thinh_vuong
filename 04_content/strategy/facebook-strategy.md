@@ -46,8 +46,20 @@
 | T7 | Reels CP07/CP09 | Post CP10 (hàng có sẵn) |
 | CN | Nghỉ hoặc CP06 (chuyện khách) | — |
 
-> Khung giờ cụ thể **chưa xác minh** — cần lấy từ Page Insights (`tools/fb_fetch.py`)
-> sau 2 tuần dữ liệu rồi cập nhật lại bảng này.
+> Khung giờ cụ thể **chưa xác minh**. Bảng trên chỉ chốt *thứ* và *loại bài*,
+> **không chốt giờ**. Lấy giờ theo 3 nguồn, dừng ở nguồn đầu tiên có dữ liệu:
+>
+> | # | Nguồn | Cần gì | Cho ra |
+> |---|---|---|---|
+> | 1 | **Meta Business Suite → Insights → Audience → giờ follower hoạt động** | Chỉ cần quyền admin page, không cần token. Page phải có đủ follower. | Khung giờ người theo dõi online — dùng được ngay |
+> | 2 | **Bài cũ của page** — `tools/fb_fetch.py`, đọc `created_time` trong `fb_posts_raw.json`, nhóm theo giờ | Page đã từng đăng bài | Chỉ nói được *giờ nào đã đăng thì kém*, không nói được giờ chưa thử bao giờ |
+> | 3 | **EXP-004** trong `04_content/backlog/experiments.md` | 3 tuần đăng có kỷ luật | Số của chính page mình — chắc nhất |
+>
+> Điều kiện tiên quyết cho cả 3: mọi bài phải ghi **cột Giờ** trong
+> `07_analytics/content-performance.md`. Không ghi giờ → 3 tuần nữa vẫn không có dữ liệu.
+>
+> ⛔ Trong lúc chờ: chọn giờ theo cảm tính cũng được, nhưng **giữ cố định** và không
+> được viết một khung giờ nào vào file này như thể đã xác minh.
 
 ---
 

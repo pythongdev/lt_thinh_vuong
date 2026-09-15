@@ -4,8 +4,13 @@
 > Quy tắc: field nào chưa xác minh → ghi `UNKNOWN`, **không suy đoán**.
 > Giá đổi liên tục → luôn mở lại link nguồn trước khi đưa giá vào bài đăng.
 >
-> **Cập nhật 2026-09-09** từ API catalog `laptoptv.vn/products.json` (593 sản phẩm).
-> Snapshot đầy đủ: `02_products/catalog/catalog-2026-09-09.csv`.
+> **Cập nhật 2026-09-15** từ API catalog `laptoptv.vn/products.json` (593 sản phẩm).
+> Snapshot đầy đủ: `02_products/catalog/catalog-2026-09-15.csv` (bản cũ 2026-09-09 giữ lại để so sánh).
+>
+> **Thay đổi so với 2026-09-09** (26 SP đổi trên web, 5 máy trong file này bị ảnh hưởng):
+> Latitude 9420 2in1 i5 **14.480.000 → 14.980.000đ** · Inspiron 7440 2in1 **19.880.000 → 23.880.000đ** ·
+> kho giảm: Latitude 7400 2in1 i5/16GB (9→8), Vivobook S14 (4→3), Latitude 9430 32GB (3→2).
+> Không có máy nào bị gỡ hay thêm mới.
 
 ---
 
@@ -60,6 +65,9 @@ Trong 593 sản phẩm, **chỉ 50 biến thể có bật quản lý tồn kho**
 > 2 máy Latitude 7480 chủ shop báo hết) mới được nói về số lượng —
 > và vẫn phải xác minh lại với shop trong ngày đăng.
 > Đây là lý do UNVERIFIED #8 vẫn chưa đóng được.
+>
+> ⚠️ Từ 2026-09-15 có 1 máy **mới bật quản lý kho nhưng kho âm (-1)**: Asus Vivobook 14 OLED
+> A1405VA i5-13500H. `qty` không > 0 → **không** được nói về số lượng; coi như chưa rõ còn hàng.
 
 ### 2. Tên sản phẩm là nguồn chuẩn, TAG có lỗi
 Đối chiếu phát hiện nhiều chỗ tag mâu thuẫn với tên sản phẩm:
@@ -74,22 +82,24 @@ Trong 593 sản phẩm, **chỉ 50 biến thể có bật quản lý tồn kho**
 > **Quy tắc**: lấy cấu hình từ **tên sản phẩm**. Nếu tag khác tên → **không đưa thông số đó
 > vào bài**, hỏi kỹ thuật trước.
 
-### 3. 10 sản phẩm có "giá gốc" THẤP HƠN giá bán (lỗi dữ liệu)
+### 3. 11 sản phẩm có "giá gốc" THẤP HƠN giá bán (lỗi dữ liệu)
 Ví dụ: Lenovo Legion Y7000P 2025 bán 53.990.000đ nhưng "giá gốc" ghi 48.880.000đ.
+Mới thêm 2026-09-15: Dell Gaming G15 5520 i5-12500H — giá bán tăng 16.890.000 → **22.490.000đ**
+nhưng giá gốc vẫn để 21.380.000đ.
 
-> ⛔ **Không viết "giảm giá", "sale X%"** cho 10 máy này — khách soi ra là mất uy tín ngay.
-> Danh sách đầy đủ: lọc `catalog-2026-09-09.csv` với `compare_at < price`.
+> ⛔ **Không viết "giảm giá", "sale X%"** cho 11 máy này — khách soi ra là mất uy tín ngay.
+> Danh sách đầy đủ: lọc `catalog-2026-09-15.csv` với `compare_at < price`.
 > Đã đưa vào UNVERIFIED #18 để shop sửa trên web.
 
 ---
 
-## ✅ MÁY CÓ TỒN KHO XÁC THỰC (**37** máy dùng được — chụp 2026-09-09)
+## ✅ MÁY CÓ TỒN KHO XÁC THỰC (**37** máy dùng được — chụp 2026-09-15)
 
 Snapshot web cho 39 máy, nhưng chủ shop xác nhận **2 máy Latitude 7480 đã hết hàng**
 → còn **37 máy** được phép viết bài. Đây là **danh sách ưu tiên**: số lượng thật, giá thật,
 cấu hình thật.
 
-### Phân khúc 6–10 triệu (P1 sinh viên · P2 văn phòng)
+### Phân khúc 6–10 triệu (⚠️ dưới ngân sách mọi persona — xem `personas.md` 2026-09-15)
 
 > ⛔ Dưới 6.880.000đ hiện **không còn máy nào viết bài được** — xem mục 0 ở trên.
 
@@ -102,12 +112,12 @@ cấu hình thật.
 | 8.290.000đ | Dell Latitude 7390 2in1 | i5-8250U · **16GB** · 256GB · 13.3" FHD cảm ứng | 6 tháng | 5 |
 | 8.970.000đ | Dell Latitude 7400 2in1 | i5-8365U · 8GB · 256GB · 14" FHD cảm ứng | 6 tháng | 2 |
 | 8.980.000đ | Dell Latitude 5300 2in1 | i7-8665U · 16GB · 256GB · 13.3" FHD cảm ứng | 6 tháng | 2 |
-| 9.280.000đ | Dell Latitude 7400 2in1 | i5-8365U · 16GB · 256GB · 14" FHD cảm ứng | 6 tháng | 9 |
+| 9.280.000đ | Dell Latitude 7400 2in1 | i5-8365U · 16GB · 256GB · 14" FHD cảm ứng | 6 tháng | 8 |
 | 9.380.000đ | Dell Latitude 7420 vỏ carbon | i5-1145G7 · 16GB · 256GB NVMe · 14" FHD · Iris Xe | 6 tháng | 5 |
 | 9.690.000đ | Dell Latitude 5300 2in1 | i7-8665U · 16GB · 512GB · 13.3" FHD cảm ứng | 6 tháng | 3 |
 | 9.880.000đ | Dell Latitude 5310 2in1 | i5-10210U · 16GB · 512GB · 13.3" FHD cảm ứng | 6 tháng | 4 |
 
-### Phân khúc 10–18 triệu (P2 văn phòng · P5 doanh nhân)
+### Phân khúc 10–18 triệu (P1 sinh viên 10–15tr · P2 văn phòng 15–20tr · P5 doanh nghiệp từ 13tr)
 
 | Giá | Máy | Cấu hình | BH | Kho |
 |---|---|---|---|---|
@@ -121,26 +131,26 @@ cấu hình thật.
 | 13.680.000đ | Dell Latitude 9410 2in1 | i7-10610U · 16GB · 512GB · 14" | 6 tháng | 8 |
 | 13.880.000đ | Dell Inspiron 13-7391 2in1 | i7-10510U · 16GB · 256GB · **13.3" 4K cảm ứng** | 6 tháng | 6 |
 | 13.890.000đ | Dell Latitude 9520 2in1 | i5-1145G7 · 16GB · 256GB · 15" FHD cảm ứng | 6 tháng | 4 |
-| 14.480.000đ | Dell Latitude 9420 2in1 | i5-1145G7 · 16GB · 256GB · 14" 2K | 6 tháng | 13 |
 | 14.880.000đ | Surface Laptop 4 | i7-1185G7 · 16GB · 512GB · 13.5" 2K cảm ứng | 6 tháng | 4 |
+| **14.980.000đ** (từ 14.480.000đ, 2026-09-15) | Dell Latitude 9420 2in1 | i5-1145G7 · 16GB · 256GB · 14" 2K | 6 tháng | 13 |
 | 15.180.000đ | Dell Precision 7550 | i7-10850H · 16GB · 512GB · **NVIDIA T1000** · 15.6" FHD | 6 tháng | 4 |
 | 15.790.000đ | Dell Precision 7550 | i7-10850H · 16GB · 512GB · ⚠️T2000/T1000 · 15.6" FHD | 6 tháng | 4 |
 | 15.880.000đ | Dell XPS 7390 2in1 | i7-1065G7 · 16GB · 256GB · 13.3" FHD cảm ứng | 6 tháng | 3 |
 | 15.890.000đ | HP OmniBook 5 Flip 2in1 | Core 5-120U · 8GB · 512GB · 14" cảm ứng | **12 tháng** (mới) | 3 |
 | 16.680.000đ | Dell Inspiron 5430 | i5-1340P · 16GB · 512GB · 14" 2K | 6 tháng | 3 |
 | 16.980.000đ | Asus TUF A15 FA506QM | Ryzen 7-5800H · 16GB · 512GB · **RTX 3050Ti** · 15.6" 144Hz | 6 tháng | 5 |
-| 16.980.000đ | Asus Vivobook S14 Q423SA | Ultra 5 226V · 16GB DDR5 · 512GB · 14" FHD+ **OLED** | **12 tháng** (mới) | 4 |
+| 16.980.000đ | Asus Vivobook S14 Q423SA | Ultra 5 226V · 16GB DDR5 · 512GB · 14" FHD+ **OLED** | **12 tháng** (mới) | 3 |
 | 17.680.000đ | Dell Precision 5550 | i7-10850H · 16GB · 512GB · Quadro T2000 · 15.6" FHD | 6 tháng | 9 |
 | 17.980.000đ | Dell XPS 9310 2in1 | i7-1165G7 · 16GB · 256GB · 13.3" | 6 tháng | 7 |
 
-### Phân khúc trên 18 triệu (P3 gaming · P4 đồ hoạ · P5 doanh nhân)
+### Phân khúc trên 18 triệu (P2 văn phòng tới 20tr · P3 gaming · P4 đồ hoạ · P5 doanh nghiệp)
 
 | Giá | Máy | Cấu hình | BH | Kho |
 |---|---|---|---|---|
 | 18.680.000đ | Acer Nitro 5 Tiger | i5-12500H · 16GB · 512GB · **RTX 3050Ti** · 15.6" 165Hz | 6 tháng | 2 |
 | 18.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · 16GB DDR5 · 256GB · 14" 2.2K cảm ứng | 6 tháng | 3 |
-| 19.880.000đ | Dell Inspiron 7440 2in1 | Core 5-120U · 16GB · 512GB · 14" FHD cảm ứng | **12 tháng** (mới) | 7 |
-| 20.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · **32GB DDR5** · 256GB · 14" 2.2K cảm ứng | 6 tháng | 3 |
+| 20.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · **32GB DDR5** · 256GB · 14" 2.2K cảm ứng | 6 tháng | 2 |
+| **23.880.000đ** (từ 19.880.000đ, 2026-09-15) | Dell Inspiron 7440 2in1 | Core 5-120U · 16GB · 512GB · 14" FHD cảm ứng | **12 tháng** (mới) | 7 |
 | 24.280.000đ | HP OmniBook X Flip 2in1 | Ryzen AI 5 340 · ⚠️16GB? · 512GB · 14" cảm ứng | **12 tháng** (mới) | 8 |
 | 25.390.000đ | Dell Inspiron 7445 2in1 | ⚠️Ryzen 7/5-8840HS · 16GB? · 1TB · 14" FHD+ cảm ứng | **12 tháng** (mới) | 5 |
 | 26.490.000đ | HP OmniBook X Flip 2in1 | Ryzen AI 7 350 · 24GB · 1TB · 14" cảm ứng | **12 tháng** (mới) | 5 |
@@ -159,7 +169,7 @@ cấu hình thật.
 | brand | Dell |
 | model | Latitude E7440 |
 | status | ⛔ **ĐÃ GỠ KHỎI WEBSITE** |
-| verified_at | 2026-09-09 |
+| verified_at | 2026-09-15 |
 
 > ⛔ **Không còn tồn tại trên catalog** (đã quét toàn bộ 593 SP ngày 2026-09-09, không có kết quả nào khớp "E7440").
 > Ngày 2026-09-05 máy này còn trên trang nhưng đã hết hàng → nay bị gỡ hẳn.
@@ -186,7 +196,7 @@ cấu hình thật.
 | warranty | 6 tháng main/màn/phím; pin 3 tháng (tag `baohanh_6 Tháng`) |
 | persona | P1, P2 (ưu tiên người cần máy siêu nhỏ gọn) |
 | source | https://laptoptv.vn/dell-latitude-7270-core-i5-6300u-ram-8gb-ssd-256gb-man-hinh-12-5-inch-hd |
-| verified_at | 2026-09-09 |
+| verified_at | 2026-09-15 |
 > Biến thể i7-6600U — **5.090.000đ** (gốc 7.480.000đ), cùng tình trạng kho không xác định.
 >
 > ⛔ **KHÔNG VIẾT BÀI — thuộc phân khúc dưới 5 triệu đã đóng** (quyết định chủ shop 2026-09-09).
@@ -209,7 +219,7 @@ cấu hình thật.
 | warranty | 6 tháng main/màn/phím; pin 3 tháng |
 | persona | P1, P2, P5 |
 | source | https://laptoptv.vn/laptop-cu-dell-latitude-5470-core-i5-6300u-8gb-256gb-man-hinh-14-inch-fhd |
-| verified_at | 2026-09-09 |
+| verified_at | 2026-09-15 |
 
 > ⛔ **KHÔNG VIẾT BÀI — 4.600.000đ thuộc phân khúc dưới 5 triệu đã đóng** (chủ shop 2026-09-09).
 > Câu hỏi màn HD/FHD (#15) vì thế **hạ mức ưu tiên** — không còn chặn bài nào.
@@ -262,7 +272,7 @@ cấu hình thật.
 | warranty | 6 tháng main/màn/phím; pin 3 tháng |
 | persona | P2, P5 |
 | source | https://laptoptv.vn/laptop-cu-dell-inspiron-13-7391-2in1-core-i7-10510u-16gb-256-13-3-inch-4k-cam-ung |
-| verified_at | 2026-09-09 |
+| verified_at | 2026-09-15 |
 
 > ✅ **Đã mở khoá — trước đây toàn UNKNOWN, nay đủ fact để viết bài.**
 > Đây là một trong số ít máy vừa có tồn kho xác thực vừa đủ thông số.
@@ -303,7 +313,7 @@ Cột CSV: `id,name,vendor,type,segment,condition,warranty_tag,cpu,ram,ssd,gpu,s
 # Máy văn phòng dưới 8 triệu
 python3 -c "
 import csv
-for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-09.csv')):
+for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-15.csv')):
     if r['segment']=='Văn phòng' and int(r['price'])<8_000_000:
         print(r['price'], r['warranty_tag'], r['name'])
 "
@@ -312,7 +322,7 @@ for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-09.csv')):
 # chủ shop báo hết hàng → 37 máy thực sự viết bài được)
 python3 -c "
 import csv
-for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-09.csv')):
+for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-15.csv')):
     if r['stock_tracked']=='yes' and int(r['qty'])>0:
         print(r['qty'], r['price'], r['name'])
 "

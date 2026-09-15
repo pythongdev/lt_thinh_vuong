@@ -67,7 +67,8 @@ Theo đúng cấu trúc trong template của kênh tương ứng.
 Không trả về mỗi caption. Trả về **Content Package** đủ 12 thành phần
 (`04_content/content-package.md`). Tối thiểu luôn có:
 
-1. **Strategy** — persona / journey / objective / pillar, và vì sao ghép như vậy
+1. **Strategy** — persona / journey / objective / pillar, và vì sao ghép như vậy.
+   Luôn ghi **mã + tên** (`P2 (Nhân viên văn phòng)`), không ghi mã trơn — bảng tra ở `CLAUDE.md`.
 2. **Bài đăng** (bản chính, sẵn sàng copy-paste)
 3. **3 hook thay thế**, mỗi cái khác pattern (`08_ai_agents/hook-agent.md`)
 4. **Visual direction** — cần chụp/quay gì, ở đâu, máy nào
@@ -88,10 +89,10 @@ Lưu vào `04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md` kèm header:
 ```yaml
 id: FB-IDEA-xxx        # nếu bắt nguồn từ 04_content/backlog/ideas.md
 product: PRD-xxx | none
-persona: P1
-journey: J3
-objective: O4
-pillar: CP01
+persona: P1 — Sinh viên / mua máy đầu tiên
+journey: J3 — Đang so sánh máy / shop
+objective: O4 — Cân nhắc mua
+pillar: CP01 — Tư vấn mua
 format: post
 risk: low | medium | high
 status: draft

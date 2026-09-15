@@ -106,7 +106,7 @@ Mỗi content phải khai báo **đúng 1 giá trị cho mỗi trục**. Đây l
 
 | Mã | Ai | Điểm cần nhớ khi viết |
 |---|---|---|
-| P1 | Sinh viên / mua máy đầu tiên | Ngân sách 3–6tr, sợ mua phải máy dựng, bố mẹ can thiệp. Hỏi rất lâu ở J2–J3. |
+| P1 | Sinh viên / mua máy đầu tiên | Ngân sách 10–15tr, sợ mua phải máy dựng, bố mẹ can thiệp. Hỏi rất lâu ở J2–J3. |
 | P2 | Nhân viên văn phòng | Cần chạy nhiều tab + Excel mượt, ngại rủi ro, ưu tiên máy business. |
 | P3 | Game thủ | Quan tâm GPU/FPS — nhưng shop chưa có số đo → cấm bịa hiệu năng. |
 | P4 | Đồ hoạ / kỹ thuật | Quan tâm RAM/VRAM theo phần mềm cụ thể. |
@@ -358,7 +358,7 @@ Atom  ──▶ ┌─────────────────┐
 - [ ] Bảo hành đọc theo **cột `warranty_tag` của đúng máy đó**, không mặc định 6 tháng —
       đã gặp máy cũ chỉ ghi **1 tháng** (2 máy Latitude 7480, nay hết hàng). Mặc định: cũ 6 tháng
       main/màn/phím + pin 3 tháng, mới 12 tháng
-- [ ] Viết "giảm X%" thì phải có `compare_at > price` — **10 máy** trên web ghi giá gốc
+- [ ] Viết "giảm X%" thì phải có `compare_at > price` — **11 máy** trên web ghi giá gốc
       thấp hơn giá bán, viết giảm giá cho chúng là bịa
 - [ ] `verified_at` không quá **7 ngày**, quá thì đã chạy `python3 tools/catalog_fetch.py`
 - [ ] ⛔ **Máy không thuộc phân khúc dưới 5 triệu** — phân khúc này đã đóng 2026-09-09,
@@ -754,7 +754,7 @@ Trả lời được 4 câu này là mở khoá 5 góc content mạnh nhất + 2
 - ✅ **ĐÃ ĐÓNG — 2 máy Latitude 7480 bảo hành 1 tháng**: chủ shop xác nhận **hết hàng** (2026-09-09),
   và **đóng luôn phân khúc dưới 5 triệu**. Không viết bài bán nhóm này nữa. `UNVERIFIED.md` #16, #17.
   Bài học giữ lại: **bảo hành máy cũ không luôn là 6 tháng** — phải đọc `warranty_tag` từng máy.
-- **10 máy có giá gốc thấp hơn giá bán** → cấm viết "giảm giá" cho chúng. `UNVERIFIED.md` #18.
+- **11 máy có giá gốc thấp hơn giá bán** → cấm viết "giảm giá" cho chúng. `UNVERIFIED.md` #18.
 - **Tag cấu hình & tình trạng sai lệch** ở nhiều máy → lấy thông số theo tên SP. `UNVERIFIED.md` #20, #21.
 - **Thời lượng pin thực tế**: chưa đo → P1 coi "pin đi cả buổi" là tiêu chí mua nhưng **chưa được phép hứa**. #14.
 
