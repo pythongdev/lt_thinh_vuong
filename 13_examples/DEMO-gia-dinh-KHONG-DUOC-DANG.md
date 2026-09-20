@@ -26,7 +26,7 @@ Cách dùng đúng: đọc để **duyệt văn phong và cấu trúc**. Sau đ�
 | E | Giờ mở cửa **8h30 – 20h00** tất cả các ngày | Mục 1 |
 | F | Quy trình test 12 bước, có quay video từng máy | Mục 12 |
 | G | Dell Inspiron 7391 2-in-1: i5-10210U / 8GB / SSD 512GB / 13.3" FHD cảm ứng — **9.890.000đ** | PRD-004 |
-| H | Lenovo Legion Y7000P: i7-13650HX / 16GB DDR5 / 1TB / RTX 4060 / 16" 2.5K 165Hz — **32.800.000đ** | PRD-005 |
+| ~~H~~ | ⛔ **ĐÃ GỠ 2026-09-20** — Lenovo Legion ngoài danh sách 36 máy (luật #20) | — |
 
 ---
 ---
@@ -105,37 +105,14 @@ Nghĩa là gì với ngày làm việc của bạn:
 ---
 ---
 
-# BÀI 3 — Lenovo Legion Y7000P · Persona P3 game thủ · Mục tiêu: Chốt đơn
+# ~~BÀI 3 — Lenovo Legion Y7000P~~ ⛔ ĐÃ GỠ 2026-09-20
 
-Nói thẳng luôn, không vòng vo.
+Máy này **không nằm trong danh sách 36 máy được viết** (`02_products/36-MAY-DUOC-VIET.md`,
+luật #20) — không có tồn kho xác thực. Toàn bộ bài demo cho **P3 (Game thủ)** đã gỡ.
 
-🔶 **Lenovo Legion Y7000P 2025**
-🔶 • i7-13650HX · RTX 4060 8GB
-🔶 • 16GB DDR5 · 1TB NVMe PCIe
-🔶 • 16" 2.5K 165Hz
-
-🔶 **32.800.000đ**
-
-Ở tầm giá này, thứ đáng quan tâm không phải là con RTX 4060 — máy nào cũng có. Đáng quan tâm là **màn 2.5K 165Hz** và cách máy thoát nhiệt khi bạn chơi liên tục 3 tiếng.
-
-🔶 Bên mình có video test nhiệt độ và FPS thực đo của đúng chiếc máy bạn sẽ nhận — không phải video review trên mạng, không phải số liệu nhà sản xuất công bố.
-
-🔶 Bảo hành 12 tháng. 15 ngày đầu không hợp thì đổi máy, miễn phí.
-
-👉 Comment tên game bạn chơi nhiều nhất, mình gửi số FPS thực đo ở đúng game đó. Không có sẵn số thì mình cài vào test rồi quay lại cho bạn xem.
-
-📍 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
-☎️ 0928939666
-
-#laptopgaming #lenovoLegion #rtx4060 #laptopthinhvuong
-
-> **Ghi chú văn phong:** Persona P3 ghét bị "chào hàng". Bài này ngắn hơn hẳn hai bài trên,
-> bỏ hết emoji lợi ích, không dịch thông số thành lợi ích đời thường — dân gaming tự hiểu
-> thông số. CTA đổi từ "inbox tư vấn" sang "comment tên game" vì nó tạo tương tác công khai,
-> và mỗi comment là một lead có thật.
-
----
----
+> Trong danh sách 36 chỉ còn **2 máy gaming**: Asus TUF A15 FA506QM (16.980.000đ, kho 5)
+> và Acer Nitro 5 Tiger (19.680.000đ, kho 2). Muốn có bài demo cho **P3 (Game thủ)**
+> thì viết lại từ 2 máy này.
 
 # Ba bài này khác nhau chỗ nào
 

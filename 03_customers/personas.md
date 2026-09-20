@@ -40,7 +40,10 @@
 - **Cần:** FPS ổn định ở game đang chơi, màn 165Hz+, tản nhiệt tốt, RTX đời mới
 - **Nỗi đau:** sợ máy gaming cũ bị "vắt kiệt", lo nhiệt độ, muốn benchmark thật chứ không nghe quảng cáo
 - **Trigger mua:** con số FPS cụ thể, video test nhiệt, so sánh cấu hình cùng tầm giá
-- **Sản phẩm:** Lenovo Legion Y7000P, Acer Predator Helios Neo, RTX 4060–5070
+- **Sản phẩm:** ⛔ **chỉ còn 2 máy được viết** (luật #20) — Asus TUF A15 FA506QM
+  (Ryzen 7-5800H · RTX 3050Ti · 16.980.000đ · kho 5) và Acer Nitro 5 Tiger
+  (i5-12500H · RTX 3050Ti · 19.680.000đ · kho 2). Legion/Predator/RTX 4060+ **không có
+  tồn kho xác thực** → không viết bài. Ngân sách thực tế viết được: **17–20 triệu**, không phải 20–60.
 - **Ngôn ngữ:** thông số thẳng, có số liệu, không hoa mỹ
 - **CTA hiệu quả:** "Comment tên game đang chơi, mình báo FPS thực đo"
 

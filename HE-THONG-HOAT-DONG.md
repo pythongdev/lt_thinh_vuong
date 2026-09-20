@@ -190,7 +190,7 @@ angle:      >                  # góc nhìn của bài — PHẢI KHÁC problem
 hook:       >
 format:     reels|post|carousel|story|comparison|product-review|customer-story
 cta:        >                  # đúng 1 hành động
-proof:      [ products.md#PRD-002, policies.md ]   # nơi lấy TỪNG con số
+proof:      [ products.md#PRD-006, policies.md ]   # nơi lấy TỪNG con số
 risk:       low|medium|high
 priority:   số
 status:     idea|approved|drafting|in-review|scheduled|published|archived|blocked
@@ -273,13 +273,13 @@ Claim không truy được nguồn → ghi `⚠️ NEEDS_VERIFICATION` ngay tron
 
 ```yaml
 id: FB-IDEA-002
-product: PRD-002
+product: PRD-006
 persona: P1
 journey: J3
 objective: O4
 pillar: CP01
 format: post
-risk: high
+risk: low
 status: draft
 created: 2026-09-09
 gates: { g0: ⬜, g1: ⬜, g2: ⬜, g3: ⬜, g4: ⬜, g5: ⬜, g6: ⬜ }
@@ -295,7 +295,7 @@ Sau khi đăng thêm: `published_url`, `published_at`.
 
 | Claim trong bài | Nguồn |
 |---|---|
-| 4.290.000đ | `products.md#PRD-002` (laptoptv.vn, verified **2026-09-09**, **check lại ngày đăng**) |
+| 10.680.000đ | `products.md#PRD-006` (laptoptv.vn, verified **2026-09-20**, **check lại ngày đăng**) |
 | Bảo hành 6 tháng main/màn/phím | `policies.md` |
 | Vệ sinh, cài Win miễn phí trọn đời | `policies.md` |
 | 71 Thiên Hiền, Mỹ Đình 1 | `company-facts.md` |
@@ -365,7 +365,8 @@ Atom  ──▶ ┌─────────────────┐
       máy rẻ nhất được viết bài là **6.880.000đ**
 - [ ] Không hứa trả góp / freeship / COD / thời gian giao hàng chưa xác minh
 - [ ] Thông số lấy theo **tên sản phẩm**, không lấy theo tag (tag web sai ở nhiều máy).
-      Không dùng thông số đang mâu thuẫn (ví dụ PRD-003: màn "HD" hay "FHD" — chỉ máy thật mới chốt được)
+      Không dùng thông số đang mâu thuẫn — tag web lệch tên sản phẩm (6/36 máy dính lỗi này,
+      xem `02_products/36-MAY-DUOC-VIET.md`). Tag cãi tên → bỏ thông số đó khỏi bài.
 
 ### Gate 3 — Brand Check *(đúng tone & định vị)*
 - [ ] Tên đúng: **Laptop Thịnh Vượng** — TV = Thịnh Vượng, **không phải tivi**
@@ -518,13 +519,14 @@ PRODUCT → PRODUCT FACTS → POSSIBLE CUSTOMER → CUSTOMER NEED → CONTENT AN
 
 Chuỗi **sai** hay gặp: `PRODUCT → BÀI VIẾT VỀ PRODUCT` → ra bài liệt kê thông số, không ai đọc.
 
-Ví dụ với PRD-003 (Latitude 5470, 4.600.000đ):
+Ví dụ với PRD-006 (Latitude 7400 2in1, 10.680.000đ):
 ```
-i5-6300U · 8GB · SSD 256GB · 14" · 4.600.000đ · BH 6 tháng
-  ↓ ai có thể mua: P1 sinh viên · P2 văn phòng · P5 doanh nghiệp
-  ↓ P1 nghĩ gì: "có 4-5 triệu" · "sợ mua máy dựng" · "bố mẹ hỏi sao không mua mới"
+i7-8665U · 16GB · SSD 512GB · 14" FHD cảm ứng · 10.680.000đ · BH 6 tháng · kho 44
+  ↓ ai có thể mua: P1 (Sinh viên / mua máy đầu tiên) · P2 (Nhân viên văn phòng)
+                   · P5 (Doanh nghiệp nhỏ mua theo lô)
+  ↓ P1 nghĩ gì: "có hơn 10 triệu" · "sợ mua máy dựng" · "bố mẹ hỏi sao không mua mới"
   ↓ góc:
-  - "4-5 triệu mua được máy như thế nào?"            CP01 · O4 · post
+  - "10 triệu mua được máy như thế nào?"             CP01 · O4 · post
   - "Máy doanh nghiệp cũ khác máy phổ thông ở đâu?"  CP02 · O2 · reels
   - "Máy này hợp ai — và không hợp ai"               CP05 · O4 · review
   - "Sinh viên có nên mua máy 14 inch không?"        CP03 · O4 · comparison
@@ -762,14 +764,17 @@ Trả lời được 4 câu này là mở khoá 5 góc content mạnh nhất + 2
 
 ## PHẦN 10 — Đi hết một bài từ đầu đến cuối (ví dụ có thật)
 
-> ⛔ **LƯU Ý 2026-09-09 — bài ví dụ này HIỆN KHÔNG ĐƯỢC ĐĂNG.**
-> `FB-IDEA-002` dựng trên PRD-002 (4.290.000đ), mà **phân khúc dưới 5 triệu đã đóng**
-> theo quyết định của chủ shop. Ví dụ vẫn giữ nguyên vì nó dạy đúng **quy trình 14 bước** —
-> và ở bước ⑧ nó cho thấy hệ thống chặn bài như thế nào khi phân khúc bị đóng.
+> ⛔ **LƯU Ý — cập nhật 2026-09-20: ví dụ này là BÀI HỌC LỊCH SỬ, không phải bài chạy được.**
+> `FB-IDEA-002` dựng trên **PRD-002 (Latitude 7270, 4.290.000đ) — PRD này đã bị gỡ khỏi
+> `products.md`** vì máy nằm ngoài **danh sách 36 máy** (luật #20, `02_products/36-MAY-DUOC-VIET.md`).
+> Giữ nguyên ví dụ vì nó dạy đúng **quy trình 14 bước** và ở bước ⑧ cho thấy hệ thống chặn
+> bài như thế nào — nay lý do chặn mạnh hơn: máy **không có tồn kho xác thực**.
 >
-> 👉 Muốn chạy thật quy trình này, thay nguyên liệu bằng máy rẻ nhất **được phép viết**:
-> **Dell Latitude 7400 vân carbon — 6.880.000đ** (i5-8365U · 8GB · 256GB · 14" FHD ·
-> BH 6 tháng · **kho 3 máy xác thực**). Persona đổi từ P1 sang **P1/P2 tầm 7 triệu**.
+> 👉 Muốn chạy thật quy trình này, thay nguyên liệu bằng máy "hero" **PRD-006 —
+> Dell Latitude 7400 2in1 i7-8665U · 16GB · 512GB · 14" FHD cảm ứng · 10.680.000đ ·
+> BH 6 tháng · kho 44 chiếc**. Persona: **P1 (Sinh viên / mua máy đầu tiên)** và
+> **P2 (Nhân viên văn phòng)** tầm 10–11 triệu. Phiên bản FB-IDEA-002 đã cập nhật sẵn
+> trong `04_content/backlog/ideas.md`.
 
 Lấy `FB-IDEA-002` trong `04_content/backlog/ideas.md`.
 
@@ -810,7 +815,7 @@ với header `gates: { g0: ✅, g1: ⬜, ... }`.
 - BH 6 tháng ↔ `warranty_tag` ✅
 - `verified_at 2026-09-09` ✅ — quá 7 ngày thì chạy `python3 tools/catalog_fetch.py`
 - tồn kho `stock_tracked=no` → ⚠️ không được nói "còn hàng"
-- ⛔ **4.290.000đ nằm trong phân khúc dưới 5 triệu đã đóng → KHÔNG ĐĂNG.**
+- ⛔ **Máy không có tên trong `02_products/36-MAY-DUOC-VIET.md` → KHÔNG ĐĂNG (luật #20).**
 
 > 💡 **Đây chính là điểm hay của hệ thống gate**: bài đã đi qua 7 bước, viết xong, hook xong —
 > nhưng một quyết định kinh doanh ở tầng fact vẫn chặn được nó trước khi ra khách.

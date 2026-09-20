@@ -19,7 +19,7 @@ angle:       >                    # góc nhìn của bài — KHÁC với proble
 hook:        >                    # câu mở đầu dự kiến
 format:      reels|post|carousel|story|comparison|product-review|customer-story
 cta:         >                    # đúng 1 hành động
-proof:       [ ... ]              # danh sách nguồn fact: file + mã (vd products.md#PRD-002)
+proof:       [ ... ]              # danh sách nguồn fact: file + mã (vd products.md#PRD-006)
 risk:        low|medium|high      # rủi ro fact/brand
 priority:    số                   # tính bằng công thức bên dưới
 status:      idea|approved|drafting|in-review|scheduled|published|archived|blocked

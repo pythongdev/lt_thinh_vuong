@@ -35,7 +35,7 @@ Shop kiểm tra máy cũ như thế nào trước khi giao khách.
 
 ## CP05 — Product Review (Đánh giá sản phẩm)
 Một máy cụ thể: hợp ai, không hợp ai.
-- Ví dụ: *"Latitude 5470 hợp với ai và không hợp với ai?"*
+- Ví dụ: *"Latitude 7400 2in1 hợp với ai và không hợp với ai?"* (máy trong danh sách 36)
 - Persona: theo trường `persona` của sản phẩm · Objective: O4, O5 · Journey: J3–J4
 - Bắt buộc: máy còn hàng, giá kiểm tra trong ngày đăng.
 - Bắt buộc: nói cả điểm **không** hợp — đây là điểm tạo tin cậy.

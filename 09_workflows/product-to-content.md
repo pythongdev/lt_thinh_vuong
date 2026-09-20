@@ -25,23 +25,24 @@ Chuỗi sai (hay gặp): `PRODUCT → BÀI VIẾT VỀ PRODUCT` — ra bài li�
 ## Ví dụ
 
 ```
-Dell Latitude 5470                          products.md#PRD-003
+Dell Latitude 7400 2in1                     products.md#PRD-006
   ↓
-i5-6300U · 8GB · SSD 256GB · 14" · 4.600.000đ · BH 6 tháng
+i7-8665U · 16GB · SSD 512GB · 14" FHD cảm ứng · 10.680.000đ · BH 6 tháng · kho 44
   ↓
-P1 sinh viên (3-6tr) · P2 văn phòng · P5 doanh nghiệp
+P1 (Sinh viên / mua máy đầu tiên) · P2 (Nhân viên văn phòng) · P5 (Doanh nghiệp nhỏ mua theo lô)
   ↓
-P1: "có 4-5 triệu", "sợ mua máy dựng", "bố mẹ hỏi sao không mua mới"
+P1: "có hơn 10 triệu", "sợ mua máy dựng", "bố mẹ hỏi sao không mua mới"
   ↓
-- "4-5 triệu mua được máy như thế nào?"            CP01 · O4 · post
+- "10 triệu mua được máy như thế nào?"             CP01 · O4 · post
 - "Máy doanh nghiệp cũ khác máy phổ thông ở đâu?"  CP02 · O2 · reels
 - "Máy này hợp ai — và không hợp ai"               CP05 · O4 · review
 - "Sinh viên có nên mua máy 14 inch không?"        CP03 · O4 · comparison
 - ... (tiếp tục theo từng persona × từng nỗi đau)
 ```
 
-⚠️ Với PRD-003 hiện **không được** đưa chữ "FHD" vào bài — Dell bán máy này cả bản HD lẫn FHD,
-chỉ bật máy thật mới biết (UNVERIFIED #15). RAM đã chốt DDR4 nhưng **loại RAM không phải điểm bán** → cứ viết "RAM 8GB".
+⛔ **Bước 0 bắt buộc (luật #20):** sản phẩm đầu vào phải có tên trong
+`02_products/36-MAY-DUOC-VIET.md`. Không có tên ở đó → dừng, không chạy workflow này.
+PRD-006 được chọn làm ví dụ vì tag web khớp tên ở mọi thông số nên không phải cắt bớt gì.
 
 ---
 

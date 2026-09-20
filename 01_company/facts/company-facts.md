@@ -87,7 +87,10 @@ Xoay gập/2in1 123 · Văn phòng 116 · Cao cấp 112 · Gaming 79 · Đồ ho
 | 25 – 35 triệu | 60 | 25.190.000đ – 34.990.000đ |
 | Trên 35 triệu | 23 | 35.780.000đ – 88.680.000đ |
 
-- Máy **rẻ nhất** toàn catalog: Dell Latitude 7270 i5-6300U — **4.290.000đ**.
+- Máy **rẻ nhất** toàn catalog: Dell Latitude 7270 i5-6300U — 4.290.000đ.
+  ⛔ **Không dùng con số này trong bài.** Máy nằm ngoài danh sách 36 (luật #20).
+  Máy rẻ nhất **được viết bài**: **7.690.000đ** (Dell Latitude 7390 2in1) —
+  xem `02_products/36-MAY-DUOC-VIET.md`.
 - Máy **đắt nhất**: Dell Premium 16 Ultra 7-255H / RTX 5050 — **88.680.000đ**.
 - **Trọng tâm catalog là 12–18 triệu** (175 máy), không phải phân khúc giá rẻ.
 

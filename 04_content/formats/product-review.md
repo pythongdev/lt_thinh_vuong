@@ -22,7 +22,7 @@ CTA           Một hành động.
 - [ ] Máy còn hàng (`stock` trong `products.md`, kiểm tra lại trang nguồn)
 - [ ] `verified_at` trong vòng 7 ngày, nếu quá → mở lại trang nguồn
 - [ ] Không có thông số nào bị mâu thuẫn giữa `products.md` và trang nguồn
-      (xem `UNVERIFIED.md` #15 — Latitude 5470 đang có mâu thuẫn RAM/màn hình)
+      (xem `02_products/36-MAY-DUOC-VIET.md` mục "6 máy tag lệch tên" — thông số nào tag cãi tên thì bỏ khỏi bài)
 
 ## Lỗi thường gặp
 - Bịa cảm nhận sử dụng ("pin dùng 8 tiếng") khi chưa ai đo — pin thực tế đang là `UNVERIFIED.md` #14.

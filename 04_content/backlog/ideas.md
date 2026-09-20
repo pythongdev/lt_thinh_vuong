@@ -29,25 +29,22 @@ status: idea
 
 ```yaml
 id: FB-IDEA-002
-product: PRD-002
-persona: P1
-journey: J3
-objective: O4
-pillar: CP01
-problem: "Có khoảng 4-5 triệu, không biết tầm tiền đó mua được máy như thế nào."
-angle: "Tầm 4-5 triệu vẫn mua được máy business mỏng nhẹ, đổi lại là máy nhỏ và đời cũ hơn."
-hook: "Có 4 triệu rưỡi, mua được laptop như thế nào?"
+product: PRD-006                     # đổi 2026-09-20: PRD-002 (4,29tr) đã gỡ theo luật #20
+persona: P1                          # P1 (Sinh viên / mua máy đầu tiên)
+journey: J3                          # J3 (Đang so sánh)
+objective: O4                        # O4 (Cân nhắc mua)
+pillar: CP01                         # CP01 (Tư vấn mua)
+problem: "Có khoảng 10-11 triệu, không biết tầm tiền đó mua được máy như thế nào."
+angle: "Tầm 10-11 triệu mua được máy doanh nhân 2in1 16GB/512GB, đổi lại là CPU đời cũ hơn."
+hook: "Có hơn 10 triệu, mua được laptop như thế nào?"
 format: post
 cta: "Comment ngân sách + ngành học, mình gợi ý máy phù hợp."
-proof: [products.md#PRD-002, policies.md]
-risk: high
-priority: 5.0
-status: 🔒 BLOCKED
-blocked_reason: "PRD-002 giá 4.290.000đ thuộc phân khúc dưới 5 triệu — chủ shop đóng phân khúc
-  này ngày 2026-09-09, không làm content bán nữa. Xem products.md mục 0."
-note: "KHÔNG ĐĂNG. Góc 'tầm tiền X mua được máy thế nào' vẫn tốt — muốn dùng lại thì đổi
-  nguyên liệu sang máy rẻ nhất được phép viết: Dell Latitude 7400 vân carbon 6.880.000đ
-  (kho 3 máy xác thực), và đổi khung ngân sách trong problem/hook cho khớp."
+proof: [products.md#PRD-006, policies.md]
+risk: low
+priority: 8.0
+status: idea
+note: "Góc 'tầm tiền X mua được máy thế nào' giữ nguyên, chỉ đổi nguyên liệu sang máy hero
+  Dell Latitude 7400 2in1 i7 — 10.680.000đ, kho 44 chiếc, tag web khớp tên ở mọi thông số."
 ```
 
 ```yaml

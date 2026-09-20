@@ -79,7 +79,7 @@ Không trả về mỗi caption. Trả về **Content Package** đủ 12 thành 
 
    | Claim trong bài | Nguồn |
    |---|---|
-   | 4.600.000đ | products.md PRD-003 (laptoptv.vn, 2026-09-05) |
+   | 10.680.000đ | products.md PRD-006 (laptoptv.vn, verified 2026-09-20) |
 
 Nếu có claim nào không truy được nguồn → đánh dấu `⚠️ NEEDS_VERIFICATION` ngay trong bài,
 đừng lặng lẽ để nguyên.

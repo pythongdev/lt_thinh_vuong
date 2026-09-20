@@ -11,7 +11,7 @@
   - Chặn ở: chủ shop trả lời 8 câu ở mục 6.2 → ghi vào `01_company/facts/policies.md` → mở FB-IDEA-103
   - ⚠️ Phát hiện: "cho kiểm tra khi nhận" trên web ≠ "cho bật máy test" — đang là điểm mơ hồ dễ tranh chấp
 - [~] Chuẩn hóa product database — mới có 4 SP + 1 nhóm, cần import toàn bộ
-- [~] Chốt mâu thuẫn thông số PRD-003 — #15 (2026-09-09): **RAM chốt = DDR4** (sổ tay Dell, đã đảo
+- [x] ~~Chốt mâu thuẫn thông số PRD-003~~ — **đóng 2026-09-20**: máy ngoài danh sách 36 (luật #20), PRD đã gỡ. (Ghi chú cũ: **RAM chốt = DDR4** (sổ tay Dell, đã đảo
       kết luận DDR3 sai). **Màn HD/FHD: web hết đường tra** — Dell bán cả 2 panel → cần kỹ thuật
       bật 1 máy xem Settings → Display. Việc còn lại thuộc về kỹ thuật, không phải người viết.
 - [x] Chuẩn hóa company facts (2026-09-05)

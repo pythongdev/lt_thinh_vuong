@@ -34,6 +34,17 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
     vân carbon). Tư vấn inbox/comment cho khách hỏi máy 4 triệu thì **vẫn làm bình thường**.
 17. **Lời chủ shop ghi đè dữ liệu web.** Web báo còn 17 máy mà chủ shop nói hết là **hết**.
     Các ghi đè đã chốt nằm ở `02_products/products.md` mục 0 — đọc mục đó trước khi viết.
+18. **Local trước, sheet sau.** Mọi bài viết ở repo trước. Chỉ đẩy lên Google Sheet fanpage
+    khi người dùng nói "ok". **Không tự ghi lên sheet.** Xem mục "Bàn giao lên Google Sheet".
+19. **Google Sheet fanpage là FORMAT, không phải NGUỒN FACT.** Caption cũ trong sheet viết
+    trước khi có hệ thống fact và vi phạm nhiều luật ở trên (bảo hành 12–24 tháng, trả góp 0%,
+    freeship toàn quốc, "chỉ còn 5 máy", "giá tốt nhất", máy 4,5 triệu, sai tên "LAPTOP TV").
+    Danh sách câu cấm copy lại: `04_content/templates/fanpage-sheet.md` mục 4.
+20. ⛔ **CHỈ VIẾT VỀ 36 MÁY CÓ TỒN KHO XÁC THỰC** (chốt 2026-09-20).
+    Danh sách trắng: `02_products/36-MAY-DUOC-VIET.md` (dữ liệu: `02_products/36-may-duoc-viet-2026-09-20.csv`).
+    Máy không có tên trong danh sách đó → **không viết bài bán, không làm hook, không nêu tên
+    làm ví dụ**. Tư vấn inbox/comment cho khách hỏi máy khác thì **vẫn làm bình thường**.
+    Danh sách hết hạn 2026-09-27 → chạy `python3 tools/collection_fetch.py` để dựng lại.
 
 ## Bốn trục phân loại (không được nhầm mã)
 | Trục | Mã | File |
@@ -54,6 +65,8 @@ viết **mã + tên tiếng Việt** ngay cạnh nhau, kể cả khi đã nhắc
 - ❌ `P2` · `J3/O3` · `CP08` · "bài này nhắm P2, J3"
 - Trong bảng: cột ghi `P2 — Nhân viên văn phòng`, không để cột chỉ có mã.
 - Liệt kê nhiều mã: `O3 (Tin công ty), O4 (Cân nhắc mua)` — không viết `O3, O4`.
+- **Ngoại lệ duy nhất:** file tóm tắt cho người ngoài hệ thống (sếp / chủ shop) thì **bỏ hẳn mã**,
+  chỉ để tên tiếng Việt — xem mục "Bản tóm tắt cho người ngoài hệ thống".
 
 Bảng tra (tên chuẩn lấy từ 4 file trên):
 
@@ -92,7 +105,10 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 
 ## Cách dùng
 - **Hiểu toàn bộ hệ thống:** `HE-THONG-HOAT-DONG.md` (workflow · luật · 7 gate · đo · học)
+- **Máy nào được viết:** `02_products/36-MAY-DUOC-VIET.md` — **đọc trước mọi bài** (luật #20)
 - **Viết bài mới:** gõ `/viet-bai` (skill trong `.claude/skills/viet-bai/`)
+- **Format bàn giao cho fanpage:** `04_content/templates/fanpage-sheet.md`
+  (bộ trường của Google Sheet + chuẩn ảnh + giờ đăng + tỉ trọng tuyến nội dung + câu cấm copy)
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)
@@ -102,13 +118,97 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 - **Thiếu thông tin:** ghi vào `01_company/facts/UNVERIFIED.md`, đừng đoán
 - **Đọc số liệu / rút pattern:** `09_workflows/weekly-learning.md`
 - **Kéo dữ liệu page Facebook:** xem `tools/README.md`
+- **Làm bản cho sếp / chủ shop đọc:** sinh `<file-gốc>-TOM-TAT.md` cùng thư mục —
+  xem mục "Bản tóm tắt cho người ngoài hệ thống" (bỏ mã, dịch hết thuật ngữ)
 
 ## Đầu ra chuẩn
 Không phải "một caption" mà là **Content Package** 12 thành phần —
 `04_content/content-package.md`. Thiếu thành phần bắt buộc → Gate 5 chặn.
 
 Vòng đời file: `04_content/drafts/` → `approved/` → `published/`.
-(`04_content/posts/` là kho bài giai đoạn đầu, giữ để tham chiếu.)
+(`04_content/posts/` đã xoá 2026-09-20 — toàn bộ bài cũ viết về máy ngoài danh sách 36.)
+
+## Bàn giao lên Google Sheet fanpage
+
+Sheet lịch đăng của team:
+https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
+
+**Format bắt buộc khi bàn giao** — 10 trường, đúng thứ tự dòng trong sheet:
+`DATE & TIME` · `STT` · `ĐỊNH DẠNG` · `TUYẾN ND` · `TITLE` · `CONTENT` · `BRIEF ẢNH`
+· `LINK ẢNH` · `FORMAT` · `STATUS`.
+Chi tiết từng trường + template điền sẵn: `04_content/templates/fanpage-sheet.md`.
+
+### 5 bước — LOCAL trước, ONLINE sau
+
+| Bước | Làm gì | Ở đâu |
+|---|---|---|
+| 1 | Viết Content Package 12 thành phần (khai đủ P / J / O / CP kèm tên tiếng Việt) | `04_content/drafts/` |
+| 2 | Chạy đủ **7 gate** (`10_gates/README.md`) + checklist mục 7 của `fanpage-sheet.md` | draft |
+| 3 | Rút gọn thành block 10 trường theo format sheet, dán vào cuối file draft | draft |
+| 4 | **Người dùng đọc và nói "ok"** — Gate 6 phải có người ký | — |
+| 5 | Chỉ khi đã "ok" → đẩy lên sheet, `STATUS` = `CHỜ FEEDBACK` | Google Sheet |
+
+- Chưa có "ok" → **dừng ở bước 3**, không đụng vào sheet.
+- Chỉ người phụ trách đổi `STATUS` thành `ĐÃ AIR` sau khi bài đã đăng thật.
+- Bản đầy đủ luôn sống ở repo. Sheet chỉ nhận phần đăng được — 4 trục, fact table,
+  measurement plan, first comment, sales follow-up **không** có chỗ trên sheet.
+
+### ⚠️ Giới hạn công cụ
+Connector Google Drive hiện tại **chỉ đọc**, không ghi được ô. Bước 5 làm theo 1 trong 3 cách:
+1. Xuất block 10 trường để người dùng copy-paste (mặc định).
+2. Viết Apps Script / dùng Sheets API — cần người dùng cấp quyền.
+3. Nối connector Google Sheets có quyền ghi.
+
+Không được "báo đã đẩy lên sheet" nếu thực tế mới chỉ xuất block để copy.
+
+## Bản tóm tắt cho người ngoài hệ thống (sếp / chủ shop / khách)
+
+Kế hoạch trong repo viết cho **người vận hành hệ thống**. Sếp và chủ shop **không đọc được** bản đó:
+mã P / J / O / CP, tên file nguồn, số gate, tên script đều là tiếng lóng nội bộ.
+Khi người dùng nói *"cái này cho sếp đọc"*, *"sếp không biết hệ thống"*, *"đừng viết tắt"* →
+sinh **file tóm tắt riêng**, không sửa bản gốc.
+
+**Tên file:** `<tên-file-gốc>-TOM-TAT.md`, đặt **cùng thư mục** với bản gốc.
+Bản gốc giữ nguyên mọi thứ kỹ thuật — hai file sống song song, không thay thế nhau.
+
+### Bố cục bắt buộc — 4 mục
+| Mục | Nội dung |
+|---|---|
+| Mở đầu | Viết cho ai · mục tiêu kinh doanh · kênh đăng · mạch các bài nối nhau thế nào |
+| 1. Bảng tóm tắt | 1 dòng / 1 bài: Ngày · Tên bài · Dạng bài · Bài này nhằm làm gì · Người đọc đang ở bước nào · Muốn người đọc làm gì |
+| 2. Khung từng bài | Mỗi bài 1 mục: các nhịp nội dung đánh số, câu mở, câu kêu gọi, điều cấm riêng của bài |
+| 3. Điều không được viết | Gộp toàn bộ danh sách cấm thành câu tiếng Việt thường, kèm lý do ngắn |
+| 4. Việc cần sếp quyết | Bảng: câu hỏi đầy đủ + "nếu không trả lời kịp thì làm gì". Đánh số lại từ 1, không giữ mã Q |
+
+Cuối file thêm 1 dòng: *"Kế hoạch chi tiết đầy đủ nằm ở bản gốc cùng thư mục."*
+
+### ⛔ Bỏ mã, không phải viết mã kèm tên
+Đây là **ngoại lệ duy nhất** của luật "không bao giờ viết mã trơn". Trong file tóm tắt:
+**bỏ hẳn mã**, chỉ để tên tiếng Việt đầy đủ. Viết `CP02 (Kiến thức)` cho sếp đọc là vẫn sai.
+
+### Bảng dịch thuật ngữ — dùng cột phải
+| Trong hệ thống | Viết cho sếp |
+|---|---|
+| `CP02 (Kiến thức)`, `O2 (Hiểu vấn đề)` | "Bài này nhằm làm gì": *giúp người đọc hiểu đúng vấn đề* |
+| `J2 (Bắt đầu quan tâm laptop cũ)` | "Người đọc đang ở bước nào": *mới bắt đầu quan tâm laptop cũ* |
+| `P1 (Sinh viên / mua máy đầu tiên)` | *bạn sinh viên sắp mua chiếc laptop đầu tiên* |
+| CTA | "Muốn người đọc làm gì" |
+| Reels · Carousel · Story · Post | Video ngắn · Chuỗi ảnh lật · Tin · Bài viết |
+| Gate 0–6, Content Package, `catalog_fetch.py`, tên file nguồn | Bỏ hẳn |
+| Q1, Q2, Q7… | Câu hỏi viết đủ thành câu, đánh số lại từ 1 |
+| `stock_tracked=yes`, `compare_at` | *có kiểm đếm số lượng trong kho* · *giá gốc ghi trên web* |
+| i7-1185G7 · Ryzen 7-5700U | *chip i7 đời 11* · *chip Ryzen 7* |
+| 2in1 | *gập xoay* |
+| FHD · SSD 512GB | *màn 14 inch* · *ổ 512 GB* |
+| 16GB RAM | *RAM 16 GB* (giữ RAM — đây là từ khách hàng vẫn dùng) |
+
+Giữ nguyên: RAM, ổ cứng, màn hình, pin, bảo hành — đây là từ người mua laptop nào cũng hiểu.
+
+### Luật còn nguyên hiệu lực trong bản tóm tắt
+Fact-check **không** được nới. Giá, cấu hình, bảo hành, tồn kho trong file tóm tắt phải
+truy được về nguồn y như bài đăng. Chỗ nào bản gốc đang chờ chủ shop trả lời →
+trong bản tóm tắt viết theo **phương án an toàn**, và nêu lại ở mục 4 để sếp quyết.
+Không được im lặng chọn hộ.
 
 ## Cấu trúc thư mục
 ```
@@ -118,7 +218,8 @@ Vòng đời file: `04_content/drafts/` → `approved/` → `published/`.
 04_content/    strategy/ (objectives, pillars, journey, matrix, facebook-strategy)
                formats/ (reels, post, carousel, story, comparison, review, customer-story)
                backlog/ (idea-schema, ideas, experiments) · calendar/
-               templates/ · drafts/ → approved/ → published/ · posts/ (kho cũ)
+               templates/ (facebook · tiktok · fanpage-sheet = format bàn giao)
+               drafts/ → approved/ → published/
 05_campaigns/  chiến dịch
 06_sales/      quy trình bán, xử lý phản đối
 07_analytics/  metrics · content-performance · experiments · learned-patterns · reports/

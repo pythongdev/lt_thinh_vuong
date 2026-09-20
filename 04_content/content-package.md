@@ -29,7 +29,7 @@
 ```markdown
 ---
 id: FB-IDEA-002
-product: PRD-002
+product: PRD-006
 persona: P1
 journey: J3
 objective: O4
@@ -63,7 +63,7 @@ Chỉ số chính: ... · Ngưỡng coi là thắng: ... · Đo sau: 24h / 72h /
 ## 12. Fact table
 | Claim trong bài | Nguồn |
 |---|---|
-| 4.290.000đ | products.md#PRD-002 (laptoptv.vn, verified 2026-09-05, check lại ngày đăng) |
+| 10.680.000đ | products.md#PRD-006 (laptoptv.vn, verified 2026-09-20, check lại ngày đăng) |
 | Bảo hành 6 tháng main/màn/phím | policies.md |
 ```
 

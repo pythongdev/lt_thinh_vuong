@@ -1,5 +1,12 @@
 # Facebook Content Template — Laptop Thịnh Vượng
 
+> 📄 **Format bàn giao cho fanpage** (bộ trường `STT · ĐỊNH DẠNG · TUYẾN ND · TITLE · CONTENT ·
+> BRIEF ẢNH · LINK ẢNH · FORMAT · STATUS`, chuẩn ảnh, giờ đăng, tỉ trọng tuyến nội dung, và
+> danh sách câu **cấm copy lại** từ caption cũ) nằm ở `04_content/templates/fanpage-sheet.md`
+> — bản dịch từ Google Sheet "FANPAGE LAPTOP THỊNH VƯỢNG".
+>
+> File này quy định **cách viết**. File kia quy định **cách bàn giao**. Dùng cả hai.
+
 ## 0. Input bắt buộc
 - Product (PRD-xxx từ `02_products/products.md`)
 - Persona (P1–P5 từ `03_customers/personas.md`)

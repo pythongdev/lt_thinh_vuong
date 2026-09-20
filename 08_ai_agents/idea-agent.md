@@ -20,10 +20,10 @@ PRODUCT  →  PRODUCT FACTS  →  POSSIBLE CUSTOMER  →  CUSTOMER NEED  →  CO
 
 Ví dụ:
 ```
-Dell Latitude 5470
-  → i5-6300U / 8GB / SSD 256GB / 14" / 4.600.000đ   (products.md#PRD-003)
-  → P1 sinh viên, P2 văn phòng, P5 doanh nghiệp
-  → "có 4-5 triệu", "sợ máy dựng", "cần máy chạy Office cả ngày"
+Dell Latitude 7400 2in1
+  → i7-8665U / 16GB / SSD 512GB / 14" FHD cảm ứng / 10.680.000đ   (products.md#PRD-006)
+  → P1 (Sinh viên / mua máy đầu tiên), P2 (Nhân viên văn phòng), P5 (Doanh nghiệp nhỏ mua theo lô)
+  → "có hơn 10 triệu", "sợ máy dựng", "cần máy gập lại ghi chú được"
   → 20-50 góc content khác nhau
 ```
 

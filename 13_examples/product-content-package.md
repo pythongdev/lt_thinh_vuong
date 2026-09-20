@@ -16,6 +16,8 @@ Ngoài ra, từ cùng một sản phẩm còn tái sử dụng được cho:
 - FAQ + xử lý phản đối (`06_sales/`)
 
 ## Bài mẫu thật đã fact-check
-`13_examples/2026-09-05-latitude-5470-sinh-vien.md`
+⛔ Bài mẫu cũ (Latitude 5470) **đã xoá 2026-09-20** — máy nằm ngoài danh sách 36 (luật #20).
+Chưa có bài mẫu thay thế. Viết bài mẫu mới từ `02_products/36-MAY-DUOC-VIET.md`,
+ưu tiên máy "hero" Dell Latitude 7400 2in1 i7-8665U (10.680.000đ, kho 44).
 
 Đây là mô tả cấu trúc, không phải dữ liệu thật.

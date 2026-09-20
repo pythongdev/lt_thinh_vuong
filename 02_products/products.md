@@ -4,6 +4,10 @@
 > Quy tắc: field nào chưa xác minh → ghi `UNKNOWN`, **không suy đoán**.
 > Giá đổi liên tục → luôn mở lại link nguồn trước khi đưa giá vào bài đăng.
 >
+> **Cập nhật 2026-09-20.** Từ 2026-09-20 file này **không còn là danh sách máy được viết** —
+> danh sách đó là `02_products/36-MAY-DUOC-VIET.md` (luật #20). File này giữ các luật đọc dữ liệu
+> và PRD chi tiết của máy trong danh sách.
+>
 > **Cập nhật 2026-09-15** từ API catalog `laptoptv.vn/products.json` (593 sản phẩm).
 > Snapshot đầy đủ: `02_products/catalog/catalog-2026-09-15.csv` (bản cũ 2026-09-09 giữ lại để so sánh).
 >
@@ -28,28 +32,20 @@ Chủ shop xác nhận trực tiếp. **Lời chủ shop thắng dữ liệu web
 > Câu hỏi "BH 1 tháng là thật hay lỗi nhập liệu?" (UNVERIFIED #17) **không cần trả lời nữa** —
 > máy đã hết hàng. Giữ bản ghi để nếu máy về lại thì phải hỏi lại trước khi viết.
 
-### ⛔ PHÂN KHÚC DƯỚI 5 TRIỆU — ĐÓNG, KHÔNG VIẾT BÀI
+### ⛔ CHỈ VIẾT VỀ 36 MÁY TRONG DANH SÁCH TRẮNG (chốt 2026-09-20, luật #20)
 
-**Quyết định của chủ shop 2026-09-09: ngừng làm content cho phân khúc dưới 5 triệu.**
+**Content chỉ xoay quanh `02_products/36-MAY-DUOC-VIET.md`. Máy không có tên ở đó → không viết bài.**
 
-Lý do dữ liệu chống lưng quyết định này — cả 6 máy dưới 5 triệu trong catalog
-**không máy nào có tồn kho xác thực**:
+Danh sách này là toàn bộ máy có **tồn kho xác thực** trong 3 danh mục Deal shock ·
+Laptop Gaming · Laptop 2in1. Máy rẻ nhất được viết: **7.690.000đ** (Latitude 7390 2in1).
 
-| Giá | Máy | Tồn kho |
-|---|---|---|
-| 4.290.000đ | Dell Latitude 7270 i5-6300U (PRD-002) | ❌ không theo dõi |
-| 4.380.000đ | Dell Latitude 7280 i5-6300U | ❌ không theo dõi |
-| 4.600.000đ | Dell Latitude 5470 i5-6300U (PRD-003) | ❌ không theo dõi |
-| 4.880.000đ | Dell Latitude 5490 i5-7300U | ❌ không theo dõi |
-| 4.900.000đ | Dell Latitude 7480 i5-6300U | ⛔ **chủ shop: hết hàng** |
-| 4.980.000đ | Dell Latitude 7470 i5-6300U | ❌ không theo dõi |
-
-> ⛔ **Không viết bài bán, không làm hook "laptop 4 triệu", không chạy quảng cáo phân khúc này.**
-> Máy rẻ nhất được phép viết bài hiện nay: **Dell Latitude 7400 vân carbon — 6.880.000đ**
-> (i5-8365U · 8GB · 256GB · 14" FHD · BH 6 tháng · **kho 3 máy xác thực**).
+> Quy định này **thay thế** lệnh đóng phân khúc dưới 5 triệu (chủ shop 2026-09-09) —
+> nó chặt hơn: không chỉ cấm dưới 5 triệu mà cấm mọi máy không có tồn kho xác thực.
+> Dell Latitude 7400 vân carbon 6.880.000đ trước đây là "máy rẻ nhất được viết"
+> **nay cũng bị loại** vì không nằm trong 3 danh mục.
 >
-> 💡 Khách hỏi máy 4 triệu trong inbox/comment thì vẫn tư vấn bình thường —
-> lệnh cấm này áp cho **bài đăng chủ động**, không phải chăm sóc khách.
+> 💡 Khách hỏi máy ngoài danh sách trong inbox/comment thì **vẫn tư vấn bình thường** —
+> lệnh cấm áp cho **bài đăng chủ động**, không phải chăm sóc khách.
 
 ### 1. Website KHÔNG phản ánh tồn kho thật
 Trong 593 sản phẩm, **chỉ 50 biến thể có bật quản lý tồn kho**. 543 biến thể còn lại
@@ -93,168 +89,53 @@ nhưng giá gốc vẫn để 21.380.000đ.
 
 ---
 
-## ✅ MÁY CÓ TỒN KHO XÁC THỰC (**37** máy dùng được — chụp 2026-09-15)
+## ✅ 36 MÁY ĐƯỢC PHÉP VIẾT BÀI
 
-Snapshot web cho 39 máy, nhưng chủ shop xác nhận **2 máy Latitude 7480 đã hết hàng**
-→ còn **37 máy** được phép viết bài. Đây là **danh sách ưu tiên**: số lượng thật, giá thật,
-cấu hình thật.
+> 📍 **Danh sách đầy đủ đã chuyển sang `02_products/36-MAY-DUOC-VIET.md`** (luật #20).
+> Dữ liệu máy: `02_products/36-may-duoc-viet-2026-09-20.csv` · verified_at **2026-09-20**.
+> File này không giữ bản sao để tránh hai nguồn lệch nhau.
 
-### Phân khúc 6–10 triệu (⚠️ dưới ngân sách mọi persona — xem `personas.md` 2026-09-15)
+**36 máy · 207 chiếc · 7.690.000đ – 26.490.000đ.** Toàn bộ nằm trong 3 danh mục
+Deal shock · Laptop Gaming · Laptop 2in1 và đều có tồn kho xác thực.
 
-> ⛔ Dưới 6.880.000đ hiện **không còn máy nào viết bài được** — xem mục 0 ở trên.
-
-| Giá | Máy | Cấu hình | BH | Kho |
-|---|---|---|---|---|
-| ~~4.900.000đ~~ | ~~Dell Latitude 7480 i5-6300U~~ | ⛔ **CHỦ SHOP: HẾT HÀNG** — không viết bài | ~~1 tháng~~ | ⛔ |
-| ~~5.190.000đ~~ | ~~Dell Latitude 7480 i5-7200U~~ | ⛔ **CHỦ SHOP: HẾT HÀNG** — không viết bài | ~~1 tháng~~ | ⛔ |
-| 6.880.000đ | Dell Latitude 7400 vân carbon | i5-8365U · 8GB DDR4 · 256GB NVMe · 14" FHD | 6 tháng | 3 |
-| 7.690.000đ | Dell Latitude 7390 2in1 | i5-8250U · 8GB DDR4 · 256GB NVMe · 13.3" FHD cảm ứng | 6 tháng | 4 |
-| 8.290.000đ | Dell Latitude 7390 2in1 | i5-8250U · **16GB** · 256GB · 13.3" FHD cảm ứng | 6 tháng | 5 |
-| 8.970.000đ | Dell Latitude 7400 2in1 | i5-8365U · 8GB · 256GB · 14" FHD cảm ứng | 6 tháng | 2 |
-| 8.980.000đ | Dell Latitude 5300 2in1 | i7-8665U · 16GB · 256GB · 13.3" FHD cảm ứng | 6 tháng | 2 |
-| 9.280.000đ | Dell Latitude 7400 2in1 | i5-8365U · 16GB · 256GB · 14" FHD cảm ứng | 6 tháng | 8 |
-| 9.380.000đ | Dell Latitude 7420 vỏ carbon | i5-1145G7 · 16GB · 256GB NVMe · 14" FHD · Iris Xe | 6 tháng | 5 |
-| 9.690.000đ | Dell Latitude 5300 2in1 | i7-8665U · 16GB · 512GB · 13.3" FHD cảm ứng | 6 tháng | 3 |
-| 9.880.000đ | Dell Latitude 5310 2in1 | i5-10210U · 16GB · 512GB · 13.3" FHD cảm ứng | 6 tháng | 4 |
-
-### Phân khúc 10–18 triệu (P1 sinh viên 10–15tr · P2 văn phòng 15–20tr · P5 doanh nghiệp từ 13tr)
-
-| Giá | Máy | Cấu hình | BH | Kho |
-|---|---|---|---|---|
-| 10.680.000đ | Dell Latitude 7400 2in1 | i7-8665U · 16GB · 512GB · 14" FHD cảm ứng | 6 tháng | **44** |
-| 10.980.000đ | Dell Latitude 7420 2in1 carbon | i5-1145G7 · 16GB · 256GB · 14" FHD cảm ứng | 6 tháng | 5 |
-| 11.280.000đ | Dell Inspiron 7415 2in1 | Ryzen 7-5700U · 16GB · 512GB · 14" FHD cảm ứng | 6 tháng | 3 |
-| 11.980.000đ | Dell Latitude 9410 2in1 | i5-10210U · 16GB · 256GB · 14" | 6 tháng | 4 |
-| 12.980.000đ | Dell Latitude 7420 vỏ nhôm | i7-1185G7 · 16GB · 512GB · 14" FHD · Iris Xe | 6 tháng | 3 |
-| 12.980.000đ | Dell Latitude 9410 2in1 | i7-10610U · 16GB · 256GB · 14" | 6 tháng | 5 |
-| 13.480.000đ | Lenovo ThinkPad X1 Yoga Gen 6 | i5-1135G7 · 16GB LPDDR4 · 256GB · 14" FHD+ cảm ứng | 6 tháng | 2 |
-| 13.680.000đ | Dell Latitude 9410 2in1 | i7-10610U · 16GB · 512GB · 14" | 6 tháng | 8 |
-| 13.880.000đ | Dell Inspiron 13-7391 2in1 | i7-10510U · 16GB · 256GB · **13.3" 4K cảm ứng** | 6 tháng | 6 |
-| 13.890.000đ | Dell Latitude 9520 2in1 | i5-1145G7 · 16GB · 256GB · 15" FHD cảm ứng | 6 tháng | 4 |
-| 14.880.000đ | Surface Laptop 4 | i7-1185G7 · 16GB · 512GB · 13.5" 2K cảm ứng | 6 tháng | 4 |
-| **14.980.000đ** (từ 14.480.000đ, 2026-09-15) | Dell Latitude 9420 2in1 | i5-1145G7 · 16GB · 256GB · 14" 2K | 6 tháng | 13 |
-| 15.180.000đ | Dell Precision 7550 | i7-10850H · 16GB · 512GB · **NVIDIA T1000** · 15.6" FHD | 6 tháng | 4 |
-| 15.790.000đ | Dell Precision 7550 | i7-10850H · 16GB · 512GB · ⚠️T2000/T1000 · 15.6" FHD | 6 tháng | 4 |
-| 15.880.000đ | Dell XPS 7390 2in1 | i7-1065G7 · 16GB · 256GB · 13.3" FHD cảm ứng | 6 tháng | 3 |
-| 15.890.000đ | HP OmniBook 5 Flip 2in1 | Core 5-120U · 8GB · 512GB · 14" cảm ứng | **12 tháng** (mới) | 3 |
-| 16.680.000đ | Dell Inspiron 5430 | i5-1340P · 16GB · 512GB · 14" 2K | 6 tháng | 3 |
-| 16.980.000đ | Asus TUF A15 FA506QM | Ryzen 7-5800H · 16GB · 512GB · **RTX 3050Ti** · 15.6" 144Hz | 6 tháng | 5 |
-| 16.980.000đ | Asus Vivobook S14 Q423SA | Ultra 5 226V · 16GB DDR5 · 512GB · 14" FHD+ **OLED** | **12 tháng** (mới) | 3 |
-| 17.680.000đ | Dell Precision 5550 | i7-10850H · 16GB · 512GB · Quadro T2000 · 15.6" FHD | 6 tháng | 9 |
-| 17.980.000đ | Dell XPS 9310 2in1 | i7-1165G7 · 16GB · 256GB · 13.3" | 6 tháng | 7 |
-
-### Phân khúc trên 18 triệu (P2 văn phòng tới 20tr · P3 gaming · P4 đồ hoạ · P5 doanh nghiệp)
-
-| Giá | Máy | Cấu hình | BH | Kho |
-|---|---|---|---|---|
-| 18.680.000đ | Acer Nitro 5 Tiger | i5-12500H · 16GB · 512GB · **RTX 3050Ti** · 15.6" 165Hz | 6 tháng | 2 |
-| 18.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · 16GB DDR5 · 256GB · 14" 2.2K cảm ứng | 6 tháng | 3 |
-| 20.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · **32GB DDR5** · 256GB · 14" 2.2K cảm ứng | 6 tháng | 2 |
-| **23.880.000đ** (từ 19.880.000đ, 2026-09-15) | Dell Inspiron 7440 2in1 | Core 5-120U · 16GB · 512GB · 14" FHD cảm ứng | **12 tháng** (mới) | 7 |
-| 24.280.000đ | HP OmniBook X Flip 2in1 | Ryzen AI 5 340 · ⚠️16GB? · 512GB · 14" cảm ứng | **12 tháng** (mới) | 8 |
-| 25.390.000đ | Dell Inspiron 7445 2in1 | ⚠️Ryzen 7/5-8840HS · 16GB? · 1TB · 14" FHD+ cảm ứng | **12 tháng** (mới) | 5 |
-| 26.490.000đ | HP OmniBook X Flip 2in1 | Ryzen AI 7 350 · 24GB · 1TB · 14" cảm ứng | **12 tháng** (mới) | 5 |
-
-> 💡 **Đọc ra chiến lược**: **29/37** máy còn hàng là **máy 2in1 xoay gập cảm ứng**, chủ yếu
-> Dell Latitude dòng doanh nhân. Đây mới là hàng shop thực sự đang có — không phải gaming.
-> Content nên dồn vào đây thay vì các dòng đã hết.
+- **29/36 là 2in1 xoay gập cảm ứng**, chủ yếu Dell Latitude doanh nhân — đây mới là hàng shop
+  thực sự có. **Chỉ 2 máy gaming.** Content dồn vào **P2 (Nhân viên văn phòng)** và
+  **P1 (Sinh viên / mua máy đầu tiên)**, không phải **P3 (Game thủ)**.
+- Máy "hero": **Dell Latitude 7400 2in1 i7-8665U — 10.680.000đ, kho 44 chiếc.**
+- ⛔ **Máy không có tên trong danh sách 36 → không viết bài, không nêu tên làm ví dụ.**
+  Tư vấn inbox/comment cho khách hỏi máy khác thì vẫn làm bình thường.
 
 ---
 
+
 ## PRD chi tiết
 
-## PRD-001 — Dell Latitude E7440
+## PRD-006 — Dell Latitude 7400 2in1 (máy "hero" — kho lớn nhất shop) ✅ ĐỦ FACT
 | Field | Value |
 |---|---|
 | brand | Dell |
-| model | Latitude E7440 |
-| status | ⛔ **ĐÃ GỠ KHỎI WEBSITE** |
-| verified_at | 2026-09-15 |
-
-> ⛔ **Không còn tồn tại trên catalog** (đã quét toàn bộ 593 SP ngày 2026-09-09, không có kết quả nào khớp "E7440").
-> Ngày 2026-09-05 máy này còn trên trang nhưng đã hết hàng → nay bị gỡ hẳn.
-> **Không viết bài, không nhắc tên máy này.** Giữ bản ghi để biết lịch sử.
->
-> **Không có hàng thay thế — phân khúc đã đóng.**
-> Ứng viên duy nhất còn hàng ở tầm giá này là Latitude 7480, nhưng chủ shop xác nhận
-> **cũng đã hết hàng** (2026-09-09). Toàn bộ phân khúc dưới 5 triệu **ngừng làm content**
-> — xem mục 0 đầu file. `UNVERIFIED.md` #16 và #17 đã đóng.
-
-## PRD-002 — Dell Latitude 7270
-| Field | Value |
-|---|---|
-| brand | Dell |
-| model | Latitude 7270 |
-| condition | Cũ |
-| cpu | Intel Core i5-6300U |
-| ram | 8GB |
-| storage | 256GB NVMe SSD |
-| gpu | Intel HD Graphics (onboard) |
-| display | **12.5" HD** (xác nhận lại 2026-09-09) |
-| price | **4.290.000đ** (giá gốc 6.980.000đ) — không đổi so với 2026-09-05 |
-| stock | ⚠️ **KHÔNG XÁC ĐỊNH** — web không theo dõi kho cho máy này |
+| model | Latitude 7400 2in1 |
+| condition | **Likenew** |
+| cpu | **Intel Core i7-8665U** (tag web khớp tên ✅) |
+| ram | **16GB DDR4** |
+| storage | **512GB NVMe** |
+| gpu | Intel UHD Graphics (onboard) |
+| display | **14" FHD, cảm ứng, xoay gập 360°** |
+| price | **10.680.000đ** (giá gốc 13.480.000đ — hợp lệ, được viết giảm giá) |
+| stock | ✅ **44 chiếc** — có theo dõi kho. **Lượng hàng lớn nhất shop**, gấp hơn 3 lần máy kế tiếp |
 | warranty | 6 tháng main/màn/phím; pin 3 tháng (tag `baohanh_6 Tháng`) |
-| persona | P1, P2 (ưu tiên người cần máy siêu nhỏ gọn) |
-| source | https://laptoptv.vn/dell-latitude-7270-core-i5-6300u-ram-8gb-ssd-256gb-man-hinh-12-5-inch-hd |
-| verified_at | 2026-09-15 |
-> Biến thể i7-6600U — **5.090.000đ** (gốc 7.480.000đ), cùng tình trạng kho không xác định.
->
-> ⛔ **KHÔNG VIẾT BÀI — thuộc phân khúc dưới 5 triệu đã đóng** (quyết định chủ shop 2026-09-09).
-> Đây vẫn là máy rẻ nhất catalog, nhưng không có tồn kho xác thực và phân khúc đã ngừng làm
-> content. Giữ bản ghi để tư vấn inbox và để dùng lại nếu shop mở lại phân khúc.
+| persona | P1 (Sinh viên / mua máy đầu tiên), P2 (Nhân viên văn phòng), P5 (Doanh nghiệp nhỏ mua theo lô) |
+| danh mục | Deal shock + Laptop 2in1 |
+| source | https://laptoptv.vn/laptop-cu-dell-latitude-7400-2in1-cam-ung-core-i7-8665u-ram-16gb-ssd-512gb-intel-uhd-graphic-14inch-cam-ung |
+| verified_at | 2026-09-20 |
 
-## PRD-003 — Dell Latitude 5470
-| Field | Value |
-|---|---|
-| brand | Dell |
-| model | Latitude 5470 |
-| condition | Cũ |
-| cpu | Intel Core i5-6300U |
-| ram | **8GB DDR4 2133MHz** (chốt theo sổ tay Dell — xem dưới). Web ghi "DDR3" là **sai** |
-| storage | 256GB SSD M.2 NVMe |
-| gpu | Intel Graphics (onboard) |
-| display | **14"** — ⚠️ **HD 1366×768 hay FHD 1920×1080 chưa chốt, chỉ máy thật mới trả lời được**. Bài viết chỉ được ghi "màn 14 inch" |
-| price | **4.600.000đ** (gốc 8.980.000đ) — không đổi |
-| stock | ⚠️ **KHÔNG XÁC ĐỊNH** — web không theo dõi kho |
-| warranty | 6 tháng main/màn/phím; pin 3 tháng |
-| persona | P1, P2, P5 |
-| source | https://laptoptv.vn/laptop-cu-dell-latitude-5470-core-i5-6300u-8gb-256gb-man-hinh-14-inch-fhd |
-| verified_at | 2026-09-15 |
-
-> ⛔ **KHÔNG VIẾT BÀI — 4.600.000đ thuộc phân khúc dưới 5 triệu đã đóng** (chủ shop 2026-09-09).
-> Câu hỏi màn HD/FHD (#15) vì thế **hạ mức ưu tiên** — không còn chặn bài nào.
-> Hai biến thể i7 (5.690.000đ và 6.090.000đ) nằm **ngoài** phân khúc đóng, nhưng cũng
-> không có tồn kho xác thực → vẫn phải gọi shop trước khi viết.
-
-> ### Kết quả tra cứu 2026-09-09 (task #15) — đã đảo lại kết luận cũ
+> ✅ **Đây là máy nên dồn content vào.** 44 chiếc là con số hiếm — hầu hết máy khác chỉ 2–8 chiếc.
+> Tag web khớp tên ở mọi thông số, giá gốc hợp lệ, bảo hành chuẩn 6 tháng → **không vướng luật
+> #13, #14, #15**. Là máy đủ điều kiện nhất trong 36 máy để làm ví dụ và làm bài mẫu.
 >
-> ✅ **RAM = DDR4 2133MHz. Ghi chép "DDR3" trước đó là SAI.**
-> Sổ tay Dell Latitude E5470 ghi rõ: bộ nhớ **DDR4 SDRAM 2133MHz**, 4–16GB, **không có tuỳ chọn
-> DDR3 hay DDR3L**. Nền tảng Skylake của máy này không chạy DDR3 phổ thông.
-> Lý do kết luận cũ sai: hai "nguồn độc lập" (tag `ram_ 8GB DDR3` + bảng thông số trong mô tả)
-> thật ra **là một nguồn** — khối mô tả là văn bản copy-paste dùng chung cho cả 3 máy 5470,
-> nên máy i7-6600U có tag `ram_8GB DDR4` mà mô tả vẫn ghi "RAM 8GB DDR3". Xem `UNVERIFIED.md` #22.
-> 👉 Dù vậy **loại RAM không phải điểm bán** — trong bài cứ viết "RAM 8GB", đừng nêu DDR.
->
-> ⛔ **MÀN HÌNH: KHÔNG CHỐT ĐƯỢC BẰNG DỮ LIỆU WEB — và sẽ không bao giờ chốt được.**
-> Dell xuất xưởng E5470 với **cả ba loại panel 14"**: FHD 1920×1080 non-touch (300 nit),
-> FHD 1920×1080 cảm ứng (270 nit), và HD 1366×768 (200 nit). Nên "HD" và "FHD" **đều là
-> cấu hình có thật** — đây là câu hỏi *máy này là con nào*, không phải lỗi đánh máy trên web.
-> Trên trang SP: **FHD ở 4 chỗ** (tên SP, tag `manhinh_ 14 inch FHD`, đoạn "Thiết kế", tên file ảnh
-> `dell-latitude-e5470-full-hd-ips...`) · **HD ở 2 chỗ** (bảng thông số `14" HD`, câu "độ phân giải HD")
-> — nhưng cả 2 chỗ ghi HD nằm trong khối mô tả copy-paste → không tính là nguồn.
-> 👉 **Hành động duy nhất còn lại: kỹ thuật bật máy, xem Settings → Display.** 30 giây là xong.
-> Cho tới lúc đó: **chỉ được viết "màn 14 inch"**, cấm chữ "FHD" và cấm chữ "Full HD".
-> (`UNVERIFIED.md` #15 — vẫn mở, nhưng đã hết việc để tra)
->
-> Nguồn: [Dell E5470 — Memory specifications](https://www.dell.com/support/manuals/en-us/latitude-e5470-laptop/latitudee5470_om/memory-specifications) ·
-> [Display specifications](https://www.dell.com/support/manuals/en-us/latitude-e5470-laptop/latitudee5470_pub/display-specifications)
->
-> Fact khác lấy được từ mô tả — ⚠️ mô tả là văn bản copy-paste dùng chung, **coi là chưa xác minh**:
-> pin ~3h · nặng 1.75kg · vỏ sợi carbon + khung magie · 2×USB 3.2 Gen1, 1×USB-C, LAN, HDMI,
-> jack 3.5mm, khe SD · Windows 10.
-
-> Biến thể khác cùng dòng (kho không xác định): i7-6600U 5.690.000đ · i7-6820HQ 6.090.000đ.
+> ⚠️ Cùng dòng còn 2 bản **khác cấu hình, khác giá** cũng trong danh sách 36:
+> i5-8365U/8GB/256GB — 8.970.000đ (kho 2) · i5-8365U/16GB/256GB — 9.280.000đ (kho 8).
+> **Đừng lẫn giá giữa 3 bản.**
 
 ## PRD-004 — Dell Inspiron 13-7391 2in1 ✅ ĐÃ ĐỦ FACT
 | Field | Value |
@@ -268,38 +149,18 @@ cấu hình thật.
 | gpu | Intel Graphics (onboard) |
 | display | **13.3 inch 4K, cảm ứng, xoay gập 360°** |
 | price | **13.880.000đ** (giá gốc 18.980.000đ) |
-| stock | ✅ **6 máy** — có theo dõi kho, số liệu đáng tin (2026-09-09) |
+| stock | ✅ **6 máy** — có theo dõi kho, xác nhận lại 2026-09-20 (không đổi) |
 | warranty | 6 tháng main/màn/phím; pin 3 tháng |
-| persona | P2, P5 |
+| persona | P2 (Nhân viên văn phòng), P5 (Doanh nghiệp nhỏ mua theo lô) |
 | source | https://laptoptv.vn/laptop-cu-dell-inspiron-13-7391-2in1-core-i7-10510u-16gb-256-13-3-inch-4k-cam-ung |
-| verified_at | 2026-09-15 |
+| verified_at | 2026-09-20 |
 
 > ✅ **Đã mở khoá — trước đây toàn UNKNOWN, nay đủ fact để viết bài.**
 > Đây là một trong số ít máy vừa có tồn kho xác thực vừa đủ thông số.
 >
-> **Biến thể 512GB — 14.480.000đ (gốc 18.980.000đ): có TẶNG KÈM BÚT cảm ứng**
-> (ghi rõ trong tên sản phẩm). ⚠️ Bản 256GB **không** có bút — đừng viết nhầm.
-> Bản 512GB **không** có theo dõi kho → không nói về số lượng.
-> Link bản 512GB: https://laptoptv.vn/laptop-cu-dell-inspiron-13-7391-2in1-core-i7-10510u-16gb-256gb-4k-cam-ung
-
-## PRD-005 — Nhóm gaming
-| Field | Value |
-|---|---|
-| Số máy gaming trong catalog | **79** |
-| Dải giá | 15.680.000đ – 88.680.000đ |
-| Hãng chính | Lenovo Legion, Acer Predator/Nitro, Asus TUF, MSI |
-| verified_at | 2026-09-09 |
-
-> ⚠️ Đây là dữ liệu **nhóm**, không phải 1 sản phẩm. Muốn viết bài cho 1 máy gaming cụ thể
-> → tách thành PRD riêng với giá và cấu hình chính xác của máy đó.
->
-> 🔴 **Trong 79 máy gaming, chỉ 2 máy có tồn kho xác thực:**
-> - Asus TUF A15 FA506QM · Ryzen 7-5800H · 16GB · 512GB · RTX 3050Ti · 15.6" 144Hz — **16.980.000đ**, kho 5
-> - Acer Nitro 5 Tiger · i5-12500H · 16GB · 512GB · RTX 3050Ti · 15.6" 165Hz — **18.680.000đ**, kho 2
->
-> Toàn bộ Legion/Predator cao cấp (33–54 triệu) **không có tồn kho xác thực**, và một số
-> còn nằm trong nhóm "giá gốc thấp hơn giá bán" → không viết bài giảm giá cho chúng.
-> **Kết luận: gaming không phải mũi nhọn nên dồn content lúc này.**
+> ⛔ **Biến thể 512GB — 14.480.000đ (có tặng kèm bút cảm ứng): KHÔNG theo dõi kho
+> → ngoài danh sách 36 → không viết bài, không nhắc tên trong bài.** Chỉ dùng khi tư vấn inbox.
+> ⚠️ Bản 256GB trong danh sách **không** có bút — đừng viết nhầm.
 
 ---
 
@@ -313,17 +174,18 @@ Cột CSV: `id,name,vendor,type,segment,condition,warranty_tag,cpu,ram,ssd,gpu,s
 # Máy văn phòng dưới 8 triệu
 python3 -c "
 import csv
-for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-15.csv')):
+for r in csv.DictReader(open('02_products/catalog/collections/all-2026-09-20.csv')):
     if r['segment']=='Văn phòng' and int(r['price'])<8_000_000:
         print(r['price'], r['warranty_tag'], r['name'])
 "
 
-# Máy có tồn kho xác thực trong snapshot (39 dòng — TRỪ 2 máy Latitude 7480
-# chủ shop báo hết hàng → 37 máy thực sự viết bài được)
+# 36 máy được phép viết bài (danh sách trắng — luật #20)
 python3 -c "
 import csv
-for r in csv.DictReader(open('02_products/catalog/catalog-2026-09-15.csv')):
-    if r['stock_tracked']=='yes' and int(r['qty'])>0:
-        print(r['qty'], r['price'], r['name'])
+for r in csv.DictReader(open('02_products/36-may-duoc-viet-2026-09-20.csv')):
+    print(r['qty'], r['price'], r['warranty_tag'], r['name'])
 "
+
+# Kéo lại dữ liệu 3 danh mục + dựng lại danh sách (chạy mỗi tuần)
+python3 tools/collection_fetch.py
 ```
