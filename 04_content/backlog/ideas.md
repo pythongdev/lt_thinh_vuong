@@ -166,6 +166,107 @@ status: blocked
 blocked_by: "UNVERIFIED.md #3, #4, #10 — chưa rõ ship COD, phí ship, cho test trước khi trả tiền."
 ```
 
+
+---
+
+## Chương 2 series sinh viên — 5 atom, đã có draft (thêm 2026-09-21)
+
+> Cả 5 đã viết thành Content Package trong `04_content/drafts/`, kế hoạch ở
+> `05_campaigns/2026-09-28-series-sinh-vien-chuong-2.md`. **Gate 6 chưa ai ký.**
+
+```yaml
+id: FB-CH2-01
+product: none
+persona: P1
+journey: J1
+objective: O1
+pillar: CP08
+problem: "Bố mẹ em không đồng ý cho mua máy cũ, bảo mua mới cho chắc."
+angle: "Người cần được thuyết phục không phải người đọc bài — đưa cho sinh viên câu trả lời cho bố mẹ."
+hook: "Bạn chốt được máy rồi. Giờ mới đến phần khó: thuyết phục bố mẹ."
+format: post
+cta: "Gửi bài này cho bố mẹ, hoặc lưu lại."
+proof: [policies.md, company-facts.md, brand.md]
+risk: low
+priority: 8
+status: drafting
+```
+
+```yaml
+id: FB-CH2-02
+product: none
+persona: P1
+journey: J2
+objective: O2
+pillar: CP02
+problem: "Không biết nên lấy máy 13, 14 hay 15,6 inch."
+angle: "Chọn sai cỡ thì máy cấu hình tốt cỡ nào cũng bị để ở nhà — đo bằng balo, không đo bằng cân."
+hook: "Trước khi so cấu hình, có một thứ quyết định bạn có mang máy đi học thật không: cỡ màn."
+format: post
+cta: "Comment ngành học + một tuần mang máy đi mấy buổi."
+proof: [36-may-duoc-viet-2026-09-20.csv, policies.md]
+risk: low
+priority: 7.5
+status: drafting
+```
+
+```yaml
+id: FB-CH2-03
+product: PRD — Latitude 7390 2in1 16GB · 7420 vỏ carbon · 5310 2in1
+persona: P1
+journey: J3
+objective: O4
+pillar: CP01
+problem: "Em không có 13 triệu, em có 9 triệu thì mua được gì?"
+angle: "Hạ ngân sách từ 13 xuống dưới 10 triệu, thứ bạn nhường là đời chip và ổ cứng — RAM 16GB thì giữ được."
+hook: "Chưa tới 10 triệu. Nhiều bạn nghĩ tầm này là phải chấp nhận RAM 8GB."
+format: post
+cta: "Comment ngân sách chính xác + ngành đang học."
+proof: [36-may-duoc-viet-2026-09-20.csv, policies.md]
+risk: medium
+priority: 9
+status: drafting
+blocked_by: "⚠️ Gate 0 lệch: personas.md chốt P1 = 10–15tr, 36-MAY-DUOC-VIET.md gán 7–10tr cho P1. Cần chốt. Và danh sách 36 máy hết hạn 2026-09-27 → chạy collection_fetch.py."
+```
+
+```yaml
+id: FB-CH2-04
+product: PRD — Latitude 5300 2in1 (256GB & 512GB) · Latitude 9410 2in1 (256GB & 512GB)
+persona: P1
+journey: J3
+objective: O4
+pillar: CP03
+problem: "256GB có đủ cho 4 năm học không, hay thêm tiền lấy 512GB?"
+angle: "Dạy cách định giá một nâng cấp: đừng tính 'thêm 700 nghìn được 256GB', tính '700 nghìn đó mua được gì khác'."
+hook: "Cùng một chiếc máy, bản 512GB đắt hơn bản 256GB khoảng 700 nghìn. Đáng không?"
+format: post
+cta: "Comment ngành học, mình nói nên lấy 256GB hay 512GB."
+proof: [36-may-duoc-viet-2026-09-20.csv, policies.md]
+risk: medium
+priority: 9
+status: drafting
+blocked_by: "Danh sách 36 máy hết hạn 2026-09-27 → chạy collection_fetch.py. Bài đặc biệt nhạy với giá: cả lập luận dựa trên khoảng chênh ~700.000đ."
+```
+
+```yaml
+id: FB-CH2-05
+product: PRD — Dell Latitude 7400 2in1 i7-8665U | 16GB | 512GB (10.680.000đ)
+persona: P1
+journey: J4
+objective: O5
+pillar: CP05
+problem: "Muốn mua chiếc này nhưng sợ mua máy xoay gập cũ thì bản lề và màn cảm ứng hỏng."
+angle: "Review một máy có kèm một điểm yếu và một giới hạn của bảo hành — điểm chết màn hình KHÔNG thuộc diện bảo hành, nên phải soi tại quầy."
+hook: "Chiếc này bên mình có sẵn nhiều nhất. Nên mình nói cả chỗ dở của nó."
+format: post
+cta: "Nhắn tin mình kiểm tra máy còn không."
+proof: [36-may-duoc-viet-2026-09-20.csv, policies.md, 36-MAY-DUOC-VIET.md]
+risk: medium
+priority: 9.5
+status: drafting
+blocked_by: "Danh sách 36 máy hết hạn 2026-09-27. Câu 'bản lề có được bảo hành không?' chưa có đáp án (policies.md chỉ ghi main/màn/phím)."
+```
+
 ---
 
 ## Quy tắc dùng backlog

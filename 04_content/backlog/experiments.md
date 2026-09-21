@@ -95,3 +95,28 @@ note: >
 3. Chưa đủ `sample` → `status: inconclusive`, không kết luận. Một bài viral không phải bằng chứng.
 4. Thắng → viết thành `LP-###` trong `07_analytics/learned-patterns.md` với mức `confidence`.
 5. Thí nghiệm không được vi phạm gate. Không có "thử hook giật tít xem sao".
+
+---
+
+## EXP — "Một máy hay ba máy ở slot chốt tuần?" (mở 2026-09-21)
+
+**Giả thuyết:** ở slot chốt tuần cho P1 (Sinh viên / mua máy đầu tiên) với O5 (Tạo lead / đơn),
+bài review **một máy** tạo nhiều inbox hơn bài liệt kê **ba máy** — vì khách ở J4
+(Đã inbox / gọi / ghé shop) không cần thêm lựa chọn, họ cần đủ lý do để xuống tiền cho một lựa chọn.
+
+**Hai bài so trực tiếp được** (cùng persona, cùng objective, cùng format post, cách nhau 6 ngày):
+
+| | Bài A | Bài B |
+|---|---|---|
+| Bài | POST 10 — "3 chiếc dưới 13 triệu tại 71 Thiên Hiền" | FB-CH2-05 — "Dell Latitude 7400 2in1: 3 điều nên biết" |
+| Đăng | 2026-09-26 20:30 | 2026-10-02 20:30 |
+| Số máy | 3 | 1 |
+| Có nêu điểm yếu? | có, mỗi máy 1 điểm yếu | có, và thêm 1 giới hạn của bảo hành |
+
+**Chỉ số phân xử:** số inbox hỏi đúng máy trong 72h.
+**Nhiễu phải ghi nhận:** POST 10 đăng Thứ 7, FB-CH2-05 đăng Thứ 6 — khác ngày trong tuần.
+Một lần chạy **không đủ kết luận**; phải lặp ít nhất 2 lần mới được lên `learned-patterns.md`
+ở mức `medium` (quy tắc confidence của file đó).
+
+**Trạng thái:** ⬜ chờ cả hai bài đăng.
+
