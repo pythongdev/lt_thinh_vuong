@@ -29,7 +29,7 @@
 | [01-drafts/](01-drafts/) | **10 Content Package 12 thành phần** (5 bài viết + 5 video) | ✅ **đã viết 2026-09-22** · ⬜ Gate 6 chưa ký |
 | [02-approved/](02-approved/) | Bài đã qua đủ 7 gate | ⬜ trống |
 | [03-published/](03-published/) | Bài đã đăng thật | ⬜ trống |
-| [04-ban-giao/](04-ban-giao/) | [BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) — **10 khối 10 trường**, caption sẵn sàng copy | ✅ **gộp xong 2026-09-22** · ⬜ Gate 6 chưa ký · ❌ chưa chạm sheet |
+| [04-ban-giao/](04-ban-giao/) | [BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) — **10 khối 10 trường** + bản đẩy máy đọc: [day-len-sheet.gs](04-ban-giao/day-len-sheet.gs) · [2 file CSV](04-ban-giao/SHEET-TUAN-05-11-10-doc.csv) | ✅ **gộp + sinh bản đẩy 2026-09-22** · 🟡 Gate 6: người dùng đã "ok", chưa ghi `approved_by` · ❌ chưa chạm sheet (connector chỉ đọc) |
 | [05-ket-qua/](05-ket-qua/) | Số liệu sau khi đăng | ⬜ trống |
 
 ---
@@ -89,4 +89,4 @@ mỗi file có **mục 14: việc bắt buộc trong ngày đăng**, phải làm
 | 4 | **Người dùng đọc 10 draft và ký Gate 6** — chưa ký thì không chạm Google Sheet (luật #8, #18) | **Người dùng** |
 | 5 | Chạy lại `collection_fetch.py` sát ngày đăng (hạn dùng hiện tại: 2026-09-29) + gọi xác nhận kho từng sáng | Người viết content |
 | 6 | ✅ Đã gộp khối 10 trường vào [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) (2026-09-22) | Xong |
-| 7 | Sau khi ký Gate 6: chuyển 10 file sang [02-approved/](02-approved/), rồi copy-paste khối bàn giao lên sheet, `STATUS` = `CHỜ FEEDBACK` | Người phụ trách sheet |
+| 7 | Sau khi ký Gate 6: chuyển 10 file sang [02-approved/](02-approved/), rồi chạy [day-len-sheet.gs](04-ban-giao/day-len-sheet.gs) trong sheet và đánh cột `STT`, `STATUS` = `CHỜ FEEDBACK` — xem [04-ban-giao/README.md](04-ban-giao/README.md) | Người phụ trách sheet |

@@ -4,16 +4,20 @@
 > **Gộp ngày:** 2026-09-22 · **Nguồn:** 10 Content Package trong [01-drafts/](../01-drafts/)
 > **Sheet đích:** https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
 
-## 🔴 TRẠNG THÁI: CHƯA ĐƯỢC ĐẨY LÊN SHEET
+## 🟡 TRẠNG THÁI: BẢN ĐẨY ĐÃ SẴN SÀNG — SHEET VẪN CHƯA ĐƯỢC CHẠM
 
 | | |
 |---|---|
 | Gate 0–5 | ✅ đã chạy trên cả 10 bài (xem header từng file draft) |
-| **Gate 6 — người ký** | ⬜ **CHƯA CÓ AI KÝ** |
-| Đã chạm sheet chưa | ❌ **chưa**, đúng luật #18 (local trước, sheet sau) |
+| **Gate 6 — người ký** | 🟡 người dùng nói "ok" trong chat **2026-09-22** · chưa ghi `approved_by` vào 10 file draft |
+| Bản đẩy lên sheet | ✅ sinh 2026-09-22: [day-len-sheet.gs](day-len-sheet.gs) · [SHEET-TUAN-05-11-10-doc.csv](SHEET-TUAN-05-11-10-doc.csv) · [SHEET-TUAN-05-11-10-ngang.csv](SHEET-TUAN-05-11-10-ngang.csv) |
+| Đã chạm sheet chưa | ❌ **chưa** — connector Google Drive chỉ đọc, không ghi được ô |
 
-File này là **bước 3** của quy trình 5 bước. Bước 4 là người dùng đọc và nói "ok".
-Chỉ sau khi có "ok" mới copy sang sheet, `STATUS` = `CHỜ FEEDBACK`.
+**Chỉ được coi là "đã lên sheet"** sau khi người phụ trách chạy Apps Script (hoặc nhập CSV)
+và nhìn thấy khối nằm trong sheet. Cách làm: [README.md](README.md).
+
+Sinh lại 3 file máy đọc sau khi sửa file này:
+`python3 tools/ban_giao_to_sheet.py 05_campaigns/2026-10-05-chuong-3-van-phong-15-18-trieu/04-ban-giao/BAN-GIAO-TUAN-05-11-10.md`
 
 ---
 
@@ -844,8 +848,10 @@ Nội dung đầy đủ nằm ở mục 9 của từng file draft. Bài nào có
 | 1 | **Đọc 10 bài và ký Gate 6** — ghi `approved_by` + `approved_at` vào header từng file draft | **Người dùng / chủ shop** |
 | 2 | Chạy lại `python3 tools/collection_fetch.py` sát ngày đăng — danh sách 36 máy hạn **2026-09-29** | Người viết content |
 | 3 | Sau khi ký: chuyển 10 file từ `01-drafts/` sang `02-approved/` | Người viết content |
-| 4 | Copy 10 khối trên vào sheet, `STATUS` = `CHỜ FEEDBACK` | Người phụ trách sheet |
+| 4 | Chạy [day-len-sheet.gs](day-len-sheet.gs) trong sheet (hoặc nhập [SHEET-TUAN-05-11-10-doc.csv](SHEET-TUAN-05-11-10-doc.csv)), rồi **đánh cột `STT`** nối tiếp số POST tháng 10 | Người phụ trách sheet |
 | 5 | Mỗi sáng ngày đăng: gọi xác nhận kho theo mục 14 của 4 bài có giá | Người phụ trách bán hàng |
 
-> ⚠️ **Connector Google Drive hiện tại chỉ đọc, không ghi được ô.** Bước 4 làm bằng copy-paste tay,
-> hoặc nối connector Google Sheets có quyền ghi. Chưa dán tay thì **chưa được coi là đã lên sheet**.
+> ⚠️ **Connector Google Drive hiện tại chỉ đọc, không ghi được ô** — hệ thống không tự đẩy lên sheet được.
+> Bước 4 chạy bằng tay theo [README.md](README.md): Apps Script (nhanh nhất) · nhập CSV · hoặc dán tay.
+> Sheet đang mở quyền **ai có link cũng sửa được** (kiểm 2026-09-22) nên chạy script được ngay.
+> Chưa chạy xong thì **chưa được coi là đã lên sheet**.
