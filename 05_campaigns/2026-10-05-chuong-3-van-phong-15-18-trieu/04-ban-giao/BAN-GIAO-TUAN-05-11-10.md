@@ -1,0 +1,851 @@
+# Bàn giao Google Sheet — Chương 3, tuần 05–11/10/2026
+
+> **Chiến dịch:** [Dân văn phòng 15–19 triệu](../INDEX.md) · **Persona:** P2 (Nhân viên văn phòng)
+> **Gộp ngày:** 2026-09-22 · **Nguồn:** 10 Content Package trong [01-drafts/](../01-drafts/)
+> **Sheet đích:** https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
+
+## 🔴 TRẠNG THÁI: CHƯA ĐƯỢC ĐẨY LÊN SHEET
+
+| | |
+|---|---|
+| Gate 0–5 | ✅ đã chạy trên cả 10 bài (xem header từng file draft) |
+| **Gate 6 — người ký** | ⬜ **CHƯA CÓ AI KÝ** |
+| Đã chạm sheet chưa | ❌ **chưa**, đúng luật #18 (local trước, sheet sau) |
+
+File này là **bước 3** của quy trình 5 bước. Bước 4 là người dùng đọc và nói "ok".
+Chỉ sau khi có "ok" mới copy sang sheet, `STATUS` = `CHỜ FEEDBACK`.
+
+---
+
+## 0. Lịch tuần — 10 nội dung
+
+| # | Ngày | Giờ | Dạng | Tên bài | Tuyến ND | Rủi ro |
+|---|---|---|---|---|---|---|
+| 1 | T2 05-10 | 12:15 | Reels | Gập màn ra sau để làm gì | Giáo dục | thấp |
+| 2 | T2 05-10 | 20:30 | post | Máy đơ lúc chia sẻ màn hình | Giáo dục | thấp |
+| 3 | T3 06-10 | 12:15 | Reels | 30 giây soi màn hình | Trust SP / Review SP | vừa |
+| 4 | T4 07-10 | 20:30 | Bộ ảnh | Phiếu đi xem máy — 5 thứ phải soi | Trust SP / Review SP | vừa |
+| 5 | T5 08-10 | 12:15 | Reels | 3 động tác thử bản lề | Trust SP / Review SP | vừa |
+| 6 | T5 08-10 | 20:30 | post | 17 triệu: mới hay đã qua sử dụng | Sản phẩm | vừa — **có giá** |
+| 7 | T6 09-10 | 12:15 | Reels | Hai chiếc 17 triệu đặt cạnh nhau | Sản phẩm | vừa — **có giá** |
+| 8 | T6 09-10 | 20:30 | post | Cùng XPS gập xoay, chênh 2,1 triệu | Sản phẩm | vừa — **có giá** |
+| 9 | T7 10-10 | 12:15 | Reels | Vệ sinh + tra keo miễn phí trọn đời | Trust thương hiệu | thấp |
+| 10 | T7 10-10 | 20:30 | post | 4 máy 15–19 triệu cho dân văn phòng | Sản phẩm | 🔴 **cao** |
+
+**CN 11/10:** không đăng bài mới — trực comment và inbox cả ngày.
+
+> ⚠️ **Cột `STT`**: file này để trống. Người đẩy lên sheet đánh số tiếp theo số `POST` đang chạy
+> trong sheet tháng 10, không tự đặt số mới.
+
+---
+
+## 1 · T2 05-10 · 12:15 — Reels "Gập màn ra sau để làm gì"
+
+📄 Bản đầy đủ: [2026-10-05-video-01-gap-man-ra-sau.md](../01-drafts/2026-10-05-video-01-gap-man-ra-sau.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 05-10 (Thứ 2) · 12:15 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Giáo dục |
+| **TITLE** | Gập màn ra sau để làm gì · P2 (Nhân viên văn phòng) · J1 (Đã thấy shop) · O1 (Tiếp cận) · CP02 (Kiến thức) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Một cái máy, bốn cách đặt nó xuống.
+
+Ngồi bàn mình thì nó là cái laptop bình thường.
+
+Vào phòng họp chật, bàn chỉ rộng 40 phân — gập bàn phím xuống, màn vẫn đứng, vẫn nhìn được.
+
+Đọc một file dài 40 trang — gập phẳng ra sau, cầm hai tay, vuốt bằng ngón tay thay vì lăn chuột.
+
+Và cái tư thế mà dân đi làm cần nhất: xoay màn về phía người ngồi đối diện, đưa qua bàn cho khách xem, ký luôn trên màn. Không phải in ra, không phải chuyền qua chuyền lại.
+
+Dòng máy này gọi là 2in1 — máy gập xoay. Nó không chạy nhanh hơn máy thường cùng cấu hình. Nó chỉ cho bạn đặt nó xuống theo cách khác.
+
+👉 Bạn làm nghề gì, một ngày phải ngồi làm việc ở mấy chỗ? Comment mình đọc với.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptop2in1 #laptopvanphong #laptopxoaygap #danvanphong #laptopthinhvuong
+```
+
+**BRIEF ẢNH (brief quay):**
+- Quay dọc 9:16 · 1080×1920 · quay tại 71 Thiên Hiền.
+- Máy quay: Dell XPS 9310 2in1 bản 256GB **hoặc** Dell Latitude 9430 2in1 bản i7 16GB.
+- 4 cảnh = 4 tư thế đặt máy. Cảnh 4 (xoay màn qua bàn cho người đối diện xem) là cảnh chính — bàn có hai ghế, có người thứ hai ngồi đối diện, dành nhiều đất nhất cho cảnh này.
+- Bàn làm việc thật (có cốc, sổ), không dọn sạch trơn. Ánh sáng đều, không đèn màu, không hiệu ứng chuyển cảnh.
+- Thumbnail: màn đang gập dở ra sau ~270°, chữ 2 dòng `GẬP RA SAU` / `ĐỂ LÀM GÌ?`
+- ⛔ Không ghi giá · không ghi tên máy · không quay màn đang chạy phần mềm để ngụ ý tốc độ · không dùng video của hãng.
+
+---
+
+## 2 · T2 05-10 · 20:30 — post "Máy đơ lúc chia sẻ màn hình"
+
+📄 Bản đầy đủ: [2026-10-05-post-01-may-do-luc-chia-se-man-hinh.md](../01-drafts/2026-10-05-post-01-may-do-luc-chia-se-man-hinh.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 05-10 (Thứ 2) · 20:30 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | post |
+| **TUYẾN ND** | Giáo dục |
+| **TITLE** | Máy đơ lúc chia sẻ màn hình · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP02 (Kiến thức) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Đang chia sẻ màn hình cho sếp thì máy đứng hình. Ba giây đó dài hơn cả buổi họp.
+
+Chuyện này hay bị đổ cho con chip. Kiểu "máy em i5 nên yếu". Nhưng với việc văn phòng thì phần lớn không phải lỗi ở đó.
+
+🔹 Thử nhìn lại một buổi chiều bình thường của bạn
+
+Một file bảng tính nhiều sheet đang mở. Phần mềm họp online đang chạy. Trình duyệt đang mở phần mềm nội bộ của công ty. Bộ gõ tiếng Việt. Và mấy thứ công ty cài sẵn vào máy tự chạy nền mà bạn không bật bao giờ.
+
+Bạn không làm gì nặng cả. Bạn chỉ đang bắt cái máy nhớ nhiều thứ cùng một lúc.
+
+🔹 Chỗ nghẽn nằm ở đâu
+
+RAM là chỗ máy đặt tạm những thứ đang mở. Hết chỗ đặt, máy phải cất bớt xuống ổ cứng rồi lúc cần lại lôi lên — và đúng lúc lôi lên là lúc bạn ngồi nhìn con trỏ quay.
+
+Nên với việc văn phòng, thứ tự nên nhìn là:
+
+1️⃣ RAM — 16GB là mức để mở nhiều thứ cùng lúc mà không phải đóng bớt
+2️⃣ Ổ SSD — máy khởi động và mở file bằng ổ này
+3️⃣ Màn hình — thứ bạn nhìn 8 tiếng mỗi ngày, nhưng lại hay bị xét cuối cùng
+
+Con chip tụt xuống hàng thứ tư. Nó quan trọng với người dựng phim, render bản vẽ. Với bảng tính và họp online thì nó hiếm khi là chỗ nghẽn.
+
+🔹 Nói cho sòng phẳng
+
+Đây không phải lời hứa máy sẽ chạy nhanh. Không ai đo được giúp bạn điều đó, và bên mình cũng không đo.
+
+Nó chỉ là: nhiều chỗ nhớ thì mở được nhiều thứ cùng lúc mà không phải đóng bớt. Có thế thôi. Nhưng "không phải đóng bớt" mới là thứ bạn cần trong một ngày làm việc, chứ không phải một con số nào cả.
+
+🔹 Và một điều ít người nói ra
+
+Cái máy bạn làm việc 8 tiếng mỗi ngày là công cụ để làm việc cho công ty. Nhưng tiền mua nó thì là tiền túi mình.
+
+Nên nếu phải bỏ ra hơn một tháng lương, ít nhất hãy bỏ đúng chỗ.
+
+👉 Bạn làm nghề gì, một ngày thường mở những gì cùng lúc? Comment mình đọc — mình đang gom lại để viết tiếp cho đúng việc của mọi người.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopvanphong #laptopcu #ram16gb #kinhnghiemmualaptop #laptopthinhvuong
+```
+
+**BRIEF ẢNH:**
+- Tỉ lệ 1:1 · **1 ảnh** · 1080×1080px, dưới 1MB.
+- Bàn làm việc văn phòng thật: máy mở, cạnh có cốc cà phê, sổ tay, dây sạc. Góc chụp chéo từ sau vai, thấy màn đang mở nhiều cửa sổ chồng nhau. Không dọn bàn sạch trơn.
+- Text trên ảnh (3 dòng): `MÁY Ì KHI MỞ NHIỀU THỨ CÙNG LÚC` / `phần lớn không phải lỗi con chip` / `RAM → ổ SSD → màn hình`
+- Logo Thịnh Vượng góc trái trên.
+- ⛔ Không ghi giá · không ghi tên máy · không ghi "ưu đãi" · **không chụp Task Manager hay bất kỳ số đo hiệu năng nào** (shop chưa đo) · không dùng ảnh stock người ôm đầu.
+
+---
+
+## 3 · T3 06-10 · 12:15 — Reels "30 giây soi màn hình"
+
+📄 Bản đầy đủ: [2026-10-06-video-02-soi-diem-chet.md](../01-drafts/2026-10-06-video-02-soi-diem-chet.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 06-10 (Thứ 3) · 12:15 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Trust SP / Review SP |
+| **TITLE** | 30 giây soi màn hình · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Có một lỗi màn hình mà bên mình ghi thẳng trong chính sách là không bảo hành: điểm chết.
+
+Nói ra thì bất lợi cho người bán. Nhưng giấu đi thì bất lợi cho bạn, nên mình nói trước.
+
+🔹 Điểm chết là gì
+
+Là một điểm trên màn không còn hiển thị đúng nữa — nhìn như một hạt đen li ti, hoặc một hạt sáng nằm im một chỗ. Nó không lan, không sửa được bằng phần mềm, và thay màn thì tốn.
+
+🔹 Cách soi, mất 30 giây
+
+1️⃣ Mở một ảnh trắng kín màn hình, tắt bớt đèn phòng. Rà mắt từ góc trái trên sang góc phải dưới. Điểm đen lạ sẽ lộ ra trên nền trắng.
+
+2️⃣ Đổi sang một ảnh đen kín màn. Lần này tìm điểm sáng — có những điểm chỉ lộ trên nền đen.
+
+Hai lượt là đủ. Làm ngay tại quầy, lúc máy còn nằm trước mặt bạn — đừng để mang về nhà mới phát hiện.
+
+🔹 Vì sao mình dạy bạn cách soi thay vì hứa máy không có lỗi
+
+Vì không ai kiểm được hết từng điểm ảnh trên từng chiếc máy, và bên mình cũng vậy. Thứ bên mình làm được là nói cho bạn biết chỗ cần nhìn, và để bạn tự nhìn.
+
+Soi xong vẫn chưa yên tâm thì trong 15 ngày, máy có lỗi bên mình đổi sang máy khác miễn phí.
+
+👉 Lưu lại. Hôm đi xem máy mở ra làm theo — kể cả khi bạn mua ở chỗ khác.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#kiemtralaptop #laptopcu #diemchetmanhinh #laptopvanphong #laptopthinhvuong
+```
+
+**BRIEF ẢNH (brief quay):**
+- Quay dọc 9:16 · 1080×1920 · quay tại quầy 71 Thiên Hiền.
+- Máy quay: một máy trong danh sách 36. ⛔ **Không nêu tên máy trong video** — đây là nội dung quy trình kiểm tra, không bán máy.
+- Phòng tắt bớt đèn, không để đèn trần hắt lên mặt kính. Quay màn chính diện (tránh vân moiré). Cảnh rà mắt di chuyển chậm và đều. Không cần mặt người nói — bàn tay + màn hình là đủ.
+- Thumbnail: nửa khung màn trắng, nửa khung màn đen, cắt dọc giữa. Chữ 2 dòng `30 GIÂY SOI MÀN HÌNH` / `trước khi trả tiền`.
+- ⛔ **Không dàn dựng máy có điểm chết rồi quay.** Không tìm được máy lỗi thật thì quay màn sạch và nói rõ "màn này sạch" — không giả vờ tìm ra lỗi. Không chèn ảnh điểm chết lấy trên mạng.
+
+⚠️ **Gate 6 lưu ý riêng:** bài này tự nêu một điều bất lợi của shop (điểm chết không được bảo hành). Người ký cần đọc kỹ và đồng ý với việc nói thẳng điều đó.
+
+---
+
+## 4 · T4 07-10 · 20:30 — Bộ ảnh "Phiếu đi xem máy — 5 thứ phải soi"
+
+📄 Bản đầy đủ: [2026-10-07-post-02-phieu-di-xem-may.md](../01-drafts/2026-10-07-post-02-phieu-di-xem-may.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 07-10 (Thứ 4) · 20:30 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | Bộ ảnh |
+| **TUYẾN ND** | Trust SP / Review SP |
+| **TITLE** | Phiếu đi xem máy — 5 thứ phải soi · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Bạn chỉ có một buổi tối rảnh trong tuần. Đừng dùng nó để đi xem máy rồi đứng đó không biết nhìn cái gì.
+
+Đây là 5 việc nên làm trong 20 phút ở cửa hàng — dành riêng cho dòng máy gập xoay đã qua sử dụng. Lưu lại, hôm đi mở ra làm theo. Kể cả khi bạn mua ở chỗ khác.
+
+1️⃣ BẢN LỀ
+
+Xoay màn thật chậm, đi hết hành trình từ lúc đóng đến lúc gập hẳn ra sau. Nghe xem có tiếng lạo xạo, có chỗ nào khựng lại không.
+
+Rồi thả tay ra khi màn đang ở khoảng nửa chừng. Màn phải đứng yên tại chỗ. Nếu nó từ từ trôi xuống thì bản lề đã rơ.
+
+2️⃣ MÀN CẢM ỨNG
+
+Mở một ứng dụng vẽ bất kỳ. Đặt ngón tay xuống và kéo MỘT nét liền — đi qua bốn góc màn hình rồi vòng qua giữa màn.
+
+Nét phải liền một mạch. Chỗ nào nét đứt quãng là chỗ đó cảm ứng không ăn.
+
+3️⃣ ĐIỂM CHẾT
+
+Mở ảnh trắng kín màn, tắt bớt đèn, rà mắt từ góc này sang góc kia tìm điểm đen lạ. Rồi đổi ảnh đen kín màn, tìm điểm sáng.
+
+Nói trước cho bạn biết: điểm chết nằm trong diện KHÔNG bảo hành — bên mình ghi rõ như vậy trong chính sách. Nên đây là thứ phải soi tại quầy, không phải mang về nhà mới xem.
+
+4️⃣ KHE TẢN NHIỆT
+
+Lật máy lên, nhìn vào khe thoát gió. Bụi đóng thành mảng dày là máy đã lâu chưa được vệ sinh bên trong.
+
+Cái này không phải lỗi nặng, nhưng nó cho bạn biết chiếc máy đó được chăm thế nào.
+
+5️⃣ BÀN PHÍM KHI ĐÃ GẬP RA SAU
+
+Gập màn hẳn ra sau 360 độ để máy thành dạng máy tính bảng. Lúc này bàn phím phải tự khoá — bạn bấm vào phím cũng không ăn.
+
+Nếu nó vẫn nhận phím thì mỗi lần bạn cầm máy đọc tài liệu là mỗi lần gõ nhầm.
+
+📞 VÀ MỘT VIỆC LÀM TRƯỚC KHI ĐI
+
+Gọi 0928939666 hỏi chiếc bạn định xem còn hay hết, trước khi mất một buổi tối đi lại. Số này nghe máy từ 8h đến 20h30.
+
+👉 Lưu lại. Gửi cho đứa bạn cùng phòng đang định đổi máy.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#kiemtralaptop #laptop2in1 #laptopcu #laptopvanphong #laptopthinhvuong
+```
+
+**BRIEF ẢNH:**
+- Tỉ lệ 1:1 · **6 ảnh** · 1080×1080px mỗi ảnh, mỗi ảnh dưới 1MB. Chụp máy thật tại 71 Thiên Hiền, máy nằm trong danh sách 36. ⛔ Không nêu tên máy trên ảnh.
+
+| Ảnh | Hình | Chữ trên ảnh |
+|---|---|---|
+| 1 — bìa | Máy gập xoay trên quầy, cạnh là điện thoại đang mở bài này | `20 PHÚT Ở CỬA HÀNG` / `làm đúng 5 việc này` |
+| 2 — bản lề | Bàn tay thả khỏi màn đang mở nửa chừng, mũi tên chỉ xuống | `1. BẢN LỀ` / `thả tay ra — màn phải đứng yên` |
+| 3 — cảm ứng | Màn có một nét vẽ liền đi qua 4 góc và giữa màn | `2. MÀN CẢM ỨNG` / `vẽ một nét liền, xem có đứt quãng không` |
+| 4 — điểm chết | Nửa ảnh màn trắng, nửa ảnh màn đen | `3. ĐIỂM CHẾT` / `điểm chết KHÔNG nằm trong bảo hành` |
+| 5 — khe tản nhiệt | Lật máy, cận cảnh khe thoát gió | `4. KHE TẢN NHIỆT` / `bụi đóng mảng = lâu chưa vệ sinh` |
+| 6 — bàn phím khi gập | Máy gập 360°, ngón tay bấm phím, phím không ăn | `5. BÀN PHÍM KHI GẬP` / `phải tự khoá` |
+
+- Ảnh 6 chèn thêm ở chân ảnh: `📞 0928939666 (8h–20h30) — gọi hỏi máy còn không trước khi đi` và `📍 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm`.
+- Logo Thịnh Vượng góc trái trên ở ảnh 1 và ảnh 6.
+- ⛔ Không ghi giá / tên máy / "ưu đãi" lên bất kỳ ảnh nào · **không ghi giờ mở cửa cửa hàng** (8h–20h30 là giờ tổng đài, chỉ dùng cho câu "gọi số này") · không dùng ảnh tải trên mạng kể cả ảnh điểm chết.
+
+---
+
+## 5 · T5 08-10 · 12:15 — Reels "3 động tác thử bản lề"
+
+📄 Bản đầy đủ: [2026-10-08-video-03-ba-dong-tac-thu-ban-le.md](../01-drafts/2026-10-08-video-03-ba-dong-tac-thu-ban-le.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 08-10 (Thứ 5) · 12:15 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Trust SP / Review SP |
+| **TITLE** | 3 động tác thử bản lề · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Mua máy gập xoay đã qua sử dụng, thứ đáng lo nhất không phải con chip. Là cái bản lề.
+
+Bản lề của dòng gập xoay phải đi hết 360 độ, mở ra gập vào nhiều lần hơn hẳn máy thường. Nên trước khi trả tiền, thử ba động tác này. Mất khoảng mười lăm giây.
+
+1️⃣ XOAY CHẬM HẾT HÀNH TRÌNH
+
+Từ lúc đóng máy, mở ra, rồi gập hẳn ra phía sau. Đi thật chậm, một lượt.
+
+Nghe xem có tiếng lạo xạo không. Nhìn xem có chỗ nào khựng lại, hoặc phải dùng thêm lực mới qua được không.
+
+2️⃣ THẢ TAY GIỮA CHỪNG
+
+Dừng màn ở khoảng nửa chừng rồi buông cả hai tay ra. Đếm đến ba.
+
+Màn phải đứng yên tại chỗ. Nếu nó từ từ trôi xuống thì bản lề đã rơ — và mỗi lần bạn gõ phím mạnh tay sau này, màn sẽ rung.
+
+3️⃣ GẬP HẲN RA SAU RỒI BẤM THỬ PHÍM
+
+Gập 360 độ cho máy thành dạng máy tính bảng. Lúc này bàn phím phải tự khoá, bấm vào không ăn.
+
+Nếu nó vẫn nhận phím thì mỗi lần bạn cầm máy lên đọc tài liệu là mỗi lần gõ nhầm vào file.
+
+🔹 Vì sao bên mình chỉ bạn cách soi thay vì hứa
+
+Vì bản lề là thứ phải cầm mới biết, không ai nói hộ được qua màn hình điện thoại. Bạn ra soi trực tiếp, thấy không ổn thì thôi — mình không giữ.
+
+Và nếu mua rồi mới thấy máy có lỗi, trong 15 ngày bên mình đổi sang máy khác miễn phí.
+
+👉 Lưu lại để hôm đi xem máy lấy ra làm.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptop2in1 #kiemtralaptop #laptopxoaygap #laptopvanphong #laptopthinhvuong
+```
+
+**BRIEF ẢNH (brief quay):**
+- Quay dọc 9:16 · 1080×1920 · quay tại quầy 71 Thiên Hiền. Máy quay: một máy gập xoay trong danh sách 36. ⛔ Không nêu tên máy trong video.
+- Đặt máy ngang tầm mắt người xem, quay từ bên hông để thấy rõ khớp bản lề. Động tác 1 quay cận khớp, tốc độ thật, không tua nhanh. **Động tác 2 giữ khung hình đủ 3 giây sau khi thả tay** — đây là khoảnh khắc chứng minh, cắt sớm là hỏng. Nền yên tĩnh, thu được tiếng bản lề.
+- Thumbnail: bàn tay vừa rời khỏi màn, màn nghiêng ~100°, mũi tên cong chỉ xuống. Chữ 2 dòng `THẢ TAY RA` / `MÀN CÓ TRÔI KHÔNG?`
+- ⛔ **Không quay máy bản lề hỏng rồi nói đó là máy shop đang bán.** Cần minh hoạ cảnh "màn trôi xuống" mà không có máy lỗi thật thì giữ tay cho màn hạ xuống và **ghi rõ trên màn: "minh hoạ"**. Không ghi giá, không ghi tên máy, không dùng video của hãng.
+
+---
+
+## 6 · T5 08-10 · 20:30 — post "17 triệu: mới hay đã qua sử dụng" 💰
+
+📄 Bản đầy đủ: [2026-10-08-post-03-17-trieu-moi-hay-da-qua-su-dung.md](../01-drafts/2026-10-08-post-03-17-trieu-moi-hay-da-qua-su-dung.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 08-10 (Thứ 5) · 20:30 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | post |
+| **TUYẾN ND** | Sản phẩm |
+| **TITLE** | 17 triệu: mới hay đã qua sử dụng · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+"17 triệu thì nên lấy máy mới, hay máy cao cấp đã qua sử dụng?" — tuần nào cũng có người hỏi.
+
+May là bên mình đang có cả hai, đứng cạnh nhau trên cùng một cái kệ. Nên bài này không nhằm bán cho bạn cái nào. Chỉ bóc ra xem mỗi bên đổi gì lấy gì.
+
+🔹 BÊN MÁY MỚI — Asus Vivobook S 14, 16.980.000đ
+
+Mới 100%, chưa qua tay ai.
+Chip Core Ultra 5 226V · RAM 16GB DDR5 · ổ 512GB · màn 14 inch FHD+ OLED.
+Bảo hành 12 tháng.
+
+🔹 BÊN MÁY ĐÃ QUA SỬ DỤNG — Dell XPS 9310 2in1 bản 256GB, 17.980.000đ
+
+Máy likenew, dòng cao cấp của Dell.
+Chip i7-1165G7 · RAM 16GB · ổ 256GB · màn 13 inch FHD+ cảm ứng, gập xoay 360 độ.
+Bảo hành 6 tháng cho bo mạch – màn hình – bàn phím, pin 3 tháng.
+
+🔹 NÓI PHẦN BẤT LỢI CỦA MÌNH TRƯỚC
+
+Chiếc đã qua sử dụng dùng con chip đời cũ hơn chiếc mới. Đây là chuyện có thật với mọi máy cũ, ở mọi cửa hàng, và bạn nên biết trước khi thích máy chứ không phải sau.
+
+Ngoài ra chiếc mới còn hơn ở hai chỗ nữa: bảo hành dài gấp đôi (12 tháng so với 6 tháng), và ổ cứng gấp đôi (512GB so với 256GB).
+
+🔹 VẬY CHIẾC ĐÃ QUA SỬ DỤNG HƠN Ở ĐÂU
+
+Ở chỗ nó gập xoay được. Gập màn ra sau thành dạng máy tính bảng, xoay qua bàn cho khách xem và ký trực tiếp lên màn — chiếc máy mới kia không làm được việc đó.
+
+Và ở chỗ nó là dòng cao cấp của Dell, cái dòng vốn sinh ra để bỏ balo đi lại trong ngày.
+
+🔹 AI HỢP BÊN NÀO
+
+Bạn ngồi cố định một bàn, lưu nhiều tài liệu trong máy, và muốn thời gian bảo hành dài — đi hướng máy mới.
+
+Bạn chạy giữa các phòng họp, hay đưa máy cho người khác xem, cần cầm máy đọc tài liệu dài — đi hướng máy gập xoay.
+
+Không có chiếc nào thắng hẳn. Có chiếc hợp với cách bạn làm việc hơn thôi.
+
+🔹 CHUNG CHO CẢ HAI
+
+Trong 15 ngày, máy có lỗi thì bên mình đổi sang máy khác miễn phí.
+Vệ sinh máy, tra keo tản nhiệt, cài Windows, cài phần mềm — miễn phí trọn đời.
+Giao hàng toàn quốc 3–5 ngày làm việc, nhận máy được kiểm tra.
+
+👉 Comment công việc chính của bạn, mình nói nên đi hướng nào.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopvanphong #laptop2in1 #dellxps #laptopcu #laptopthinhvuong
+```
+
+**BRIEF ẢNH:**
+- Tỉ lệ 1:1 · **3 ảnh** · 1080×1080px, mỗi ảnh dưới 1MB. Chụp hai máy thật tại 71 Thiên Hiền, cùng bàn, cùng nguồn sáng.
+
+| Ảnh | Hình | Chữ trên ảnh |
+|---|---|---|
+| 1 | Hai máy mở sẵn cạnh nhau, cùng ánh sáng, chính diện | `CÙNG 17 TRIỆU` / `chọn bên nào?` |
+| 2 | Chiếc Vivobook, chụp chéo thấy màn và bàn phím | `MỚI 100% · BẢO HÀNH 12 THÁNG` / `16.980.000đ` |
+| 3 | Chiếc XPS 9310 **đang gập ra sau** | `LIKENEW · GẬP XOAY CẢM ỨNG` / `17.980.000đ` |
+
+- Logo Thịnh Vượng góc trái trên ở ảnh 1.
+- ⛔ **Không ghi giá lên ảnh 1** (ảnh đầu là ảnh hiện trong feed) · **không chụp màn OLED rồi ghi chú về màu sắc** (màn người xem hiển thị khác) · không chụp số liệu hiệu năng · không dùng ảnh của hãng · không ghi "giảm giá", "ưu đãi", "sốc".
+
+🔴 **Chặn trước khi đăng — xem mục 14 của file draft.** Sáng 08/10 gọi 0928939666 đọc **đủ cấu hình** từng máy để hỏi còn hàng, **không hỏi trống "còn con 9310 không"** (web còn bản ổ 512GB 18.580.000đ và bản 512GB 4K 19.680.000đ — cả hai **không** có tồn kho xác thực). Hết chiếc Vivobook → bài mất đối trọng máy mới → **hoãn bài**, không thay máy khác.
+
+---
+
+## 7 · T6 09-10 · 12:15 — Reels "Hai chiếc 17 triệu đặt cạnh nhau" 💰
+
+📄 Bản đầy đủ: [2026-10-09-video-04-hai-chiec-17-trieu.md](../01-drafts/2026-10-09-video-04-hai-chiec-17-trieu.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 09-10 (Thứ 6) · 12:15 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Sản phẩm |
+| **TITLE** | Hai chiếc 17 triệu đặt cạnh nhau · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Cùng khoảng 17 triệu, bên mình đang có hai chiếc nằm cạnh nhau trên kệ. Bán cả hai, nên không bênh bên nào.
+
+🔹 Asus Vivobook S 14 — 16.980.000đ
+Mới 100% · Core Ultra 5 226V · RAM 16GB DDR5 · ổ 512GB · màn 14 inch FHD+ OLED · bảo hành 12 tháng.
+
+🔹 Dell XPS 9310 2in1 bản ổ 256GB — 17.980.000đ
+Likenew, dòng cao cấp của Dell · i7-1165G7 · RAM 16GB · ổ 256GB · màn 13 inch FHD+ cảm ứng, gập xoay 360 độ · bảo hành 6 tháng bo mạch – màn hình – bàn phím, pin 3 tháng.
+
+Nói phần bất lợi trước: chiếc đã qua sử dụng dùng con chip đời cũ hơn, ổ nhỏ hơn một nửa, và bảo hành ngắn hơn một nửa.
+
+Đổi lại, nó gập xoay được — gập màn ra sau, xoay qua bàn cho khách xem và ký trực tiếp lên màn. Chiếc máy mới kia không làm được việc đó.
+
+Nên câu hỏi không phải "cái nào tốt hơn". Là "một ngày làm việc của bạn trông thế nào".
+
+Chung cho cả hai: trong 15 ngày máy lỗi thì đổi sang máy khác miễn phí. Vệ sinh, tra keo tản nhiệt, cài Windows, cài phần mềm miễn phí trọn đời.
+
+👉 Comment công việc của bạn, mình nói nên đi bên nào.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopvanphong #laptop2in1 #dellxps #asusvivobook #laptopthinhvuong
+```
+
+**BRIEF ẢNH (brief quay):**
+- Quay dọc 9:16 · 1080×1920 · quay tại 71 Thiên Hiền.
+- **Hai máy thật, cùng một bàn, cùng một nguồn sáng** — bắt buộc. Máy nào gần đèn hơn là máy đó "trông ngon hơn", đó là so sánh gian lận.
+- Bố cục cố định: **Vivobook bên trái, XPS 9310 bên phải** suốt cả video, không đảo. Cảnh gập máy ra sau (giây 19–26) là cảnh chính, quay đủ chậm để thấy hết hành trình. Máy quay ngang tầm bàn, không quay từ trên xuống.
+- Thumbnail: hai máy cạnh nhau chính diện, chiếc bên phải đang gập dở ra sau. Chữ 2 dòng `CÙNG 17 TRIỆU` / `CHỌN BÊN NÀO?` ⛔ Không ghi giá lên thumbnail.
+- ⛔ Không quay cận màn OLED để người xem so màu · không quay màn đang chạy phần mềm để ngụ ý tốc độ · không ghi "giảm giá", "ưu đãi", "sốc" · không dùng video của hãng.
+
+🔴 **Chặn trước khi đăng:** sáng 09/10 gọi 0928939666 đọc đủ cấu hình cả hai máy, chiếc XPS 9310 phải hỏi rõ **bản ổ 256GB**. Hết một trong hai → **hoãn**, không thay máy khác. Video quay trước nhưng **giá hiện trên màn phải khớp ngày đăng** — giá đổi thì dựng lại phần chữ.
+
+---
+
+## 8 · T6 09-10 · 20:30 — post "Cùng XPS gập xoay, chênh 2,1 triệu" 💰
+
+📄 Bản đầy đủ: [2026-10-09-post-04-cung-xps-chenh-2-1-trieu.md](../01-drafts/2026-10-09-post-04-cung-xps-chenh-2-1-trieu.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 09-10 (Thứ 6) · 20:30 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | post |
+| **TUYẾN ND** | Sản phẩm |
+| **TITLE** | Cùng XPS gập xoay, chênh 2,1 triệu · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Hai chiếc Dell XPS gập xoay đang nằm cạnh nhau trên kệ. Chênh nhau 2.100.000đ. Có người hỏi thật, nên mình trả lời thật: tiền đó mua cái gì.
+
+🔹 GIỐNG NHAU TRƯỚC ĐÃ — và giống nhiều hơn bạn tưởng
+
+Cùng RAM 16GB.
+Cùng ổ 256GB.
+Cùng là máy gập xoay 360 độ, màn cảm ứng.
+Cùng bảo hành 6 tháng cho bo mạch – màn hình – bàn phím, pin 3 tháng.
+
+Nên khoản chênh 2,1 triệu không mua cho bạn nhiều thứ như cái giá của nó gợi ra.
+
+🔹 KHÁC NHAU ĐÚNG HAI CHỖ
+
+• Dell XPS 7390 2in1 — 15.880.000đ
+Máy cũ · i7-1065G7 · màn 13,3 inch FHD cảm ứng
+
+• Dell XPS 9310 2in1 bản ổ 256GB — 17.980.000đ
+Máy likenew · i7-1165G7 · màn 13 inch FHD+ cảm ứng
+
+Một đời chip. Và một mức màn — FHD so với FHD+.
+
+Đó là toàn bộ 2.100.000đ. Không có thứ gì khác giấu bên trong.
+
+🔹 MỘT CHỖ MÌNH KHÔNG TẢ HỘ BẠN ĐƯỢC
+
+Trên web bên mình, chiếc rẻ hơn xếp ở nhóm máy cũ, chiếc kia xếp ở nhóm likenew.
+
+Ngoại hình hai nhóm đó khác nhau thế nào thì bài viết không tả thay bạn được, và mình cũng không muốn tả thay. Cái đó phải nhìn tận mắt, sờ tận tay. Ra 71 Thiên Hiền mở cả hai chiếc ra đặt cạnh nhau là rõ trong ba mươi giây.
+
+🔹 AI HỢP BẢN NÀO
+
+Ngân sách chặt, thứ bạn cần là đúng cái dáng máy gập xoay để đi họp và đưa cho khách xem — lấy bản 15.880.000đ. Hai thứ chênh lệch kia không đổi được cách bạn làm việc.
+
+Nhìn màn nhiều giờ mỗi ngày, làm việc với chữ và bảng số suốt ngày, muốn đời chip mới hơn một bậc — lấy bản 17.980.000đ.
+
+🔹 CHUNG CHO CẢ HAI
+
+Trong 15 ngày máy có lỗi thì bên mình đổi sang máy khác miễn phí.
+Vệ sinh, tra keo tản nhiệt, cài Windows, cài phần mềm — miễn phí trọn đời.
+Giao hàng toàn quốc 3–5 ngày làm việc, nhận máy được kiểm tra.
+
+👉 Comment công việc của bạn và có cần màn cảm ứng hay không, mình chốt giúp.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#dellxps #laptop2in1 #laptopvanphong #laptopcu #laptopthinhvuong
+```
+
+**BRIEF ẢNH:**
+- Tỉ lệ 1:1 · **3 ảnh** · 1080×1080px, mỗi ảnh dưới 1MB. Hai máy thật tại 71 Thiên Hiền, cùng bàn, cùng nguồn sáng.
+
+| Ảnh | Hình | Chữ trên ảnh |
+|---|---|---|
+| 1 | Hai chiếc XPS mở cạnh nhau, chính diện, **cả hai gập dở ra sau cùng một góc** | `CÙNG LÀ DELL XPS GẬP XOAY` / `chênh 2,1 triệu` |
+| 2 | Bảng đối chiếu trên nền ảnh máy: hàng giống ✓, hàng khác → | `GIỐNG: RAM 16GB · ổ 256GB · gập xoay cảm ứng · bảo hành 6 tháng` / `KHÁC: đời chip · mức màn` |
+| 3 | Hai máy chụp chéo thấy rõ vỏ và bản lề | `15.880.000đ — XPS 7390` / `17.980.000đ — XPS 9310 bản 256GB` |
+
+- Logo Thịnh Vượng góc trái trên ở ảnh 1.
+- ⛔ Không ghi giá lên ảnh 1 · **không chỉnh sửa ảnh để một chiếc trông mới hơn chiếc kia** (hai máy khác nhóm tình trạng — sửa ảnh ở đây là gian lận đúng vào điều bài đang nói) · không ghi "giảm giá", "ưu đãi", "sốc" · không dùng ảnh của hãng.
+
+🔴 **Chặn trước khi đăng:** sáng 09/10 gọi 0928939666 đọc đủ cấu hình cả hai máy. **Giá đổi → phép tính 2.100.000đ trong bài sai**, phải sửa cả tiêu đề, cả thân bài, cả ảnh — đây là bài dễ hỏng nhất khi giá đổi. Máy nào hết → **hoãn bài**, không thay được.
+
+---
+
+## 9 · T7 10-10 · 12:15 — Reels "Vệ sinh + tra keo miễn phí trọn đời"
+
+📄 Bản đầy đủ: [2026-10-10-video-05-ve-sinh-tra-keo.md](../01-drafts/2026-10-10-video-05-ve-sinh-tra-keo.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 10-10 (Thứ 7) · 12:15 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Trust thương hiệu |
+| **TITLE** | Vệ sinh + tra keo miễn phí trọn đời · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O3 (Tin công ty) · CP07 (Hậu trường) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Máy dùng lâu chậm dần, nhiều người nghĩ là máy hết đời. Phần lớn thì không phải.
+
+Bên trong máy có hai chỗ xuống cấp theo thời gian mà nhìn từ ngoài không thấy:
+
+Một là bụi. Nó đóng ở quạt và ở khe thoát gió, làm gió không ra được nữa.
+
+Hai là lớp keo tản nhiệt nằm giữa con chip và khối tản nhiệt. Dùng lâu thì lớp keo đó khô lại, và nhiệt từ chip không truyền ra ngoài tốt như lúc đầu.
+
+Cả hai đều xử lý được. Không phải thay máy, không phải nâng cấp gì.
+
+🔹 Và đây là phần bên mình muốn nói
+
+Vệ sinh máy, tra keo tản nhiệt, cài Windows, cài phần mềm — bên mình làm miễn phí trọn đời cho máy mua tại shop. Không giới hạn số lần, không giới hạn thời gian.
+
+Nghĩa là ba năm nữa máy bạn nóng lên, bạn vẫn mang ra 71 Thiên Hiền được, và vẫn không mất phí.
+
+🔹 Vì sao mình kể chuyện này thay vì kể về bảo hành
+
+Vì bảo hành của bên mình là 6 tháng cho bo mạch, màn hình, bàn phím — pin 3 tháng. Con số đó có nơi công bố dài hơn, mình không giấu.
+
+Nhưng cái bên mình làm cho chiếc máy của bạn thì không dừng ở tháng thứ sáu. Nó kéo dài đúng bằng thời gian bạn còn dùng cái máy đó.
+
+Đó là thứ mình muốn bạn cân nhắc, bên cạnh con số.
+
+👉 Máy mua ở đây mà thấy nóng thì cứ mang ra, không mất phí.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopthinhvuong #vesinhlaptop #trakeotannhiet #laptopcu #laptopvanphong
+```
+
+**BRIEF ẢNH (brief quay):**
+- Quay dọc 9:16 · 1080×1920 · quay tại **quầy kỹ thuật thật**, 71 Thiên Hiền.
+- Đây là nội dung hậu trường — **quay thô là đúng**. Không dàn dựng bóng bẩy, không đèn studio, không găng tay trắng tinh. Bàn kỹ thuật thật: tuốc nơ vít, khay ốc, vết xước.
+- Bắt buộc: **có kỹ thuật viên thật trong khung hình** (ít nhất bàn tay, và một lần thấy người) — trục này là niềm tin vào **người**. Cảnh cuối **phải thấy biển hiệu / mặt tiền 71 Thiên Hiền**. Cận cảnh bụi ở quạt phải rõ.
+- Thumbnail: nắp lưng vừa mở, thấy quạt đóng bụi, tay kỹ thuật cầm tuốc nơ vít. Chữ 2 dòng `MÁY CŨ CHẬM DẦN` / `chỗ đó nằm ở đây`.
+- ⛔ **Không quay máy đang bán rồi để người xem hiểu là máy shop bẩn** — quay máy khách mang đến bảo dưỡng hoặc máy nội bộ, và **ghi rõ trong phụ đề đó là máy khách mang đến**. **Không hiện nhiệt độ, không hiện số đo trước/sau** (shop chưa đo — `UNVERIFIED.md` #14). Không ghi giá, không ghi tên máy, không dùng video tải trên mạng.
+
+---
+
+## 10 · T7 10-10 · 20:30 — post "4 máy 15–19 triệu cho dân văn phòng" 🔴 risk cao
+
+📄 Bản đầy đủ: [2026-10-10-post-05-bon-may-15-19-trieu.md](../01-drafts/2026-10-10-post-05-bon-may-15-19-trieu.md)
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 10-10 (Thứ 7) · 20:30 |
+| **STT** | *(đánh theo số đang chạy trong sheet)* |
+| **ĐỊNH DẠNG** | post |
+| **TUYẾN ND** | Sản phẩm |
+| **TITLE** | 4 máy 15–19 triệu cho dân văn phòng · P2 (Nhân viên văn phòng) · J4 (Đã inbox / gọi / ghé shop) · O5 (Tạo lead / đơn) · CP05 (Đánh giá sản phẩm) |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Cái máy bạn ngồi làm việc 8 tiếng mỗi ngày là công cụ để làm việc cho công ty. Nhưng tiền mua nó thì là tiền túi mình.
+
+Nên nếu phải bỏ ra hơn một tháng lương, ít nhất phải biết mình đang mua gì — kể cả chỗ dở.
+
+Bốn chiếc trong tầm 15 đến 19 triệu đang có tại 71 Thiên Hiền. Mỗi chiếc mình nói luôn một điểm yếu.
+
+━━━━━━━━━━━━━━
+
+🔹 Dell XPS 7390 2in1 — 15.880.000đ
+
+Máy cũ · i7-1065G7 · RAM 16GB · ổ 256GB · màn 13,3 inch FHD cảm ứng, gập xoay 360 độ
+Bảo hành 6 tháng bo mạch – màn hình – bàn phím, pin 3 tháng.
+
+👉 Chỗ dở: đời chip cũ nhất trong bốn chiếc, và ổ chỉ 256GB. Đây cũng là chiếc duy nhất trong bốn chiếc được xếp ở nhóm máy cũ, không phải likenew.
+
+Hợp với: người cần đúng cái dáng máy gập xoay để đi họp và đưa cho khách xem, ngân sách chặt.
+
+━━━━━━━━━━━━━━
+
+🔹 Asus Vivobook S 14 — 16.980.000đ
+
+Mới 100% · Core Ultra 5 226V · RAM 16GB DDR5 · ổ 512GB · màn 14 inch FHD+ OLED
+Bảo hành 12 tháng.
+
+👉 Chỗ dở: không gập xoay, không cảm ứng. Nó là laptop thường, không phải dòng máy doanh nhân.
+
+Hợp với: người ngồi cố định một bàn, lưu nhiều tài liệu, muốn máy mới tinh và bảo hành dài.
+
+━━━━━━━━━━━━━━
+
+🔹 Dell XPS 9310 2in1 bản ổ 256GB — 17.980.000đ
+
+Likenew · i7-1165G7 · RAM 16GB · ổ 256GB · màn 13 inch FHD+ cảm ứng, gập xoay 360 độ
+Bảo hành 6 tháng bo mạch – màn hình – bàn phím, pin 3 tháng.
+
+👉 Chỗ dở: ổ chỉ 256GB trong khi chiếc Vivobook cùng tầm tiền có 512GB. Và màn nhỏ nhất trong bốn chiếc, 13 inch.
+
+Hợp với: người đi lại nhiều trong ngày, cần máy gọn, muốn dòng cao cấp của Dell.
+
+━━━━━━━━━━━━━━
+
+🔹 Dell Latitude 9430 2in1 — 18.880.000đ
+
+Likenew · i7-1265U · RAM 16GB DDR5 · ổ 256GB · card Iris Xe · màn 14 inch cảm ứng, gập xoay 360 độ
+Bảo hành 6 tháng bo mạch – màn hình – bàn phím, pin 3 tháng.
+
+👉 Chỗ dở: đắt nhất trong bốn chiếc, mà ổ vẫn chỉ 256GB.
+
+Hợp với: người muốn màn 14 inch nhưng vẫn phải gập xoay được, và chấp nhận trả thêm cho đời chip mới hơn.
+
+━━━━━━━━━━━━━━
+
+🔹 CHUNG CHO CẢ BỐN
+
+• Trong 15 ngày, máy có lỗi thì bên mình đổi sang máy khác miễn phí.
+• Vệ sinh máy, tra keo tản nhiệt, cài Windows, cài phần mềm — miễn phí trọn đời.
+• Giao hàng toàn quốc 3–5 ngày làm việc, nhận máy được kiểm tra.
+
+Lưu ý về bảo hành: con số 12 tháng chỉ thuộc về chiếc Vivobook mới 100%. Ba chiếc còn lại là 6 tháng, pin 3 tháng. Mình tách ra cho rõ, không gộp thành một câu.
+
+🔹 TRƯỚC KHI ĐI
+
+Gọi 0928939666 hỏi chiếc bạn nhắm còn hay hết, trước khi mất một buổi đi lại. Số này nghe máy từ 8h đến 20h30.
+
+Và nếu chưa xem bài "5 thứ nên soi khi cầm máy gập xoay" hôm thứ 4 thì kéo lại xem — đi một lần là xong.
+
+👉 Nhắn tin tên chiếc bạn đang nhắm, mình kiểm tra giúp còn hay hết.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopvanphong #laptop2in1 #dellxps #dellatitude #laptopcu #laptopthinhvuong
+```
+
+**BRIEF ẢNH:**
+- Tỉ lệ 1:1 · **5 ảnh** · 1080×1080px, mỗi ảnh dưới 1MB. Chụp bốn máy thật tại 71 Thiên Hiền.
+
+| Ảnh | Hình | Chữ trên ảnh |
+|---|---|---|
+| 1 — bìa | Bốn máy mở xếp hàng trên cùng một bàn, cùng ánh sáng, chụp chéo | `4 MÁY CHO DÂN VĂN PHÒNG` / `15 – 19 triệu` ⛔ **không ghi giá** |
+| 2 | XPS 7390, tư thế gập dở ra sau | `DELL XPS 7390 2in1` / `15.880.000đ · máy cũ · bảo hành 6 tháng` |
+| 3 | Vivobook S 14, chính diện mở nắp | `ASUS VIVOBOOK S 14` / `16.980.000đ · mới 100% · bảo hành 12 tháng` |
+| 4 | XPS 9310, gập phẳng thành dạng máy tính bảng | `DELL XPS 9310 2in1 · ổ 256GB` / `17.980.000đ · likenew · bảo hành 6 tháng` |
+| 5 | Latitude 9430, tư thế dựng chữ A | `DELL LATITUDE 9430 2in1` / `18.880.000đ · likenew · bảo hành 6 tháng` |
+
+- Logo Thịnh Vượng góc trái trên ở ảnh 1.
+- ⛔ Không ghi giá lên ảnh 1 · **không ghi số lượng máy** lên bất kỳ ảnh nào (luật #12) · **không ghi "giảm giá X%"** dù cả bốn máy đều có giá gốc cao hơn giá bán · không chỉnh ảnh để máy cũ trông mới hơn thực tế · không dùng ảnh của hãng · không ghi "sốc", "rẻ nhất", "số 1".
+
+🔴 **KHÔNG ĐĂNG KHI CHƯA LÀM ĐỦ 4 VIỆC — xem mục 14 của file draft:**
+1. Sáng 10/10 gọi 0928939666, **đọc đủ cấu hình từng máy**, không hỏi trống tên máy. Trên web còn XPS 9310 bản ổ 512GB (18.580.000đ), bản 512GB 4K (19.680.000đ), Latitude 9430 bản i5 512GB (17.480.000đ) — **cả ba không có tồn kho xác thực**; Latitude 9430 bản 32GB (20.880.000đ) thì ngoài dải giá.
+2. Chạy `python3 tools/collection_fetch.py`, đối chiếu lại **giá · `warranty_tag` · `condition`** cả bốn máy. Giá lệch → sửa bài, **không đăng bản cũ**.
+3. Máy nào hết → rút khỏi bài (bỏ cả ảnh và link), sửa "bốn chiếc" thành đúng số còn lại. ⛔ Không thay bằng máy ngoài danh sách 36.
+4. Kiểm cả bốn đường dẫn trong bình luận đầu mở đúng máy, đúng giá.
+
+---
+
+## 11. Bình luận đầu — không có chỗ trên sheet
+
+Sheet không có trường cho bình luận đầu. Người đăng **tự dán ngay sau khi bài lên**.
+Nội dung đầy đủ nằm ở mục 9 của từng file draft. Bài nào có link sản phẩm:
+
+| Bài | Bình luận đầu có gì |
+|---|---|
+| 1 · V1 Gập màn ra sau | Giới thiệu dòng máy gập xoay + báo trước lịch tuần |
+| 2 · B1 Máy đơ | 3 câu hay bị hiểu ngược (i7 vs i5, cài lại Windows, máy cũ nên chậm) |
+| 3 · V2 Soi màn hình | Cách mở nhanh ảnh trắng / ảnh đen tại quầy |
+| 4 · B2 Phiếu đi xem máy | Bản rút gọn 6 gạch đầu dòng để chép vào ghi chú điện thoại |
+| 5 · V3 Thử bản lề | 3 câu hay hỏi thêm về bản lề |
+| 6 · B3 17 triệu | 🔗 **2 link sản phẩm** + cảnh báo XPS 9310 còn bản 512GB khác giá |
+| 7 · V4 Hai chiếc 17 triệu | 🔗 **2 link sản phẩm** + cùng cảnh báo |
+| 8 · B4 Chênh 2,1 triệu | 🔗 **2 link sản phẩm** + nhắc lại bài thứ 4 |
+| 9 · V5 Vệ sinh tra keo | 4 câu hay hỏi về dịch vụ, đều chỉ sang 0825998855 |
+| 10 · B5 Bốn máy | 🔗 **4 link sản phẩm** + cảnh báo bản tên gần giống khác giá |
+
+---
+
+## 12. Checklist mục 7 của `fanpage-sheet.md`
+
+| | Mục | Trạng thái |
+|---|---|---|
+| ✅ | Qua đủ 7 gate | Gate 0–5 ✅ · **Gate 6 ⬜ chưa ký** |
+| ✅ | Không có câu nào trong danh sách cấm (mục 4 `fanpage-sheet.md`) | Đã soát: không có "trả góp 0%", "freeship", "chỉ còn X máy", "giá tốt nhất", "chính hãng", "sốc", không nêu tên đối thủ, không có "LAPTOP TV" |
+| ✅ | Chân post dùng bản mục 4.8 | Cả 10 bài dùng đúng bản chuẩn |
+| ✅ | Giá khớp catalog trong 7 ngày | Khớp `36-may-duoc-viet-2026-09-22.csv` (chụp 22/09) — ⚠️ **phải chạy lại trước ngày đăng 05–10/10** |
+| ✅ | Cấu hình lấy theo **tên sản phẩm** | XPS 9310 lấy "13 inch FHD+" theo tên (cột `screen` ghi 13.3 inch — lệch, không dùng); Latitude 9430 chỉ viết "14 inch cảm ứng", **bỏ mức 2K/2.2K** vì tên và tag lệch nhau |
+| ✅ | Bảo hành đọc theo `warranty_tag` từng máy | XPS 7390 · XPS 9310 · Latitude 9430 = 6 Tháng · Vivobook S 14 = 12 Tháng. Đúng CSV, không máy nào lệch chuẩn |
+| ✅ | `TITLE` ghi đủ mã + tên tiếng Việt P / J / O / CP | Cả 10 bài |
+| ✅ | `STATUS` = `CHỜ FEEDBACK` | Cả 10 bài |
+
+**Các câu chính sách dùng lại trong nhiều bài — đã đối chiếu `01_company/facts/policies.md`:**
+
+| Câu trong bài | Nguồn |
+|---|---|
+| "Giao hàng toàn quốc 3–5 ngày làm việc, nhận máy được kiểm tra" | `policies.md` — đúng nguyên văn câu được phép viết |
+| "Trong 15 ngày máy có lỗi thì đổi sang máy khác miễn phí" | `policies.md` mục Đổi trả |
+| "Vệ sinh, tra keo tản nhiệt, cài Windows, cài phần mềm — miễn phí trọn đời" | `policies.md` mục Dịch vụ miễn phí kèm theo |
+| "Điểm chết nằm trong diện KHÔNG bảo hành" | `policies.md` — điểm chết trên màn hình nằm trong danh sách loại trừ |
+| 0928939666 (8h–20h30) mua hàng · 0825998855 (8h–17h30) kỹ thuật | `company-facts.md` |
+
+---
+
+## 13. Việc còn lại trước khi đẩy lên sheet
+
+| # | Việc | Ai làm |
+|---|---|---|
+| 1 | **Đọc 10 bài và ký Gate 6** — ghi `approved_by` + `approved_at` vào header từng file draft | **Người dùng / chủ shop** |
+| 2 | Chạy lại `python3 tools/collection_fetch.py` sát ngày đăng — danh sách 36 máy hạn **2026-09-29** | Người viết content |
+| 3 | Sau khi ký: chuyển 10 file từ `01-drafts/` sang `02-approved/` | Người viết content |
+| 4 | Copy 10 khối trên vào sheet, `STATUS` = `CHỜ FEEDBACK` | Người phụ trách sheet |
+| 5 | Mỗi sáng ngày đăng: gọi xác nhận kho theo mục 14 của 4 bài có giá | Người phụ trách bán hàng |
+
+> ⚠️ **Connector Google Drive hiện tại chỉ đọc, không ghi được ô.** Bước 4 làm bằng copy-paste tay,
+> hoặc nối connector Google Sheets có quyền ghi. Chưa dán tay thì **chưa được coi là đã lên sheet**.

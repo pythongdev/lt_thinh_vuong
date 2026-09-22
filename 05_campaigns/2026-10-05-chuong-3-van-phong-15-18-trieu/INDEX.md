@@ -3,12 +3,16 @@
 > 📌 Thư mục vẫn tên `...-15-18-trieu` (tên kỹ thuật, giữ để không đứt liên kết).
 > **Dải giá dùng trong mọi bài đăng là "15–19 triệu"** — chốt 2026-09-22.
 
-> ## 🅿️ MỚI LÀ Ý TƯỞNG — CHƯA VIẾT BÀI NÀO
-> Gác lại theo quyết định người dùng 2026-09-21 (tuần 28/09 giữ P1 (Sinh viên / mua máy đầu tiên)).
-> Chưa viết Content Package, chưa vào calendar, chưa chạm sheet.
+> ## 🟡 ĐÃ SOẠN XONG — CHỜ KÝ GATE 6
+> **10 Content Package** trong [01-drafts/](01-drafts/) và **khối bàn giao 10 trường** trong
+> [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) đều xong (2026-09-22).
+> Gate 0–5 ✅ · **Gate 6 ⬜ chưa ai ký** · **chưa chạm Google Sheet** (luật #8, #18).
 >
-> ⚠️ **Khi mở lại phải chạy `python3 tools/collection_fetch.py`** — số liệu trong bản ý tưởng
-> chụp ngày 2026-09-20, danh sách 36 máy hết hạn 2026-09-27.
+> Việc tiếp theo là **người dùng đọc 10 bài và ký Gate 6** — ghi `approved_by` + `approved_at`
+> vào header từng file draft.
+>
+> ⚠️ **Trước ngày đăng phải chạy lại `python3 tools/collection_fetch.py`** — giá và kho đang
+> khớp `36-may-duoc-viet-2026-09-22.csv`, danh sách hết hạn **2026-09-29**.
 
 > Persona dự kiến: **P2 (Nhân viên văn phòng)** — `personas.md` chốt P2 = 15–20 triệu, không lệch persona.
 > Chương trước: [Chương 2 — sinh viên chuyên sâu](../2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md)
@@ -25,7 +29,7 @@
 | [01-drafts/](01-drafts/) | **10 Content Package 12 thành phần** (5 bài viết + 5 video) | ✅ **đã viết 2026-09-22** · ⬜ Gate 6 chưa ký |
 | [02-approved/](02-approved/) | Bài đã qua đủ 7 gate | ⬜ trống |
 | [03-published/](03-published/) | Bài đã đăng thật | ⬜ trống |
-| [04-ban-giao/](04-ban-giao/) | Khối 10 trường dán vào Google Sheet | ⬜ trống |
+| [04-ban-giao/](04-ban-giao/) | [BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) — **10 khối 10 trường**, caption sẵn sàng copy | ✅ **gộp xong 2026-09-22** · ⬜ Gate 6 chưa ký · ❌ chưa chạm sheet |
 | [05-ket-qua/](05-ket-qua/) | Số liệu sau khi đăng | ⬜ trống |
 
 ---
@@ -50,7 +54,9 @@ Chủ nhật không đăng — trực inbox.
 - Đã **loại bỏ toàn bộ 5 nhóm vấn đề** trong `goi-ky-thuat-hoi-gi.md` (chưa câu nào có người trả lời).
 - ✅ **Bỏ Dell Inspiron 5430** khỏi bộ máy (vướng cả mục 3 của bản câu hỏi), thay bằng
   **Dell Latitude 9430 2in1 — 18.880.000đ**. Dải giá đối ngoại: **15–19 triệu**.
-- ✅ **10 Content Package đã viết xong 2026-09-22** → [01-drafts/](01-drafts/). Chưa chạm sheet (luật #18).
+- ✅ **10 Content Package đã viết xong 2026-09-22** → [01-drafts/](01-drafts/).
+- ✅ **Khối bàn giao đã gộp 2026-09-22** → [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md)
+  (bước 3 của quy trình 5 bước). **Chưa chạm sheet** — chờ Gate 6 (luật #8, #18).
 
 ### 10 nội dung — lịch tuần 05–11/10
 
@@ -82,4 +88,5 @@ mỗi file có **mục 14: việc bắt buộc trong ngày đăng**, phải làm
 | 3 | ✅ Đã duyệt khung + đã viết 10 Content Package (2026-09-22) | Xong |
 | 4 | **Người dùng đọc 10 draft và ký Gate 6** — chưa ký thì không chạm Google Sheet (luật #8, #18) | **Người dùng** |
 | 5 | Chạy lại `collection_fetch.py` sát ngày đăng (hạn dùng hiện tại: 2026-09-29) + gọi xác nhận kho từng sáng | Người viết content |
-| 6 | Gộp khối 10 trường của 10 bài vào [04-ban-giao/](04-ban-giao/) sau khi có Gate 6 | Người viết content |
+| 6 | ✅ Đã gộp khối 10 trường vào [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) (2026-09-22) | Xong |
+| 7 | Sau khi ký Gate 6: chuyển 10 file sang [02-approved/](02-approved/), rồi copy-paste khối bàn giao lên sheet, `STATUS` = `CHỜ FEEDBACK` | Người phụ trách sheet |

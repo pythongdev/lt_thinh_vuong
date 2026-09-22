@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|
 | 1 | [Sinh viên có 13 triệu](2026-09-21-chuong-1-sinh-vien-13-trieu/INDEX.md) | 21–27/09/2026 | P1 — Sinh viên / mua máy đầu tiên | 11 nội dung (6 Reels · 4 bài viết · 4 Story) | 🟡 Soạn xong — **Gate 6 chưa ký**, chưa lên sheet |
 | 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–04/10/2026 | P1 — Sinh viên / mua máy đầu tiên | 5 bài viết | 🟡 Soạn xong — **Gate 6 chưa ký**, 3/5 bài còn bị chặn dữ liệu |
-| 3 | [Dân văn phòng 15–18 triệu](2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) | 05–11/10/2026 (dự kiến) | P2 — Nhân viên văn phòng | chưa viết | ⚪ Mới là **ý tưởng**, gác lại chờ duyệt |
+| 3 | [Dân văn phòng 15–19 triệu](2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) | 05–11/10/2026 | P2 — Nhân viên văn phòng | 10 nội dung (5 bài viết · 5 Reels) | 🟡 Soạn xong + **đã gộp bàn giao** — Gate 6 chưa ký, chưa lên sheet |
 
 **Chưa có chiến dịch nào đăng thật.** Cả 3 đều đang chờ người ký Gate 6 (luật #8: AI không tự
 đăng content thương mại).
@@ -25,11 +25,11 @@
 ## 2. Mạch nối giữa các chiến dịch
 
 ```
-Chương 1 (21–27/09)              Chương 2 (28/09–04/10)           Chương 3 (05–11/10, ý tưởng)
-Sinh viên có 13 triệu       →    Câu chương 1 chưa trả lời    →    Dân văn phòng 15–18 triệu
-P1 · 13 triệu                    P1 · 7–13 triệu, đào sâu           P2 · 15–18 triệu
-"mua máy cũ thế nào"             "bố mẹ · cỡ màn · 9 triệu ·        tầng giá chưa ai viết,
-                                  256 hay 512 · 1 máy cụ thể"       8 máy / 33 chiếc
+Chương 1 (21–27/09)              Chương 2 (28/09–04/10)           Chương 3 (05–11/10)
+Sinh viên có 13 triệu       →    Câu chương 1 chưa trả lời    →    Dân văn phòng 15–19 triệu
+P1 · 13 triệu                    P1 · 7–13 triệu, đào sâu           P2 · 15–19 triệu
+"mua máy cũ thế nào"             "bố mẹ · cỡ màn · 9 triệu ·        máy gập xoay cho dân đi làm,
+                                  256 hay 512 · 1 máy cụ thể"       5 bài viết + 5 video
 ```
 
 ---

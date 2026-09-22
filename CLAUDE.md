@@ -122,6 +122,8 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 - **Kéo dữ liệu page Facebook:** xem `tools/README.md`
 - **Làm bản cho sếp / chủ shop đọc:** sinh `<file-gốc>-TOM-TAT.md` cùng thư mục —
   xem mục "Bản tóm tắt cho người ngoài hệ thống" (bỏ mã, dịch hết thuật ngữ)
+- **Đánh giá lại toàn hệ thống:** `17_danh-gia-he-thong/README.md` — khung chấm, nhịp chạy,
+  bảng chỉ số qua các lần. Mỗi lần đánh giá là **1 file mới**, không sửa đè bản cũ
 
 ## Đầu ra chuẩn
 Không phải "một caption" mà là **Content Package** 12 thành phần —
@@ -248,6 +250,7 @@ Không được im lặng chọn hộ.
 14_roadmap/    7 phase
 15_competitors/ phân tích đối thủ (đọc trước khi tìm góc content mới)
 16_research/   tài liệu nghiên cứu/tham khảo (chưa phải nguồn fact — không trích vào bài)
+17_danh-gia-he-thong/  các lần đánh giá lại hệ thống (không phải nguồn fact)
 tools/         catalog_fetch.py (sản phẩm+giá) · fb_fetch.py (Facebook Graph API)
 ```
 
