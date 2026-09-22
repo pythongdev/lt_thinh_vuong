@@ -8,8 +8,10 @@
 > - Video gốc là của **người ngoài ngành** (tài chính cá nhân). Cái bê được là **cái khung**,
 >   không phải nội dung.
 >
-> Soạn 2026-09-22 từ `16_research/video/ScreenRecording_09-22-2026 15-14-58_1.mp4`.
-> Đọc kèm: `16_research/cach-viet-video-ngan-NGHIEN-CUU.md` · `04_content/formats/reels.md`.
+> Soạn 2026-09-22 từ [nguon/2026-09-22-reel-goc-3-kich-ban-hook.mp4](nguon/) — xuất xứ và
+> số liệu tương tác của video gốc: [nguon/nguon.md](nguon/nguon.md).
+> Đọc kèm: [../INDEX.md](../INDEX.md) (các dạng video khác) ·
+> `16_research/cach-viet-video-ngan-NGHIEN-CUU.md` · `04_content/formats/reels.md`.
 
 ---
 
@@ -25,6 +27,9 @@ Bạn xem một reel, thấy "hay", nhưng không gọi tên được **cái gì
 - **Mục 8** — **PROMPT copy-paste cho AI viết kịch bản.**
 - **Mục 9** — prompt cho AI sinh hình + giới hạn bắt buộc.
 - **Mục 10** — checklist trước khi giao.
+
+> 📄 **Muốn xem format này khi đã hoàn chỉnh:** [vi-du-kich-ban-ba-cau-hoi.md](vi-du-kich-ban-ba-cau-hoi.md) — một kịch bản dựng xong,
+> gửi đi quay được ngay, không cần quay máy nào.
 
 ---
 
@@ -194,32 +199,41 @@ không kiểm chứng được.
 
 ---
 
-### Đề tài B — "3 câu nên hỏi shop trước khi chuyển tiền"
+### Đề tài B — "3 câu nên hỏi trước khi chuyển tiền"
+
+> ✅ **Đề tài này đã dựng đầy đủ thành kịch bản gửi đi được:**
+> [vi-du-kich-ban-ba-cau-hoi.md](vi-du-kich-ban-ba-cau-hoi.md) — có bảng 8 cảnh, lời thoại
+> từng cảnh, caption, bình luận đầu tiên, bảng fact, danh sách cấm riêng.
+> Đọc file đó nếu muốn thấy format này trông ra sao khi hoàn chỉnh.
 
 | Trục | |
 |---|---|
-| Persona | **P2 (Nhân viên văn phòng)** |
+| Persona | **P2 (Nhân viên văn phòng)** — phụ: **P1 (Sinh viên / mua máy đầu tiên)** |
 | Journey | **J3 (Đang so sánh)** |
 | Objective | **O3 (Tin công ty)** |
 | Pillar | **CP08 (Sai lầm khi mua)** |
-| CTA duy nhất | *Lưu lại, hỏi đúng ba câu này ở bất kỳ shop nào.* |
+| CTA duy nhất | *Lưu lại. Hỏi đủ ba câu rồi hãy chuyển tiền.* |
 
 ```
-MỒI     6s   B-roll: ngón tay gõ trên bàn phím điện thoại, màn hình mờ không đọc được.
-             VO: "Ba câu hỏi. Shop nào trả lời lấp lửng một câu thôi thì đi chỗ khác."
-VÍ DỤ 1 3s   Tờ giấy, bút khoanh tròn chữ viết tay "bảo hành mấy tháng?"
-THẺ 1   1,5s BẢO HÀNH BAO LÂU, BỘ PHẬN NÀO
-VÍ DỤ 2 3s   Bàn tay lật hai tờ giấy giống hệt nhau đặt cạnh nhau.
-THẺ 2   1,5s PIN CÓ ĐƯỢC BẢO HÀNH KHÔNG
-VÍ DỤ 3 3s   Cửa kính một cửa hàng nhìn từ ngoài vào, quay chậm.
-THẺ 3   1,5s ĐỊA CHỈ CÓ NGƯỜI NGỒI KHÔNG
-CHỐT    1s   Nền trắng: HỎI ĐÚNG BA CÂU NÀY — Ở BẤT KỲ SHOP NÀO
+MỒI     6s   B-roll: ngón tay gõ bàn phím số điện thoại, màn hình để ngoài nét.
+             VO: "Ba câu hỏi. Shop nào trả lời lấp lửng một câu thôi thì chưa nên chuyển tiền."
+VÍ DỤ 1 3s   Tay mở sổ tay, bút khoanh tròn một dòng (chữ ngoài nét).
+THẺ 1   1,5s CÂU HỎI / SỐ MỘT / BẢO HÀNH GỒM NHỮNG GÌ?
+VÍ DỤ 2 3s   Đồng hồ treo tường, kim phút tua nhanh.
+THẺ 2   1,5s CÂU HỎI / SỐ HAI / PIN TÍNH RIÊNG MẤY THÁNG?
+VÍ DỤ 3 3s   Tay lật nhanh các trang lịch để bàn.
+THẺ 3   1,5s CÂU HỎI / SỐ BA / ĐỔI TRẢ TRONG BAO LÂU?
+CHỐT    1s   Nền trắng: LƯU LẠI. HỎI ĐỦ BA CÂU RỒI HÃY CHUYỂN TIỀN
 LẶP          Quay về cảnh gõ điện thoại.
 ```
-*Ràng buộc riêng:* **tuyệt đối không nêu tên shop nào khác** (luật #9). Nếu cuối bài muốn nói
-chính sách của Laptop Thịnh Vượng thì viết ở **bình luận đầu tiên**, kèm số đúng theo
-`01_company/facts/policies.md` — và nói rõ *"bảo hành đọc theo từng máy"*, không nói gọn
-"máy nào cũng 6 tháng" (luật #14).
+*Vì sao đây là đề tài nên làm trước:* không cần quay máy nào, không nêu con số nào lên hình
+→ video sống được nhiều tháng mà không hỏng fact. Và nó tự chứng minh chính nó — video dạy
+khách đi hỏi ba câu, bình luận đầu tiên trả lời sẵn cả ba bằng chính sách có thật
+(`01_company/facts/policies.md`). Xây **O3 (Tin công ty)** mà không cần một câu tự khen nào.
+
+*Ràng buộc riêng:* **tuyệt đối không nêu tên shop nào khác** (luật #9) — "shop nào trả lời
+lấp lửng" là nói mặt bằng chung, giữ đúng mức đó. Bảo hành phải nói kèm **bộ phận nào**, và
+nhắc rằng từng máy đọc theo máy đó, không mặc định 6 tháng (luật #14).
 
 ---
 
@@ -327,12 +341,12 @@ Dán nguyên khối này vào chat. Nó hợp với hệ thống — AI sẽ t�
 
 ```
 Viết kịch bản một reel Facebook cho Laptop Thịnh Vượng theo đúng format
-"B-roll mượn + thẻ gọi tên", tả trong 16_research/video/huong-dan-video-broll-the-goi-ten.md.
+"B-roll mượn + thẻ gọi tên", tả trong 16_research/video/01-broll-muon-the-goi-ten/huong-dan.md.
 
 ĐỀ TÀI: <viết đề tài ở đây, dạng "3 <cái gì> ...">
 
 NẠP TRƯỚC KHI VIẾT
-- 16_research/video/huong-dan-video-broll-the-goi-ten.md  (mục 3, 5, 7)
+- 16_research/video/01-broll-muon-the-goi-ten/huong-dan.md  (mục 3, 5, 7)
 - 04_content/formats/reels.md
 - 02_products/36-MAY-DUOC-VIET.md
 - 01_company/facts/policies.md

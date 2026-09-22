@@ -30,3 +30,25 @@
 
 ## Đo
 Watch time, % xem hết, share, save, follow mới. **Không** chấm reel O1 bằng số inbox.
+
+## Biến thể — "B-roll mượn + thẻ gọi tên"
+
+Khung ở trên là khung mặc định (quay máy thật, người thật thao tác). Có một biến thể **21–22
+giây, gần như không cần quay tại shop** — dùng hình không liên quan để giữ mắt, rồi bật thẻ
+chữ gọi tên từng ý:
+
+```
+MỒI 6s ("ba ...") → (ví dụ 3s → thẻ gọi tên 1,5s) × đúng 3 lần → thẻ chốt 1s → lặp về đầu
+```
+
+Nguyên tắc: **chiếu ví dụ trước, gọi tên sau.**
+
+- Chỉ mục mọi dạng video đã bóc: `16_research/video/INDEX.md`
+- Cách làm, quy cách thẻ chữ, brief giao người dựng, prompt cho AI viết kịch bản:
+  `16_research/video/01-broll-muon-the-goi-ten/huong-dan.md`
+- Một kịch bản đã dựng xong theo khung này:
+  `16_research/video/01-broll-muon-the-goi-ten/vi-du-kich-ban-ba-cau-hoi.md`
+
+**Hai yêu cầu ở trên vẫn giữ nguyên trong biến thể này:** phải có phụ đề, và mọi khung hình
+có laptop phải là máy thật của shop (`02_products/36-MAY-DUOC-VIET.md` — luật #20). Hình mượn
+chỉ dùng cho cảnh **không có laptop**.
