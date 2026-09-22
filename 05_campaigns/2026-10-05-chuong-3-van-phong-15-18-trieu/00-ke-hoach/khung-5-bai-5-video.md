@@ -6,8 +6,8 @@
 > 18.880.000đ**, dải giá gọi là **15–19 triệu** · (2) Bài 2 mang vai **"phiếu đi xem máy"**
 > · (3) giữ nguyên lịch đăng video 12h15 / bài 20h30, Chủ nhật trực inbox.
 >
-> **Trạng thái: chờ viết câu chữ.** Chưa viết Content Package, chưa chạy gate,
-> chưa chạm Google Sheet (luật #18).
+> **Trạng thái: đã viết xong 10 Content Package** → [`../01-drafts/`](../01-drafts/) (2026-09-22).
+> Chưa chạm Google Sheet (luật #18) — **Gate 6 chưa ai ký**.
 >
 > Dựng từ: `03_customers/journey-P2-nhan-vien-van-phong.md` · `y-tuong.md` (cùng thư mục).
 > Nguồn fact: `02_products/36-may-duoc-viet-2026-09-20.csv` · `01_company/facts/policies.md`
@@ -413,7 +413,7 @@ V4 là bản 40 giây của B3. V1 và V5 đứng riêng, một cái mở phễu
 | 1 | ✅ **Đã chạy 2026-09-22** — 36 máy không đổi, 4 máy xương sống giữ nguyên mọi thứ. ⚠️ **Vẫn phải chạy lại lần nữa sát ngày đăng 05/10** (hạn dùng mới: 2026-09-29) | Máy nào rơi khỏi danh sách thì rơi khỏi bài (luật #20) |
 | 2 | ✅ **Xong 2026-09-22** — bỏ Inspiron 5430, lấy Latitude 9430 2in1, dải giá gọi là **15–19 triệu** | Mục 2 |
 | 3 | Gọi **0928939666** sáng ngày đăng B3 · B4 · B5 hỏi từng máy còn không | Luật #12 và #17 — số kho trong file là ảnh chụp 20/09, và lời chủ shop đè lên dữ liệu web |
-| 4 | Duyệt xong khung này → viết **10 Content Package 12 thành phần** vào `01-drafts/`, chạy đủ **7 gate** (`10_gates/README.md`) | Thiếu thành phần bắt buộc thì Gate 5 chặn |
+| 4 | ✅ **Xong 2026-09-22** — 10 Content Package 12 thành phần đã nằm ở `01-drafts/`, đã tự soi câu cấm và đối chiếu giá với CSV | — |
 | 5 | **Gate 6 phải có người ký** trước khi đăng (luật #8) — chưa ký thì **không chạm Google Sheet** (luật #18) | Luật bất di bất dịch |
 
 ---

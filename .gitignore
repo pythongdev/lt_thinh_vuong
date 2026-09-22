@@ -1,0 +1,88 @@
+# ─────────────────────────────────────────────────────────────
+# File lớn / file nhị phân — KHÔNG đẩy lên GitHub
+# GitHub cảnh báo file > 50 MB, chặn cứng file > 100 MB.
+# Video, ảnh gốc, file nén để ở máy hoặc Google Drive.
+# Chỉ commit file .md mô tả (kịch bản, hướng dẫn, nguồn).
+# ─────────────────────────────────────────────────────────────
+
+# Video
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.wmv
+*.flv
+
+# Âm thanh
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+
+# Ảnh gốc / ảnh nặng
+*.psd
+*.ai
+*.tif
+*.tiff
+*.raw
+*.cr2
+*.nef
+*.heic
+
+# File nén
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+
+# File văn phòng nặng (bản gốc, không phải nguồn fact)
+*.pptx
+*.key
+*.sketch
+*.fig
+
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ─────────────────────────────────────────────────────────────
+# Hệ điều hành / editor
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────────────────────
+# Bí mật — token Facebook, key API
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+tools/.env
+
+# ─────────────────────────────────────────────────────────────
+# Tạm
+# ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
+.cache/
