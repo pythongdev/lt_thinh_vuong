@@ -36,7 +36,7 @@ Ví dụ có thật trong sheet chuẩn:
 
 Format chuẩn **không có cột** cho timecode, persona, journey, objective, pillar,
 fact table, measurement plan. Ba thứ này vẫn bắt buộc phải có nhưng sống ở **bản repo**
-(`04_content/drafts/`), không đẩy lên sheet:
+(`05_campaigns/<chiến-dịch>/01-drafts/`), không đẩy lên sheet:
 
 - 4 trục P / J / O / CP kèm tên tiếng Việt (luật bắt buộc trong `CLAUDE.md`)
 - NGUỒN FACT từng con số
@@ -77,5 +77,5 @@ Xem thêm `04_content/templates/fanpage-sheet.md` mục 4.
 - [ ] Đã đếm từ, thoại dưới 3 từ/giây
 - [ ] Mọi máy nêu tên đều nằm trong `02_products/36-MAY-DUOC-VIET.md` (luật #20)
 - [ ] Không có câu nào trong bảng mục 5
-- [ ] Bản đầy đủ (P/J/O/CP, nguồn fact, điều cấm) đã có trong `04_content/drafts/`
+- [ ] Bản đầy đủ (P/J/O/CP, nguồn fact, điều cấm) đã có trong `01-drafts/` của chiến dịch
 - [ ] Người dùng đã nói "ok" (Gate 6) — chưa "ok" thì **không đụng vào sheet** (luật #18)

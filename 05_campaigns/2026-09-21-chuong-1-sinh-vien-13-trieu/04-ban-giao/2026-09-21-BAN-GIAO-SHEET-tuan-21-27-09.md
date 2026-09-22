@@ -117,7 +117,7 @@ ______________________
 
 **BRIEF ẢNH (kịch bản video):**
 Reels dọc 9:16, 1080×1920, **30 giây**. Kịch bản đầy đủ theo mốc giây:
-`04_content/drafts/2026-09-21-reel-01-sai-lam-nhin-chu-i7.md`
+`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/01-drafts/2026-09-21-reel-01-sai-lam-nhin-chu-i7.md`
 Quay tại quầy 71 Thiên Hiền. Hai máy lên hình: Latitude 7400 2in1 (i7-8665U) và Latitude 7420 vỏ nhôm (i7-1185G7).
 Bắt buộc có phụ đề, đặt ở 2/3 trên khung. **Không hiện giá, không đọc tên máy.**
 Thumbnail: ngón tay chỉ vào chữ i7 trên màn hình — chữ "i7 — chỗ sai đầu tiên".
@@ -230,7 +230,7 @@ ______________________
 
 **BRIEF ẢNH (kịch bản video):**
 Reels dọc 9:16, 1080×1920, **33 giây**. Kịch bản đầy đủ:
-`04_content/drafts/2026-09-22-reel-06-gap-xoay-de-lam-gi.md`
+`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/01-drafts/2026-09-22-reel-06-gap-xoay-de-lam-gi.md`
 Hai bối cảnh: quầy (cảnh lật màn 360 độ, cảnh Excel) + mô phỏng chỗ ngồi học tại shop.
 Cả ba thao tác phải quay thật và phải chạy được.
 ⛔ **Không cho bút cảm ứng vào khung hình** — máy này không kèm bút.
@@ -277,7 +277,7 @@ ______________________
 
 **BRIEF ẢNH (kịch bản video):**
 Reels dọc 9:16, 1080×1920, **44 giây**. Kịch bản đầy đủ:
-`04_content/drafts/2026-09-23-reel-02-ba-thu-soi-30-giay.md`
+`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/01-drafts/2026-09-23-reel-02-ba-thu-soi-30-giay.md`
 Quay tại bàn test. Máy: Latitude 7400 2in1 (i7-8665U · 16GB · 512GB).
 **Thao tác phải thật, quay một mạch, không dựng giả** — đây là toàn bộ giá trị của video.
 Chuẩn bị: mở sẵn trang test bàn phím, 1 ảnh trắng + 1 ảnh đen toàn màn, lau sạch màn.
@@ -387,7 +387,7 @@ ______________________
 
 **BRIEF ẢNH (kịch bản video):**
 Reels dọc 9:16, 1080×1920, **40 giây**. Kịch bản đầy đủ:
-`04_content/drafts/2026-09-24-reel-03-may-cu-cham-dan.md`
+`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/01-drafts/2026-09-24-reel-03-may-cu-cham-dan.md`
 Quay tại bàn kỹ thuật, ánh sáng đèn bàn, tay người thật + dụng cụ thật.
 ⚠️ **Hỏi kỹ thuật trước máy nào được phép mở nắp lưng ra quay.**
 Tua nhanh đoạn vặn ốc, quay chậm đoạn nhấc tấm đồng và đoạn bóp keo.
@@ -441,7 +441,7 @@ ______________________
 
 **BRIEF ẢNH (kịch bản video):**
 Reels dọc 9:16, 1080×1920, **30 giây**. Kịch bản đầy đủ:
-`04_content/drafts/2026-09-25-reel-04-15-ngay-doi-y.md`
+`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/01-drafts/2026-09-25-reel-04-15-ngay-doi-y.md`
 Quay tại quầy, người thật nhìn thẳng camera. Giọng bình thản, **không hạ giọng ở phần bất lợi**.
 ⚠️ Cảnh minh hoạ rơi vỡ / vào nước dựng an toàn — dùng máy hỏng của kỹ thuật, không làm hỏng máy đang bán.
 Thumbnail: hai cột xanh / đỏ trên nền quầy — chữ "Được gì · Không được gì".
@@ -551,7 +551,7 @@ ______________________
 
 **BRIEF ẢNH (kịch bản video):**
 Reels dọc 9:16, 1080×1920, **36 giây**. Kịch bản đầy đủ:
-`04_content/drafts/2026-09-26-reel-05-ba-chiec-duoi-13-trieu.md`
+`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/01-drafts/2026-09-26-reel-05-ba-chiec-duoi-13-trieu.md`
 Quay tại kệ máy thật ở 71 Thiên Hiền — thấy được kệ và quầy, không phông nền dựng.
 **Giá chỉ xuất hiện từ giây 27**, không đặt giá ở giây đầu.
 ⚠️ **Sáng hôm quay phải gọi shop xác nhận lại giá + tag bảo hành + máy còn hay hết.**

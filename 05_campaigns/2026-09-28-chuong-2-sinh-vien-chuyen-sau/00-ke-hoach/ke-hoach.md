@@ -3,13 +3,13 @@
 
 > **Trạng thái: 5 draft đã viết, CHỜ DUYỆT — Gate 6 chưa ai ký.** Chưa chạm Google Sheet (luật #18).
 >
-> Nối tiếp `05_campaigns/2026-09-21-series-sinh-vien-13-trieu.md` (chương 1, 10 nội dung
-> tuần 21–27/09, bàn giao ở `04_content/drafts/2026-09-21-BAN-GIAO-SHEET-tuan-21-27-09.md`).
+> Nối tiếp `05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/00-ke-hoach/ke-hoach.md` (chương 1, 10 nội dung
+> tuần 21–27/09, bàn giao ở `05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/04-ban-giao/2026-09-21-BAN-GIAO-SHEET-tuan-21-27-09.md`).
 >
 > **Quyết định người dùng 2026-09-21:** giữ **P1 (Sinh viên / mua máy đầu tiên)**, đào sâu hơn
 > — không chuyển sang P2 (Nhân viên văn phòng). Đăng tuần 28/09–04/10.
 > Bản ý tưởng cho P2 (Nhân viên văn phòng) được **gác lại làm chương 3**:
-> `05_campaigns/2026-09-28-series-van-phong-15-18-trieu-Y-TUONG.md`.
+> `05_campaigns/2026-10-05-chuong-3-van-phong-15-18-trieu/00-ke-hoach/y-tuong.md`.
 >
 > Nguồn: `02_products/36-may-duoc-viet-2026-09-20.csv` · `01_company/facts/policies.md`
 > · `01_company/facts/company-facts.md` · `03_customers/personas.md`

@@ -230,7 +230,7 @@ https://laptoptv.vn/laptop-cu-dell-latitude-5310-2in1-cam-ung-core-i5-10210u-16g
 
 ## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
 
-> Bản gộp cả 5 bài để copy-paste: `04_content/drafts/2026-09-28-BAN-GIAO-SHEET-tuan-28-09-04-10.md`
+> Bản gộp cả 5 bài để copy-paste: `05_campaigns/2026-09-28-chuong-2-sinh-vien-chuyen-sau/04-ban-giao/2026-09-28-BAN-GIAO-SHEET-tuan-28-09-04-10.md`
 > ⛔ **CHƯA ĐĂNG ĐƯỢC** — chạy `python3 tools/collection_fetch.py` rồi đối chiếu lại giá · kho · `warranty_tag` 3 máy. Gọi shop xác nhận sáng hôm đăng.
 
 | Dòng trong sheet | Giá trị |

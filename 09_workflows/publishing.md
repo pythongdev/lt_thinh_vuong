@@ -26,9 +26,11 @@
 - Không xoá comment tiêu cực nếu không vi phạm. Trả lời tử tế là nội dung tin cậy tốt nhất.
 
 ## Sau khi đăng
-1. Chuyển file `approved/` → `published/`, thêm `published_url` và `published_at` vào header.
+1. Chuyển file `02-approved/` → `03-published/` trong folder chiến dịch (bài lẻ:
+   `04_content/approved/` → `published/`), thêm `published_url` và `published_at` vào header.
 2. Thêm dòng vào `07_analytics/content-performance.md`.
 3. Atom trong `ideas.md` → `status: published`.
+4. Số liệu sau khi đăng ghi vào `05-ket-qua/` của chiến dịch, không ghi đè vào file bài.
 
 ## Kênh
 | Kênh | Trạng thái |

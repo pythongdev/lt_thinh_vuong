@@ -1,7 +1,7 @@
 # Bộ 6 video ngắn — chiến dịch "Sinh viên có 13 triệu"
 
 > Soạn 2026-09-20 · dựa trên `16_research/cach-viet-video-ngan-NGHIEN-CUU.md`
-> và `05_campaigns/2026-09-21-series-sinh-vien-13-trieu-TOM-TAT.md`.
+> và `05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/00-ke-hoach/ke-hoach-TOM-TAT.md`.
 > **Trạng thái: draft — Gate 6 (Human Approval) chưa ai ký. Chưa được quay, chưa được đăng.**
 
 ## 1. Sáu video

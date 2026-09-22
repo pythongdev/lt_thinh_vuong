@@ -171,8 +171,8 @@ blocked_by: "UNVERIFIED.md #3, #4, #10 — chưa rõ ship COD, phí ship, cho te
 
 ## Chương 2 series sinh viên — 5 atom, đã có draft (thêm 2026-09-21)
 
-> Cả 5 đã viết thành Content Package trong `04_content/drafts/`, kế hoạch ở
-> `05_campaigns/2026-09-28-series-sinh-vien-chuong-2.md`. **Gate 6 chưa ai ký.**
+> Cả 5 đã viết thành Content Package trong `05_campaigns/2026-09-28-chuong-2-sinh-vien-chuyen-sau/01-drafts/`, kế hoạch ở
+> `05_campaigns/2026-09-28-chuong-2-sinh-vien-chuyen-sau/00-ke-hoach/ke-hoach.md`. **Gate 6 chưa ai ký.**
 
 ```yaml
 id: FB-CH2-01

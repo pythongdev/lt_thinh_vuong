@@ -85,7 +85,15 @@ Nếu có claim nào không truy được nguồn → đánh dấu `⚠️ NEEDS
 đừng lặng lẽ để nguyên.
 
 ## Bước 6 — Lưu
-Lưu vào `04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md` kèm header:
+
+Hỏi trước: **bài này thuộc chiến dịch nào?** (xem `05_campaigns/INDEX.md`)
+
+| | Nơi lưu |
+|---|---|
+| Thuộc một chiến dịch | `05_campaigns/<chiến-dịch>/01-drafts/YYYY-MM-DD-<loại>-<số>-<slug>.md` |
+| Bài lẻ | `04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md` |
+
+Header bắt buộc:
 ```yaml
 id: FB-IDEA-xxx        # nếu bắt nguồn từ 04_content/backlog/ideas.md
 product: PRD-xxx | none
@@ -100,8 +108,9 @@ created: YYYY-MM-DD
 gates: { g0: ⬜, g1: ⬜, g2: ⬜, g3: ⬜, g4: ⬜, g5: ⬜, g6: ⬜ }
 ```
 
-Sau đó: qua gate (`10_gates/README.md`) → `04_content/approved/` (có `approved_by`)
-→ đăng → `04_content/published/` + ghi dòng vào `07_analytics/content-performance.md`.
+Sau đó: qua gate (`10_gates/README.md`) → `02-approved/` (có `approved_by`) → đăng →
+`03-published/` + ghi dòng vào `07_analytics/content-performance.md`, số liệu vào `05-ket-qua/`.
+(Bài lẻ: `04_content/approved/` → `04_content/published/`.)
 
 Ý tưởng mới nảy ra trong lúc viết → thêm atom vào `04_content/backlog/ideas.md`, đừng bỏ phí.
 

@@ -2,7 +2,7 @@
 
 > ## 🅿️ GÁC LẠI LÀM CHƯƠNG 3 — quyết định người dùng 2026-09-21
 > Người dùng chọn **giữ P1 (Sinh viên / mua máy đầu tiên)** cho tuần 28/09–04/10.
-> Bộ 5 bài đã viết theo hướng đó: `05_campaigns/2026-09-28-series-sinh-vien-chuong-2.md`.
+> Bộ 5 bài đã viết theo hướng đó: `05_campaigns/2026-09-28-chuong-2-sinh-vien-chuyen-sau/00-ke-hoach/ke-hoach.md`.
 > Bản ý tưởng P2 (Nhân viên văn phòng) dưới đây **vẫn còn nguyên giá trị** — tầng 15–18 triệu
 > chưa ai viết, và phát hiện ở mục 2 (ở tầm 17 triệu shop có cả máy mới 100% bảo hành 12 tháng
 > lẫn máy likenew cao cấp, so được bằng hai máy thật) vẫn đúng. Dùng cho tuần 05–11/10.
@@ -11,8 +11,8 @@
 > **Trạng thái: BẢN Ý TƯỞNG CHỜ DUYỆT.** Chưa viết Content Package, chưa vào calendar,
 > chưa chạm sheet. Đây là bước "đưa ý tưởng trước" theo yêu cầu người dùng 2026-09-21.
 >
-> Nối tiếp: `05_campaigns/2026-09-21-series-sinh-vien-13-trieu.md` (chương 1, tuần 21–27/09,
-> 10 nội dung đã bàn giao ở `04_content/drafts/2026-09-21-BAN-GIAO-SHEET-tuan-21-27-09.md`).
+> Nối tiếp: `05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/00-ke-hoach/ke-hoach.md` (chương 1, tuần 21–27/09,
+> 10 nội dung đã bàn giao ở `05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/04-ban-giao/2026-09-21-BAN-GIAO-SHEET-tuan-21-27-09.md`).
 >
 > Nguồn dữ liệu: `02_products/36-may-duoc-viet-2026-09-20.csv` · `01_company/facts/policies.md`
 > · `03_customers/personas.md` · `15_competitors/competitors.md` · `01_company/facts/UNVERIFIED.md`

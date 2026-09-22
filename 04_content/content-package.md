@@ -73,4 +73,6 @@ Chỉ số chính: ... · Ngưỡng coi là thắng: ... · Đo sau: 24h / 72h /
 
 - Thiếu bất kỳ thành phần **bắt buộc** nào → Gate 5 (Content Quality) chặn.
 - Claim không truy được nguồn → ghi `⚠️ NEEDS_VERIFICATION` ngay trong caption, không lặng lẽ để nguyên.
-- Package sống ở `04_content/drafts/` → `approved/` → `published/`.
+- Package thuộc chiến dịch sống ở `05_campaigns/<chiến-dịch>/01-drafts/` → `02-approved/`
+  → `03-published/`. Bài lẻ: `04_content/drafts/` → `approved/` → `published/`.
+  Chỉ mục chiến dịch: `05_campaigns/INDEX.md`.

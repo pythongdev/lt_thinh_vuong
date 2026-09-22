@@ -207,7 +207,7 @@ Template format: `04_content/templates/kich-ban-video-sheet.md`
 ## Bước tiếp theo
 
 Gate 6 đã ký (người dùng duyệt 2026-09-21).
-Block dán sheet: `04_content/drafts/2026-09-21-KICH-BAN-VIDEO-dan-vao-sheet.tsv` (54 dòng, 5 cột).
+Block dán sheet: `05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/04-ban-giao/2026-09-21-KICH-BAN-VIDEO-dan-vao-sheet.tsv` (54 dòng, 5 cột).
 Sinh lại block bất cứ lúc nào bằng script ở cuối lịch sử chat — block đọc thẳng từ file này,
 nên **sửa file này trước, xuất block sau**, đừng sửa tay trong file .tsv.
 

@@ -246,7 +246,8 @@ Sheet **không thay thế** Content Package 12 thành phần (`04_content/conten
 | 11 Measurement plan | ❌ sheet không có (chỉ có cột `Chỉ số` bỏ trống) |
 | 12 Fact table | ❌ sheet không có |
 
-**Kết luận:** bản đầy đủ sống ở `04_content/drafts/`. Sheet chỉ nhận **phần đăng được**
+**Kết luận:** bản đầy đủ sống trong folder chiến dịch (`05_campaigns/<chiến-dịch>/01-drafts/`,
+khối 10 trường gộp ở `04-ban-giao/`). Sheet chỉ nhận **phần đăng được**
 (`ĐỊNH DẠNG` · `TUYẾN ND` · `TITLE` · `CONTENT` · `BRIEF ẢNH` · `FORMAT` · `STATUS`).
 
 ---

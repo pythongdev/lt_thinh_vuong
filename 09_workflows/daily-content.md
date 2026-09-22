@@ -13,7 +13,7 @@ Nạp dữ liệu trước khi nghĩ ra ý tưởng.
 | Doanh số | — | 🔴 chưa có (`UNVERIFIED.md` #13) |
 | Câu hỏi khách hôm qua | comment/inbox page | ⚠️ ghi tay |
 | Số liệu bài hôm qua | `tools/fb_fetch.py` → `07_analytics/content-performance.md` | ✅ có script |
-| Chiến dịch đang chạy | `05_campaigns/` | ✅ |
+| Chiến dịch đang chạy | `05_campaigns/INDEX.md` | ✅ |
 
 ## 08:15 — MARKETING MANAGER AI
 Agent 01–03. Trả lời:
@@ -30,7 +30,8 @@ Duyệt sai ở bước này thì mọi bước sau đều lãng phí.
 
 ## 09:15 — CONTENT AGENTS
 Agent 04–07: atom → hook → caption/script → visual direction.
-**Xuất:** Content Package đủ 12 thành phần (`04_content/content-package.md`) vào `04_content/drafts/`.
+**Xuất:** Content Package đủ 12 thành phần (`04_content/content-package.md`) vào `01-drafts/`
+của chiến dịch đang chạy (`05_campaigns/INDEX.md`). Bài lẻ → `04_content/drafts/`.
 
 ## 10:00 — GATES
 Agent 08 (Gate 1–2) và agent 09 (Gate 3–4), cộng Gate 0 và Gate 5.
@@ -38,7 +39,7 @@ Fail → trả về đúng agent gây lỗi, không quay lại đầu dây chuy�
 
 ## 10:30 — HUMAN APPROVAL (Gate 6)
 Người duyệt nội dung cuối. Ký tên + ngày vào header file.
-Package chuyển `drafts/` → `approved/`.
+Package chuyển `01-drafts/` → `02-approved/` (bài lẻ: `drafts/` → `approved/`).
 
 ## Trong ngày — PUBLISH
 Agent 10 chuẩn bị, **người bấm đăng**. Kiểm tra lại giá + tồn kho ngay trước khi đăng.

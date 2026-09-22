@@ -11,18 +11,22 @@ SCRIPT/CAPTION   agent 06 — theo format tương ứng
    ↓
 VISUAL      agent 07 — cần quay/chụp gì
    ↓
-PACKAGE     đủ 12 thành phần → 04_content/drafts/
+PACKAGE     đủ 12 thành phần → 05_campaigns/<chiến-dịch>/01-drafts/
    ↓  Gate 1-5
    ↓  Gate 6 — người duyệt
-APPROVED    → 04_content/approved/
+APPROVED    → 05_campaigns/<chiến-dịch>/02-approved/
 ```
+
+> Bài lẻ không thuộc chiến dịch nào thì đi `04_content/drafts/` → `approved/`.
+> Chỉ mục chiến dịch: `05_campaigns/INDEX.md`.
 
 ## Đầu vào bắt buộc
 Atom phải đủ: `persona`, `journey`, `objective`, `pillar`, `problem`, `angle`, `format`, `cta`, `proof`.
 Thiếu bất kỳ trường nào → trả về agent 04, không viết.
 
 ## Đặt tên file
-`04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md`
+`05_campaigns/<chiến-dịch>/01-drafts/YYYY-MM-DD-<idea-id>-<slug>.md`
+(bài lẻ: `04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md`)
 Ví dụ: `2026-09-09-FB-IDEA-001-5-phut-kiem-tra.md`
 
 ## Header bắt buộc

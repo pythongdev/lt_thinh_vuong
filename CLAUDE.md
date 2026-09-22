@@ -106,6 +106,8 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 ## Cách dùng
 - **Hiểu toàn bộ hệ thống:** `HE-THONG-HOAT-DONG.md` (workflow · luật · 7 gate · đo · học)
 - **Máy nào được viết:** `02_products/36-MAY-DUOC-VIET.md` — **đọc trước mọi bài** (luật #20)
+- **Chiến dịch đang có gì, đang bị chặn gì:** `05_campaigns/INDEX.md`
+- **Mở chiến dịch mới:** `05_campaigns/campaign-template.md` (7 bước, có sẵn lệnh tạo folder)
 - **Viết bài mới:** gõ `/viet-bai` (skill trong `.claude/skills/viet-bai/`)
 - **Format bàn giao cho fanpage:** `04_content/templates/fanpage-sheet.md`
   (bộ trường của Google Sheet + chuẩn ảnh + giờ đăng + tỉ trọng tuyến nội dung + câu cấm copy)
@@ -125,7 +127,17 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 Không phải "một caption" mà là **Content Package** 12 thành phần —
 `04_content/content-package.md`. Thiếu thành phần bắt buộc → Gate 5 chặn.
 
-Vòng đời file: `04_content/drafts/` → `approved/` → `published/`.
+### Bài sống ở đâu — hỏi 1 câu: bài này thuộc chiến dịch nào?
+
+| Trường hợp | Nơi lưu |
+|---|---|
+| **Thuộc một chiến dịch** (đa số) | `05_campaigns/<chiến-dịch>/01-drafts/` → `02-approved/` → `03-published/` |
+| **Bài lẻ, không thuộc chiến dịch nào** | `04_content/drafts/` → `approved/` → `published/` |
+
+Mỗi chiến dịch là **1 folder chứa trọn vòng đời của nó** — kế hoạch, bài viết, bàn giao,
+kết quả nằm cùng chỗ. Chỉ mục: `05_campaigns/INDEX.md`. Mở chiến dịch mới:
+`05_campaigns/campaign-template.md`.
+
 (`04_content/posts/` đã xoá 2026-09-20 — toàn bộ bài cũ viết về máy ngoài danh sách 36.)
 
 ## Bàn giao lên Google Sheet fanpage
@@ -142,9 +154,9 @@ Chi tiết từng trường + template điền sẵn: `04_content/templates/fanp
 
 | Bước | Làm gì | Ở đâu |
 |---|---|---|
-| 1 | Viết Content Package 12 thành phần (khai đủ P / J / O / CP kèm tên tiếng Việt) | `04_content/drafts/` |
+| 1 | Viết Content Package 12 thành phần (khai đủ P / J / O / CP kèm tên tiếng Việt) | `05_campaigns/<chiến-dịch>/01-drafts/` |
 | 2 | Chạy đủ **7 gate** (`10_gates/README.md`) + checklist mục 7 của `fanpage-sheet.md` | draft |
-| 3 | Rút gọn thành block 10 trường theo format sheet, dán vào cuối file draft | draft |
+| 3 | Rút gọn thành block 10 trường theo format sheet, dán vào cuối file draft **và** gộp vào `04-ban-giao/` của chiến dịch | draft · `04-ban-giao/` |
 | 4 | **Người dùng đọc và nói "ok"** — Gate 6 phải có người ký | — |
 | 5 | Chỉ khi đã "ok" → đẩy lên sheet, `STATUS` = `CHỜ FEEDBACK` | Google Sheet |
 
@@ -219,8 +231,11 @@ Không được im lặng chọn hộ.
                formats/ (reels, post, carousel, story, comparison, review, customer-story)
                backlog/ (idea-schema, ideas, experiments) · calendar/
                templates/ (facebook · tiktok · fanpage-sheet = format bàn giao)
-               drafts/ → approved/ → published/
-05_campaigns/  chiến dịch
+               drafts/ → approved/ → published/ (chỉ bài lẻ, không thuộc chiến dịch nào)
+05_campaigns/  INDEX.md = chỉ mục mọi chiến dịch · campaign-template.md = khuôn mở mới
+               <ngày>-chuong-<n>-<tên>/  ← mỗi chiến dịch 1 folder, trọn vòng đời:
+                   INDEX.md · 00-ke-hoach/ · 01-drafts/ · 02-approved/
+                   · 03-published/ · 04-ban-giao/ · 05-ket-qua/
 06_sales/      quy trình bán, xử lý phản đối
 07_analytics/  metrics · content-performance · experiments · learned-patterns · reports/
 08_ai_agents/  12 agent + orchestrator

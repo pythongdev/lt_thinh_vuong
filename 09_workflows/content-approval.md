@@ -2,13 +2,25 @@
 
 ## Đường đi của file
 
+Bài **thuộc một chiến dịch** đi trong folder của chiến dịch đó:
+
 ```
-04_content/drafts/      AI vừa tạo, chưa qua gate
+05_campaigns/<chiến-dịch>/01-drafts/     AI vừa tạo, chưa qua gate
         ↓  Gate 0-5 (AI chạy) + Gate 6 (người ký)
-04_content/approved/    đã duyệt, chờ tới lịch đăng
+05_campaigns/<chiến-dịch>/02-approved/   đã duyệt, chờ tới lịch đăng
         ↓  đăng
-04_content/published/   đã đăng, có link bài thật
+05_campaigns/<chiến-dịch>/03-published/  đã đăng, có link bài thật
+        ↓  số liệu sau khi đăng
+05_campaigns/<chiến-dịch>/05-ket-qua/    reach · tương tác · inbox · đơn + bài học
 ```
+
+Bài **lẻ, không thuộc chiến dịch nào** đi đường cũ:
+
+```
+04_content/drafts/  →  04_content/approved/  →  04_content/published/
+```
+
+Chỉ mục mọi chiến dịch: `05_campaigns/INDEX.md`.
 
 ## Ai duyệt cái gì
 

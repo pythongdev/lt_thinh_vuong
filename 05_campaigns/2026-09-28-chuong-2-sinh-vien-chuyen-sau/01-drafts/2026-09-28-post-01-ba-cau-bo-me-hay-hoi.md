@@ -206,7 +206,7 @@ Bên mình: 6 tháng cho bo mạch – màn hình – bàn phím (máy cũ, like
 
 ## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
 
-> Bản gộp cả 5 bài để copy-paste: `04_content/drafts/2026-09-28-BAN-GIAO-SHEET-tuan-28-09-04-10.md`
+> Bản gộp cả 5 bài để copy-paste: `05_campaigns/2026-09-28-chuong-2-sinh-vien-chuyen-sau/04-ban-giao/2026-09-28-BAN-GIAO-SHEET-tuan-28-09-04-10.md`
 > ✅ Đăng được ngay sau khi có Gate 6 — bài không nêu tên máy, không có giá.
 
 | Dòng trong sheet | Giá trị |

@@ -15,7 +15,7 @@
 
 ## 0. Câu hỏi của nghiên cứu này
 
-Chiến dịch "Sinh viên có 13 triệu" (`05_campaigns/2026-09-21-series-sinh-vien-13-trieu.md`)
+Chiến dịch "Sinh viên có 13 triệu" (`05_campaigns/2026-09-21-chuong-1-sinh-vien-13-trieu/00-ke-hoach/ke-hoach.md`)
 đang treo phần video: reels bị ghi chú *"đây là bài phụ, không kịp quay thì bỏ"*. Lý do thật là
 **chưa ai biết một video tốt của shop này trông ra sao** — page chưa sản xuất reels qua pipeline
 lần nào, `07_analytics/content-performance.md` còn trống, `learned-patterns.md` không có pattern nào.

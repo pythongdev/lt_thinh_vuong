@@ -67,7 +67,8 @@ Repo được xếp theo đúng dòng chảy của dữ liệu. Số thư mục 
 └──────────────────────────┬───────────────────────────────────────────┘
                            ↓
 ┌─ TẦNG 6: XUẤT BẢN ───────────────────────────────────────────────────┐
-│  04_content/drafts/ → approved/ → published/                         │
+│  05_campaigns/<chiến-dịch>/01-drafts/ → 02-approved/ → 03-published/ │
+│  (bài lẻ: 04_content/drafts/ → approved/ → published/)               │
 │  09_workflows/publishing.md                                          │
 └──────────────────────────┬───────────────────────────────────────────┘
                            ↓
@@ -288,7 +289,8 @@ gates: { g0: ⬜, g1: ⬜, g2: ⬜, g3: ⬜, g4: ⬜, g5: ⬜, g6: ⬜ }
 Sau khi duyệt thêm: `approved_by`, `approved_at`.
 Sau khi đăng thêm: `published_url`, `published_at`.
 
-Đặt tên file: `04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md`
+Đặt tên file: `05_campaigns/<chiến-dịch>/01-drafts/YYYY-MM-DD-<idea-id>-<slug>.md`
+(bài lẻ không thuộc chiến dịch nào: `04_content/drafts/YYYY-MM-DD-<idea-id>-<slug>.md`)
 → ví dụ `2026-09-09-FB-IDEA-001-5-phut-kiem-tra.md`
 
 ### Fact table trông như thế nào
@@ -557,13 +559,19 @@ ATOM → [Gate 0] → HOOK (05) → SCRIPT/CAPTION (06) → VISUAL (07) → PACK
 
 ### 7.4 `content-approval.md` — đường đi của file
 
+Bài thuộc một chiến dịch:
+
 ```
-04_content/drafts/     AI vừa tạo, chưa qua gate
+05_campaigns/<chiến-dịch>/01-drafts/     AI vừa tạo, chưa qua gate
       ↓  G0-G5 (AI chạy) + G6 (người ký)
-04_content/approved/   đã duyệt, chờ tới lịch
+05_campaigns/<chiến-dịch>/02-approved/   đã duyệt, chờ tới lịch
       ↓  đăng
-04_content/published/  đã đăng, có link bài thật
+05_campaigns/<chiến-dịch>/03-published/  đã đăng, có link bài thật
+      ↓  số liệu
+05_campaigns/<chiến-dịch>/05-ket-qua/    reach · tương tác · inbox · đơn
 ```
+
+Bài lẻ, không thuộc chiến dịch nào: `04_content/drafts/` → `approved/` → `published/`.
 
 Khi bị trả về:
 1. Ghi **lý do fail** vào cuối file (giữ lại, **không xoá** — dữ liệu học)
@@ -807,7 +815,8 @@ dịch thông số thành đời thực: "12.5 inch" → "bỏ vừa balo, mang 
 
 **⑥ Visual (agent 07)** — chụp máy thật tại 71 Thiên Hiền, có cảnh cầm tay để thấy độ mỏng.
 
-**⑦ Package** — đủ 12 thành phần, lưu `04_content/drafts/2026-09-09-FB-IDEA-002-4-trieu-ruoi.md`
+**⑦ Package** — đủ 12 thành phần, lưu vào `01-drafts/` của chiến dịch,
+ví dụ `05_campaigns/<chiến-dịch>/01-drafts/2026-09-09-FB-IDEA-002-4-trieu-ruoi.md`
 với header `gates: { g0: ✅, g1: ⬜, ... }`.
 
 **⑧ Gate 1–2 (agent 08)** — ⛔ **BÀI BỊ CHẶN Ở ĐÂY (từ 2026-09-09).**
@@ -828,7 +837,8 @@ không nêu tên đối thủ ✅ · không khan hiếm giả ✅.
 có 5 câu trả lời comment (bắt buộc vì O4).
 
 **⑪ Gate 6** — `risk: high` (có giá) → **chủ shop hoặc phụ trách bán hàng ký**.
-Ghi `approved_by` + `approved_at`. File → `04_content/approved/`.
+Ghi `approved_by` + `approved_at`. File → `02-approved/` của chiến dịch
+(bài lẻ: `04_content/approved/`).
 
 **⑫ Đăng** — người bấm đăng. Check lại giá + kho ngay trước khi đăng. Đăng first comment.
 Trực comment 60 phút. File → `published/` + `published_url`.
@@ -906,7 +916,7 @@ Nếu ≥3 bài cùng chiều → viết `LP-###` confidence `medium` → mới 
 3. **Fact-check bắt buộc TRƯỚC khi viết** — mỗi con số: *nằm ở file nào?*
 4. **Viết** theo template, dịch thông số thành lợi ích đời thực, đúng 1 persona, đúng 1 CTA
 5. **Xuất Content Package** 12 thành phần (không phải mỗi caption)
-6. **Lưu** vào `04_content/drafts/` với header đầy đủ
+6. **Lưu** vào `01-drafts/` của chiến dịch (bài lẻ: `04_content/drafts/`) với header đầy đủ
 
 Nếu người dùng đưa link sản phẩm laptoptv.vn → WebFetch lấy cấu hình + giá →
 **ghi vào `products.md` kèm source + verified_at trước khi viết**.
@@ -954,7 +964,9 @@ Việc gấp nhất, theo đúng thứ tự đòn bẩy:
 | Đầu ra chuẩn | `04_content/content-package.md` |
 | Atom schema | `04_content/backlog/idea-schema.md` · dữ liệu: `ideas.md` |
 | Format & template | `04_content/formats/` · `04_content/templates/` |
-| Vòng đời bài | `04_content/drafts/` → `approved/` → `published/` |
+| Chiến dịch | `05_campaigns/INDEX.md` (chỉ mục) · `campaign-template.md` (mở mới) |
+| Vòng đời bài | `05_campaigns/<chiến-dịch>/01-drafts/` → `02-approved/` → `03-published/` → `05-ket-qua/` |
+| Vòng đời bài lẻ | `04_content/drafts/` → `approved/` → `published/` |
 | Đo | `07_analytics/metrics.md` · `content-performance.md` · `reports/` |
 | Học | `07_analytics/learned-patterns.md` · `04_content/backlog/experiments.md` |
 | Agent | `08_ai_agents/README.md` · `orchestrator.md` |
