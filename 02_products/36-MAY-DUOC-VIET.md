@@ -5,9 +5,12 @@
 > Đây là toàn bộ máy có **tồn kho xác thực** (`stock_tracked=yes` và `qty>0`) trong 3 danh mục
 > Deal shock · Laptop Gaming · Laptop 2in1. Tổng **207 chiếc**.
 >
-> Nguồn: `02_products/catalog/collections/all-2026-09-20.csv` · **verified_at 2026-09-20**
-> Dữ liệu máy: `02_products/36-may-duoc-viet-2026-09-20.csv`
-> Kéo lại: `python3 tools/collection_fetch.py` — **hạn dùng 2026-09-27** (luật #10).
+> Nguồn: `02_products/catalog/collections/all-2026-09-22.csv` · **verified_at 2026-09-22**
+> Dữ liệu máy: `02_products/36-may-duoc-viet-2026-09-22.csv`
+> Kéo lại: `python3 tools/collection_fetch.py` — **hạn dùng 2026-09-29** (luật #10).
+>
+> ✅ **Kéo lại 2026-09-22:** vẫn đúng **36 máy / 207 chiếc**, không máy nào rời danh sách,
+> không máy nào vào thêm, **kho không đổi máy nào**. Đổi duy nhất 1 giá — xem mục cuối.
 
 ## Luật áp cho danh sách này
 
@@ -87,7 +90,7 @@
 | Giá | Máy | Cấu hình | BH | Kho |
 |---|---|---|---|---|
 | 18.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · 16GB DDR5 · 256GB · 14" 2.2K cảm ứng | 6 tháng | 3 |
-| **19.680.000đ** (từ 18.680.000đ, 2026-09-20) | Acer Nitro 5 Tiger | i5-12500H · 16GB · 512GB · **RTX 3050Ti** · 15.6" 165Hz | 6 tháng | 2 |
+| **18.680.000đ** (lên 19.680.000đ ngày 2026-09-20, **hạ lại 2026-09-22**) | Acer Nitro 5 Tiger | i5-12500H · 16GB · 512GB · **RTX 3050Ti** · 15.6" 165Hz | 6 tháng | 2 |
 | 20.880.000đ | Dell Latitude 9430 2in1 | i7-1265U · **32GB DDR5** · 256GB · 14" 2.2K cảm ứng | 6 tháng | 2 |
 | **23.880.000đ** (từ 19.880.000đ, 2026-09-15) | Dell Inspiron 7440 2in1 | Core 5-120U · 16GB · 512GB · 14" FHD cảm ứng | **12 tháng** (mới) | 7 |
 | 24.280.000đ | HP OmniBook X Flip 2in1 | Ryzen AI 5 340 · ⚠️16GB? · 512GB · 14" cảm ứng | **12 tháng** (mới) | 8 |
@@ -114,14 +117,17 @@
 ✅ Ngoài 6 máy này, **34/36 máy có tag bảo hành đầy đủ và không máy nào lỗi giá gốc**
 (`compare_at < price`) → danh sách sạch, không vướng luật #14 và #15.
 
-## Thay đổi so với snapshot 2026-09-15
+## Thay đổi qua 3 lần kéo
 
-Chỉ 2/36 máy đổi trong 5 ngày, kho **không đổi máy nào**:
+| Máy | 15/09 | 20/09 | 22/09 |
+|---|---|---|---|
+| Dell Latitude 9520 2in1 i5-1145G7 | 13.890.000đ | **14.290.000đ** | 14.290.000đ |
+| Acer Nitro 5 Tiger i5-12500H | 18.680.000đ | 19.680.000đ | **18.680.000đ** (hạ lại) |
 
-| Máy | 15/09 | 20/09 |
-|---|---|---|
-| Dell Latitude 9520 2in1 i5-1145G7 | 13.890.000đ | **14.290.000đ** |
-| Acer Nitro 5 Tiger i5-12500H | 18.680.000đ | **19.680.000đ** |
+Lần kéo 2026-09-22: **36 máy không đổi thành phần**, kho không đổi máy nào,
+chỉ chiếc Acer Nitro 5 Tiger hạ giá về mức cũ. 4 máy xương sống của
+chương 3 (`05_campaigns/2026-10-05-chuong-3-van-phong-15-18-trieu/`) **đã đối chiếu lại,
+giữ nguyên giá · kho · bảo hành · tình trạng**.
 
 ## ⛔ Máy đã bị loại khỏi danh sách
 
