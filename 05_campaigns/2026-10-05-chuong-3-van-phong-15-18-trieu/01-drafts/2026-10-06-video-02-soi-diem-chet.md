@@ -192,18 +192,21 @@ Thứ 5 tuần này bên mình đăng tiếp: 3 động tác thử bản lề c�
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 06-10 (Thứ 3) · 12:15 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Trust SP / Review SP |
-| **TITLE** | 30 giây soi màn hình · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **Tên bài (nội bộ)** | 30 giây soi màn hình |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP04 (Quy trình kiểm tra) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → rút từ **mục 3. Script** + **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 

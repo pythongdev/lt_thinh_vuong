@@ -213,18 +213,21 @@ Bên mình trả lời sẵn 4 câu cuối: máy cũ và likenew bảo hành 6 t
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 07-10 (Thứ 4) · 20:30 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | Bộ ảnh |
 | **TUYẾN ND** | Trust SP / Review SP |
-| **TITLE** | Phiếu đi xem máy — 5 thứ phải soi · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **Tên bài (nội bộ)** | Phiếu đi xem máy — 5 thứ phải soi |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP04 (Quy trình kiểm tra) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → lấy nguyên bảng 6 ảnh ở **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa có bộ ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có bộ ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 

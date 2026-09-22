@@ -1,7 +1,7 @@
 # Bàn giao Google Sheet — Chương 3, tuần 05–11/10/2026
 
-> **Chiến dịch:** [Dân văn phòng 15–19 triệu](../INDEX.md) · **Persona:** P2 (Nhân viên văn phòng)
-> **Gộp ngày:** 2026-09-22 · **Nguồn:** 10 Content Package trong [01-drafts/](../01-drafts/)
+> **Chiến dịch:** [Dân văn phòng 15–19 triệu](../../INDEX.md) · **Persona:** P2 (Nhân viên văn phòng)
+> **Gộp ngày:** 2026-09-22 · **Nguồn:** 10 Content Package trong [01-drafts/](../../01-drafts/)
 > **Sheet đích:** https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
 
 ## 🟡 TRẠNG THÁI: BẢN ĐẨY ĐÃ SẴN SÀNG — SHEET VẪN CHƯA ĐƯỢC CHẠM
@@ -10,14 +10,14 @@
 |---|---|
 | Gate 0–5 | ✅ đã chạy trên cả 10 bài (xem header từng file draft) |
 | **Gate 6 — người ký** | 🟡 người dùng nói "ok" trong chat **2026-09-22** · chưa ghi `approved_by` vào 10 file draft |
-| Bản đẩy lên sheet | ✅ sinh 2026-09-22: [day-len-sheet.gs](day-len-sheet.gs) · [SHEET-TUAN-05-11-10-doc.csv](SHEET-TUAN-05-11-10-doc.csv) · [SHEET-TUAN-05-11-10-ngang.csv](SHEET-TUAN-05-11-10-ngang.csv) |
+| Bản đẩy lên sheet | ✅ sinh 2026-09-22: [day-len-sheet.gs](day-len-sheet.gs) · [SHEET-TUAN-05-11-10-luoi.csv](SHEET-TUAN-05-11-10-luoi.csv) · [SHEET-TUAN-05-11-10-ngang.csv](SHEET-TUAN-05-11-10-ngang.csv) |
 | Đã chạm sheet chưa | ❌ **chưa** — connector Google Drive chỉ đọc, không ghi được ô |
 
 **Chỉ được coi là "đã lên sheet"** sau khi người phụ trách chạy Apps Script (hoặc nhập CSV)
-và nhìn thấy khối nằm trong sheet. Cách làm: [README.md](README.md).
+và nhìn thấy khối nằm trong sheet. Cách làm: [README.md](../README.md).
 
 Sinh lại 3 file máy đọc sau khi sửa file này:
-`python3 tools/ban_giao_to_sheet.py 05_campaigns/2026-10-05-chuong-3-van-phong-15-18-trieu/04-ban-giao/BAN-GIAO-TUAN-05-11-10.md`
+`python3 tools/ban_giao_to_sheet.py 05_campaigns/2026-10-05-chuong-3-van-phong-15-18-trieu/04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-05-11-10.md`
 
 ---
 
@@ -38,25 +38,29 @@ Sinh lại 3 file máy đọc sau khi sửa file này:
 
 **CN 11/10:** không đăng bài mới — trực comment và inbox cả ngày.
 
-> ⚠️ **Cột `STT`**: file này để trống. Người đẩy lên sheet đánh số tiếp theo số `POST` đang chạy
-> trong sheet tháng 10, không tự đặt số mới.
+> ⚠️ **Khuôn sheet**: tab đang chạy không còn dòng `STT` / `TITLE` / `DATE & TIME`.
+> Bốn trục P / J / O / CP và tên bài nội bộ chỉ sống ở file này, không đẩy lên sheet.
+> Khuôn đầy đủ: [`04_content/templates/post-template.md`](../../../../04_content/templates/post-template.md).
 
 ---
 
 ## 1 · T2 05-10 · 12:15 — Reels "Gập màn ra sau để làm gì"
 
-📄 Bản đầy đủ: [2026-10-05-video-01-gap-man-ra-sau.md](../01-drafts/2026-10-05-video-01-gap-man-ra-sau.md)
+📄 Bản đầy đủ: [2026-10-05-video-01-gap-man-ra-sau.md](../../01-drafts/2026-10-05-video-01-gap-man-ra-sau.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 05-10 (Thứ 2) · 12:15 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Giáo dục |
-| **TITLE** | Gập màn ra sau để làm gì · P2 (Nhân viên văn phòng) · J1 (Đã thấy shop) · O1 (Tiếp cận) · CP02 (Kiến thức) |
+| **Tên bài (nội bộ)** | Gập màn ra sau để làm gì |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J1 (Đã thấy shop) |
+| **Objective** | O1 (Tiếp cận) |
+| **Pillar** | CP02 (Kiến thức) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -97,18 +101,21 @@ ______________________
 
 ## 2 · T2 05-10 · 20:30 — post "Máy đơ lúc chia sẻ màn hình"
 
-📄 Bản đầy đủ: [2026-10-05-post-01-may-do-luc-chia-se-man-hinh.md](../01-drafts/2026-10-05-post-01-may-do-luc-chia-se-man-hinh.md)
+📄 Bản đầy đủ: [2026-10-05-post-01-may-do-luc-chia-se-man-hinh.md](../../01-drafts/2026-10-05-post-01-may-do-luc-chia-se-man-hinh.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 05-10 (Thứ 2) · 20:30 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Giáo dục |
-| **TITLE** | Máy đơ lúc chia sẻ màn hình · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP02 (Kiến thức) |
+| **Tên bài (nội bộ)** | Máy đơ lúc chia sẻ màn hình |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP02 (Kiến thức) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -170,18 +177,21 @@ ______________________
 
 ## 3 · T3 06-10 · 12:15 — Reels "30 giây soi màn hình"
 
-📄 Bản đầy đủ: [2026-10-06-video-02-soi-diem-chet.md](../01-drafts/2026-10-06-video-02-soi-diem-chet.md)
+📄 Bản đầy đủ: [2026-10-06-video-02-soi-diem-chet.md](../../01-drafts/2026-10-06-video-02-soi-diem-chet.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 06-10 (Thứ 3) · 12:15 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Trust SP / Review SP |
-| **TITLE** | 30 giây soi màn hình · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **Tên bài (nội bộ)** | 30 giây soi màn hình |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP04 (Quy trình kiểm tra) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -233,18 +243,21 @@ ______________________
 
 ## 4 · T4 07-10 · 20:30 — Bộ ảnh "Phiếu đi xem máy — 5 thứ phải soi"
 
-📄 Bản đầy đủ: [2026-10-07-post-02-phieu-di-xem-may.md](../01-drafts/2026-10-07-post-02-phieu-di-xem-may.md)
+📄 Bản đầy đủ: [2026-10-07-post-02-phieu-di-xem-may.md](../../01-drafts/2026-10-07-post-02-phieu-di-xem-may.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 07-10 (Thứ 4) · 20:30 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | Bộ ảnh |
 | **TUYẾN ND** | Trust SP / Review SP |
-| **TITLE** | Phiếu đi xem máy — 5 thứ phải soi · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **Tên bài (nội bộ)** | Phiếu đi xem máy — 5 thứ phải soi |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP04 (Quy trình kiểm tra) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -319,18 +332,21 @@ ______________________
 
 ## 5 · T5 08-10 · 12:15 — Reels "3 động tác thử bản lề"
 
-📄 Bản đầy đủ: [2026-10-08-video-03-ba-dong-tac-thu-ban-le.md](../01-drafts/2026-10-08-video-03-ba-dong-tac-thu-ban-le.md)
+📄 Bản đầy đủ: [2026-10-08-video-03-ba-dong-tac-thu-ban-le.md](../../01-drafts/2026-10-08-video-03-ba-dong-tac-thu-ban-le.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 08-10 (Thứ 5) · 12:15 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Trust SP / Review SP |
-| **TITLE** | 3 động tác thử bản lề · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **Tên bài (nội bộ)** | 3 động tác thử bản lề |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP04 (Quy trình kiểm tra) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -385,18 +401,21 @@ ______________________
 
 ## 6 · T5 08-10 · 20:30 — post "17 triệu: mới hay đã qua sử dụng" 💰
 
-📄 Bản đầy đủ: [2026-10-08-post-03-17-trieu-moi-hay-da-qua-su-dung.md](../01-drafts/2026-10-08-post-03-17-trieu-moi-hay-da-qua-su-dung.md)
+📄 Bản đầy đủ: [2026-10-08-post-03-17-trieu-moi-hay-da-qua-su-dung.md](../../01-drafts/2026-10-08-post-03-17-trieu-moi-hay-da-qua-su-dung.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 08-10 (Thứ 5) · 20:30 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Sản phẩm |
-| **TITLE** | 17 triệu: mới hay đã qua sử dụng · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **Tên bài (nội bộ)** | 17 triệu: mới hay đã qua sử dụng |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J3 (Đang so sánh) |
+| **Objective** | O4 (Cân nhắc mua) |
+| **Pillar** | CP03 (So sánh) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -473,18 +492,21 @@ ______________________
 
 ## 7 · T6 09-10 · 12:15 — Reels "Hai chiếc 17 triệu đặt cạnh nhau" 💰
 
-📄 Bản đầy đủ: [2026-10-09-video-04-hai-chiec-17-trieu.md](../01-drafts/2026-10-09-video-04-hai-chiec-17-trieu.md)
+📄 Bản đầy đủ: [2026-10-09-video-04-hai-chiec-17-trieu.md](../../01-drafts/2026-10-09-video-04-hai-chiec-17-trieu.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 09-10 (Thứ 6) · 12:15 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Sản phẩm |
-| **TITLE** | Hai chiếc 17 triệu đặt cạnh nhau · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **Tên bài (nội bộ)** | Hai chiếc 17 triệu đặt cạnh nhau |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J3 (Đang so sánh) |
+| **Objective** | O4 (Cân nhắc mua) |
+| **Pillar** | CP03 (So sánh) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -530,18 +552,21 @@ ______________________
 
 ## 8 · T6 09-10 · 20:30 — post "Cùng XPS gập xoay, chênh 2,1 triệu" 💰
 
-📄 Bản đầy đủ: [2026-10-09-post-04-cung-xps-chenh-2-1-trieu.md](../01-drafts/2026-10-09-post-04-cung-xps-chenh-2-1-trieu.md)
+📄 Bản đầy đủ: [2026-10-09-post-04-cung-xps-chenh-2-1-trieu.md](../../01-drafts/2026-10-09-post-04-cung-xps-chenh-2-1-trieu.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 09-10 (Thứ 6) · 20:30 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Sản phẩm |
-| **TITLE** | Cùng XPS gập xoay, chênh 2,1 triệu · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **Tên bài (nội bộ)** | Cùng XPS gập xoay, chênh 2,1 triệu |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J3 (Đang so sánh) |
+| **Objective** | O4 (Cân nhắc mua) |
+| **Pillar** | CP03 (So sánh) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -617,18 +642,21 @@ ______________________
 
 ## 9 · T7 10-10 · 12:15 — Reels "Vệ sinh + tra keo miễn phí trọn đời"
 
-📄 Bản đầy đủ: [2026-10-10-video-05-ve-sinh-tra-keo.md](../01-drafts/2026-10-10-video-05-ve-sinh-tra-keo.md)
+📄 Bản đầy đủ: [2026-10-10-video-05-ve-sinh-tra-keo.md](../../01-drafts/2026-10-10-video-05-ve-sinh-tra-keo.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 10-10 (Thứ 7) · 12:15 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Trust thương hiệu |
-| **TITLE** | Vệ sinh + tra keo miễn phí trọn đời · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O3 (Tin công ty) · CP07 (Hậu trường) |
+| **Tên bài (nội bộ)** | Vệ sinh + tra keo miễn phí trọn đời |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J3 (Đang so sánh) |
+| **Objective** | O3 (Tin công ty) |
+| **Pillar** | CP07 (Hậu trường) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -680,18 +708,21 @@ ______________________
 
 ## 10 · T7 10-10 · 20:30 — post "4 máy 15–19 triệu cho dân văn phòng" 🔴 risk cao
 
-📄 Bản đầy đủ: [2026-10-10-post-05-bon-may-15-19-trieu.md](../01-drafts/2026-10-10-post-05-bon-may-15-19-trieu.md)
+📄 Bản đầy đủ: [2026-10-10-post-05-bon-may-15-19-trieu.md](../../01-drafts/2026-10-10-post-05-bon-may-15-19-trieu.md)
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 10-10 (Thứ 7) · 20:30 |
-| **STT** | *(đánh theo số đang chạy trong sheet)* |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Sản phẩm |
-| **TITLE** | 4 máy 15–19 triệu cho dân văn phòng · P2 (Nhân viên văn phòng) · J4 (Đã inbox / gọi / ghé shop) · O5 (Tạo lead / đơn) · CP05 (Đánh giá sản phẩm) |
+| **Tên bài (nội bộ)** | 4 máy 15–19 triệu cho dân văn phòng |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J4 (Đã inbox / gọi / ghé shop) |
+| **Objective** | O5 (Tạo lead / đơn) |
+| **Pillar** | CP05 (Đánh giá sản phẩm) |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
@@ -848,10 +879,10 @@ Nội dung đầy đủ nằm ở mục 9 của từng file draft. Bài nào có
 | 1 | **Đọc 10 bài và ký Gate 6** — ghi `approved_by` + `approved_at` vào header từng file draft | **Người dùng / chủ shop** |
 | 2 | Chạy lại `python3 tools/collection_fetch.py` sát ngày đăng — danh sách 36 máy hạn **2026-09-29** | Người viết content |
 | 3 | Sau khi ký: chuyển 10 file từ `01-drafts/` sang `02-approved/` | Người viết content |
-| 4 | Chạy [day-len-sheet.gs](day-len-sheet.gs) trong sheet (hoặc nhập [SHEET-TUAN-05-11-10-doc.csv](SHEET-TUAN-05-11-10-doc.csv)), rồi **đánh cột `STT`** nối tiếp số POST tháng 10 | Người phụ trách sheet |
+| 4 | Chạy [day-len-sheet.gs](day-len-sheet.gs) trong sheet (hoặc nhập [SHEET-TUAN-05-11-10-luoi.csv](SHEET-TUAN-05-11-10-luoi.csv)), rồi **đánh cột `STT`** nối tiếp số POST tháng 10 | Người phụ trách sheet |
 | 5 | Mỗi sáng ngày đăng: gọi xác nhận kho theo mục 14 của 4 bài có giá | Người phụ trách bán hàng |
 
 > ⚠️ **Connector Google Drive hiện tại chỉ đọc, không ghi được ô** — hệ thống không tự đẩy lên sheet được.
-> Bước 4 chạy bằng tay theo [README.md](README.md): Apps Script (nhanh nhất) · nhập CSV · hoặc dán tay.
+> Bước 4 chạy bằng tay theo [README.md](../README.md): Apps Script (nhanh nhất) · nhập CSV · hoặc dán tay.
 > Sheet đang mở quyền **ai có link cũng sửa được** (kiểm 2026-09-22) nên chạy script được ngay.
 > Chưa chạy xong thì **chưa được coi là đã lên sheet**.

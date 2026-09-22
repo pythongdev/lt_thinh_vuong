@@ -58,7 +58,7 @@ không phải một caption. Đặt tên `YYYY-MM-DD-<loại>-<số>-<slug>.md`.
 ## Bước 5 — Chạy 7 gate rồi bàn giao
 
 1. Chạy đủ 7 gate (`10_gates/README.md`) + checklist mục 7 của `04_content/templates/fanpage-sheet.md`
-2. Rút thành khối 10 trường → `04-ban-giao/`
+2. Rút thành khối theo `04_content/templates/post-template.md` → `04-ban-giao/`
 3. **Người dùng đọc và nói "ok"** — Gate 6 phải có người ký (luật #8)
 4. Chỉ khi đã "ok" → đẩy lên Google Sheet, `STATUS` = `CHỜ FEEDBACK` (luật #18)
 5. Bài đã đăng → chuyển file sang `03-published/` kèm link bài thật

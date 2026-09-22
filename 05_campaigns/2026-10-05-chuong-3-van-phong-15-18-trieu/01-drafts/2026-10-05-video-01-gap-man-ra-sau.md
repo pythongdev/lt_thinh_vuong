@@ -182,18 +182,21 @@ Tuần này mình sẽ đăng lần lượt: cách tự soi bản lề, cách so
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 05-10 (Thứ 2) · 12:15 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Giáo dục |
-| **TITLE** | Gập màn ra sau để làm gì · P2 (Nhân viên văn phòng) · J1 (Đã thấy shop) · O1 (Tiếp cận) · CP02 (Kiến thức) |
+| **Tên bài (nội bộ)** | Gập màn ra sau để làm gì |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J1 (Đã thấy shop) |
+| **Objective** | O1 (Tiếp cận) |
+| **Pillar** | CP02 (Kiến thức) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → rút từ **mục 3. Script** + **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 

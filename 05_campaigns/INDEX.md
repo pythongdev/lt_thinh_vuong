@@ -43,7 +43,7 @@ P1 · 13 triệu                    P1 · 7–13 triệu, đào sâu           P
 ├── 01-drafts/        Content Package 12 thành phần, chưa qua gate
 ├── 02-approved/      đã qua đủ 7 gate (10_gates/README.md), chờ tới lịch đăng
 ├── 03-published/     đã đăng thật, có link bài + mã theo dõi
-├── 04-ban-giao/      khối 10 trường để dán vào Google Sheet fanpage
+├── 04-ban-giao/      khối lưới 9×8 để dán vào Google Sheet fanpage
 └── 05-ket-qua/       số liệu sau khi đăng + bài học rút ra
 ```
 

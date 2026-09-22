@@ -45,6 +45,14 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
     Máy không có tên trong danh sách đó → **không viết bài bán, không làm hook, không nêu tên
     làm ví dụ**. Tư vấn inbox/comment cho khách hỏi máy khác thì **vẫn làm bình thường**.
     Danh sách hết hạn 2026-09-27 → chạy `python3 tools/collection_fetch.py` để dựng lại.
+21. 🎬 **Video bàn giao phải có kịch bản 5 cột**, không chỉ caption. Khuôn:
+    `04_content/templates/kich-ban-video-sheet.md` — `STT · BỐI CẢNH · NỘI DỤNG - VOICE
+    · TEXT MÀN HÌNH · NOTE`, mỗi cảnh 1 dòng, trên mỗi kịch bản 1 dòng tiêu đề merge.
+    Tuần nào có video thì `04-ban-giao/` phải có **cả 2 nhánh** file (bài đăng + kịch bản video).
+    Sheet KB của team: https://docs.google.com/spreadsheets/d/1Nu5cBftCJJzjJqWgRzXE0XYIR2pvmdHHCnwAsrsgoa8
+22. **Upload Google Drive cũng nằm sau Gate 6.** Luật #18 áp cho cả Drive: chưa có "ok"
+    thì không upload file bàn giao lên Drive, không đụng sheet KB. Và không được báo
+    "đã đưa lên Drive" khi thực tế mới chỉ sinh file trong repo.
 
 ## Bốn trục phân loại (không được nhầm mã)
 | Trục | Mã | File |
@@ -109,8 +117,13 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
 - **Chiến dịch đang có gì, đang bị chặn gì:** `05_campaigns/INDEX.md`
 - **Mở chiến dịch mới:** `05_campaigns/campaign-template.md` (7 bước, có sẵn lệnh tạo folder)
 - **Viết bài mới:** gõ `/viet-bai` (skill trong `.claude/skills/viet-bai/`)
-- **Format bàn giao cho fanpage:** `04_content/templates/fanpage-sheet.md`
-  (bộ trường của Google Sheet + chuẩn ảnh + giờ đăng + tỉ trọng tuyến nội dung + câu cấm copy)
+- **Khuôn bàn giao bài đăng (BẮT BUỘC):** `04_content/templates/post-template.md`
+  (lưới 9 dòng × 8 cột đúng tab đang chạy + khuôn ô CONTENT + checklist trước khi dán)
+- **Diễn giải sheet fanpage:** `04_content/templates/fanpage-sheet.md`
+  (chuẩn ảnh + giờ đăng + tỉ trọng tuyến nội dung + câu cấm copy)
+- **Khuôn kịch bản video (BẮT BUỘC):** `04_content/templates/kich-ban-video-sheet.md`
+  (5 cột của sheet KB + dòng tiêu đề merge + câu cấm copy + cách đưa lên Drive)
+  → sinh bản dán: `python3 tools/kich_ban_to_sheet.py <file KICH-BAN-VIDEO>.md`
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)
@@ -147,10 +160,12 @@ kết quả nằm cùng chỗ. Chỉ mục: `05_campaigns/INDEX.md`. Mở chiế
 Sheet lịch đăng của team:
 https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
 
-**Format bắt buộc khi bàn giao** — 10 trường, đúng thứ tự dòng trong sheet:
-`DATE & TIME` · `STT` · `ĐỊNH DẠNG` · `TUYẾN ND` · `TITLE` · `CONTENT` · `BRIEF ẢNH`
-· `LINK ẢNH` · `FORMAT` · `STATUS`.
-Chi tiết từng trường + template điền sẵn: `04_content/templates/fanpage-sheet.md`.
+**Khuôn bắt buộc khi bàn giao** — lưới **9 dòng × 8 cột**, 1 khối = 1 tuần.
+Cột A là nhãn, Thứ 2 ở cột B, Chủ Nhật ở cột H. Hai dòng đầu là *thứ trong tuần* và *ngày*,
+rồi 7 nhãn: `ĐỊNH DẠNG` · `TUYẾN ND` · `CONTENT` · `BRIEF ẢNH` · `LINK ẢNH/ KB`
+· `FORMAT` · `STATUS`. Tab đang chạy **không còn** dòng `STT` / `TITLE` / `DATE & TIME` —
+không tự thêm lại. Đặc tả đầy đủ + template điền sẵn: `04_content/templates/post-template.md`.
+Sinh bản dán: `python3 tools/ban_giao_to_sheet.py <file BAN-GIAO>.md`.
 
 ### 5 bước — LOCAL trước, ONLINE sau
 
@@ -158,7 +173,7 @@ Chi tiết từng trường + template điền sẵn: `04_content/templates/fanp
 |---|---|---|
 | 1 | Viết Content Package 12 thành phần (khai đủ P / J / O / CP kèm tên tiếng Việt) | `05_campaigns/<chiến-dịch>/01-drafts/` |
 | 2 | Chạy đủ **7 gate** (`10_gates/README.md`) + checklist mục 7 của `fanpage-sheet.md` | draft |
-| 3 | Rút gọn thành block 10 trường theo format sheet, dán vào cuối file draft **và** gộp vào `04-ban-giao/` của chiến dịch | draft · `04-ban-giao/` |
+| 3 | Gộp vào `04-ban-giao/` theo khuôn `post-template.md`, chạy `tools/ban_giao_to_sheet.py` để sinh bản dán | `04-ban-giao/` |
 | 4 | **Người dùng đọc và nói "ok"** — Gate 6 phải có người ký | — |
 | 5 | Chỉ khi đã "ok" → đẩy lên sheet, `STATUS` = `CHỜ FEEDBACK` | Google Sheet |
 
@@ -169,7 +184,7 @@ Chi tiết từng trường + template điền sẵn: `04_content/templates/fanp
 
 ### ⚠️ Giới hạn công cụ
 Connector Google Drive hiện tại **chỉ đọc**, không ghi được ô. Bước 5 làm theo 1 trong 3 cách:
-1. Xuất block 10 trường để người dùng copy-paste (mặc định).
+1. Xuất file `-luoi.csv` / Apps Script để người dùng nhập vào sheet (mặc định).
 2. Viết Apps Script / dùng Sheets API — cần người dùng cấp quyền.
 3. Nối connector Google Sheets có quyền ghi.
 
@@ -232,7 +247,7 @@ Không được im lặng chọn hộ.
 04_content/    strategy/ (objectives, pillars, journey, matrix, facebook-strategy)
                formats/ (reels, post, carousel, story, comparison, review, customer-story)
                backlog/ (idea-schema, ideas, experiments) · calendar/
-               templates/ (facebook · tiktok · fanpage-sheet = format bàn giao)
+               templates/ (post-template = KHUÔN BÀN GIAO · fanpage-sheet · kich-ban-video-sheet · facebook · tiktok)
                drafts/ → approved/ → published/ (chỉ bài lẻ, không thuộc chiến dịch nào)
 05_campaigns/  INDEX.md = chỉ mục mọi chiến dịch · campaign-template.md = khuôn mở mới
                <ngày>-chuong-<n>-<tên>/  ← mỗi chiến dịch 1 folder, trọn vòng đời:
@@ -252,6 +267,7 @@ Không được im lặng chọn hộ.
 16_research/   tài liệu nghiên cứu/tham khảo (chưa phải nguồn fact — không trích vào bài)
 17_danh-gia-he-thong/  các lần đánh giá lại hệ thống (không phải nguồn fact)
 tools/         catalog_fetch.py (sản phẩm+giá) · fb_fetch.py (Facebook Graph API)
+               ban_giao_to_sheet.py (bài đăng → sheet) · kich_ban_to_sheet.py (video → sheet KB)
 ```
 
 ## Giọng văn

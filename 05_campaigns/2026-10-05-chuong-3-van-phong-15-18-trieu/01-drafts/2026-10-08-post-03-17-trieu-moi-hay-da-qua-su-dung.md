@@ -212,18 +212,21 @@ Muốn ra xem tận tay thì gọi 0928939666 (8h–20h30) hỏi trước giúp 
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 08-10 (Thứ 5) · 20:30 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Sản phẩm |
-| **TITLE** | 17 triệu: mới hay đã qua sử dụng · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) |
+| **Tên bài (nội bộ)** | 17 triệu: mới hay đã qua sử dụng |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J3 (Đang so sánh) |
+| **Objective** | O4 (Cân nhắc mua) |
+| **Pillar** | CP03 (So sánh) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → lấy bảng 3 ảnh ở **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa có bộ ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có bộ ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 

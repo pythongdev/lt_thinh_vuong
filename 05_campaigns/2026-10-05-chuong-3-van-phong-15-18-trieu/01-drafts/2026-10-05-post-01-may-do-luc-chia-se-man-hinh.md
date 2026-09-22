@@ -193,18 +193,21 @@ Ba câu hay bị hiểu ngược, nói luôn cho gọn:
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 05-10 (Thứ 2) · 20:30 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Giáo dục |
-| **TITLE** | Máy đơ lúc chia sẻ màn hình · P2 (Nhân viên văn phòng) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP02 (Kiến thức) |
+| **Tên bài (nội bộ)** | Máy đơ lúc chia sẻ màn hình |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O2 (Hiểu vấn đề) |
+| **Pillar** | CP02 (Kiến thức) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → rút từ **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa có ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 

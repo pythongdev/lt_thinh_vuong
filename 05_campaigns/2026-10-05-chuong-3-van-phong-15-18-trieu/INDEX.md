@@ -4,8 +4,8 @@
 > **Dải giá dùng trong mọi bài đăng là "15–19 triệu"** — chốt 2026-09-22.
 
 > ## 🟡 ĐÃ SOẠN XONG — CHỜ KÝ GATE 6
-> **10 Content Package** trong [01-drafts/](01-drafts/) và **khối bàn giao 10 trường** trong
-> [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) đều xong (2026-09-22).
+> **10 Content Package** trong [01-drafts/](01-drafts/) và **khối bàn giao theo khuôn lưới** trong
+> [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-05-11-10.md) đều xong (2026-09-22).
 > Gate 0–5 ✅ · **Gate 6 ⬜ chưa ai ký** · **chưa chạm Google Sheet** (luật #8, #18).
 >
 > Việc tiếp theo là **người dùng đọc 10 bài và ký Gate 6** — ghi `approved_by` + `approved_at`
@@ -29,7 +29,7 @@
 | [01-drafts/](01-drafts/) | **10 Content Package 12 thành phần** (5 bài viết + 5 video) | ✅ **đã viết 2026-09-22** · ⬜ Gate 6 chưa ký |
 | [02-approved/](02-approved/) | Bài đã qua đủ 7 gate | ⬜ trống |
 | [03-published/](03-published/) | Bài đã đăng thật | ⬜ trống |
-| [04-ban-giao/](04-ban-giao/) | [BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) — **10 khối 10 trường** + bản đẩy máy đọc: [day-len-sheet.gs](04-ban-giao/day-len-sheet.gs) · [2 file CSV](04-ban-giao/SHEET-TUAN-05-11-10-doc.csv) | ✅ **gộp + sinh bản đẩy 2026-09-22** · 🟡 Gate 6: người dùng đã "ok", chưa ghi `approved_by` · ❌ chưa chạm sheet (connector chỉ đọc) |
+| [04-ban-giao/](04-ban-giao/) | Chia **2 nhánh**: [01-bai-dang/](04-ban-giao/01-bai-dang/) — [BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-05-11-10.md) (10 khối) + [day-len-sheet.gs](04-ban-giao/01-bai-dang/day-len-sheet.gs) · [CSV lưới](04-ban-giao/01-bai-dang/SHEET-TUAN-05-11-10-luoi.csv) &#124; [02-reel/](04-ban-giao/02-reel/) — [KICH-BAN-VIDEO-TUAN-05-11-10.md](04-ban-giao/02-reel/KICH-BAN-VIDEO-TUAN-05-11-10.md) (5 kịch bản × 6 cảnh) + [day-len-kb-sheet.gs](04-ban-giao/02-reel/day-len-kb-sheet.gs) | ✅ **gộp + sinh bản đẩy 2026-09-22** · 🟡 Gate 6: người dùng đã "ok", chưa ghi `approved_by` · ❌ chưa chạm sheet (connector chỉ đọc) |
 | [05-ket-qua/](05-ket-qua/) | Số liệu sau khi đăng | ⬜ trống |
 
 ---
@@ -55,7 +55,7 @@ Chủ nhật không đăng — trực inbox.
 - ✅ **Bỏ Dell Inspiron 5430** khỏi bộ máy (vướng cả mục 3 của bản câu hỏi), thay bằng
   **Dell Latitude 9430 2in1 — 18.880.000đ**. Dải giá đối ngoại: **15–19 triệu**.
 - ✅ **10 Content Package đã viết xong 2026-09-22** → [01-drafts/](01-drafts/).
-- ✅ **Khối bàn giao đã gộp 2026-09-22** → [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md)
+- ✅ **Khối bàn giao đã gộp 2026-09-22** → [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-05-11-10.md)
   (bước 3 của quy trình 5 bước). **Chưa chạm sheet** — chờ Gate 6 (luật #8, #18).
 
 ### 10 nội dung — lịch tuần 05–11/10
@@ -88,5 +88,5 @@ mỗi file có **mục 14: việc bắt buộc trong ngày đăng**, phải làm
 | 3 | ✅ Đã duyệt khung + đã viết 10 Content Package (2026-09-22) | Xong |
 | 4 | **Người dùng đọc 10 draft và ký Gate 6** — chưa ký thì không chạm Google Sheet (luật #8, #18) | **Người dùng** |
 | 5 | Chạy lại `collection_fetch.py` sát ngày đăng (hạn dùng hiện tại: 2026-09-29) + gọi xác nhận kho từng sáng | Người viết content |
-| 6 | ✅ Đã gộp khối 10 trường vào [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/BAN-GIAO-TUAN-05-11-10.md) (2026-09-22) | Xong |
-| 7 | Sau khi ký Gate 6: chuyển 10 file sang [02-approved/](02-approved/), rồi chạy [day-len-sheet.gs](04-ban-giao/day-len-sheet.gs) trong sheet và đánh cột `STT`, `STATUS` = `CHỜ FEEDBACK` — xem [04-ban-giao/README.md](04-ban-giao/README.md) | Người phụ trách sheet |
+| 6 | ✅ Đã gộp khối bàn giao vào [04-ban-giao/BAN-GIAO-TUAN-05-11-10.md](04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-05-11-10.md) (2026-09-22) | Xong |
+| 7 | Sau khi ký Gate 6: chuyển 10 file sang [02-approved/](02-approved/), rồi chạy [day-len-sheet.gs](04-ban-giao/01-bai-dang/day-len-sheet.gs) trong sheet và đánh cột `STT`, `STATUS` = `CHỜ FEEDBACK` — xem [04-ban-giao/README.md](04-ban-giao/README.md) | Người phụ trách sheet |

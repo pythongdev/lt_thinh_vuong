@@ -250,18 +250,21 @@ https://laptoptv.vn/dell-latitude-9430-2in1-core-i7-1265u-16gb-256gb-14-inch-2k-
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 10-10 (Thứ 7) · 20:30 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | post |
 | **TUYẾN ND** | Sản phẩm |
-| **TITLE** | 4 máy 15–19 triệu cho dân văn phòng · P2 (Nhân viên văn phòng) · J4 (Đã inbox / gọi / ghé shop) · O5 (Tạo lead / đơn) · CP05 (Đánh giá sản phẩm) |
+| **Tên bài (nội bộ)** | 4 máy 15–19 triệu cho dân văn phòng |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J4 (Đã inbox / gọi / ghé shop) |
+| **Objective** | O5 (Tạo lead / đơn) |
+| **Pillar** | CP05 (Đánh giá sản phẩm) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → lấy bảng 5 ảnh ở **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa có bộ ảnh)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa có bộ ảnh)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 

@@ -14,25 +14,35 @@
 
 ---
 
-## 1. Bộ trường của 1 bài (đúng thứ tự dòng trong sheet)
+## 1. Bộ trường của 1 bài
 
-Mỗi tuần trong sheet là 1 block. Cột = thứ trong tuần. Mỗi bài là 1 ô dọc theo 9 dòng:
+> ⛔ **Khuôn bắt buộc nằm ở file riêng:** [`post-template.md`](post-template.md).
+> Đó là bản đọc nguyên văn tab đang chạy (T9.2026, `gid=1298966850`, đọc 2026-09-22).
+> Mọi bàn giao phải ra đúng khuôn đó. File này chỉ còn giữ phần **diễn giải** sheet:
+> quy đổi tuyến nội dung, tỉ trọng, chuẩn ảnh, giờ đăng, danh sách câu cấm copy.
 
-| # | Dòng trong sheet | Nội dung | Bắt buộc |
-|---|---|---|---|
-| 1 | `DATE & TIME` | Thứ + ngày (`28-04`) | ✅ |
-| 2 | `STT` | `POST 12` — số thứ tự bài trong tháng | ✅ |
-| 3 | `ĐỊNH DẠNG` | Dạng sản xuất: `post` · `Video` · `Reels` · `Bộ ảnh` · `Caption` · `Bài viết website + share fb` | ✅ |
-| 4 | `TUYẾN ND` | Tuyến nội dung — xem mục 2 | ✅ |
-| 5 | `TITLE` | Tên bài để nội bộ gọi nhau (không phải dòng đầu caption) | ✅ |
-| 6 | `CONTENT` | Caption đầy đủ, sẵn sàng copy lên fanpage | ✅ |
-| 7 | `BRIEF ẢNH` | Brief cho thiết kế: tỉ lệ · số lượng · text trên ảnh · logo | ✅ |
-| 8 | `LINK ẢNH` | Link Drive bộ ảnh / mã kịch bản (`KB20`) | điền khi có |
-| 9 | `FORMAT` | Kênh đẩy: `Post caption` · `Post ads` · `Post TV` | ✅ |
-| 10 | `STATUS` | `CHỜ FEEDBACK` → `ĐÃ AIR` | ✅ |
+Tóm tắt khuôn — sheet xếp theo **tuần**, 1 khối = 9 dòng × 8 cột,
+cột A là nhãn, Thứ 2 ở cột B, Chủ Nhật ở cột H:
 
-> Sheet không có cột nào cho persona / journey / objective / pillar. **Ta bổ sung 4 trường này
-> ở bản local** (mục 5) và để lại trong `TITLE` khi đẩy lên sheet, vì 7 gate bắt buộc phải khai.
+| Dòng | Nội dung | Ai điền |
+|---|---|---|
+| *(thứ trong tuần)* | `Thứ 2` … `Chủ Nhật` · ô A ghi khung giờ khi 1 ngày có 2 bài | AI |
+| *(ngày)* | `05-10` | AI |
+| `ĐỊNH DẠNG` | `post` · `Video` · `Reels` · `Bộ ảnh` · `Caption` · `Bài viết website + share fb` | AI |
+| `TUYẾN ND` | 1 trong 6 tuyến — xem mục 2 | AI |
+| `CONTENT` | Caption đầy đủ, sẵn sàng copy | AI |
+| `BRIEF ẢNH` | Brief thiết kế / brief quay | AI |
+| `LINK ẢNH/ KB` | Link Drive bộ ảnh hoặc mã kịch bản (`KB4T9`) | thiết kế |
+| `FORMAT` | `Post caption` · `Post ads` · `Post TV` | AI |
+| `STATUS` | `CHỜ FEEDBACK` → `ĐÃ AIR` | AI đặt · người phụ trách đổi |
+
+⚠️ **Đã đổi so với bản đọc 2026-09-20:** tab đang chạy **không còn** dòng `STT`, `TITLE`,
+`DATE & TIME` (ba dòng này chỉ còn trong các tháng cũ T4–T6), và dòng link nay tên là
+`LINK ẢNH/ KB`. Không tự thêm lại dòng đã bỏ.
+
+> Sheet không có chỗ cho persona / journey / objective / pillar. Bản cũ dặn nhét vào `TITLE` —
+> **không còn làm được** vì dòng `TITLE` đã bị bỏ. Bốn trục vẫn bắt buộc khai, nhưng sống ở
+> bản repo (`01-drafts/` và file bàn giao `.md`), không lên sheet.
 
 ---
 
@@ -171,59 +181,20 @@ ______________________
 
 ---
 
-## 5. Template điền 1 bài (bản local — dùng cái này khi viết)
+## 5. Template điền 1 bài
 
-~~~markdown
-### POST <số> — <ngày, thứ>
+Đã chuyển sang [`post-template.md`](post-template.md) **mục 4** — khuôn khối 1 bài trong file
+bàn giao, kèm khuôn ô `CONTENT` và chân post chuẩn. Đừng dùng lại khuôn 10 trường cũ
+(có `STT`, `TITLE`, `DATE & TIME`): tab đang chạy đã bỏ ba dòng đó.
 
-| Trường | Giá trị |
-|---|---|
-| DATE & TIME | 21-09 (Thứ 2) · giờ đăng: 20:00 |
-| STT | POST 01 |
-| ĐỊNH DẠNG | post / Video / Reels / Bộ ảnh |
-| TUYẾN ND | Sản phẩm |
-| FORMAT | Post caption |
-| STATUS | CHỜ FEEDBACK |
-| **Persona** | P2 — Nhân viên văn phòng |
-| **Journey** | J3 — Đang so sánh |
-| **Objective** | O4 — Cân nhắc mua |
-| **Pillar** | CP05 — Đánh giá sản phẩm |
-| **Product** | PRD-xxx (`02_products/products.md`) |
-| **CTA** | (đúng 1) |
+Sinh bản dán lên sheet:
 
-**TITLE (nội bộ):**
-<tên bài> · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP05 (Đánh giá sản phẩm)
-
-**CONTENT:**
-```
-<caption đầy đủ, sẵn sàng copy — theo cấu trúc mục 3.1 hoặc 3.2, chân post mục 4.8>
+```bash
+python3 tools/ban_giao_to_sheet.py 05_campaigns/<chiến-dịch>/04-ban-giao/BAN-GIAO-<tuần>.md
 ```
 
-**Hook thay thế (A/B):**
-- A: ...
-- B: ...
-- C: ...
-
-**BRIEF ẢNH:**
-- Tỉ lệ: 1:1 · Số lượng: N
-- Nội dung ảnh: ...
-- Text trên ảnh (tối đa 3 dòng): ...
-- Logo: Thịnh Vượng, góc trái trên
-
-**LINK ẢNH:** <để trống cho thiết kế điền>
-
-**First comment:** <link sản phẩm / thông tin phụ>
-
-**Hashtag:** #laptopthinhvuong #... (3–5 tag)
-
-**Fact table:**
-| Claim trong bài | Nguồn |
-|---|---|
-| 12.980.000đ | products.md#PRD-xxx (verified <ngày>) |
-| Bảo hành 6 tháng main/màn/phím | policies.md |
-
-**Gates:** G0 ⬜ · G1 ⬜ · G2 ⬜ · G3 ⬜ · G4 ⬜ · G5 ⬜ · G6 ⬜
-~~~
+Script dừng và báo lỗi nếu file bàn giao sai khuôn, sai thứ/ngày, thiếu trường,
+hai bài trùng ô, hoặc `STATUS` khác `CHỜ FEEDBACK`.
 
 ---
 
@@ -233,9 +204,9 @@ Sheet **không thay thế** Content Package 12 thành phần (`04_content/conten
 
 | Thành phần Content Package | Chỗ tương ứng trên sheet |
 |---|---|
-| 1 Strategy | ❌ sheet không có → nhét vào `TITLE` |
+| 1 Strategy | ❌ sheet không có (dòng `TITLE` đã bị bỏ) — chỉ sống ở bản repo |
 | 2 Hook | nằm trong `CONTENT` (dòng đầu) — bản A/B không có chỗ trên sheet |
-| 3 Script | `LINK ẢNH` trỏ tới doc kịch bản (`KB20`) |
+| 3 Script | `LINK ẢNH/ KB` trỏ tới mã kịch bản (`KB4T9`) |
 | 4 Caption | `CONTENT` |
 | 5 Visual direction | `BRIEF ẢNH` |
 | 6 Thumbnail | `BRIEF ẢNH` |
@@ -248,7 +219,7 @@ Sheet **không thay thế** Content Package 12 thành phần (`04_content/conten
 
 **Kết luận:** bản đầy đủ sống trong folder chiến dịch (`05_campaigns/<chiến-dịch>/01-drafts/`,
 khối 10 trường gộp ở `04-ban-giao/`). Sheet chỉ nhận **phần đăng được**
-(`ĐỊNH DẠNG` · `TUYẾN ND` · `TITLE` · `CONTENT` · `BRIEF ẢNH` · `FORMAT` · `STATUS`).
+(`ĐỊNH DẠNG` · `TUYẾN ND` · `CONTENT` · `BRIEF ẢNH` · `LINK ẢNH/ KB` · `FORMAT` · `STATUS`).
 
 ---
 
@@ -260,5 +231,6 @@ khối 10 trường gộp ở `04-ban-giao/`). Sheet chỉ nhận **phần đăn
 - [ ] Giá trong bài khớp catalog CSV trong vòng **7 ngày** (luật #10)
 - [ ] Cấu hình lấy theo **tên sản phẩm**, không theo tag (luật #13)
 - [ ] Bảo hành đọc theo `warranty_tag` của đúng máy (luật #14)
-- [ ] `TITLE` có ghi đủ mã + tên tiếng Việt của P / J / O / CP
+- [ ] Khối ra đúng lưới 9 dòng × 8 cột của [`post-template.md`](post-template.md) mục 1
+- [ ] 4 trục P / J / O / CP kèm tên tiếng Việt đã khai đủ ở bản repo (sheet không có chỗ)
 - [ ] `STATUS` để `CHỜ FEEDBACK`, chỉ người phụ trách đổi thành `ĐÃ AIR` sau khi đăng

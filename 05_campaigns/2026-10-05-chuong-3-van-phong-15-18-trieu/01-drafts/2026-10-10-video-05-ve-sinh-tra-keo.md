@@ -207,18 +207,21 @@ Mấy câu hay được hỏi, trả lời gọn:
 
 ---
 
-## 13. Khối 10 trường — bàn giao Google Sheet (bước 3)
+## 13. Khối bàn giao Google Sheet (bước 3) — khuôn `04_content/templates/post-template.md`
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 10-10 (Thứ 7) · 12:15 |
-| **STT** | ⚠️ đánh lại theo số đang chạy trong sheet |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Trust thương hiệu |
-| **TITLE** | Vệ sinh + tra keo miễn phí trọn đời · P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O3 (Tin công ty) · CP07 (Hậu trường) |
+| **Tên bài (nội bộ)** | Vệ sinh + tra keo miễn phí trọn đời |
+| **Persona** | P2 (Nhân viên văn phòng) |
+| **Journey** | J3 (Đang so sánh) |
+| **Objective** | O3 (Tin công ty) |
+| **Pillar** | CP07 (Hậu trường) |
 | **CONTENT** | → lấy nguyên khối ``` của **mục 4. Caption** |
 | **BRIEF ẢNH** | → rút từ **mục 3. Script** + **mục 5. Visual direction** |
-| **LINK ẢNH** | *(để trống — chưa quay)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
