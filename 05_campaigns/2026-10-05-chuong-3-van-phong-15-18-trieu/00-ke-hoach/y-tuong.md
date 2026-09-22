@@ -176,6 +176,10 @@ Mạch lặp lại đúng khung đã dùng ở chương 1 (đổi thước đo �
 | 4 | Bốn máy này về từ đâu — **máy doanh nghiệp thanh lý nhập khẩu**, hay nguồn khác? | Không chặn bài nào | Không nhắc nguồn hàng. ⛔ Không được suy từ mặt bằng ngành ở mục 1.3 |
 | 5 | Kho 20/09 (3 · 3 · 3 · 7 chiếc) còn đúng tới ngày đăng không? | Bài 3 · 4 · 5 | Gọi shop sáng hôm đăng. Máy nào hết thì rút khỏi bài, không thay bằng máy ngoài danh sách 36 |
 
+📞 **Bản câu hỏi chi tiết để gọi kỹ thuật:** `goi-ky-thuat-hoi-gi.md` (cùng thư mục) —
+5 câu trên được mở thành câu hỏi theo tình huống khách hàng, kèm câu đào sâu bắt buộc và
+bảng "trả lời thế này thì viết được gì".
+
 **Việc bắt buộc, không phải câu hỏi:**
 
 1. ⛔ **Danh sách 36 máy hết hạn 2026-09-27.** Bộ bài này đăng từ 28/09 → **phải chạy

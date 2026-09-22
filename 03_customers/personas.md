@@ -34,6 +34,8 @@
   Latitude 9430 2in1 (18.880.000đ); máy mới BH 12 tháng: Asus Vivobook S14 OLED (16.980.000đ)
 - **Ngôn ngữ:** thực dụng, nói bằng tình huống công việc
 - **CTA hiệu quả:** "Để lại ngành nghề, mình gợi ý cấu hình vừa đủ — không bán dư"
+- **Hành trình chi tiết:** `03_customers/journey-P2-nhan-vien-van-phong.md` — J0→J7 phân tích theo 4 trục
+  (tiền · niềm tin sản phẩm · niềm tin cửa hàng · giá trị đem lại), kèm điểm rơi và câu chặn
 
 ## P3 — Game thủ
 - **Ngân sách:** 20 – 60 triệu
