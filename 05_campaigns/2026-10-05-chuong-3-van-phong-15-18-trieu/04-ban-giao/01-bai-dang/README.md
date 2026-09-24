@@ -9,6 +9,11 @@ Tuần này 2 khung giờ/ngày → **2 khối**: `12:15` (5 video) và `20:30` 
 **Sheet đích — Digital Plan - Social Laptop Thịnh Vượng**
 https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
 
+**Bản đã upload Google Drive (2026-09-23) — đúng khuôn tab T9.2026**
+https://docs.google.com/spreadsheets/d/1m7VTCtrKkRlZoAPkt227Q2fonItI8_s1cEoExPJBYwc
+→ mở ra là thấy lưới đã định dạng sẵn, copy 2 khối dán thẳng sang lịch tháng 10.
+Chi tiết: mục *Bản trên Google Drive* ở [../README.md](../README.md).
+
 > Kịch bản quay của 5 video nằm ở nhánh kia: [../02-reel/](../02-reel/). Ô `CONTENT` ở đây
 > không thay thế được kịch bản 5 cột.
 

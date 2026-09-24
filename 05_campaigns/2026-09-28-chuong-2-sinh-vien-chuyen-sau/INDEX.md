@@ -1,6 +1,7 @@
 # Chương 2 — "Sinh viên: những câu chương 1 chưa trả lời" · tuần 28/09–04/10/2026
 
-> **Trạng thái: 5 draft đã viết, CHỜ DUYỆT — Gate 6 chưa ai ký. Chưa chạm Google Sheet (luật #18).**
+> **Trạng thái: ✅ Gate 6 — người dùng nói "ok" 2026-09-24. Đã bàn giao đủ 2 nhánh (bài đăng + reel)
+> và upload Google Drive. Sheet thật của team vẫn chưa bị chạm (connector chỉ đọc ô).**
 > Persona: **P1 (Sinh viên / mua máy đầu tiên)** — quyết định người dùng 2026-09-21: đào sâu P1,
 > không chuyển sang P2 (Nhân viên văn phòng).
 > Nguồn dữ liệu: `02_products/36-may-duoc-viet-2026-09-20.csv`
@@ -14,10 +15,10 @@
 | Thư mục | Chứa gì | Trạng thái |
 |---|---|---|
 | [00-ke-hoach/](00-ke-hoach/) | Kế hoạch 5 bài | ✅ xong |
-| [01-drafts/](01-drafts/) | 5 Content Package đầy đủ | ✅ xong, chờ Gate 6 |
+| [01-drafts/](01-drafts/) | 5 Content Package đầy đủ | ✅ xong, Gate 6 đã ký 2026-09-24 |
 | [02-approved/](02-approved/) | Bài đã qua đủ 7 gate, chờ tới lịch đăng | ⬜ trống |
 | [03-published/](03-published/) | Bài đã đăng thật, có link bài | ⬜ trống |
-| [04-ban-giao/](04-ban-giao/) | Khối 10 trường dán vào Google Sheet | ✅ xong, chờ dán tay |
+| [04-ban-giao/](04-ban-giao/) | **2 nhánh**: [01-bai-dang/](04-ban-giao/01-bai-dang/) lưới 9×8 (10 nội dung) · [02-reel/](04-ban-giao/02-reel/) 5 kịch bản 5 cột | ✅ xong 2026-09-24, đã lên Drive, chờ dán vào sheet team |
 | [05-ket-qua/](05-ket-qua/) | Số liệu sau khi đăng, bài học rút ra | ⬜ trống — điền sau khi đăng |
 
 > Chương này **chưa có bản tóm tắt cho chủ shop**. Cần thì sinh `ke-hoach-TOM-TAT.md`
@@ -64,8 +65,18 @@ liệu đã xử lý: mục 5 của [ke-hoach.md](00-ke-hoach/ke-hoach.md).
 
 ## 4. Bàn giao lên sheet — [04-ban-giao/](04-ban-giao/)
 
-[BAN-GIAO-SHEET tuần 28/09–04/10](04-ban-giao/2026-09-28-BAN-GIAO-SHEET-tuan-28-09-04-10.md)
-— khối 10 trường của cả 5 bài, đã dán sẵn vào cuối từng file draft.
+Hai nhánh, hai sheet khác nhau (luật #21) — cách đẩy nằm trong README của từng nhánh:
+
+| Nhánh | File gốc | Nội dung | Bản Drive (2026-09-24) |
+|---|---|---|---|
+| [01-bai-dang/](04-ban-giao/01-bai-dang/) | [BAN-GIAO-TUAN-28-09-04-10.md](04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-28-09-04-10.md) | Lưới 9×8, **2 khối**: 5 reel 12:15 + 5 bài viết 20:30 | https://docs.google.com/spreadsheets/d/1os858KNThkQBG37q169jAxdMnnMevEXkSR0jxNCyyGE |
+| [02-reel/](04-ban-giao/02-reel/) | [KICH-BAN-VIDEO-TUAN-28-09-04-10.md](04-ban-giao/02-reel/KICH-BAN-VIDEO-TUAN-28-09-04-10.md) | 5 kịch bản × 6 cảnh, 5 cột của sheet KB | https://docs.google.com/spreadsheets/d/113HxJNiapcllmf7lIOeuDJhw2JKCPKvUK9GKzPREDs8 |
+
+Thư mục Drive chứa cả hai: https://drive.google.com/drive/folders/1wbJJaGa7YhwX13XPFD9vX6eP2_NboQNB
+(My Drive của người dùng, **chưa chia sẻ cho ai**).
+
+Năm reel là **bản video của đúng bài đăng cùng ngày** — cùng 4 trục, cùng nguồn fact,
+không mở fact mới. Khuôn cũ 10 trường (`STT` / `TITLE` / `DATE & TIME`) đã bỏ.
 
 ---
 
@@ -73,8 +84,8 @@ liệu đã xử lý: mục 5 của [ke-hoach.md](00-ke-hoach/ke-hoach.md).
 
 | # | Chặn gì | Ai gỡ |
 |---|---|---|
-| 1 | **Gate 6 chưa ai ký** — luật #8 | Người phụ trách content |
-| 2 | **Bài 3, 4, 5 chưa được phép đăng** — nêu tên máy và giá, mà danh sách 36 máy hết hạn 2026-09-27. Phải chạy `python3 tools/collection_fetch.py` rồi đối chiếu lại **giá · kho · `warranty_tag`** của 8 máy (luật #10, #20) | Người viết content |
-| 3 | Bài 1 và Bài 2 **không nêu tên máy** → chỉ cần Gate 6 là đăng được | Người phụ trách content |
+| 1 | ~~Gate 6 chưa ai ký~~ → ✅ **người dùng ký "ok" 2026-09-24** | xong |
+| 2 | **Bài 3, 4, 5 và 3 reel cùng ngày chưa được phép đăng** — nêu tên máy và giá, mà danh sách 36 máy hết hạn **2026-09-29** (bản kéo lại 2026-09-22). Phải chạy `python3 tools/collection_fetch.py` rồi đối chiếu lại **giá · kho · `warranty_tag`** của 8 máy (luật #10, #20) | Người viết content |
+| 3 | Bài 1, Bài 2 và 2 reel cùng ngày **không nêu tên máy** → đăng được ngay | xong |
 | 4 | 2 chỗ Gate 0 ở mục 4 `ke-hoach.md` chưa có người quyết | Người dùng / chủ shop |
 | 5 | Connector Google Drive **chỉ đọc ô** → phải copy dán tay vào sheet | Người phụ trách sheet |

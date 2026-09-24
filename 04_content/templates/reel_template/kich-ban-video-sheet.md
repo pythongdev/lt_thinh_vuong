@@ -37,6 +37,11 @@ Ví dụ có thật trong sheet chuẩn:
 - `Kịch bản 1: Hành trình 11 năm của Laptop Thịnh Vượng - Không mẫu - Voice AI`
 - `Kịch bản 3: Hướng dẫn tiêu tiền lì xì đúng cách - không mẫu - nhạc  video mẫu: <link>`
 
+> Soát lại 2026-09-23: **tab mới nhất** (gid=1727303797, chủ đề 2in1 cho sinh viên) viết tiêu đề
+> trống phần đuôi — chỉ `Kịch bản 1: Laptop 2in1 là gì?`. Đây là chỗ sheet đi lệch, **không phải
+> chuẩn mới**: thiếu đuôi thì người quay không biết có thuê mẫu hay không, dùng voice gì.
+> Bài mình bàn giao vẫn ghi đủ `- <có mẫu / không mẫu> - <voice>`.
+
 ## 3. Những gì KHÔNG có trong sheet
 
 Format chuẩn **không có cột** cho timecode, persona, journey, objective, pillar,
@@ -72,7 +77,7 @@ Kịch bản cũ trong sheet KB viết trước khi có hệ thống fact. Khôn
 | "Build chắc chắn" | Chưa có phép đo |
 | Số 0945.998.855 | Chưa rõ chức năng đầu số |
 
-Xem thêm `04_content/templates/fanpage-sheet.md` mục 4.
+Xem thêm `04_content/templates/fanpage-sheet.md` mục 4 (đường dẫn từ folder này: `../fanpage-sheet.md`).
 
 ## 6. Checklist trước khi dán lên sheet
 
@@ -96,7 +101,7 @@ Tuần nào có video thì `04-ban-giao/` phải có **đủ 2 nhánh**, thiếu
 
 | Nhánh | File | Sheet đích |
 |---|---|---|
-| **Bài đăng** — lưới 9 dòng × 8 cột ([`post-template.md`](post-template.md)) | `BAN-GIAO-<tuần>.md` → `-luoi.csv` · `-ngang.csv` · `day-len-sheet.gs` | Sheet lịch đăng fanpage |
+| **Bài đăng** — lưới 9 dòng × 8 cột ([`post-template.md`](../post-template.md)) | `BAN-GIAO-<tuần>.md` → `-luoi.csv` · `-ngang.csv` · `day-len-sheet.gs` | Sheet lịch đăng fanpage |
 | **Kịch bản video** — 5 cột | `KICH-BAN-VIDEO-<tuần>.md` → `.csv` · `day-len-kb-sheet.gs` | Sheet KB video |
 
 File `.md` là bản gốc. Sửa `.md` rồi sinh lại, **đừng sửa thẳng vào CSV / .gs**:
@@ -108,6 +113,13 @@ python3 tools/kich_ban_to_sheet.py  05_campaigns/<chiến-dịch>/04-ban-giao/KI
 
 `kich_ban_to_sheet.py` tự soát và in cảnh báo: STT không đếm liền từ 1, dòng tiêu đề thiếu
 `có mẫu / không mẫu`, thiếu phần voice, ô BỐI CẢNH trống.
+
+### File mẫu để copy
+
+| File | Dùng khi nào |
+|---|---|
+| [`KICH-BAN-VIDEO-MAU.md`](KICH-BAN-VIDEO-MAU.md) | **Mặc định.** Copy sang `04-ban-giao/02-reel/KICH-BAN-VIDEO-<tuần>.md` rồi điền — có 1 kịch bản ví dụ + khung trắng KB2, KB3 + checklist. Điền xong chạy `kich_ban_to_sheet.py`. |
+| [`kich-ban-video-mau.csv`](kich-ban-video-mau.csv) | Khi người quay muốn điền thẳng trên sheet: lưới 5 cột trắng, 3 kịch bản × 8 cảnh. Không thay được bản `.md` ở repo. |
 
 ### Khuôn file `KICH-BAN-VIDEO-<tuần>.md` (script đọc được)
 

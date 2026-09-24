@@ -14,7 +14,7 @@
 | # | Chiến dịch | Tuần đăng | Viết cho ai | Số bài | Trạng thái |
 |---|---|---|---|---|---|
 | 1 | [Sinh viên có 13 triệu](2026-09-21-chuong-1-sinh-vien-13-trieu/INDEX.md) | 21–27/09/2026 | P1 — Sinh viên / mua máy đầu tiên | 11 nội dung (6 Reels · 4 bài viết · 4 Story) | 🟡 Soạn xong — **Gate 6 chưa ký**, chưa lên sheet |
-| 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–04/10/2026 | P1 — Sinh viên / mua máy đầu tiên | 5 bài viết | 🟡 Soạn xong — **Gate 6 chưa ký**, 3/5 bài còn bị chặn dữ liệu |
+| 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–04/10/2026 | P1 — Sinh viên / mua máy đầu tiên | 5 bài viết + 5 reel | 🟢 Gate 6 ký 2026-09-24, đã bàn giao 2 nhánh + lên Drive — 6/10 nội dung còn chờ kéo lại dữ liệu giá |
 | 3 | [Dân văn phòng 15–19 triệu](2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) | 05–11/10/2026 | P2 — Nhân viên văn phòng | 10 nội dung (5 bài viết · 5 Reels) | 🟡 Soạn xong + **đã gộp bàn giao** — Gate 6 chưa ký, chưa lên sheet |
 
 **Chưa có chiến dịch nào đăng thật.** Cả 3 đều đang chờ người ký Gate 6 (luật #8: AI không tự

@@ -52,6 +52,7 @@ Nguyên tắc: **chiếu ví dụ trước, gọi tên sau.**
 | File | Là gì |
 |---|---|
 | `16_research/cach-viet-video-ngan-NGHIEN-CUU.md` | Nguyên tắc chung mọi video ngắn — hook, nhịp, retention. Đọc trước khi bóc dạng mới. |
+| `03_customers/cach-lam-reel-cho-P2-nhan-vien-van-phong.md` | Cách làm reel riêng cho **P2 (Nhân viên văn phòng)** — bối cảnh xem, 3 loại video chạy được, hook kèm hình giây 0, kho cảnh tại shop |
 | `04_content/formats/reels.md` | **Luật format chính thức** của hệ thống. Dạng nào trong đây mâu thuẫn với file đó → file đó thắng. |
 | `12_prompts/facebook/reels/` | Prompt sinh kịch bản |
 | `02_products/36-MAY-DUOC-VIET.md` | Máy nào được lên hình (luật #20) |

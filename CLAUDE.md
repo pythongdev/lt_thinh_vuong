@@ -46,7 +46,7 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
     làm ví dụ**. Tư vấn inbox/comment cho khách hỏi máy khác thì **vẫn làm bình thường**.
     Danh sách hết hạn 2026-09-27 → chạy `python3 tools/collection_fetch.py` để dựng lại.
 21. 🎬 **Video bàn giao phải có kịch bản 5 cột**, không chỉ caption. Khuôn:
-    `04_content/templates/kich-ban-video-sheet.md` — `STT · BỐI CẢNH · NỘI DỤNG - VOICE
+    `04_content/templates/reel_template/kich-ban-video-sheet.md` — `STT · BỐI CẢNH · NỘI DỤNG - VOICE
     · TEXT MÀN HÌNH · NOTE`, mỗi cảnh 1 dòng, trên mỗi kịch bản 1 dòng tiêu đề merge.
     Tuần nào có video thì `04-ban-giao/` phải có **cả 2 nhánh** file (bài đăng + kịch bản video).
     Sheet KB của team: https://docs.google.com/spreadsheets/d/1Nu5cBftCJJzjJqWgRzXE0XYIR2pvmdHHCnwAsrsgoa8
@@ -121,9 +121,12 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
   (lưới 9 dòng × 8 cột đúng tab đang chạy + khuôn ô CONTENT + checklist trước khi dán)
 - **Diễn giải sheet fanpage:** `04_content/templates/fanpage-sheet.md`
   (chuẩn ảnh + giờ đăng + tỉ trọng tuyến nội dung + câu cấm copy)
-- **Khuôn kịch bản video (BẮT BUỘC):** `04_content/templates/kich-ban-video-sheet.md`
+- **Khuôn kịch bản video (BẮT BUỘC):** `04_content/templates/reel_template/` — cả nhánh reel nằm trong folder này
+  - đặc tả 5 cột: `kich-ban-video-sheet.md`
   (5 cột của sheet KB + dòng tiêu đề merge + câu cấm copy + cách đưa lên Drive)
   → sinh bản dán: `python3 tools/kich_ban_to_sheet.py <file KICH-BAN-VIDEO>.md`
+  → **file mẫu để copy:** `04_content/templates/reel_template/KICH-BAN-VIDEO-MAU.md`
+    (bản trắng điền thẳng trên sheet: `reel_template/kich-ban-video-mau.csv`)
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)
@@ -247,7 +250,8 @@ Không được im lặng chọn hộ.
 04_content/    strategy/ (objectives, pillars, journey, matrix, facebook-strategy)
                formats/ (reels, post, carousel, story, comparison, review, customer-story)
                backlog/ (idea-schema, ideas, experiments) · calendar/
-               templates/ (post-template = KHUÔN BÀN GIAO · fanpage-sheet · kich-ban-video-sheet · facebook · tiktok)
+               templates/ (post-template = KHUÔN BÀN GIAO · fanpage-sheet · facebook · tiktok)
+               templates/reel_template/ (kich-ban-video-sheet = đặc tả · KICH-BAN-VIDEO-MAU.md · .csv)
                drafts/ → approved/ → published/ (chỉ bài lẻ, không thuộc chiến dịch nào)
 05_campaigns/  INDEX.md = chỉ mục mọi chiến dịch · campaign-template.md = khuôn mở mới
                <ngày>-chuong-<n>-<tên>/  ← mỗi chiến dịch 1 folder, trọn vòng đời:

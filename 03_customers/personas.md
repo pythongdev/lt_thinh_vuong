@@ -36,9 +36,10 @@
 - **CTA hiệu quả:** "Để lại ngành nghề, mình gợi ý cấu hình vừa đủ — không bán dư"
 - **Hành trình chi tiết:** `03_customers/journey-P2-nhan-vien-van-phong.md` — J0→J7 phân tích theo 4 trục
   (tiền · niềm tin sản phẩm · niềm tin cửa hàng · giá trị đem lại), kèm điểm rơi và câu chặn
-- **Cách viết câu chữ:** `03_customers/cach-viet-cho-P2-nhan-vien-van-phong.md` — từ vựng, nhịp câu,
-  ngân hàng hook theo 4 sự kiện kích hoạt, CTA theo từng nhịp J, cách nói điều bất lợi,
-  mẫu trả lời comment/inbox, câu cấm riêng + checklist tự kiểm
+- **Cách viết câu chữ:** `03_customers/cach-viet-cho-P2-nhan-vien-van-phong.md` — tư duy logic ·
+  cái nhìn cuộc sống · cảm xúc của khách ở từng nhịp J0→J7 và giọng văn tương ứng (mục 1),
+  từ vựng, nhịp câu, ngân hàng hook theo 4 sự kiện kích hoạt, CTA theo từng nhịp J,
+  cách nói điều bất lợi, mẫu trả lời comment/inbox, câu cấm riêng + checklist tự kiểm
 
 ## P3 — Game thủ
 - **Ngân sách:** 20 – 60 triệu

@@ -1,6 +1,6 @@
 # Kịch bản video — Chương 3, tuần 05–11/10/2026
 
-Format: `04_content/templates/kich-ban-video-sheet.md` — đúng 5 cột:
+Format: `04_content/templates/reel_template/kich-ban-video-sheet.md` — đúng 5 cột:
 `STT · BỐI CẢNH · NỘI DỤNG - VOICE · TEXT MÀN HÌNH · NOTE`.
 
 Sheet đích: **Sheet kịch bản video của team**

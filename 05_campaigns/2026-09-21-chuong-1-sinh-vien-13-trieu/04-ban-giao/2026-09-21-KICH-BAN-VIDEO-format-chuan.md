@@ -13,7 +13,7 @@ từ `2026-09-21-KICH-BAN-VIDEO-dan-vao-sheet.tsv`.
 > Xoá được bất cứ lúc nào.
 
 6 kịch bản · KB-SV01 → KB-SV06 · viết lại 2026-09-21
-Template format: `04_content/templates/kich-ban-video-sheet.md`
+Template format: `04_content/templates/reel_template/kich-ban-video-sheet.md`
 
 ---
 
@@ -201,7 +201,7 @@ Template format: `04_content/templates/kich-ban-video-sheet.md`
 | Dòng chia nhóm | 3 dòng "BỐI CẢNH & CÂU HOOK" / "NỘI DUNG CHÍNH" / "KẾT THÚC & CTA" xen giữa bảng | **Bỏ** — chuẩn không có, phá số thứ tự |
 | Tiêu đề kịch bản | Dòng riêng ngoài bảng | Dòng merge 5 cột, ghi thêm *có mẫu / không mẫu* và *voice* |
 | Lời thoại | Không ngoặc kép | Đặt trong ngoặc kép như chuẩn |
-| Metadata P/J/O/CP, nguồn fact, điều cấm | Nhét thành dòng trong bảng | Tách ra ngoài bảng — sheet không có chỗ cho các trường này (xem `kich-ban-video-sheet.md` mục 3) |
+| Metadata P/J/O/CP, nguồn fact, điều cấm | Nhét thành dòng trong bảng | Tách ra ngoài bảng — sheet không có chỗ cho các trường này (xem `reel_template/kich-ban-video-sheet.md` mục 3) |
 | Ghép cảnh | KB-SV05 tách cảnh 5 và 6 | KB-SV05 giữ 6 cảnh, cảnh chốt gộp hình phiếu bảo hành cho đủ nhịp 3–5s |
 
 ## Bước tiếp theo

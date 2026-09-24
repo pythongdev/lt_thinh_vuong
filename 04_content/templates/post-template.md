@@ -227,7 +227,7 @@ Thứ tự **không được đảo** (luật #18, Gate 6 ở `10_gates/README.m
 | File | Nội dung |
 |---|---|
 | `04_content/templates/fanpage-sheet.md` | Bản diễn giải sheet: quy đổi tuyến ND ↔ pillar, tỉ trọng, chuẩn ảnh, giờ đăng, **danh sách câu cấm copy** |
-| `04_content/templates/kich-ban-video-sheet.md` | Khuôn kịch bản video (sheet KB — 5 cột) |
+| `04_content/templates/reel_template/` | Cả nhánh reel: đặc tả `kich-ban-video-sheet.md` + file mẫu `KICH-BAN-VIDEO-MAU.md` |
 | `04_content/content-package.md` | 12 thành phần bản đầy đủ trong repo |
 | `10_gates/README.md` | 7 cổng kiểm duyệt |
 | `tools/ban_giao_to_sheet.py` | Sinh bản dán lên sheet từ file bàn giao |

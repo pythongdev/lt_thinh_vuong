@@ -2,6 +2,10 @@
 
 **Dùng cho:** O1 Reach, O2 Education · Journey J0–J2 · Pillar CP02, CP07, CP08, CP09
 
+**Lớp persona:** làm reel cho **P2 (Nhân viên văn phòng)** thì đọc thêm
+`03_customers/cach-lam-reel-cho-P2-nhan-vien-van-phong.md` — file đó bám đúng bối cảnh xem
+và điều cấm riêng của persona, nhưng **không** ghi đè luật format ở file này.
+
 ## Độ dài
 - Cảnh báo / mẹo: **20–35 giây**
 - Giải thích: 35–60 giây

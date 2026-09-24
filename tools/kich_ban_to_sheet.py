@@ -13,7 +13,7 @@ Cách dùng:
 Script KHÔNG ghi lên Google Sheet và KHÔNG upload Drive — đó là việc sau khi
 người dùng nói "ok" (luật #8, #18: Gate 6 phải có người ký).
 
-Khuôn file .md: 04_content/templates/kich-ban-video-sheet.md
+Khuôn file .md: 04_content/templates/reel_template/kich-ban-video-sheet.md
   - mỗi kịch bản là một mục "## KB<n> · ..."
   - bên trong có 1 khối ``` chứa đúng dòng tiêu đề merge
   - theo sau là bảng 5 cột STT | BỐI CẢNH | NỘI DỤNG - VOICE | TEXT MÀN HÌNH | NOTE
@@ -162,10 +162,17 @@ def main() -> None:
     write_csv(csv_path, scripts)
     write_gs(gs_path, scripts, src.name, tab)
 
+    def show(path: Path) -> str:
+        """Đường dẫn gọn so với thư mục đang đứng — file ngoài repo thì in nguyên."""
+        try:
+            return str(path.relative_to(Path.cwd()))
+        except ValueError:
+            return str(path)
+
     n = sum(len(s["scenes"]) for s in scripts)
     print(f"✅ {len(scripts)} kịch bản · {n} cảnh")
-    print(f"   {csv_path.relative_to(Path.cwd())}")
-    print(f"   {gs_path.relative_to(Path.cwd())}   → tab đích: {tab}")
+    print(f"   {show(csv_path)}")
+    print(f"   {show(gs_path)}   → tab đích: {tab}")
     print("⬜ Chưa ghi gì lên sheet, chưa upload Drive — chờ Gate 6 (luật #18).")
 
 
