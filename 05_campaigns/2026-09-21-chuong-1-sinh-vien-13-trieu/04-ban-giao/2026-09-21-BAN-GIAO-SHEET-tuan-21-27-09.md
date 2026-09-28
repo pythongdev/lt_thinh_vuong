@@ -250,7 +250,7 @@ Thumbnail: máy gập phẳng thành bảng đặt trên đùi — chữ "Gập 
 | **STT** | POST 04 |
 | **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Trust SP |
-| **TITLE** | 3 thứ soi trong 30 giây đầu · P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) |
+| **TITLE** | 3 thứ soi trong 30 giây đầu · P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP08 (Sai lầm khi mua) |
 
 **CONTENT:**
 ```

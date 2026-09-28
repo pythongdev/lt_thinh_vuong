@@ -130,10 +130,16 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
   - `KICH-BAN-VIDEO-MAU.md` — **file mẫu để copy** vào `04-ban-giao/02-reel/`
   - `kich-ban-video-mau.csv` — lưới trắng cho ai điền thẳng trên sheet
   → sinh bản dán: `python3 tools/kich_ban_to_sheet.py <file KICH-BAN-VIDEO>.md`
-- **Làm reel cho dân văn phòng:** `03_customers/cach-lam-reel-cho-P2-nhan-vien-van-phong.md`
+- **Làm reel cho dân văn phòng:** `03_customers/dan_van_phong/cach-lam-reel-cho-P2-nhan-vien-van-phong.md`
   (lớp hình ảnh của **P2 (Nhân viên văn phòng)** — bối cảnh xem, 3 loại video chính,
   hook kèm hình giây 0, kho cảnh tại shop, cấm riêng của video. Lớp câu chữ:
-  `03_customers/cach-viet-cho-P2-nhan-vien-van-phong.md`)
+  `03_customers/dan_van_phong/cach-viet-cho-P2-nhan-vien-van-phong.md`)
+- **Làm reel cho sinh viên:** `03_customers/sinh_vien/cach-lam-reel-cho-P1-sinh-vien.md`
+  (lớp hình ảnh của **P1 (Sinh viên / mua máy đầu tiên)** — bố mẹ là người xem thứ hai,
+  3 loại video chính + loại chia tầng tiền dùng dè, khung chụp màn hình gửi bố mẹ, kho cảnh tại shop.
+  Lớp câu chữ: `03_customers/sinh_vien/cach-viet-cho-P1-sinh-vien.md`)
+- **Giá trên hình video:** chỉ video so sánh hai máy (loại D) được hiện giá — gọi xác minh sáng ngày quay,
+  hạn dùng = hạn danh sách 36 máy, không đăng lại sau hạn (chốt 2026-09-28, chung mọi persona)
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)

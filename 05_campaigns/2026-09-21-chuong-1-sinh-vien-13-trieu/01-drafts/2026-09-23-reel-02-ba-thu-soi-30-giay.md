@@ -4,7 +4,7 @@ product: — (máy lên hình chỉ làm đạo cụ, không bán)
 persona: P1 (Sinh viên / mua máy đầu tiên)
 journey: J2 (Bắt đầu quan tâm laptop cũ)
 objective: O2 (Hiểu vấn đề)
-pillar: CP04 (Quy trình kiểm tra)
+pillar: CP08 (Sai lầm khi mua)
 format: reels
 khung: B — Dạy nghề / chứng minh (44 giây)
 status: draft
@@ -20,7 +20,12 @@ gates: { g0: ✅, g1: ✅, g2: ✅, g3: ✅, g4: ✅, g5: ✅, g6: ⬜ CHỜ NG�
 Viết cho **P1 (Sinh viên / mua máy đầu tiên)** ở **J2 (Bắt đầu quan tâm laptop cũ)** —
 đã chấp nhận ý tưởng mua máy cũ nhưng sợ bị lừa.
 
-Mục tiêu **O2 (Hiểu vấn đề)**, pillar **CP04 (Quy trình kiểm tra)**.
+Mục tiêu **O2 (Hiểu vấn đề)**, pillar **CP08 (Sai lầm khi mua)**.
+
+> Đổi pillar 2026-09-28: bản đầu khai CP04 (Quy trình kiểm tra), nhưng ô CP04 đang **khoá** trong
+> `04_content/strategy/content-matrix.md` (quy trình test chưa được kỹ thuật ký — `UNVERIFIED.md` #7, #12).
+> Video này dạy **khách tự soi**, không mô tả quy trình của shop → khai CP08 (Sai lầm khi mua),
+> đúng loại B trong `03_customers/sinh_vien/cach-lam-reel-cho-P1-sinh-vien.md` mục 2.
 
 Đây là **bản video của bài Thứ Tư "12 thứ phải kiểm tra"** trong chiến dịch. Bài carousel đưa
 đủ 12 mục để lưu về; video chỉ lấy **3 mục làm được bằng tay ngay tại quầy** — đúng luật 7.1

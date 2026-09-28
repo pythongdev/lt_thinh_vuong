@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|
 | 1 | [reel-01 — Sai lầm nhìn chữ i7](2026-09-21-reel-01-sai-lam-nhin-chu-i7.md) | T2 21/09 | A · 30s | P1 (Sinh viên / mua máy đầu tiên) · J0 (Chưa biết shop) · O1 (Tiếp cận) · CP08 (Sai lầm khi mua) | Theo dõi trang |
 | 6 | [reel-06 — Gập xoay để làm gì?](2026-09-22-reel-06-gap-xoay-de-lam-gi.md) | T3 22/09 | B · 33s | P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O4 (Cân nhắc mua) · CP05 (Đánh giá sản phẩm) | Comment ngành học |
-| 2 | [reel-02 — 3 thứ soi trong 30 giây](2026-09-23-reel-02-ba-thu-soi-30-giay.md) | T4 23/09 | B · 44s | P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra) | Lưu bài |
+| 2 | [reel-02 — 3 thứ soi trong 30 giây](2026-09-23-reel-02-ba-thu-soi-30-giay.md) | T4 23/09 | B · 44s | P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP08 (Sai lầm khi mua) | Lưu bài |
 | 3 | [reel-03 — Máy cũ chậm dần không phải vì nó cũ](2026-09-24-reel-03-may-cu-cham-dan.md) | T5 24/09 | B · 40s | P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O3 (Tin công ty) · CP02 (Kiến thức) | Gửi cho bạn |
 | 4 | [reel-04 — Bạn có 15 ngày để đổi ý](2026-09-25-reel-04-15-ngay-doi-y.md) | T6 25/09 | A · 30s | P1 (Sinh viên / mua máy đầu tiên) · J3 (Đang so sánh) · O3 (Tin công ty) · CP07 (Hậu trường) | Gửi cho bạn |
 | 5 | [reel-05 — Ba chiếc dưới 13 triệu](2026-09-26-reel-05-ba-chiec-duoi-13-trieu.md) | T7 26/09 | C · 36s | P1 (Sinh viên / mua máy đầu tiên) · J4 (Đã inbox / gọi / ghé shop) · O5 (Tạo lead / đơn) · CP05 (Đánh giá sản phẩm) | Nhắn tin |

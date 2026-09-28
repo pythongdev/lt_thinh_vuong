@@ -136,9 +136,14 @@ Trục: P2 (Nhân viên văn phòng) · J3 (Đang so sánh) · O4 (Cân nhắc m
 trong hình (ảnh web, bảng giá, logo lọt khung đều tính là nêu tên).
 Ví dụ đã viết: `2026-10-09-video-04-hai-chiec-17-trieu.md`.
 
-> ⛔ **Không có loại "video bán máy" riêng cho persona này.** Muốn bán thì đặt giá và tên máy
-> ở **bình luận đầu tiên** của video loại D, không đưa lên hình (`16_research/video/INDEX.md`
-> mục 4.3 — giá đổi từng tuần, video sống nhiều tháng).
+> ⛔ **Không có loại "video bán máy" riêng cho persona này.** Giá và tên máy mặc định đặt ở
+> **bình luận đầu tiên** của video loại D (`16_research/video/INDEX.md` mục 4.3 — giá đổi từng tuần,
+> video sống nhiều tháng).
+>
+> **Luật giá trên hình (chốt 2026-09-28, chung cho P1 (Sinh viên / mua máy đầu tiên) và
+> P2 (Nhân viên văn phòng)):** chỉ video loại D được hiện giá thành chữ trên màn, và phải đủ 3 điều kiện:
+> (a) gọi 0928939666 xác minh giá sáng ngày quay, (b) ghi **hạn dùng = hạn danh sách 36** trong dòng
+> tiêu đề kịch bản, (c) **không đăng lại** sau hạn đó. Loại A, B, C **không bao giờ** có giá.
 
 ---
 
@@ -276,6 +281,7 @@ Người xem tắt tiếng thì chữ overlay **là** video. Quy cách:
 - **Mỗi cảnh một thẻ.** Không có chữ thì để trống ô TEXT MÀN HÌNH — đừng nghĩ thêm chữ cho đủ.
 - Con số quan trọng (thời hạn bảo hành, số ngày đổi máy) **phải hiện thành chữ**, không chỉ đọc.
 - ⛔ **Không hiện giá lên hình** — giá đổi từng tuần, video sống nhiều tháng.
+  Ngoại lệ duy nhất: loại D, đủ 3 điều kiện ở mục 2 (luật giá trên hình, chốt 2026-09-28).
 
 Bảng đổi chữ overlay (rút từ bảng từ vựng mục 2.1 file viết, cắt cho vừa 6 từ):
 
@@ -344,7 +350,7 @@ Cộng thêm vào danh sách câu cấm ở mục 10 file viết và mục 5 c�
 |---|---|
 | Quay màn hình đang chạy phần mềm nặng để ngụ ý tốc độ | Lời hứa hiệu năng bằng hình. Shop chưa đo (`UNVERIFIED.md` #14) |
 | Quay đồng hồ bấm giây khi mở phần mềm | Như trên, nặng hơn — đó là một phép đo chưa có ai ký |
-| Hiện giá lên hình | Giá đổi từng tuần, video sống nhiều tháng. Giá xuống bình luận đầu, xác minh trong ngày đăng |
+| Hiện giá lên hình ở video loại A, B, C | Giá đổi từng tuần, video sống nhiều tháng. Giá xuống bình luận đầu, xác minh trong ngày đăng. Loại D theo 3 điều kiện ở mục 2 |
 | Quay máy không có trong `36-MAY-DUOC-VIET.md` | Luật #20 |
 | Dùng footage / ảnh render của hãng | Không phải máy của shop. Hình mượn chỉ dùng cho cảnh **không có laptop** |
 | Cảnh có logo, bảng giá, website của shop khác | Luật #9 — nêu tên đối thủ, kể cả bằng hình |

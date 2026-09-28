@@ -95,7 +95,7 @@ Template format: `04_content/templates/reel_template/kich-ban-video-sheet.md`
 # Kịch bản 3: 3 thứ soi trong 30 giây đầu - có mẫu - voice thật
 
 **Ngày đăng:** Thứ 4 23-09 · 09:30 · Reels 44 giây · 126 từ (2,9 từ/giây)
-**Nhắm ai / để làm gì:** P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP04 (Quy trình kiểm tra)
+**Nhắm ai / để làm gì:** P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP08 (Sai lầm khi mua)
 **CTA (đúng 1):** Lưu bài lại
 **Bối cảnh quay:** Bàn test của shop, một góc máy cố định + một góc cầm tay. Máy: Latitude 7400 2in1 (i7-8665U · 16GB · 512GB).
 **Chuẩn bị trước:** Mở sẵn tab trang test bàn phím · tải sẵn 1 ảnh trắng + 1 ảnh đen toàn màn · lau sạch màn hình.
