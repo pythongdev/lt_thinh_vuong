@@ -24,6 +24,11 @@
   Inspiron 13-7391 2in1 4K (13.880.000đ), Surface Laptop 4 (14.880.000đ)
 - **Ngôn ngữ:** đơn giản, không thuật ngữ, so sánh với việc dùng hàng ngày
 - **CTA hiệu quả:** "Inbox mình tư vấn theo ngành học của bạn"
+- **Hành trình chi tiết:** `03_customers/sinh_vien/journey-P1-sinh-vien.md` — J0→J7 phân tích theo 4 trục
+  (tiền · niềm tin sản phẩm · niềm tin cửa hàng · giá trị đem lại) + lớp quyết định thứ hai là bố mẹ,
+  kèm điểm rơi và câu chặn
+- **Cách viết thành câu:** `03_customers/sinh_vien/cach-viet-cho-P1-sinh-vien.md` — cảm xúc theo nhịp,
+  từ vựng, hook, CTA, câu mang về nhà cho bố mẹ, mẫu trả lời inbox
 
 ## P2 — Nhân viên văn phòng
 - **Ngân sách:** 15 – 20 triệu
