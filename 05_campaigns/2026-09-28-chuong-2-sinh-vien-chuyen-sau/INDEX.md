@@ -1,6 +1,7 @@
 # Chương 2 — "Sinh viên: những câu chương 1 chưa trả lời" · tuần 28/09–04/10/2026
 
-> **Trạng thái: ✅ Gate 6 — người dùng nói "ok" 2026-09-24. Đã bàn giao đủ 2 nhánh (bài đăng + reel)
+> **Trạng thái: ✅ Gate 6 ký 2026-09-24 · ✅ Gate 2 chạy lại 2026-09-28 (8/8 máy giữ nguyên).
+> Đã bàn giao đủ 2 nhánh (bài đăng + reel)
 > và upload Google Drive. Sheet thật của team vẫn chưa bị chạm (connector chỉ đọc ô).**
 > Persona: **P1 (Sinh viên / mua máy đầu tiên)** — quyết định người dùng 2026-09-21: đào sâu P1,
 > không chuyển sang P2 (Nhân viên văn phòng).
@@ -85,7 +86,9 @@ không mở fact mới. Khuôn cũ 10 trường (`STT` / `TITLE` / `DATE & TIME`
 | # | Chặn gì | Ai gỡ |
 |---|---|---|
 | 1 | ~~Gate 6 chưa ai ký~~ → ✅ **người dùng ký "ok" 2026-09-24** | xong |
-| 2 | **Bài 3, 4, 5 và 3 reel cùng ngày chưa được phép đăng** — nêu tên máy và giá, mà danh sách 36 máy hết hạn **2026-09-29** (bản kéo lại 2026-09-22). Phải chạy `python3 tools/collection_fetch.py` rồi đối chiếu lại **giá · kho · `warranty_tag`** của 8 máy (luật #10, #20) | Người viết content |
+| 2 | ~~Bài 3, 4, 5 và 3 reel cùng ngày chưa được phép đăng~~ → ✅ **Gate 2 chạy lại 2026-09-28**: 8/8 máy giữ nguyên giá · kho · `warranty_tag`, không máy nào rời danh sách trắng. Dữ liệu hạn **2026-10-05**, phủ trọn tuần | xong |
 | 3 | Bài 1, Bài 2 và 2 reel cùng ngày **không nêu tên máy** → đăng được ngay | xong |
 | 4 | 2 chỗ Gate 0 ở mục 4 `ke-hoach.md` chưa có người quyết | Người dùng / chủ shop |
 | 5 | Connector Google Drive **chỉ đọc ô** → phải copy dán tay vào sheet | Người phụ trách sheet |
+| 6 | **Chưa quay reel nào.** 5 kịch bản đã có, nhưng chưa có file video → khung 12:15 mỗi ngày chưa air được | Người quay |
+| 7 | Sáng mỗi ngày 30-09, 01-10, 02-10: gọi 0928939666 xác nhận máy còn hay hết | Người đăng |

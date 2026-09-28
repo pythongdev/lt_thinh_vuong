@@ -7,7 +7,12 @@
 >
 > Nguồn: `02_products/catalog/collections/all-2026-09-22.csv` · **verified_at 2026-09-22**
 > Dữ liệu máy: `02_products/36-may-duoc-viet-2026-09-22.csv`
-> Kéo lại: `python3 tools/collection_fetch.py` — **hạn dùng 2026-09-29** (luật #10).
+> Kéo lại: `python3 tools/collection_fetch.py` — **hạn dùng 2026-10-05** (luật #10).
+>
+> 🔄 **Đã soát lại 2026-09-28** với `02_products/catalog/collections/all-2026-09-28.csv`:
+> **0 máy rời danh sách**, 0 máy đổi giá, 4 máy mới đủ điều kiện kỹ thuật nhưng
+> **đã chốt không mở khoá** — xem mục "Soát lại 2026-09-28" cuối file.
+> Danh sách được viết **vẫn đúng 36 máy**.
 >
 > ✅ **Kéo lại 2026-09-22:** vẫn đúng **36 máy / 207 chiếc**, không máy nào rời danh sách,
 > không máy nào vào thêm, **kho không đổi máy nào**. Đổi duy nhất 1 giá — xem mục cuối.
@@ -137,6 +142,54 @@ giữ nguyên giá · kho · bảo hành · tình trạng**.
 | Dell Latitude 7480 i5-6300U — 4.900.000đ | 17 | Chủ shop xác nhận **hết hàng** (2026-09-09, luật #17) |
 | Dell Latitude 7480 i5-7200U — 5.190.000đ | 1 | Chủ shop xác nhận **hết hàng** (2026-09-09, luật #17) |
 | 181 máy còn lại trong 3 danh mục | — | **Không có tồn kho xác thực** → luật #12 cấm nói số lượng, luật #20 cấm viết bài |
+
+## 🔄 Soát lại 2026-09-28
+
+Nguồn: `02_products/catalog/collections/all-2026-09-28.csv` — 218 sản phẩm trong 3 danh mục,
+**40 máy** có `stock_tracked=yes` và `qty>0` (tổng 221 chiếc).
+
+**Kết quả đối chiếu với 36 máy đang được viết:**
+
+| Việc | Số máy |
+|---|---|
+| Rời danh sách (hết tồn kho xác thực / gỡ khỏi web) | **0** |
+| Đổi giá | **0** |
+| Đổi số lượng kho | 3 (đều giảm 1 chiếc, vẫn `qty>0`) |
+| Mới đủ điều kiện, **chưa được viết** | **4** |
+
+36 máy đang được viết **không máy nào phải rút bài**. Giá của cả 36 máy giữ nguyên so với 2026-09-22.
+
+### Ba máy đổi số lượng kho (vẫn trong danh sách)
+
+| Máy | 22/09 | 28/09 |
+|---|---|---|
+| HP OmniBook 5 Flip 2in1 Core 5 120U · 8GB · 512GB | 3 chiếc | 2 chiếc |
+| Asus Vivobook S 14 Q423SA-U5512 Core Ultra 5 226V | 3 chiếc | 2 chiếc |
+| HP OmniBook X Flip 2in1 Ryzen AI 7 350 · 24GB | 5 chiếc | 4 chiếc |
+
+Không ảnh hưởng bài nào — luật #12 vẫn cấm viết số lượng ra bài, đây chỉ là dấu hiệu máy đang bán được.
+
+### ⏸ 4 máy mới đủ điều kiện — CHƯA ĐƯỢC VIẾT
+
+| Máy | Giá | Kho | Bảo hành |
+|---|---|---|---|
+| [Like New] Dell Latitude 9420 2in1 Core i7-1185G7 | 16GB | 256GB | 14 inch | 17.680.000đ | 4 chiếc | 6 Tháng |
+| [Like New] Dell Latitude 9430 2in1 Core i5-1235U | 16GB | 512GB | 17.880.000đ | 3 chiếc | 6 Tháng |
+| [Like New] Acer Nitro 5 Tiger AN515-58 Core i7-12700H | 16GB | 20.690.000đ | 5 chiếc | 6 Tháng |
+| [Like New] Acer Predator PHN16-71-5606 Core i5-13500HX | 16GB | 512GB | 27.890.000đ | 5 chiếc | 6 Tháng |
+
+⛔ **Đã hỏi và đã chốt 2026-09-28: GIỮ NGUYÊN 36 MÁY.** Bốn máy này **không được viết bài bán,
+không làm hook, không nêu tên làm ví dụ** — y như mọi máy ngoài danh sách (luật #20).
+
+Luật #20 chốt danh sách là **quyết định của người**, không phải kết quả script — script chỉ nói
+máy nào *đủ điều kiện kỹ thuật*. Muốn mở khoá sau này thì người dùng chốt lại, lúc đó danh sách
+thành 40 máy và phải đổi tên file + sửa luật #20 trong `CLAUDE.md`. Ghi 4 máy ở đây để lần kéo
+sau khỏi phải soát lại từ đầu.
+
+Hai máy Latitude 9420 / 9430 2in1 nằm đúng phân khúc **15–18 triệu** của chương 3
+(`05_campaigns/2026-10-05-chuong-3-van-phong-15-18-trieu/`) — đã cân nhắc làm máy quay và
+**quyết định không dùng**. Chương 3 vẫn quay bằng 4 máy xương sống cũ. Hai máy Acer
+(20,69tr và 27,89tr) là máy gaming, nằm ngoài phân khúc chương 3.
 
 ## Việc cần hỏi chủ shop
 

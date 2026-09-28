@@ -8,8 +8,8 @@
 
 | | |
 |---|---|
-| Gate 0–5 | ✅ đã chạy trên cả 5 bài đăng (xem header từng file draft) · Gate 0 của Bài 3 mang ghi chú lệch, xem mục cuối |
-| **Gate 6 — người ký** | ✅ người dùng nói "ok" trong chat **2026-09-24** |
+| Gate 0–5 | ✅ đã chạy trên cả 5 bài đăng · **Gate 2 chạy lại 2026-09-28, 8/8 máy giữ nguyên** · Gate 0 của Bài 3 vẫn mang ghi chú lệch, xem mục cuối |
+| **Gate 6 — người ký** | ✅ người dùng nói "ok" trong chat **2026-09-24** · đã ghi `approved_by` vào cả 5 file draft |
 | Bản đẩy lên sheet | ✅ sinh 2026-09-24: `day-len-sheet.gs` · `SHEET-TUAN-28-09-04-10-luoi.csv` · `SHEET-TUAN-28-09-04-10-ngang.csv` |
 | Nhánh reel | ✅ [02-reel/KICH-BAN-VIDEO-TUAN-28-09-04-10.md](../02-reel/KICH-BAN-VIDEO-TUAN-28-09-04-10.md) — 5 kịch bản, 30 cảnh |
 | Đã chạm sheet chưa | ❌ **chưa** — connector Google Drive chỉ đọc, không ghi được ô. Người phụ trách chạy `day-len-sheet.gs` hoặc nhập CSV |
@@ -23,19 +23,28 @@ Sinh lại 3 file máy đọc sau khi sửa file này:
 
 ---
 
-## ⛔ CHẶN CỨNG TRƯỚC KHI ĐĂNG — 3 trong 5 bài đăng và 3 trong 5 reel
+## ✅ HẾT CHẶN — dữ liệu đã kéo lại 2026-09-28
 
-Danh sách 36 máy (`02_products/36-may-duoc-viet-2026-09-22.csv`, verified 2026-09-22)
-**hết hạn 2026-09-29**. Sáu nội dung dưới đây đăng sau ngày đó và đều nêu tên máy kèm giá:
+`python3 tools/collection_fetch.py` chạy **2026-09-28**. Đối chiếu 8 máy của tuần này với
+`02_products/36-may-duoc-viet-2026-09-28.csv`:
 
-| Nội dung | Ngày | Việc phải làm trước khi đăng |
-|---|---|---|
-| Reel "Dưới 10 triệu vẫn có 16GB RAM" · post "Chưa tới 10 triệu" | 30-09 | chạy `python3 tools/collection_fetch.py`, đối chiếu lại giá · kho · `warranty_tag` 3 máy |
-| Reel "700 nghìn đó mua được gì" · post "256GB hay 512GB" | 01-10 | như trên cho 4 máy — **nhạy nhất với giá**, cả lập luận dựa trên khoảng chênh ~700.000đ |
-| Reel "Hai mươi giây soi điểm chết" · post "Latitude 7400 2in1" | 02-10 | như trên + **gọi 0928939666 sáng hôm đăng** xác nhận máy còn hay hết (luật #12, #17) |
+| Máy | Giá | Kho | `warranty_tag` | Đổi so với 22/09 |
+|---|---|---|---|---|
+| Latitude 7390 2in1 16GB | 8.290.000đ | 5 | 6 Tháng | không |
+| Latitude 5300 2in1 · 256GB | 8.980.000đ | 2 | 6 Tháng | không |
+| Latitude 7420 vỏ carbon | 9.380.000đ | 5 | 6 Tháng | không |
+| Latitude 5300 2in1 · 512GB | 9.690.000đ | 3 | 6 Tháng | không |
+| Latitude 5310 2in1 | 9.880.000đ | 4 | 6 Tháng | không |
+| Latitude 7400 2in1 i7 | 10.680.000đ | 44 | 6 Tháng | không |
+| Latitude 9410 2in1 · 256GB | 12.980.000đ | 5 | 6 Tháng | không |
+| Latitude 9410 2in1 · 512GB | 13.680.000đ | 8 | 6 Tháng | không |
 
-Hai bài Thứ 2 và Thứ 3 (và 2 reel cùng ngày) **không nêu tên máy, không có giá** → đăng được ngay.
+**Không máy nào đổi giá, không máy nào rời danh sách trắng, `compare_at > price` cả 8 máy**
+(không vướng luật #15). Khoảng chênh của bài "256GB hay 512GB" vẫn đúng 710.000đ và 700.000đ.
+Hạn dùng dữ liệu mới: **2026-10-05** — phủ trọn tuần đăng.
 
+⚠️ **Vẫn phải làm:** sáng ngày đăng **30-09, 01-10, 02-10** gọi **0928939666** xác nhận máy còn
+hay hết. Kho tụt nhanh và luật #17 cho phép lời chủ shop ghi đè dữ liệu web.
 ---
 
 ## 0. Lịch tuần — 10 nội dung

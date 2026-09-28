@@ -7,10 +7,11 @@ objective: O1 — Tiếp cận
 pillar: CP08 — Sai lầm khi mua
 format: post
 risk: low
-status: draft
+status: approved
 created: 2026-09-21
+approved_by: người dùng (chat) 2026-09-24
 scheduled: 2026-09-28 20:30
-gates: { g0: ✅, g1: ✅, g2: ✅, g3: ✅, g4: ✅, g5: ✅, g6: ⬜ }
+gates: { g0: ✅, g1: ✅, g2: ✅, g3: ✅, g4: ✅, g5: ✅, g6: ✅ }
 ---
 
 # Bài 1 — "3 câu bố mẹ hay hỏi khi bạn nói muốn mua laptop cũ"

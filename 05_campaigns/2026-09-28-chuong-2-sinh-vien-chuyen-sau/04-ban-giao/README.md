@@ -45,7 +45,7 @@ https://drive.google.com/drive/folders/1wbJJaGa7YhwX13XPFD9vX6eP2_NboQNB
 | 2 | Giữ `STATUS` = `CHỜ FEEDBACK` | Bài đăng | Chỉ người phụ trách đổi thành `ĐÃ AIR` **sau khi bài đã đăng thật** |
 | 3 | `LINK ẢNH/ KB` để trống cho thiết kế điền | Cả hai | Chưa quay, chưa chụp |
 | 4 | Dán **bình luận đầu** ngay sau khi bài lên | Bài đăng | Sheet không có trường này — nội dung nằm trong file `.md` của từng bài |
-| 5 | Chạy lại `python3 tools/collection_fetch.py` trước **30/09** | Cả hai | Danh sách 36 máy hạn **2026-09-29**, mà 6 nội dung có giá đăng 30/09 – 02/10 |
+| 5 | ~~Chạy lại `collection_fetch.py`~~ → ✅ **đã chạy 2026-09-28**: 8/8 máy giữ nguyên giá · kho · bảo hành | Cả hai | Dữ liệu mới hạn **2026-10-05**, phủ trọn tuần đăng |
 | 6 | Sáng ngày đăng 30-09, 01-10, 02-10: gọi 0928939666 xác minh giá + máy còn hay hết | Cả hai | Ba cặp nội dung có giá (luật #10, #12, #17) |
 | 7 | **Đánh lại số `Kịch bản <N>`** trong tab KB theo số đang chạy | Reel | Ở đây đánh 1–5 cho trọn tuần, tab đích có thể đang ở số khác |
 | 8 | Copy 30 dòng sang tab KB đang chạy, rồi **merge dòng tiêu đề** mỗi kịch bản | Reel | Nhập CSV không giữ merge |

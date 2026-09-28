@@ -7,17 +7,20 @@ objective: O4 — Cân nhắc mua
 pillar: CP01 — Tư vấn mua
 format: post
 risk: medium
-status: draft
+status: approved
 created: 2026-09-21
+approved_by: người dùng (chat) 2026-09-24
 scheduled: 2026-09-30 20:30
-gates: { g0: ⚠️, g1: ✅, g2: ⬜, g3: ✅, g4: ✅, g5: ✅, g6: ⬜ }
+gates: { g0: ⚠️, g1: ✅, g2: ✅, g3: ✅, g4: ✅, g5: ✅, g6: ✅ }
 ---
 
 # Bài 3 — "Chưa tới 10 triệu thì mua được máy như thế nào?"
 
-> ⚠️ **Gate 0 mang ghi chú lệch** — xem mục 1. ⬜ **Gate 2 chưa chạy được**: danh sách 36 máy
-> hết hạn 2026-09-27, bài đăng 30/09 → **phải chạy `python3 tools/collection_fetch.py`** rồi
-> đối chiếu lại giá · kho · `warranty_tag` cả 3 máy trước khi đăng.
+> ⚠️ **Gate 0 mang ghi chú lệch** — xem mục 1.
+> ✅ **Gate 2 đã chạy 2026-09-28** (`python3 tools/collection_fetch.py`): cả 3 máy **giữ nguyên
+> giá · kho · `warranty_tag` (6 Tháng)**, `compare_at > price`, không máy nào rời danh sách trắng.
+> Nguồn: `02_products/36-may-duoc-viet-2026-09-28.csv`. Hạn dùng dữ liệu: **2026-10-05**.
+> Sáng ngày đăng 30/09 vẫn gọi 0928939666 xác nhận máy còn hay hết (luật #12, #17).
 
 ## 1. Strategy
 

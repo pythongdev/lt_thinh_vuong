@@ -18,9 +18,10 @@ https://docs.google.com/spreadsheets/d/1Nu5cBftCJJzjJqWgRzXE0XYIR2pvmdHHCnwAsrsg
 | **Đánh lại số `Kịch bản <N>`** theo số đang chạy trong tab đích | File này đánh 1–5 cho trọn tuần, sheet có thể đang ở số khác |
 | **STT đếm lại từ 1 ở mỗi kịch bản** — giữ nguyên như file này | Đúng cách sheet đang làm |
 | Sáng ngày quay **KB3, KB4, KB5**: gọi 0928939666 xác minh còn máy + đúng giá | Ba kịch bản này có giá trên màn hình (luật #10, #17) |
-| Chạy lại `python3 tools/collection_fetch.py` trước ngày quay KB3–KB5 | Danh sách 36 máy hạn **2026-09-29**, KB3–KB5 đăng 30/09 – 02/10 (luật #20) |
+| ~~Chạy lại `collection_fetch.py`~~ → ✅ **đã chạy 2026-09-28**, 8/8 máy giữ nguyên giá · kho · bảo hành | Dữ liệu mới hạn **2026-10-05**, phủ trọn tuần quay |
 
-**Giá trong file này đối chiếu `02_products/36-may-duoc-viet-2026-09-22.csv` (verified 2026-09-22):**
+**Giá trong file này đối chiếu `02_products/36-may-duoc-viet-2026-09-28.csv` (verified 2026-09-28,
+hạn dùng 2026-10-05) — kéo lại ngày 28/09 cho kết quả y hệt bản 22/09:**
 Latitude 7390 2in1 16GB 8.290.000đ · Latitude 7420 vỏ carbon 9.380.000đ · Latitude 5310 2in1
 9.880.000đ · Latitude 5300 2in1 bản 256GB 8.980.000đ và bản 512GB 9.690.000đ ·
 Latitude 7400 2in1 i7 10.680.000đ. Cả 6 máy `warranty_tag = 6 Tháng`, `stock_tracked = yes`.
