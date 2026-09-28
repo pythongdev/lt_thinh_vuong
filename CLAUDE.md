@@ -41,10 +41,12 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
     freeship toàn quốc, "chỉ còn 5 máy", "giá tốt nhất", máy 4,5 triệu, sai tên "LAPTOP TV").
     Danh sách câu cấm copy lại: `04_content/templates/fanpage-sheet.md` mục 4.
 20. ⛔ **CHỈ VIẾT VỀ 36 MÁY CÓ TỒN KHO XÁC THỰC** (chốt 2026-09-20).
-    Danh sách trắng: `02_products/36-MAY-DUOC-VIET.md` (dữ liệu: `02_products/36-may-duoc-viet-2026-09-20.csv`).
+    Danh sách trắng: `02_products/36-MAY-DUOC-VIET.md` (dữ liệu: `02_products/36-may-duoc-viet-2026-09-22.csv`).
     Máy không có tên trong danh sách đó → **không viết bài bán, không làm hook, không nêu tên
     làm ví dụ**. Tư vấn inbox/comment cho khách hỏi máy khác thì **vẫn làm bình thường**.
-    Danh sách hết hạn 2026-09-27 → chạy `python3 tools/collection_fetch.py` để dựng lại.
+    Đã soát lại **2026-09-28**: 0 máy rời danh sách, 0 máy đổi giá, 4 máy mới đủ điều kiện
+    kỹ thuật nhưng **đã chốt KHÔNG mở khoá** — vẫn đúng 36 máy. Hết hạn **2026-10-05** → chạy
+    `python3 tools/collection_fetch.py` rồi đối chiếu lại như mục "Soát lại" trong file danh sách.
 21. 🎬 **Video bàn giao phải có kịch bản 5 cột**, không chỉ caption. Khuôn:
     `04_content/templates/reel_template/kich-ban-video-sheet.md` — `STT · BỐI CẢNH · NỘI DỤNG - VOICE
     · TEXT MÀN HÌNH · NOTE`, mỗi cảnh 1 dòng, trên mỗi kịch bản 1 dòng tiêu đề merge.
@@ -121,12 +123,17 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
   (lưới 9 dòng × 8 cột đúng tab đang chạy + khuôn ô CONTENT + checklist trước khi dán)
 - **Diễn giải sheet fanpage:** `04_content/templates/fanpage-sheet.md`
   (chuẩn ảnh + giờ đăng + tỉ trọng tuyến nội dung + câu cấm copy)
-- **Khuôn kịch bản video (BẮT BUỘC):** `04_content/templates/reel_template/` — cả nhánh reel nằm trong folder này
-  - đặc tả 5 cột: `kich-ban-video-sheet.md`
-  (5 cột của sheet KB + dòng tiêu đề merge + câu cấm copy + cách đưa lên Drive)
+- **Khuôn kịch bản video (BẮT BUỘC):** `04_content/templates/reel_template/`
+  — cả nhánh reel nằm trong folder này, mở `README.md` của folder trước:
+  - `kich-ban-video-sheet.md` — đặc tả 5 cột của sheet KB + dòng tiêu đề merge
+    + câu cấm copy + cách đưa lên Drive
+  - `KICH-BAN-VIDEO-MAU.md` — **file mẫu để copy** vào `04-ban-giao/02-reel/`
+  - `kich-ban-video-mau.csv` — lưới trắng cho ai điền thẳng trên sheet
   → sinh bản dán: `python3 tools/kich_ban_to_sheet.py <file KICH-BAN-VIDEO>.md`
-  → **file mẫu để copy:** `04_content/templates/reel_template/KICH-BAN-VIDEO-MAU.md`
-    (bản trắng điền thẳng trên sheet: `reel_template/kich-ban-video-mau.csv`)
+- **Làm reel cho dân văn phòng:** `03_customers/cach-lam-reel-cho-P2-nhan-vien-van-phong.md`
+  (lớp hình ảnh của **P2 (Nhân viên văn phòng)** — bối cảnh xem, 3 loại video chính,
+  hook kèm hình giây 0, kho cảnh tại shop, cấm riêng của video. Lớp câu chữ:
+  `03_customers/cach-viet-cho-P2-nhan-vien-van-phong.md`)
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)

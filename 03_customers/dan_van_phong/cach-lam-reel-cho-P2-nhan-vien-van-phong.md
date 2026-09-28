@@ -3,7 +3,8 @@
 > **Dùng để làm gì:** đây là lớp **hình ảnh và cảnh quay**, không phải lớp câu chữ.
 > `cach-viet-cho-P2-nhan-vien-van-phong.md` trả lời *viết thành câu như thế nào*.
 > File này trả lời *quay cái gì, cắt ở đâu, chữ trên màn viết ra sao* cho đúng persona này —
-> bối cảnh xem, ba loại video chạy được, hook 3 giây kèm hình giây 0, kho cảnh có sẵn tại shop,
+> bối cảnh xem, ba loại video chính (+ một loại dùng dè), hook 3 giây kèm hình giây 0,
+> kho cảnh có sẵn tại shop,
 > quy cách chữ overlay, CTA theo nhịp, và bảng chấm trước khi cầm máy quay.
 >
 > **Dùng chung với:**
@@ -75,10 +76,11 @@ tiếp cận tốt nhất** (`fanpage-sheet.md` mục 3.6). Nhận định này 
 
 ---
 
-## 2. Ba loại video chạy được với P2 (Nhân viên văn phòng)
+## 2. Ba loại video chính cho P2 (Nhân viên văn phòng) — và một loại dùng dè
 
-Không phải mọi kiểu reel đều hợp persona này. Ba loại dưới đây bám đúng trục chặn số một
-của họ — **niềm tin vào sản phẩm** (`journey-P2-nhan-vien-van-phong.md` mục 0).
+Không phải mọi kiểu reel đều hợp persona này. Ba loại A · B · C dưới đây bám đúng trục chặn
+số một của họ — **niềm tin vào sản phẩm** (`journey-P2-nhan-vien-van-phong.md` mục 0).
+Loại D được làm, nhưng có điều kiện.
 
 ### Loại A — Cho xem một chuyển động chưa ai quay
 
@@ -402,6 +404,11 @@ Chạy **sau** bảng 10 điểm chung ở `cach-viet-video-ngan-NGHIEN-CUU.md` 
    không chạy, ghi vào `07_analytics/learned-patterns.md`.
 2. ⛔ Danh sách 36 máy **hết hạn 2026-09-29** → chạy `python3 tools/collection_fetch.py`
    trước khi dùng bất kỳ tên máy nào trong mục 5.
+   · **Đã kéo lại 2026-09-28** (`02_products/catalog/collections/all-2026-09-28.csv`):
+   không máy nào rời danh sách, **4 máy vào thêm → 40 máy / 221 chiếc**. Hai máy nêu ở mục 5
+   vẫn có tồn kho xác thực (XPS 9310 2in1 bản 256GB: 7 chiếc · Latitude 9430 2in1 i7 16GB
+   bản 256GB: 3 chiếc). ⚠️ `02_products/36-MAY-DUOC-VIET.md` **chưa dựng lại** theo bản kéo
+   này — dựng xong thì sửa tên file CSV và hạn dùng ở đầu file này.
 3. 🟡 **Bản lề chưa có câu trả lời** về bảo hành — trong khi **29/36 máy được viết là máy
    xoay gập** (đếm theo tên sản phẩm trong `36-may-duoc-viet-2026-09-22.csv`, luật #13) và
    bản lề chính là thứ đáng quay nhất của chúng. Chủ shop trả lời được câu này thì mở ra

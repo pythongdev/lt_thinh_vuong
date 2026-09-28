@@ -40,6 +40,9 @@
   cái nhìn cuộc sống · cảm xúc của khách ở từng nhịp J0→J7 và giọng văn tương ứng (mục 1),
   từ vựng, nhịp câu, ngân hàng hook theo 4 sự kiện kích hoạt, CTA theo từng nhịp J,
   cách nói điều bất lợi, mẫu trả lời comment/inbox, câu cấm riêng + checklist tự kiểm
+- **Cách làm video reel:** `03_customers/cach-lam-reel-cho-P2-nhan-vien-van-phong.md` — lớp hình ảnh:
+  bối cảnh xem, 3 loại video chính, nhịp 30 giây, hook 3 giây kèm hình giây 0, kho cảnh quay tại shop,
+  chữ overlay, CTA theo nhịp + bảng chấm trước khi quay
 
 ## P3 — Game thủ
 - **Ngân sách:** 20 – 60 triệu

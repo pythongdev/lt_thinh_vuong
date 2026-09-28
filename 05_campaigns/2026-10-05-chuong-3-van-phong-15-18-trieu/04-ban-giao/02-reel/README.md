@@ -38,6 +38,32 @@ https://docs.google.com/spreadsheets/d/1u7OLOmJOq-neAHg_qKafaIkfrqhEASFI35ioo_zR
 - ⚠️ Dòng tiêu đề mỗi kịch bản **chưa được merge** — nhập CSV không merge ô được.
   Muốn có sẵn merge thì dùng Apps Script (cách 1 dưới đây).
 
+## ✅ Đối chiếu lại giá & tồn kho — 2026-09-28
+
+Nguồn: `02_products/catalog/collections/all-2026-09-28.csv` (kéo bằng `collection_fetch.py`).
+
+| Máy nêu trong kịch bản | Giá | Tồn kho | Bảo hành | Kết luận |
+|---|---|---|---|---|
+| Asus Vivobook S 14 — KB4 bên trái | 16.980.000đ | còn 2 | 12 tháng (máy mới) | 🟢 khớp bài |
+| Dell XPS 9310 2in1 256GB — KB4 bên phải, KB1 | 17.980.000đ | còn 7 | 6 tháng | 🟢 khớp bài |
+| Dell Latitude 9430 2in1 i7 16GB — KB1 | 18.880.000đ | còn 3 | 6 tháng | 🟢 khớp bài |
+
+Hai con số viết cứng trong Kịch bản 4 **vẫn đúng**, không phải sửa. Không máy nào rời
+danh sách trắng, không giá nào đổi so với bản 09-22.
+
+> ⚠️ Danh sách trắng 36 máy **hết hạn 2026-09-29**, trong khi bài chạy **05–11/10**.
+> Phải chạy lại `python3 tools/collection_fetch.py` và đối chiếu lại 3 máy trên
+> **sát ngày quay / ngày đăng** (luật #10, #20). Bản đối chiếu trên chỉ có giá trị tới 29/09.
+>
+> Giữ nguyên danh sách **36 máy** theo quyết định 2026-09-28 — bản kéo 09-28 có thêm 4 máy
+> đủ điều kiện nhưng **chưa được đưa vào** danh sách trắng.
+
+## Cách đẩy đã chốt (2026-09-28): Apps Script
+
+Người phụ trách tự chạy — connector của hệ thống không ghi được ô vào sheet có sẵn.
+Script đã kiểm: **36 dòng** (1 header + 5 dòng tiêu đề + 30 cảnh), mọi dòng đủ 5 ô,
+merge đúng 5 dòng tiêu đề, và **dừng với lỗi nếu tab đã tồn tại** — không ghi đè tab nào.
+
 ## Hai cách đẩy lên sheet KB thật của team
 
 ### Cách 1 — Apps Script
