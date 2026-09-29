@@ -37,7 +37,7 @@ https://docs.google.com/spreadsheets/d/1Nu5cBftCJJzjJqWgRzXE0XYIR2pvmdHHCnwAsrsg
    Không gõ ký tự `|` trong ô — dùng `·`.
 5. Cảnh không có người nói → ô VOICE ghi `Nhạc không có lời`. Cảnh không có chữ overlay
    → **để trống ô TEXT MÀN HÌNH**, đừng nghĩ thêm chữ.
-6. Timecode nhét vào **đầu ô NOTE** (`0–3s (HOOK)`) — sheet không có cột timecode.
+6. Timecode nhét vào **đầu ô NOTE** (`0–3s · <thao tác quay>`) — sheet không có cột timecode.
 
 Điền xong chạy:
 
@@ -63,10 +63,10 @@ Kịch bản 1: Gập màn ra sau để làm gì - không mẫu - không voice, 
 
 | STT | BỐI CẢNH | NỘI DỤNG - VOICE | TEXT MÀN HÌNH | NOTE |
 |---|---|---|---|---|
-| 1 | Cận bàn tay gập màn từ 90 độ ra sau 360 độ, quay chậm. Bàn làm việc thật có cốc cà phê và sổ, không dọn sạch trơn | Nhạc không có lời · để tiếng bản lề thật | Cái này để làm gì? | 0–3s (HOOK) · 3 giây đầu quyết định cả video |
-| 2 | Tư thế 1 — ngồi bàn, máy mở bình thường, tay gõ phím | Nhạc không có lời | Ngồi bàn mình: như mọi cái laptop khác. | 3–12s |
-| 3 | Tư thế 2 — gập chữ A, bàn phím úp xuống, chỉ còn màn dựng đứng | Nhạc không có lời | Bàn họp chật: bỏ bàn phím xuống, màn vẫn đứng. | 12–22s · CẢNH CHÍNH — dành nhiều đất nhất |
-| 4 | Bốn tư thế cắt nhanh liên tiếp, dừng ở tư thế cuối | Nhạc không có lời | Một cái máy, bốn cách đặt. | 22–35s (CHỐT) |
+| 1 | Cận · góc ngang mặt bàn · bàn tay gập màn từ 90 độ ra sau 360 độ, quay chậm. Bàn làm việc thật có cốc cà phê và sổ, không dọn sạch trơn | Nhạc không có lời · để tiếng bản lề thật | Cái này để làm gì? | 0–3s · quay 2 lần, một lần chậm một lần tốc độ thường, dựng chọn một |
+| 2 | Trung · chính diện · tư thế 1 — ngồi bàn, máy mở bình thường, tay gõ phím | Nhạc không có lời | Ngồi bàn mình: như mọi cái laptop khác. | 3–12s |
+| 3 | Trung · chéo 45° · tư thế 2 — gập chữ A, bàn phím úp xuống, chỉ còn màn dựng đứng | Nhạc không có lời | Bàn họp chật: bỏ bàn phím xuống, màn vẫn đứng. | 12–22s · giữ khung tĩnh 10 giây, không lia máy |
+| 4 | Trung · cùng góc cảnh 2 · bốn tư thế cắt nhanh liên tiếp, dừng ở tư thế cuối | Nhạc không có lời | Một cái máy, bốn cách đặt. | 22–35s · mỗi tư thế 2 giây, cắt thẳng |
 
 # ── HẾT VÍ DỤ · KHUÔN TRẮNG BẮT ĐẦU TỪ ĐÂY ──
 
@@ -84,11 +84,11 @@ Kịch bản 2: <tên kịch bản> - <có mẫu / không mẫu> - <voice thật
 
 | STT | BỐI CẢNH | NỘI DỤNG - VOICE | TEXT MÀN HÌNH | NOTE |
 |---|---|---|---|---|
-| 1 | <quay cái gì, ở đâu, tay làm gì> | <"lời thoại"> hoặc Nhạc không có lời | <chữ overlay, để trống nếu không có> | 0–3s (HOOK) |
+| 1 | <Cận / Trung / Toàn · góc máy · vật trong khung · tay ai làm gì> | <"lời thoại"> hoặc Nhạc không có lời | <chữ overlay, để trống nếu không có> | 0–3s · <thao tác quay> |
 | 2 | <bối cảnh cảnh 2> | <thoại cảnh 2> | | <timecode> · <ghi chú quay> |
 | 3 | <bối cảnh cảnh 3> | <thoại cảnh 3> | | <timecode> |
-| 4 | <bối cảnh cảnh 4> | <thoại cảnh 4> | | <timecode> · CẢNH CHÍNH |
-| 5 | <bối cảnh cảnh chốt> | <câu chốt / CTA> | | <timecode> (CHỐT) |
+| 4 | <bối cảnh cảnh 4> | <thoại cảnh 4> | | <timecode> · <thao tác quay> |
+| 5 | <bối cảnh cảnh chốt> | <câu chốt / CTA> | | <timecode> · <thao tác quay> |
 
 ---
 
@@ -104,10 +104,10 @@ Kịch bản 3: <tên kịch bản> - <có mẫu / không mẫu> - <voice thật
 
 | STT | BỐI CẢNH | NỘI DỤNG - VOICE | TEXT MÀN HÌNH | NOTE |
 |---|---|---|---|---|
-| 1 | <bối cảnh hook> | <thoại hook> | <chữ hook> | 0–3s (HOOK) |
+| 1 | <bối cảnh hook> | <thoại hook> | <chữ hook> | 0–3s · <thao tác quay> |
 | 2 | <bối cảnh cảnh 2> | <thoại cảnh 2> | | <timecode> |
 | 3 | <bối cảnh cảnh 3> | <thoại cảnh 3> | | <timecode> |
-| 4 | <bối cảnh cảnh chốt> | <câu chốt / CTA> | | <timecode> (CHỐT) |
+| 4 | <bối cảnh cảnh chốt> | <câu chốt / CTA> | | <timecode> · <thao tác quay> |
 
 <!-- Thêm KB4, KB5… bằng cách copy nguyên một mục ở trên. -->
 

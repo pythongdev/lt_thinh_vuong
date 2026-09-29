@@ -56,6 +56,42 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
     thì không upload file bàn giao lên Drive, không đụng sheet KB. Và không được báo
     "đã đưa lên Drive" khi thực tế mới chỉ sinh file trong repo.
 
+> Luật #23–#25 sinh từ **phản hồi của sếp về chương 2 (2026-09-28)**: *"ngôn ngữ chưa phải của
+> sinh viên" · "bỏ các từ đánh giá, thể hiện đầy đủ kịch bản để làm luôn" · "1 tuần cần nhiều tuyến
+> bài hơn, bài hiện tại dùng được trong 2 tuần"*.
+
+23. 🗣️ **Viết bằng tiếng nói đời sống của đúng persona**, không bằng giọng người tư vấn viết văn.
+    Nguồn giọng: `03_customers/ngon-ngu-theo-persona.md` — lệch với file `cach-viet-*` **về giọng**
+    thì file này thắng. Mở bài bằng một cảnh trong ngày của họ (giảng đường · phòng trọ · phòng họp
+    · vào trận), câu ngắn kiểu nói, xưng "mình – bạn". Bỏ văn tư vấn: *đánh đổi · cân nhắc ·
+    lựa chọn · phù hợp với nhu cầu · sở hữu · trải nghiệm · đáp ứng tốt · tuy nhiên · trừ hao*.
+    Lóng chỉ tả **tình huống của khách**, không khen máy (*xịn xò, bao mượt, đỉnh chóp* vẫn cấm).
+    Luật fact **không nới một chữ**. Chạy 4 câu kiểm giọng ở mục 5 file đó trước Gate 3.
+    - **Sinh viên** (mục 1): giảng đường, phòng trọ, tiền bố mẹ gửi, bài gửi bố mẹ chỉ để lóng ở hook.
+    - **Dân văn phòng** (mục 2, chốt 2026-09-29): mở bằng một khung giờ trong ngày làm việc
+      (8h30 mở máy · 10h họp Teams share màn · 15h sếp giao gấp · cuối tháng chốt số · lúc nghỉ việc trả máy công ty).
+      Nói bằng **tên việc**, không bằng tính từ. Gần như không lóng. Không đoán lương / nghề / công ty người đọc.
+      Máy mới 12 tháng đặt cạnh máy cũ 6 tháng thì nói thẳng chênh bảo hành. Số kỹ thuật 8h–17h30 trùng giờ làm → gợi ý gọi giờ nghỉ trưa.
+    - **Game thủ** (mục 3): lóng game chỉ tả cảnh chơi, không số FPS / nhiệt độ khi chưa đo.
+24. ✂️ **Bàn giao là lệnh làm, không phải lời nhận xét.** Trong caption, brief ảnh, kịch bản video:
+    - ⛔ Không chèn lời đánh giá về chất lượng / vai trò của cảnh, ảnh, câu, bài:
+      *"CẢNH CHÍNH — dành nhiều đất nhất" · "ảnh quan trọng nhất của bộ" · "điểm mạnh của hình là…"
+      · "đây là ý người xem mang về" · "cảnh này sai là cả bài sai" · "gạch đầu dòng thật nhất"
+      · "phần này cửa hàng nào cũng ngại đăng"*. Nhãn *"Điểm yếu:" · "Đánh giá:"* trong caption → *"Chỗ dở:"* hoặc nói thẳng.
+    - ✅ Mỗi kịch bản **đủ để quay ngay**: dòng tiêu đề ghi thời lượng · địa điểm · máy (tên đủ) ·
+      đạo cụ chuẩn bị · ai cầm máy / ai đọc voice. Mỗi ô BỐI CẢNH ghi **khung hình (cận / trung / toàn)
+      · góc · vật trong khung · tay làm gì**. NOTE chỉ ghi timecode + thao tác quay + điều cấm.
+    - ✅ Brief ảnh là **danh sách ảnh đánh số**: chụp gì · góc · chữ trên ảnh. Không có câu giải thích vì sao ảnh hay.
+25. 📅 **Một tuần có 6 tuyến bài, không chỉ bài tư vấn.** Cơ cấu: `04_content/strategy/tuyen-bai-tuan.md`
+    — A Tư vấn – kiến thức · B Hình ảnh sản phẩm · C Review sản phẩm · D Bảo hành – hậu mãi
+    · E Feedback khách hàng · F Hình ảnh khách tại cửa hàng. Tuần mẫu **11 nội dung** (A = 5)
+    + 1 bài I (Tương tác – hỏi đáp) Chủ nhật. Thêm 11 tuyến bổ sung G–Q (mục 1.2 file đó) —
+    N · O · P · Q đang khoá; dữ liệu cần lấy để mở ở mục 4.
+    Một chương 5 chủ đề (10 nội dung tuyến A) **trải 2 tuần**. Tuyến E và F **chỉ lấy ca từ
+    `04_content/backlog/kho-khach-that.md`** (đã xin phép) — kho trống thì khung đó đổi sang
+    B, C, G (So sánh hai máy) hoặc K (Dạy khách tự kiểm tra máy cũ), không dựng ca. File bàn giao ghi thêm dòng *Tuyến bài (nội bộ)*; ô `TUYẾN ND` trên sheet vẫn dùng 6 giá trị cũ.
+    Mỗi tuyến đổi bối cảnh / máy / CTA theo persona — bảng ở mục 5 file đó (sinh viên · dân văn phòng).
+
 ## Bốn trục phân loại (không được nhầm mã)
 | Trục | Mã | File |
 |---|---|---|
@@ -140,6 +176,10 @@ Tên trong 4 file gốc đổi → cập nhật bảng này theo.
   Lớp câu chữ: `03_customers/sinh_vien/cach-viet-cho-P1-sinh-vien.md`)
 - **Giá trên hình video:** chỉ video so sánh hai máy (loại D) được hiện giá — gọi xác minh sáng ngày quay,
   hạn dùng = hạn danh sách 36 máy, không đăng lại sau hạn (chốt 2026-09-28, chung mọi persona)
+- **Giọng theo từng persona (sinh viên · văn phòng · game thủ):** `03_customers/ngon-ngu-theo-persona.md` (luật #23)
+- **Cơ cấu tuần 6 tuyến bài + khuôn làm luôn cho từng tuyến:** `04_content/strategy/tuyen-bai-tuan.md` (luật #25)
+- **Nguồn ca cho tuyến Feedback / Khách tại cửa hàng:** `04_content/backlog/kho-khach-that.md`
+  (câu xin phép mẫu + bảng ca — người bán ghi trong ngày)
 - **Lập kế hoạch tuần:** `12_prompts/facebook/strategy/weekly-plan.md`
 - **Tìm góc content từ 1 sản phẩm:** `12_prompts/facebook/idea/product-to-angles.md`
   (Product → Facts → Customer → Need → Angles — xem `09_workflows/product-to-content.md`)

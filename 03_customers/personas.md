@@ -29,6 +29,7 @@
   kèm điểm rơi và câu chặn
 - **Cách viết thành câu:** `03_customers/sinh_vien/cach-viet-cho-P1-sinh-vien.md` — cảm xúc theo nhịp,
   từ vựng, hook, CTA, câu mang về nhà cho bố mẹ, mẫu trả lời inbox
+- **Giọng nói đời sống (thắng khi lệch về giọng):** `03_customers/ngon-ngu-theo-persona.md` mục 1 — luật #23
 
 ## P2 — Nhân viên văn phòng
 - **Ngân sách:** 15 – 20 triệu

@@ -1,4 +1,10 @@
-# Chương 3 — "Dân văn phòng 15–19 triệu" · tuần 05–11/10/2026
+# Chương 3 — "Dân văn phòng 15–19 triệu" · ~~tuần 05–11/10~~ → **dời sang 2 tuần 12–25/10/2026**
+
+> ⏭️ **Quyết định người dùng 2026-09-28:** ưu tiên sinh viên trước — chương 2 chạy 2 tuần 28/09–11/10,
+> chương 3 dời sang tuần **12–18/10**. Ngày trong `04-ban-giao/` và `01-drafts/` vẫn ghi 05–11/10 —
+> **phải đổi ngày và kéo lại giá** (danh sách 36 hết hạn 2026-10-05) trước khi bàn giao.
+> 🟡 **2026-09-29 — chạy 2 tuần 12–25/10, 22 nội dung, 6 tuyến bài.** Khung chờ duyệt:
+> [00-ke-hoach/ke-hoach-2-tuan.md](00-ke-hoach/ke-hoach-2-tuan.md). Bản 10 nội dung (22/09) giữ lại để so sánh, sẽ viết lại theo luật #23–#25.
 
 > 📌 Thư mục vẫn tên `...-15-18-trieu` (tên kỹ thuật, giữ để không đứt liên kết).
 > **Dải giá dùng trong mọi bài đăng là "15–19 triệu"** — chốt 2026-09-22.

@@ -7,12 +7,19 @@ objective: O4 — Cân nhắc mua
 pillar: CP01 — Tư vấn mua
 format: post
 risk: medium
-status: approved
+status: approved (viết lại 2026-09-28)
 created: 2026-09-21
-approved_by: người dùng (chat) 2026-09-24
-scheduled: 2026-09-30 20:30
+approved_by: người dùng (chat "duyệt") 2026-09-28 — bản viết lại
+scheduled: 2026-10-01 20:30
 gates: { g0: ⚠️, g1: ✅, g2: ✅, g3: ✅, g4: ✅, g5: ✅, g6: ✅ }
 ---
+
+> ⚠️ **2026-09-28 — caption và kịch bản trong file này là BẢN CŨ** (trước phản hồi của sếp).
+> Bản dùng để đăng: `04-ban-giao/01-bai-dang/BAN-GIAO-2-TUAN-28-09-11-10.md` — bài 8 + bài 12 (reel KB5, tuần 2)
+> và `04-ban-giao/02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md`. Đã viết lại theo giọng sinh viên
+> (luật #23), bỏ lời nhận xét (luật #24), trải sang lịch 2 tuần (luật #25).
+> **Vẫn dùng được từ file này:** Strategy, fact table, sales follow-up, measurement plan, danh sách cấm.
+> Gate 6: người dùng duyệt bản viết lại 2026-09-28.
 
 # Bài 3 — "Chưa tới 10 triệu thì mua được máy như thế nào?"
 

@@ -14,8 +14,8 @@
 | # | Chiến dịch | Tuần đăng | Viết cho ai | Số bài | Trạng thái |
 |---|---|---|---|---|---|
 | 1 | [Sinh viên có 13 triệu](2026-09-21-chuong-1-sinh-vien-13-trieu/INDEX.md) | 21–27/09/2026 | P1 — Sinh viên / mua máy đầu tiên | 11 nội dung (6 Reels · 4 bài viết · 4 Story) | 🟡 Soạn xong — **Gate 6 chưa ký**, chưa lên sheet |
-| 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–04/10/2026 | P1 — Sinh viên / mua máy đầu tiên | 5 bài viết + 5 reel | 🟢 Gate 6 ký 2026-09-24 · Gate 2 kéo lại 2026-09-28 (8/8 máy giữ nguyên) · đã lên Drive — **chưa quay reel nào** |
-| 3 | [Dân văn phòng 15–19 triệu](2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) | 05–11/10/2026 | P2 — Nhân viên văn phòng | 10 nội dung (5 bài viết · 5 Reels) | 🟡 Soạn xong + **đã gộp bàn giao** — Gate 6 chưa ký, chưa lên sheet |
+| 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–11/10/2026 (**2 tuần**) | P1 — Sinh viên / mua máy đầu tiên | 22 nội dung · 6 tuyến bài (10 tư vấn · 8 bộ ảnh SP · 2 review · 2 bảo hành) · 9 kịch bản video | 🟢 **Viết lại 2026-09-28 theo phản hồi sếp** — Gate 6 duyệt 2026-09-28 · tuần 2 chờ kéo giá · chưa lên sheet team |
+| 3 | [Dân văn phòng 15–19 triệu](2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) | **12–25/10/2026 (2 tuần)** — khung 22 nội dung chờ duyệt, bản 22/09 sẽ viết lại theo luật #23–#25 | P2 — Nhân viên văn phòng | 22 nội dung · 6 tuyến (khung) — 10 cũ viết lại + 12 mới | 🟡 Khung chờ duyệt dạng bài · chưa viết chi tiết |
 
 **Chưa có chiến dịch nào đăng thật.** Cả 3 đều đang chờ người ký Gate 6 (luật #8: AI không tự
 đăng content thương mại).
@@ -25,7 +25,7 @@
 ## 2. Mạch nối giữa các chiến dịch
 
 ```
-Chương 1 (21–27/09)              Chương 2 (28/09–04/10)           Chương 3 (05–11/10)
+Chương 1 (21–27/09)              Chương 2 (28/09–11/10)           Chương 3 (12–25/10)
 Sinh viên có 13 triệu       →    Câu chương 1 chưa trả lời    →    Dân văn phòng 15–19 triệu
 P1 · 13 triệu                    P1 · 7–13 triệu, đào sâu           P2 · 15–19 triệu
 "mua máy cũ thế nào"             "bố mẹ · cỡ màn · 9 triệu ·        máy gập xoay cho dân đi làm,
@@ -56,6 +56,9 @@ Khuôn mẫu mở chiến dịch mới: [campaign-template.md](campaign-template
 
 | Luật | Nội dung |
 |---|---|
+| #23 | **Giọng đời sống của đúng persona** — `03_customers/ngon-ngu-theo-persona.md` |
+| #24 | **Bàn giao là lệnh làm** — không lời nhận xét trong caption / brief / kịch bản; cảnh ghi khung hình + góc |
+| #25 | **6 tuyến bài / tuần**, 1 chương trải 2 tuần — `04_content/strategy/tuyen-bai-tuan.md` |
 | #20 | **Chỉ viết về 36 máy có tồn kho xác thực** — `02_products/36-MAY-DUOC-VIET.md`. Danh sách hết hạn → chạy `python3 tools/collection_fetch.py` |
 | #8 | **AI không tự đăng content thương mại.** Gate 6 phải có người ký |
 | #18 | **Local trước, sheet sau.** Chỉ đẩy lên Google Sheet khi người dùng nói "ok" |

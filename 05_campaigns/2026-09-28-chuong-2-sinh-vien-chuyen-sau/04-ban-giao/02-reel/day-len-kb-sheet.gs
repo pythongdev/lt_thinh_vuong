@@ -1,5 +1,5 @@
 /**
- * Đẩy kịch bản video lên sheet KB — sinh tự động từ KICH-BAN-VIDEO-TUAN-28-09-04-10.md
+ * Đẩy kịch bản video lên sheet KB — sinh tự động từ KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md
  * KHÔNG sửa file này. Sửa file .md rồi chạy lại:
  *   python3 tools/kich_ban_to_sheet.py <đường dẫn .md>
  *
@@ -7,7 +7,7 @@
  * Script TẠO TAB MỚI, không ghi đè tab nào đang có.
  */
 function dayLenKB() {
-  var TAB  = "KB TUAN 28-09-04.10 (AI)";
+  var TAB  = "KB TUAN KICH-BAN-VIDEO-2-TUAN-28-09-11.10 (AI)";
   var ROWS = [
   [
     "STT",
@@ -17,7 +17,7 @@ function dayLenKB() {
     "NOTE"
   ],
   [
-    "Kịch bản 1: Ba câu bố mẹ hay hỏi - không mẫu - voice thật · Thời lượng 38 giây · Quay dọc 9:16 1080x1920 tại quầy tư vấn 71 Thiên Hiền · Máy quay: một máy bất kỳ trong danh sách 36 máy được viết · Quầy có hai ghế cùng phía bàn, dựng đúng cảnh phụ huynh đi cùng con · Ánh sáng đều, không đèn màu · Phụ đề bắt buộc · ⛔ Không ghi giá, không ghi tên máy lên video, không dựng cảnh người bán chỉ tay thuyết phục, không nói hộ suy nghĩ của bố mẹ theo kiểu chê bai",
+    "Kịch bản 1: Bố mẹ lo chữ \"cũ\" - không mẫu - voice thật (nhân viên bán hàng đọc, thu riêng) · 38 giây · Quay dọc 9:16 1080x1920 tại quầy tư vấn 71 Thiên Hiền, máy quay đặt chân máy · Máy: Dell Latitude 7400 2in1 i7-8665U 16GB 512GB, bật sẵn, desktop có file ảnh trắng + ảnh đen kín màn · Đạo cụ: 2 ghế kê cùng phía bàn · tờ A5 in \"6 tháng bo mạch · màn hình · bàn phím / Pin 3 tháng / 15 ngày đổi máy\" · 1 cáp USB · Phụ đề bắt buộc · ⛔ Không giá, không tên máy trên hình, không quay mặt người, không cảnh người bán chỉ tay, không câu chê bố mẹ",
     "",
     "",
     "",
@@ -25,48 +25,48 @@ function dayLenKB() {
   ],
   [
     "1",
-    "Cận mặt quầy tư vấn thật, một máy mở nắp đang bật, hai ghế kê cùng phía bàn, ghế còn trống",
-    "\"Bố mẹ không phản đối chiếc máy.\"",
-    "Bố mẹ phản đối chữ \"cũ\".",
-    "0–4s (HOOK) · không quay mặt người, chỉ bàn tay và cái ghế trống"
+    "Cận · ngang mặt quầy · hai ghế trống cùng phía bàn, laptop mở nắp giữa bàn, màn đang bật",
+    "\"Gọi về nhà bảo mua máy cũ. Bố mẹ im luôn.\"",
+    "Bố mẹ lo chữ \"cũ\"",
+    "0–4s · khung tĩnh, không người trong khung"
   ],
   [
     "2",
-    "Người bán ngồi xuống, tay mở nắp máy, bật nguồn",
-    "\"Câu một: người ta dùng hỏng rồi mới bán? Câu này không cãi được bằng lời. Nên đừng cãi.\"",
-    "1 · \"Dùng hỏng rồi mới bán?\"",
-    "4–11s · nói bình thường, không hạ giọng kiểu tranh luận"
+    "Trung · chéo 45° · tay người bán mở nắp máy, bấm nút nguồn",
+    "\"Câu một: dùng hỏng rồi mới bán? Đừng cãi. Soi luôn.\"",
+    "1 · Dùng hỏng rồi mới bán?",
+    "4–9s · chỉ thấy tay"
   ],
   [
     "3",
-    "Cắt nhanh 4 nhịp: màn ảnh trắng kín màn · màn ảnh đen kín màn · bàn tay gõ một lượt hết bàn phím · tay cắm dây vào từng cổng",
-    "\"Bật máy lên. Soi màn bằng ảnh trắng, rồi ảnh đen. Gõ hết một lượt bàn phím. Cắm thử từng cổng.\"",
-    "Soi ngay tại quầy, trước khi trả tiền.",
-    "11–18s · mỗi nhịp khoảng 1,5 giây, cắt thẳng, không hiệu ứng"
+    "Cận · chính diện màn · cắt 4 nhịp: ảnh trắng kín màn · ảnh đen kín màn · tay gõ một lượt hàng phím · tay cắm cáp USB vào cổng trái rồi cổng phải",
+    "\"Ảnh trắng, ảnh đen. Gõ hết bàn phím. Cắm từng cổng.\"",
+    "Soi xong mới trả tiền",
+    "9–16s · mỗi nhịp 1,5–2 giây, cắt thẳng, không hiệu ứng"
   ],
   [
     "4",
-    "Máy quay giữ nguyên trên quầy, chữ hiện dần 4 dòng bên phải khung",
-    "\"Câu hai: hỏng thì ai sửa? Câu này quan trọng nhất. Hỏi bốn câu, bắt người bán nói thành số.\"",
-    "2 · Bảo hành bao lâu? · Bảo hành bộ phận nào? · Pin riêng bao lâu? · Đổi trả mấy ngày?",
-    "18–26s · CẢNH CHÍNH — dành nhiều đất nhất"
+    "Trung · chính diện · máy trên quầy, 4 dòng chữ hiện lần lượt bên phải khung",
+    "\"Câu hai: hỏng thì ai sửa? Hỏi bốn câu, bắt trả lời bằng số.\"",
+    "2 · Bảo hành bao lâu? · Bảo hành cái gì? · Pin bao lâu? · Đổi máy mấy ngày?",
+    "16–24s · khung tĩnh 8 giây để 4 dòng hiện đủ"
   ],
   [
     "5",
-    "Cận bàn tay đặt tờ giấy bảo hành xuống mặt quầy",
-    "\"Bên mình: sáu tháng cho bo mạch, màn hình, bàn phím. Pin ba tháng. Mười lăm ngày đổi sang máy khác.\"",
-    "6 tháng main · màn · phím — pin 3 tháng — 15 ngày đổi máy",
-    "26–33s · đọc chậm, đây là đoạn người xem chụp màn hình"
+    "Cận · từ trên xuống · tay đặt tờ A5 bảo hành xuống mặt quầy, rút tay ra",
+    "\"Bên mình: sáu tháng bo mạch, màn hình, bàn phím. Pin ba tháng. Mười lăm ngày đổi máy.\"",
+    "6 tháng bo mạch · màn · phím / Pin 3 tháng / 15 ngày đổi máy",
+    "24–31s · giữ khung tờ giấy 6 giây sau khi rút tay"
   ],
   [
     "6",
-    "Lùi ra thấy cả hai ghế cùng phía bàn, máy mở giữa bàn",
-    "\"Câu ba: sao không mua mới? Mua mới cũng là lựa chọn đúng. Rủ bố mẹ đến xem tận nơi rồi quyết.\"",
-    "Gửi video này cho bố mẹ xem cùng.",
-    "33–38s (CHỐT) · ⛔ không thêm CTA inbox, bài này chỉ có một CTA là gửi cho bố mẹ"
+    "Toàn · lùi ra thấy hai ghế và máy giữa bàn",
+    "\"Câu ba: sao không mua mới? Cũng được. Rủ bố mẹ ra xem cùng rồi quyết.\"",
+    "Gửi video này cho bố mẹ",
+    "31–38s · ⛔ không thêm lời mời nhắn tin"
   ],
   [
-    "Kịch bản 2: Đo bằng cái balo của bạn - không mẫu - voice thật · Thời lượng 34 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền · Máy quay: ba máy cỡ 13,3 inch, 14 inch và 15,6 inch trong danh sách 36 máy được viết, đặt cùng một mặt bàn · Cần thêm một quyển vở A4 và một balo đi học thật làm mốc so sánh · Ba máy phải cùng khung, cùng khoảng cách ống kính, không ghép hình · Phụ đề bắt buộc · ⛔ Không ghi giá, không ghi tên máy lên video, KHÔNG nói và KHÔNG ghi cân nặng máy vì shop chưa cân máy nào",
+    "Kịch bản 2: Cỡ nào nhét vừa balo - không mẫu - voice thật (nhân viên bán hàng đọc, thu riêng) · 34 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền, máy quay đặt chân máy góc từ trên xuống nghiêng 30° · Máy: Dell Latitude 5310 2in1 i5-10210U 16GB 512GB (13,3 inch) · Dell Latitude 7400 2in1 i7-8665U 16GB 512GB (14 inch) · Dell Latitude 9520 2in1 i5-1145G7 16GB 256GB (15,6 inch) · Đạo cụ: 1 quyển vở A4 · 1 balo đi học cỡ thường (không dùng balo laptop cỡ to) · Phụ đề bắt buộc · ⛔ Không giá, không tên máy trên hình, không nói và không ghi cân nặng",
     "",
     "",
     "",
@@ -74,146 +74,48 @@ function dayLenKB() {
   ],
   [
     "1",
-    "Ba máy mở nắp xếp cạnh nhau theo thứ tự nhỏ đến to trên cùng mặt bàn, quyển vở A4 đặt ngay cạnh làm mốc",
-    "\"Màn to hơn không phải màn tốt hơn. Nó là màn cần nhiều chỗ hơn.\"",
-    "Màn to hơn ≠ màn tốt hơn",
-    "0–4s (HOOK) · quay từ trên xuống một góc nhẹ để thấy rõ chênh lệch thật"
+    "Toàn · từ trên xuống nghiêng 30° · ba máy mở nắp xếp nhỏ → to trên cùng mặt bàn, vở A4 đặt cạnh máy 13,3 inch",
+    "\"Màn to hơn chưa chắc tốt hơn. Chỉ tốn chỗ hơn.\"",
+    "Màn to hơn ≠ tốt hơn",
+    "0–4s · ba máy cùng khung, không ghép hình"
   ],
   [
     "2",
-    "Tay đặt quyển vở A4 lên cạnh máy 13,3 inch, so trực tiếp",
-    "\"Mười ba inch: đặt vừa cái bàn gấp trong giảng đường. Đổi lại, xếp hai cửa sổ cạnh nhau sẽ chật.\"",
-    "13 – 13,3 inch — vừa bàn gấp giảng đường",
-    "4–12s"
+    "Trung · cùng góc · tay đặt vở A4 sát cạnh máy 13,3 inch",
+    "\"Mười ba inch: vừa bàn gấp giảng đường. Mở hai cửa sổ thì chật.\"",
+    "13,3 inch — vừa bàn gấp",
+    "4–11s"
   ],
   [
     "3",
-    "Chuyển sang máy 14 inch, tay mở hai cửa sổ xếp cạnh nhau trên màn",
-    "\"Mười bốn inch: cỡ ở giữa, và là cỡ phổ biến nhất ở dòng máy doanh nhân. Vẫn bỏ balo đi học được.\"",
-    "14 inch — cỡ ở giữa",
-    "12–20s · CẢNH CHÍNH — phần lớn người xem sẽ chọn cỡ này"
+    "Trung · cùng góc · máy 14 inch, màn mở hai cửa sổ cạnh nhau",
+    "\"Mười bốn inch: cỡ giữa. Vẫn nhét balo đi học được.\"",
+    "14 inch — cỡ giữa",
+    "11–18s · giữ khung 3 giây sau khi hai cửa sổ hiện đủ"
   ],
   [
     "4",
-    "Chuyển sang máy 15,6 inch, thấy rõ nó chiếm gần hết chiều ngang bàn",
-    "\"Mười lăm phẩy sáu: nhìn bảng biểu dễ nhất. Đổi lại, chiếm nhiều mặt bàn, và không phải balo nào cũng bỏ vừa.\"",
-    "15,6 inch — nhiều chỗ nhất, chiếm nhiều bàn nhất",
-    "20–27s"
-  ],
-  [
-    "5",
-    "Tay cho máy vào balo đi học thật rồi kéo khoá, quay cận chỗ khoá kéo",
-    "\"Hôm ghé cửa hàng, mang đúng cái balo bạn đang dùng. Cho máy vào, kéo khoá. Chuyện đó không đoán được qua ảnh.\"",
-    "Thử bằng đúng cái balo của bạn.",
-    "27–32s · nếu kéo không vừa thì quay luôn cảnh đó, đừng chọn balo rộng cho dễ"
-  ],
-  [
-    "6",
-    "Ba máy lại nằm cùng khung, tay rút chiếc ở giữa ra",
-    "\"Chọn sai cỡ thì máy cấu hình tốt cỡ nào bạn cũng để nó ở nhà.\"",
-    "Comment ngành bạn học + tuần mang máy đi mấy buổi.",
-    "32–34s (CHỐT)"
-  ],
-  [
-    "Kịch bản 3: Dưới 10 triệu vẫn có 16GB RAM - không mẫu - voice thật · Thời lượng 36 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền · Máy quay: Dell Latitude 7390 2in1 16GB, Dell Latitude 7420 vỏ carbon, Dell Latitude 5310 2in1 — đúng ba máy này, đặt cùng một mặt bàn · Giá chỉ hiện ở chữ trên màn, người nói không đọc giá · Phụ đề bắt buộc · ⛔ Không quay chiếc 7420 vỏ carbon ở thế gập xoay hay chạm tay lên màn vì tên máy đó không có cảm ứng, không nói \"còn hàng\" hay \"còn mấy máy\", không nói \"giá tốt nhất\", không ghép ảnh máy lấy trên mạng",
-    "",
-    "",
-    "",
-    ""
-  ],
-  [
-    "1",
-    "Ba máy mở nắp xếp cạnh nhau trên bàn, ống kính đi ngang qua cả ba",
-    "\"Chưa tới mười triệu. Nhiều bạn nghĩ tầm này là phải chịu RAM tám GB.\"",
-    "Dưới 10 triệu",
-    "0–4s (HOOK)"
-  ],
-  [
-    "2",
-    "Giữ nguyên khung ba máy, chữ hiện hai dòng",
-    "\"Nói thẳng trước: hạ ngân sách xuống dưới mười triệu, thứ phải nhường là đời chip và dung lượng ổ. Thứ giữ được là RAM.\"",
-    "Nhường: đời chip · ổ cứng — Giữ được: RAM",
-    "4–11s · nói phần bất lợi trước, không cắt"
-  ],
-  [
-    "3",
-    "Cận chiếc thứ nhất, tay xoay màn 360 độ cho thấy nó gập được",
-    "\"Chiếc ít tiền nhất. Mười sáu GB RAM, ổ hai trăm năm sáu, màn mười ba inch xoay gập.\"",
-    "Latitude 7390 2in1 · 16GB · 256GB · 13,3 inch · 8.290.000đ",
-    "11–19s · ⚠️ sáng ngày quay gọi 0928939666 xác minh lại giá"
-  ],
-  [
-    "4",
-    "Cận chiếc thứ hai, mở nắp thường, KHÔNG xoay màn, KHÔNG chạm tay lên màn",
-    "\"Chiếc đời chip mới nhất, màn mười bốn inch rộng hơn. Chiếc này không cảm ứng, không xoay gập được.\"",
-    "Latitude 7420 vỏ carbon · 16GB · 256GB · 14 inch · 9.380.000đ",
-    "19–26s · ⛔ cảnh này sai là cả bài sai — tên máy không có chữ cảm ứng"
-  ],
-  [
-    "5",
-    "Cận chiếc thứ ba, tay mở thư mục đầy file cho thấy ổ rộng",
-    "\"Chiếc ổ lớn nhất, năm trăm mười hai, gấp đôi hai chiếc kia. Cũng là chiếc đắt nhất trong ba.\"",
-    "Latitude 5310 2in1 · 16GB · 512GB · 13,3 inch · 9.880.000đ",
-    "26–32s"
-  ],
-  [
-    "6",
-    "Ba máy cùng khung, tay đặt tờ giấy bảo hành xuống trước ba máy",
-    "\"Cả ba đều là máy đã qua sử dụng. Bảo hành sáu tháng bo mạch, màn hình, bàn phím. Pin ba tháng.\"",
-    "Comment ngân sách + ngành học, mình gợi ý chiếc nào.",
-    "32–36s (CHỐT)"
-  ],
-  [
-    "Kịch bản 4: 700 nghìn đó mua được gì - không mẫu - voice thật · Thời lượng 33 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền · Máy quay: hai chiếc Dell Latitude 5300 2in1 — bản ổ 256GB và bản ổ 512GB — đặt cạnh nhau cùng một khung · Điểm mạnh của hình là hai máy trông giống hệt nhau, đừng đổi góc giữa hai máy · Phụ đề bắt buộc · ⛔ Không hứa nâng ổ cứng về sau vì shop chưa kiểm khe cắm từng máy, không nói \"còn hàng\", không nói bản 512GB đáng mua hơn",
-    "",
-    "",
-    "",
-    ""
-  ],
-  [
-    "1",
-    "Hai máy cùng dòng mở nắp đặt sát nhau, giống hệt nhau trong khung",
-    "\"Hai chiếc này giống hệt nhau. Chênh bảy trăm mười nghìn.\"",
-    "Cùng một chiếc máy — chênh 710.000đ",
-    "0–4s (HOOK)"
-  ],
-  [
-    "2",
-    "Tay chỉ lần lượt sang từng máy, chữ hiện dưới mỗi máy",
-    "\"Cùng con chip, cùng mười sáu GB RAM. Khác đúng một thứ: ổ cứng.\"",
-    "256GB — 8.980.000đ · 512GB — 9.690.000đ",
-    "4–10s · ⚠️ sáng ngày quay gọi 0928939666 xác minh lại cả hai giá"
-  ],
-  [
-    "3",
-    "Cận màn máy bản 256GB đang mở thư mục tài liệu học, dung lượng còn nhiều",
-    "\"Khi nào hai trăm năm sáu là đủ: tài liệu để trên Drive, học kinh tế hay văn phòng, ảnh để trong điện thoại.\"",
-    "Đừng thêm tiền nếu...",
-    "10–18s · nói chiều \"đừng thêm tiền\" TRƯỚC, không đảo thứ tự"
-  ],
-  [
-    "4",
-    "Cận màn máy bản 512GB đang mở thư mục nặng, nhiều file",
-    "\"Khi nào nên thêm: ngành phải cài phần mềm nặng, hay quay dựng video, hay tải phim về xem offline.\"",
-    "Nên thêm nếu...",
+    "Trung · cùng góc · máy 15,6 inch chiếm gần hết chiều ngang bàn",
+    "\"Mười lăm phẩy sáu: nhìn bảng dễ nhất. Nhưng chiếm hết bàn, balo nhỏ khó vừa.\"",
+    "15,6 inch — tốn bàn nhất",
     "18–25s"
   ],
   [
     "5",
-    "Tay đặt tờ giấy nhỏ ghi \"700.000đ\" xuống giữa hai máy",
-    "\"Đừng tính là thêm bảy trăm nghìn để có thêm ổ. Tính xem bảy trăm nghìn đó mua được gì khác cho việc học.\"",
-    "700.000đ — nếu không mua ổ, bạn mua được gì?",
-    "25–30s · CẢNH CHÍNH — đây là ý người xem mang về"
+    "Cận · ngang · tay cho máy 14 inch vào balo, kéo khoá, quay cận chỗ khoá kéo",
+    "\"Hôm đi xem máy, đeo đúng cái balo đi học. Nhét thử, kéo khoá.\"",
+    "Mang đúng balo của bạn",
+    "25–31s · kéo khoá không vừa thì giữ nguyên cảnh đó, không đổi balo"
   ],
   [
     "6",
-    "Hai máy lại cùng khung, gập cả hai nắp xuống cùng lúc",
-    "\"Bên mình chưa kiểm khe cắm ổ từng máy, nên không hứa sau này nâng ổ lên được.\"",
-    "Comment ngành bạn học, mình nói nên lấy bản nào.",
-    "30–33s (CHỐT)"
+    "Toàn · ba máy lại cùng khung, tay rút máy ở giữa ra",
+    "\"Mua nhầm cỡ là máy nằm ở phòng trọ.\"",
+    "Comment ngành học + mấy buổi mang máy",
+    "31–34s"
   ],
   [
-    "Kịch bản 5: Hai mươi giây soi điểm chết - không mẫu - voice thật · Thời lượng 36 giây · Quay dọc 9:16 1080x1920 tại quầy 71 Thiên Hiền · Máy quay: Dell Latitude 7400 2in1 i7-8665U 16GB 512GB · Phòng tắt bớt đèn, không để đèn trần hắt lên mặt kính màn, quay màn chính diện tránh vân moiré · Phụ đề bắt buộc · ⛔ Không dàn dựng máy có điểm chết rồi quay, không chèn ảnh điểm chết lấy trên mạng, không nói \"còn hàng\" hay \"còn mấy máy\", không hứa bảo hành điểm chết",
+    "Kịch bản 3: Máy dở chứng tuần thi, gọi ai - không mẫu - voice thật (nhân viên kỹ thuật hoặc bán hàng đọc) · 42 giây · Quay dọc 9:16 1080x1920 · Cảnh 1 ở góc bàn học dựng tại shop (bàn ~50cm, vở, bút, dây sạc), cảnh 2–9 ở quầy 71 Thiên Hiền · Máy: bất kỳ máy nào trong danh sách 36, không lên tên · Đạo cụ: tờ A5 in \"6 tháng bo mạch · màn hình · bàn phím / Pin 3 tháng\" · cốc nước · tua vít · điện thoại mở sẵn màn quay số 0825998855 · desktop có file ảnh trắng · Phụ đề bắt buộc · ⛔ Không đổ nước lên máy, không dùng máy vỡ thật hay đập máy, không dựng điểm chết giả, không gọi là \"quy trình test\", không nói \"bảo hành 12 tháng\", \"1 đổi 1\", \"hoàn tiền 100%\"",
     "",
     "",
     "",
@@ -221,48 +123,461 @@ function dayLenKB() {
   ],
   [
     "1",
-    "Màn hình đen kín chiếm hết khung, phòng tối",
-    "\"Cái này bên mình không bảo hành.\"",
-    "Điểm chết trên màn KHÔNG thuộc diện bảo hành",
-    "0–4s (HOOK) · nói phần bất lợi ngay giây đầu"
+    "Cận · từ trên xuống · bàn học chật: vở mở, bút, dây sạc, laptop mở nắp màn đen",
+    "\"Máy tự tắt đúng tuần thi. Gọi ai bây giờ?\"",
+    "Máy dở chứng tuần thi?",
+    "0–4s · màn tắt thật, không hiệu ứng"
   ],
   [
     "2",
-    "Lùi ra thấy cả máy đặt trên quầy, tay mở ảnh trắng toàn màn hình",
-    "\"Màn hình thì có bảo hành. Nhưng điểm chết thì không. Nên bạn phải tự soi, ngay tại quầy.\"",
-    "",
-    "4–11s · không cắt giữa câu này"
+    "Cận · từ trên xuống · tay đặt tờ A5 bảo hành xuống quầy",
+    "\"Máy cũ, likenew bên mình: sáu tháng bo mạch, màn hình, bàn phím.\"",
+    "6 tháng · bo mạch · màn hình · bàn phím",
+    "4–10s"
   ],
   [
     "3",
-    "Cận màn trắng, ống kính rà chậm từ góc trái trên sang phải dưới, rồi đổi sang ảnh đen rà lại",
-    "\"Mở ảnh trắng kín màn. Rồi ảnh đen. Điểm chết, vệt sọc, chỗ ám màu lộ ra hết. Mất đúng hai mươi giây.\"",
-    "Ảnh trắng → ảnh đen",
-    "11–19s · máy quay đi chậm và đều · nếu màn sạch thì nói rõ \"màn này sạch\", không giả vờ tìm ra lỗi"
+    "Cận · cùng góc · ngón tay chỉ dòng thứ hai trên tờ giấy",
+    "\"Pin riêng ba tháng. Pin là đồ hao mòn nên ngắn hơn.\"",
+    "Pin 3 tháng",
+    "10–15s"
   ],
   [
     "4",
-    "Tay xoay màn chậm hết một vòng 360 độ, rồi thả tay ở khoảng 100 độ, giữ khung 3 giây",
-    "\"Máy này xoay gập nên soi thêm hai thứ. Xoay chậm hết vòng, nghe tiếng lạ. Thả tay giữa đường, màn phải đứng yên.\"",
-    "Thả tay — màn phải đứng yên",
-    "19–27s · giữ đủ 3 giây sau khi thả tay, cắt sớm là hỏng cảnh chứng minh"
+    "Trung · chính diện · cốc nước đặt cạnh laptop trên quầy",
+    "\"Không bảo hành: một, vào nước.\"",
+    "Không bảo hành: vào nước",
+    "15–19s · ⛔ không đổ nước"
   ],
   [
     "5",
-    "Ngón tay vẽ một đường liền qua bốn góc và giữa màn cảm ứng",
-    "\"Vẽ một đường liền qua bốn góc và giữa màn. Xem có chỗ nào mất nét không.\"",
+    "Cận · tay đặt laptop đóng nắp xuống quầy thật nhẹ",
+    "\"Hai, rơi vỡ, va đập.\"",
+    "Rơi vỡ · va đập",
+    "19–22s · ⛔ không thả rơi máy"
+  ],
+  [
+    "6",
+    "Cận · chính diện · màn bật ảnh trắng kín màn, ngón tay chỉ vào góc màn",
+    "\"Ba, điểm chết trên màn.\"",
+    "Điểm chết màn hình",
+    "22–25s · màn sạch thì chỉ vào góc màn trắng, không dựng điểm chết"
+  ],
+  [
+    "7",
+    "Cận · từ trên xuống · tay đặt tua vít xuống cạnh máy",
+    "\"Bốn, máy đã mang đi sửa chỗ khác.\"",
+    "Đã sửa ở nơi khác",
+    "25–28s"
+  ],
+  [
+    "8",
+    "Cận · ngang · tay cầm điện thoại, màn điện thoại hiện số 0825998855",
+    "\"Thấy lỗi thì báo ngay. Quá ba mươi ngày không báo là mất bảo hành.\"",
+    "Có lỗi: báo trong 30 ngày",
+    "28–35s"
+  ],
+  [
+    "9",
+    "Cận · từ trên xuống · tờ A5 bảo hành và điện thoại đặt cạnh nhau",
+    "\"Số kỹ thuật: không tám hai năm, chín chín tám, tám năm năm. Tám giờ tới năm rưỡi chiều. Lưu video lại nhé.\"",
+    "Kỹ thuật – bảo hành / 0825998855 / 8h–17h30",
+    "35–42s · giữ khung 6 giây"
+  ],
+  [
+    "Kịch bản 4: Review Latitude 7390 2in1 16GB - không mẫu - voice thật (nhân viên bán hàng đọc) · 56 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền · Máy: Dell Latitude 7390 2in1 i5-8250U 16GB 256GB 13,3 inch cảm ứng — bản 16GB, không lấy bản 8GB · Đạo cụ: góc bàn học dựng chật (~50cm, vở, bút, dây sạc) · 1 quyển vở A4 · tờ A5 bảo hành · 1 cáp sạc, 1 USB · desktop mở sẵn 1 video bài giảng, 1 file Word, 5–6 tab trình duyệt, file ảnh trắng, ảnh đen · Phụ đề bắt buộc · ⛔ Không giá trên hình, không đọc giá, không chữ \"FHD\", không \"nguyên zin\", không \"bản lề chắc\", \"cảm ứng nhạy\", \"pin cả ngày\", \"mượt\", không bút cảm ứng",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Cận · chính diện màn · cửa sổ Settings → About, ngón tay chỉ dòng tên chip",
+    "\"Chiếc này nói chỗ dở trước: chip đời tám, đời cũ.\"",
+    "Chỗ dở: chip đời 8",
+    "0–4s · lấy nét vào chữ trên màn · màn hiện chip khác i5-8250U → dừng quay, báo người viết"
+  ],
+  [
+    "2",
+    "Cận · cùng màn, ngón tay chỉ dòng RAM 16.0 GB",
+    "\"Đổi lại: RAM mười sáu GB.\"",
+    "RAM 16GB",
+    "4–8s"
+  ],
+  [
+    "3",
+    "Trung · chính diện · màn mở bài giảng video + Word + vài tab, tay bấm chuyển qua lại",
+    "\"Vừa xem bài giảng, vừa mở Word, vừa chục tab tài liệu.\"",
+    "Bài giảng + Word + 10 tab",
+    "8–14s · ⛔ không đồng hồ đếm giây, không nói \"mượt\""
+  ],
+  [
+    "4",
+    "Toàn · chéo 45° · máy đóng nắp đặt cạnh quyển vở A4",
+    "\"Máy mười ba inch, dòng doanh nhân của Dell. Máy cũ, có vết dùng.\"",
+    "Latitude 7390 2in1 · i5-8250U · 16GB · 256GB",
+    "14–19s"
+  ],
+  [
+    "5",
+    "Cận · ngang · tay mở nắp rồi xoay màn chậm từ 90° ra sau 360°",
+    "\"Màn xoay gập ba trăm sáu mươi độ, có cảm ứng.\"",
+    "Xoay gập 360° · cảm ứng",
+    "19–25s"
+  ],
+  [
+    "6",
+    "Trung · chéo · máy dựng chữ A trên góc bàn học chật, màn đang chạy bài giảng",
+    "\"Bàn phòng trọ chật thì dựng thế này xem bài giảng.\"",
+    "Bàn chật: dựng chữ A",
+    "25–30s"
+  ],
+  [
+    "7",
+    "Cận · từ trên xuống · tay gõ một đoạn văn trên bàn phím",
+    "\"Bàn phím thì ra shop tự gõ một đoạn cho quen tay.\"",
+    "",
+    "30–34s"
+  ],
+  [
+    "8",
+    "Cận · ngang · cạnh trái rồi cạnh phải, tay cắm cáp sạc và USB",
+    "\"Cổng hai bên. Cắm thử đúng dây bạn hay dùng.\"",
+    "",
+    "34–38s"
+  ],
+  [
+    "9",
+    "Cận · chính diện · màn ảnh trắng rồi ảnh đen, máy quay rà chậm từ góc trái trên sang phải dưới",
+    "\"Hôm xem máy, soi ảnh trắng, ảnh đen cho kỹ.\"",
+    "Soi ảnh trắng · ảnh đen",
+    "38–42s · màn sạch thì nói thêm \"màn máy này sạch\""
+  ],
+  [
+    "10",
+    "Trung · chính diện · máy mở nắp trên bàn học, chữ hai dòng hiện bên phải",
+    "\"Hợp với bạn học Word, Excel, slide, học online, hay mang máy đi.\"",
+    "Hợp: Word · Excel · slide · học online",
+    "42–47s"
+  ],
+  [
+    "11",
+    "Trung · cùng khung, chữ đổi",
+    "\"Không hợp nếu ngành cài phần mềm nặng, hay cần ổ to. Ổ máy này hai trăm năm sáu.\"",
+    "Không hợp: phần mềm nặng · cần ổ to",
+    "47–52s"
+  ],
+  [
+    "12",
+    "Cận · từ trên xuống · tờ A5 bảo hành đặt cạnh máy",
+    "\"Bảo hành sáu tháng bo mạch, màn, phím. Pin ba tháng. Comment ngành học với số tiền đang có nhé.\"",
+    "6 tháng bo mạch · màn · phím / Pin 3 tháng / Comment ngành học + số tiền",
+    "52–56s · giữ khung 4 giây"
+  ],
+  [
+    "Kịch bản 5: Có đúng 9 triệu rưỡi - không mẫu - voice thật (nhân viên bán hàng đọc, không đọc giá) · 37 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền, ba máy cùng một mặt bàn · Máy: Dell Latitude 7390 2in1 i5-8250U 16GB 256GB · Dell Latitude 7420 vỏ carbon i5-1145G7 16GB 256GB (bản thường, không 2in1) · Dell Latitude 5310 2in1 i5-10210U 16GB 512GB · Đạo cụ: tờ A5 bảo hành · desktop chiếc 5310 mở sẵn một thư mục nhiều file · Giá trên hình: xác minh 0928939666 sáng ngày quay · HẠN DÙNG VIDEO: 2026-10-11 (hết tuần 2 — người dùng xác nhận giá 2026-09-28) — không đăng lại sau hạn · Phụ đề bắt buộc · ⛔ Không xoay gập, không chạm màn chiếc 7420, không \"còn hàng\", \"giá tốt nhất\", không ghép ảnh máy trên mạng",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Toàn · ngang mặt bàn · ba máy mở nắp cạnh nhau, máy quay lia ngang chậm qua cả ba",
+    "\"Ví có đúng chín triệu rưỡi. Nhiều bạn nghĩ tầm này chịu RAM tám GB.\"",
+    "Có đúng 9 triệu rưỡi?",
+    "0–4s · lia một lượt, không quay lại"
+  ],
+  [
+    "2",
+    "Toàn · khung tĩnh ba máy, chữ hiện hai dòng",
+    "\"Thiệt chỗ nào nói trước: chip đời cũ hơn, ổ bé hơn. Còn RAM vẫn mười sáu.\"",
+    "Thiệt: đời chip · ổ cứng / Giữ: RAM 16GB",
+    "4–11s"
+  ],
+  [
+    "3",
+    "Cận · chéo · máy thứ nhất, tay xoay màn từ 90° ra sau 360°",
+    "\"Chiếc ít tiền nhất. RAM mười sáu, ổ hai trăm năm sáu, màn xoay gập.\"",
+    "Latitude 7390 2in1 · i5-8250U · 16GB · 256GB · 8.290.000đ",
+    "11–18s"
+  ],
+  [
+    "4",
+    "Cận · chéo · máy thứ hai mở nắp thường, tay đặt lên bàn phím",
+    "\"Chiếc chip mới nhất, màn mười bốn rộng hơn. Không cảm ứng, không xoay gập.\"",
+    "Latitude 7420 vỏ carbon · i5-1145G7 · 16GB · 256GB · 9.380.000đ",
+    "18–25s · ⛔ không xoay màn, không chạm màn"
+  ],
+  [
+    "5",
+    "Cận · chính diện · máy thứ ba, tay mở một thư mục nhiều file",
+    "\"Chiếc ổ to nhất, năm trăm mười hai. Cũng đắt nhất trong ba.\"",
+    "Latitude 5310 2in1 · i5-10210U · 16GB · 512GB · 9.880.000đ",
+    "25–31s"
+  ],
+  [
+    "6",
+    "Toàn · ba máy cùng khung, tay đặt tờ A5 bảo hành trước ba máy",
+    "\"Cả ba đã qua sử dụng. Bảo hành sáu tháng bo mạch, màn, phím. Pin ba tháng.\"",
+    "Comment số tiền + ngành học",
+    "31–37s"
+  ],
+  [
+    "Kịch bản 6: 700 nghìn đó mua được gì - không mẫu - voice thật (nhân viên bán hàng đọc) · 35 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền, máy quay đặt chân máy, không đổi góc suốt video · Máy: hai chiếc Dell Latitude 5300 2in1 i7-8665U 16GB — bản 256GB (đặt bên trái) và bản 512GB (bên phải) · Đạo cụ: mẩu giấy trắng viết tay \"700.000đ\" · bản 256GB mở sẵn thư mục Google Drive, bản 512GB mở sẵn thư mục video · Giá trên hình: xác minh 0928939666 sáng ngày quay · HẠN DÙNG VIDEO: 2026-10-11 (hết tuần 2 — người dùng xác nhận giá 2026-09-28) — không đăng lại sau hạn · Phụ đề bắt buộc · ⛔ Không hứa nâng ổ, không \"còn hàng\", không nói bản 512GB đáng mua hơn",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Trung · chính diện · hai máy mở nắp đặt sát nhau cùng khung",
+    "\"Hai chiếc giống hệt. Chênh bảy trăm mười nghìn.\"",
+    "Giống hệt — chênh 710.000đ",
+    "0–4s"
+  ],
+  [
+    "2",
+    "Trung · cùng góc · tay chỉ lần lượt máy trái rồi máy phải",
+    "\"Cùng chip, cùng mười sáu GB RAM. Khác đúng cái ổ.\"",
+    "256GB — 8.980.000đ · 512GB — 9.690.000đ",
+    "4–10s · chữ giá đặt ngay trên từng máy"
+  ],
+  [
+    "3",
+    "Cận · chính diện · màn bản 256GB đang mở thư mục Google Drive",
+    "\"Tài liệu để Drive, học kinh tế, ảnh để điện thoại: hai trăm năm sáu là đủ.\"",
+    "Đừng thêm tiền nếu…",
+    "10–17s · quay cảnh này trước cảnh 4, không đảo"
+  ],
+  [
+    "4",
+    "Cận · chính diện · màn bản 512GB đang mở thư mục video bài nhóm",
+    "\"Cài phần mềm nặng, dựng video, tải phim xem offline: nghĩ tới bản to.\"",
+    "Nên thêm nếu…",
+    "17–24s"
+  ],
+  [
+    "5",
+    "Cận · từ trên xuống · tay đặt mẩu giấy \"700.000đ\" giữa hai máy, rút tay ra",
+    "\"Bảy trăm nghìn là mấy tuần tiền ăn. Không dồn vào ổ thì mua được gì?\"",
+    "700.000đ — mua được gì khác?",
+    "24–30s · giữ khung 3 giây sau khi rút tay"
+  ],
+  [
+    "6",
+    "Trung · cùng góc cảnh 1 · hai tay gập hai nắp cùng lúc",
+    "\"Bên mình chưa kiểm khe ổ từng máy, nên không hứa nâng ổ sau này.\"",
+    "Comment ngành học, mình chọn giúp",
+    "30–35s"
+  ],
+  [
+    "Kịch bản 7: Cài lại Windows mùa thi - không mẫu - voice thật (kỹ thuật viên hoặc nhân viên bán hàng đọc) · 36 giây · Quay dọc 9:16 1080x1920 tại bàn kỹ thuật 71 Thiên Hiền · Máy: một máy trong danh sách 36 đang chờ vệ sinh, không lên tên, không lên giá · Người làm: kỹ thuật viên thật, chỉ quay tay · Đạo cụ: tua vít · chổi quét bụi · tuýp keo tản nhiệt · USB cài Windows · điện thoại mở sẵn màn quay số 0825998855 · Phụ đề bắt buộc · ⛔ Không nói máy mát hơn, nhanh hơn sau khi vệ sinh, không nói thời gian làm xong, không gọi là \"quy trình test\", không hứa \"sửa miễn phí\"",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Cận · chính diện · màn laptop đang ở màn hình cài đặt Windows",
+    "\"Windows lỗi đúng đêm trước hạn nộp bài?\"",
+    "Windows lỗi tuần nộp bài?",
+    "0–4s"
+  ],
+  [
+    "2",
+    "Trung · từ trên xuống · bàn kỹ thuật: tua vít, chổi, tuýp keo xếp cạnh laptop lật úp",
+    "\"Máy mua ở bên mình, ba việc này miễn phí trọn đời.\"",
+    "Miễn phí trọn đời · máy mua tại shop",
+    "4–9s"
+  ],
+  [
+    "3",
+    "Cận · chính diện · tay cắm USB cài Windows, bấm Next trên màn cài đặt",
+    "\"Một: cài lại Windows, cài phần mềm.\"",
+    "1 · Cài Windows · cài phần mềm",
+    "9–14s"
+  ],
+  [
+    "4",
+    "Cận · từ trên xuống · tay tháo ốc nắp đáy, nhấc nắp ra",
+    "\"Hai: mở máy vệ sinh.\"",
+    "2 · Vệ sinh máy",
+    "14–18s"
+  ],
+  [
+    "5",
+    "Cận · sát quạt · chổi quét bụi khỏi cánh quạt",
+    "\"Quét sạch bụi quạt.\"",
+    "",
+    "18–21s"
+  ],
+  [
+    "6",
+    "Cận · sát chip · tay tra keo tản nhiệt",
+    "\"Ba: tra keo tản nhiệt.\"",
+    "3 · Tra keo tản nhiệt",
+    "21–26s"
+  ],
+  [
+    "7",
+    "Cận · ngang · điện thoại hiện số 0825998855 đặt cạnh máy",
+    "\"Cần thì gọi số kỹ thuật trước.\"",
+    "Kỹ thuật: 0825998855 / 8h–17h30",
+    "26–32s · giữ khung 5 giây"
+  ],
+  [
+    "8",
+    "Toàn · bàn kỹ thuật, máy đã lắp lại nắp",
+    "\"Lưu video lại, lúc cần có số mà gọi.\"",
+    "Lưu lại để lúc cần",
+    "32–36s"
+  ],
+  [
+    "Kịch bản 8: Review Latitude 7420 vỏ carbon - không mẫu - voice thật (nhân viên bán hàng đọc) · 55 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền · Máy: Dell Latitude 7420 [vỏ carbon] i5-1145G7 16GB 256GB 14 inch FHD — bản thường, không lấy nhầm bản 2in1 · Đạo cụ: 1 quyển vở A4 · tờ A5 bảo hành · 1 cáp sạc, 1 USB · desktop mở sẵn 1 file PDF, 1 file Word, file ảnh trắng, ảnh đen · Phụ đề bắt buộc · ⛔ Không giá trên hình, không đọc giá, ngón tay không chạm màn, không xoay màn quá 180°, không \"mượt\", \"pin cả ngày\", \"nhẹ\"",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Cận · chính diện · ngón tay đưa về phía màn, dừng cách màn 2cm rồi rụt lại",
+    "\"Chiếc này nói trước: không cảm ứng, không xoay gập.\"",
+    "Không cảm ứng · không xoay gập",
+    "0–4s · ⛔ ngón tay không chạm màn"
+  ],
+  [
+    "2",
+    "Cận · chính diện · Settings → About, tay chỉ dòng tên chip",
+    "\"Đổi lại: chip đời mười một.\"",
+    "Chip i5 đời 11",
+    "4–8s · màn hiện chip khác i5-1145G7 → dừng quay, báo người viết"
+  ],
+  [
+    "3",
+    "Cận · cùng màn, tay chỉ dòng RAM",
+    "\"RAM mười sáu GB, ổ hai trăm năm sáu.\"",
+    "RAM 16GB · Ổ 256GB",
+    "8–12s"
+  ],
+  [
+    "4",
+    "Toàn · chéo 45° · máy đóng nắp cạnh quyển vở A4, thấy vân carbon trên nắp",
+    "\"Màn mười bốn inch, vỏ carbon. Máy likenew, dòng doanh nhân.\"",
+    "Latitude 7420 vỏ carbon · i5-1145G7 · 16GB · 256GB",
+    "12–17s"
+  ],
+  [
+    "5",
+    "Trung · chính diện · màn mở hai cửa sổ cạnh nhau: PDF bên trái, Word bên phải",
+    "\"Mười bốn inch mở hai cửa sổ cạnh nhau, đỡ chật hơn mười ba.\"",
+    "Hai cửa sổ cạnh nhau",
+    "17–23s"
+  ],
+  [
+    "6",
+    "Cận · từ trên xuống · tay gõ một đoạn văn",
+    "\"Bàn phím thì ra shop tự gõ một đoạn cho quen tay.\"",
+    "",
+    "23–27s"
+  ],
+  [
+    "7",
+    "Cận · ngang · cạnh trái rồi cạnh phải, tay cắm cáp sạc và USB",
+    "\"Cổng hai bên. Cắm thử đúng dây bạn hay dùng.\"",
+    "",
+    "27–31s"
+  ],
+  [
+    "8",
+    "Cận · chính diện · màn ảnh trắng rồi ảnh đen, máy quay rà chậm",
+    "\"Hôm xem máy, soi ảnh trắng, ảnh đen cho kỹ.\"",
+    "Soi ảnh trắng · ảnh đen",
+    "31–35s · màn sạch thì nói thêm \"màn máy này sạch\""
+  ],
+  [
+    "9",
+    "Trung · chính diện · máy mở nắp trên bàn, chữ hai dòng hiện bên phải",
+    "\"Hợp nếu học văn phòng, kinh tế, hay mở hai cửa sổ, không cần cảm ứng.\"",
+    "Hợp: 2 cửa sổ · không cần cảm ứng",
+    "35–41s"
+  ],
+  [
+    "10",
+    "Trung · cùng khung, chữ đổi",
+    "\"Không hợp nếu cần ghi chú bằng tay trên màn, hay cần ổ to.\"",
+    "Không hợp: cần cảm ứng · cần ổ to",
+    "41–46s"
+  ],
+  [
+    "11",
+    "Cận · từ trên xuống · tờ A5 bảo hành đặt cạnh máy",
+    "\"Bảo hành sáu tháng bo mạch, màn, phím. Pin ba tháng.\"",
+    "6 tháng bo mạch · màn · phím / Pin 3 tháng",
+    "46–51s · giữ khung 4 giây"
+  ],
+  [
+    "12",
+    "Toàn · máy mở nắp trên quầy",
+    "\"Comment ngành học với số tiền đang có, mình nói hợp không.\"",
+    "Comment ngành học + số tiền",
+    "51–55s"
+  ],
+  [
+    "Kịch bản 9: 20 giây soi điểm chết - không mẫu - voice thật (nhân viên bán hàng đọc) · 36 giây · Quay dọc 9:16 1080x1920 tại quầy 71 Thiên Hiền · Tắt bớt đèn trần, quay màn chính diện tránh vân moiré · Máy: Dell Latitude 7400 2in1 i7-8665U 16GB 512GB 14 inch FHD cảm ứng, desktop có file ảnh trắng, ảnh đen · Phụ đề bắt buộc · ⛔ Không giá trên hình (video không phải loại so sánh), không dựng máy có điểm chết, không chèn ảnh điểm chết trên mạng, không \"còn hàng\", không hứa bảo hành điểm chết",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Cận · chính diện · màn đen kín chiếm hết khung, phòng tối",
+    "\"Cái này bên mình không bảo hành.\"",
+    "Điểm chết màn hình: KHÔNG bảo hành",
+    "0–4s"
+  ],
+  [
+    "2",
+    "Trung · chính diện · lùi ra thấy cả máy trên quầy, tay mở ảnh trắng toàn màn",
+    "\"Màn hình có bảo hành. Điểm chết thì không. Nên tự soi tại quầy.\"",
+    "",
+    "4–11s · không cắt giữa câu"
+  ],
+  [
+    "3",
+    "Cận · chính diện · màn trắng, máy quay rà chậm từ góc trái trên sang phải dưới, rồi đổi ảnh đen rà lại",
+    "\"Ảnh trắng kín màn. Rồi ảnh đen. Điểm chết, vệt sọc, chỗ ám màu lộ hết. Mất hai mươi giây.\"",
+    "Ảnh trắng → ảnh đen",
+    "11–19s · máy quay đi chậm, đều · màn sạch thì nói \"màn này sạch\""
+  ],
+  [
+    "4",
+    "Trung · ngang · tay xoay màn chậm hết 360°, rồi đưa về khoảng 100° và thả tay",
+    "\"Máy xoay gập thì soi thêm. Xoay chậm hết vòng, nghe tiếng lạ. Thả tay giữa chừng, màn phải đứng yên.\"",
+    "Thả tay — màn phải đứng yên",
+    "19–27s · giữ khung 3 giây sau khi thả tay"
+  ],
+  [
+    "5",
+    "Cận · chính diện · ngón tay vẽ một đường liền qua bốn góc và giữa màn",
+    "\"Vẽ một đường qua bốn góc với giữa màn. Xem chỗ nào không ăn.\"",
     "",
     "27–32s"
   ],
   [
     "6",
-    "Máy gập phẳng 360 độ đặt trên quầy, chữ lớn",
-    "\"Soi ở cửa hàng nào cũng được. Về nhà đổi ý thì bạn còn mười lăm ngày đổi sang máy khác.\"",
-    "Latitude 7400 2in1 · 16GB · 512GB · 10.680.000đ — nhắn tin mình kiểm tra máy còn không.",
-    "32–36s (CHỐT) · ⚠️ sáng ngày quay gọi 0928939666 xác minh giá và máy còn hay hết"
+    "Trung · chéo · máy gập phẳng 360° trên quầy",
+    "\"Soi ở đâu cũng được. Về nhà đổi ý thì còn mười lăm ngày đổi máy khác.\"",
+    "Nhắn tin, shop kiểm tra máy còn không",
+    "32–36s"
   ]
 ];
-  var TITLE_ROWS = [2, 9, 16, 23, 30];
+  var TITLE_ROWS = [2, 9, 16, 26, 39, 46, 53, 62, 75];
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   if (ss.getSheetByName(TAB)) {

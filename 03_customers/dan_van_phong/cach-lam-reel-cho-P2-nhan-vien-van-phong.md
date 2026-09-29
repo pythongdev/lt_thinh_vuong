@@ -1,5 +1,10 @@
 # Cách làm video reel cho P2 (Nhân viên văn phòng)
 
+> 🔄 **2026-09-29 — áp luật #23, #24, #25 `CLAUDE.md` (phản hồi của sếp):** giọng câu chữ đè bởi
+> `03_customers/ngon-ngu-theo-persona.md` mục 2 (khung giờ trong ngày · viết lại câu thật chương 3 · lóng · ranh giới);
+> kịch bản / brief không chèn lời nhận xét ("CẢNH CHÍNH", "(HOOK)", "(CHỐT)"…), ô bối cảnh ghi cận / trung / toàn;
+> mỗi tuần 6 tuyến bài — bảng P2 ở `04_content/strategy/tuyen-bai-tuan.md` mục 5.2.
+
 > **Dùng để làm gì:** đây là lớp **hình ảnh và cảnh quay**, không phải lớp câu chữ.
 > `cach-viet-cho-P2-nhan-vien-van-phong.md` trả lời *viết thành câu như thế nào*.
 > File này trả lời *quay cái gì, cắt ở đâu, chữ trên màn viết ra sao* cho đúng persona này —

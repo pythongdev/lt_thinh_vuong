@@ -61,6 +61,13 @@ Timecode thì nhét vào đầu ô **NOTE** (`0–3s (HOOK)`) — không mở th
 - Thoại tối đa **3 từ/giây**. Đếm từ trước khi chốt.
 - Không viết ký tự `|` trong ô (vỡ bảng). Dùng `·` để ngăn ý.
 - Ô BỐI CẢNH phải quay được bằng đồ có sẵn tại shop. Không mô tả cảnh phải dựng.
+- Ô BỐI CẢNH mở đầu bằng **khung hình**: `Cận` · `Trung` · `Toàn`, rồi góc máy, vật trong khung, tay ai làm gì.
+- Ô NOTE chỉ chứa: timecode · thao tác quay (giữ khung mấy giây, cắt thẳng, quay lại mấy lần) · điều cấm.
+- ⛔ **Không lời nhận xét** về cảnh (luật #24 `CLAUDE.md`): không "CẢNH CHÍNH", "HOOK", "CHỐT",
+  "đây là đoạn người xem chụp màn hình", "điểm mạnh của hình", "cảnh này sai là cả bài sai".
+  Người quay cần lệnh làm, không cần biết cảnh đó quan trọng cỡ nào.
+- Dòng tiêu đề đủ để chuẩn bị buổi quay: thời lượng · nơi quay · máy (tên đủ CPU · RAM · ổ)
+  · đạo cụ · ai đọc voice · điều cấm.
 
 ## 5. Câu cấm copy lại từ kịch bản cũ trong sheet
 

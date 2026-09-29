@@ -1,13 +1,23 @@
-# Chương 2 — "Sinh viên: những câu chương 1 chưa trả lời" · tuần 28/09–04/10/2026
+# Chương 2 — "Sinh viên: những câu chương 1 chưa trả lời" · 2 tuần 28/09–11/10/2026
 
-> **Trạng thái: ✅ Gate 6 ký 2026-09-24 · ✅ Gate 2 chạy lại 2026-09-28 (8/8 máy giữ nguyên).
-> Đã bàn giao đủ 2 nhánh (bài đăng + reel)
-> và upload Google Drive. Sheet thật của team vẫn chưa bị chạm (connector chỉ đọc ô).**
-> Persona: **P1 (Sinh viên / mua máy đầu tiên)** — quyết định người dùng 2026-09-21: đào sâu P1,
-> không chuyển sang P2 (Nhân viên văn phòng).
-> Nguồn dữ liệu: `02_products/36-may-duoc-viet-2026-09-20.csv`
+> **Trạng thái: 🟢 VIẾT LẠI 2026-09-28 theo phản hồi của sếp — Gate 6 người dùng duyệt 2026-09-28.**
+> Giá tuần 2 người dùng xác nhận vẫn đúng 2026-09-28. Sheet thật của team chưa bị chạm (connector chỉ đọc ô).
+> Persona: **P1 (Sinh viên / mua máy đầu tiên)**.
 > Chương trước: [Chương 1 — sinh viên có 13 triệu](../2026-09-21-chuong-1-sinh-vien-13-trieu/INDEX.md)
-> Chương sau: [Chương 3 — dân văn phòng 15–18 triệu](../2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) (mới là ý tưởng)
+> Chương sau: [Chương 3 — dân văn phòng 15–18 triệu](../2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) —
+> — dời sang tuần 12–18/10 (người dùng quyết 2026-09-28: ưu tiên sinh viên trước).
+
+---
+
+## 0. Phản hồi của sếp 2026-09-28 — đã xử lý
+
+| Sếp nói | Đã sửa | Luật |
+|---|---|---|
+| Ngôn ngữ chưa phải của sinh viên | Viết lại cả 10 nội dung tư vấn bằng giọng sinh viên, mở bằng cảnh đời thường | #23 |
+| Bỏ từ đánh giá, kịch bản phải làm được luôn | Bỏ mọi lời nhận xét trong caption / brief / NOTE; cảnh ghi khung hình + góc; dòng tiêu đề ghi đủ máy, đạo cụ, người đọc voice | #24 |
+| Nhiều tuyến bài hơn, bài hiện tại dùng 2 tuần | 10 nội dung cũ trải 2 tuần + 12 nội dung tuyến mới (bộ ảnh SP, review, bảo hành) | #25 |
+
+Chi tiết từng câu sửa: [00-ke-hoach/ke-hoach-2-tuan.md](00-ke-hoach/ke-hoach-2-tuan.md) mục 1.
 
 ---
 
@@ -15,80 +25,38 @@
 
 | Thư mục | Chứa gì | Trạng thái |
 |---|---|---|
-| [00-ke-hoach/](00-ke-hoach/) | Kế hoạch 5 bài | ✅ xong |
-| [01-drafts/](01-drafts/) | 5 Content Package đầy đủ | ✅ xong, Gate 6 đã ký 2026-09-24 |
-| [02-approved/](02-approved/) | Bài đã qua đủ 7 gate, chờ tới lịch đăng | ⬜ trống |
-| [03-published/](03-published/) | Bài đã đăng thật, có link bài | ⬜ trống |
-| [04-ban-giao/](04-ban-giao/) | **2 nhánh**: [01-bai-dang/](04-ban-giao/01-bai-dang/) lưới 9×8 (10 nội dung) · [02-reel/](04-ban-giao/02-reel/) 5 kịch bản 5 cột | ✅ xong 2026-09-24, đã lên Drive, chờ dán vào sheet team |
-| [05-ket-qua/](05-ket-qua/) | Số liệu sau khi đăng, bài học rút ra | ⬜ trống — điền sau khi đăng |
-
-> Chương này **chưa có bản tóm tắt cho chủ shop**. Cần thì sinh `ke-hoach-TOM-TAT.md`
-> trong [00-ke-hoach/](00-ke-hoach/) theo mục "Bản tóm tắt cho người ngoài hệ thống" của `CLAUDE.md`.
+| [00-ke-hoach/](00-ke-hoach/) | [ke-hoach.md](00-ke-hoach/ke-hoach.md) (5 bài gốc) · [ke-hoach-2-tuan.md](00-ke-hoach/ke-hoach-2-tuan.md) (lịch 2 tuần + đối chiếu ý sếp) | ✅ |
+| [01-drafts/](01-drafts/) | 5 Content Package tuyến tư vấn (caption bên trong là bản cũ, có ghi chú) · [Content Package gộp 12 nội dung tuyến mới](01-drafts/2026-09-28-tuyen-B-C-D-content-package.md) · [khuôn chờ ca tuyến Feedback / Khách tại shop](01-drafts/2026-09-28-tuyen-E-F-khuon-cho-ca.md) | ✅ Gate 6 duyệt 2026-09-28 |
+| [02-approved/](02-approved/) | — | ⬜ trống |
+| [03-published/](03-published/) | — | ⬜ trống |
+| [04-ban-giao/](04-ban-giao/) | [01-bai-dang/](04-ban-giao/01-bai-dang/) lưới 9×8, 22 nội dung, 4 khối · [02-reel/](04-ban-giao/02-reel/) 9 kịch bản, 71 cảnh | 🟢 sinh 2026-09-28, script chạy sạch · Gate 6 duyệt 2026-09-28 |
+| [05-ket-qua/](05-ket-qua/) | — | ⬜ điền sau khi đăng |
 
 ---
 
-## 2. Kế hoạch — [00-ke-hoach/ke-hoach.md](00-ke-hoach/ke-hoach.md)
+## 2. Lịch 2 tuần — 22 nội dung, 6 tuyến bài
 
-7 mục: nguyên tắc chọn góc (không lặp chương 1) · nghiên cứu thị trường 21/09 · 5 bài theo mạch
-phễu · **2 chỗ cần người dùng quyết (Gate 0)** · 4 máy được nêu tên đã đối chiếu CSV · việc phải
-xong trước khi đăng · điều cả 5 bài đều không được viết.
+| Tuyến bài | Tuần 1 (28/09–04/10) | Tuần 2 (05/10–11/10) |
+|---|---|---|
+| Tư vấn – kiến thức | Bố mẹ lo chữ "cũ" (reel + bài) · Cỡ màn (bài + reel) · Ví 9 triệu rưỡi (bài) | 9 triệu rưỡi (reel) · 256 hay 512GB (bài + reel) · Latitude 7400 2in1 (bài) · Soi điểm chết (reel) |
+| Hình ảnh sản phẩm | 5310 2in1 · 7420 vỏ carbon | 9410 2in1 i7 512GB · Inspiron 7415 2in1 |
+| Review sản phẩm | Latitude 7390 2in1 16GB | Latitude 7420 vỏ carbon |
+| Bảo hành – hậu mãi | Hỏng tuần thi, gọi ai | Cài lại Windows mùa thi |
+| Feedback khách hàng | kho trống → bộ ảnh 5300 2in1 | kho trống → bộ ảnh 7420 vỏ nhôm |
+| Khách tại cửa hàng | kho trống → bộ ảnh 7390 2in1 | kho trống → bộ ảnh 7400 2in1 i5 |
 
-**Câu chương 1 bỏ trống, chương 2 trả lời:**
-
-| Câu sinh viên hỏi | Thành bài |
-|---|---|
-| "Bố mẹ em không đồng ý mua máy cũ" | Bài 1 |
-| "13 inch, 14 inch hay 15,6 inch?" | Bài 2 |
-| "Em không có 13 triệu, em có 9 triệu thì sao?" | Bài 3 |
-| "256GB có đủ cho 4 năm học không?" | Bài 4 |
-| Chưa có bài nào đi sâu **một máy** | Bài 5 |
+Mọi máy nêu tên nằm trong danh sách 36 (luật #20), giá đối chiếu `36-may-duoc-viet-2026-09-28.csv`.
 
 ---
 
-## 3. Năm bài — [01-drafts/](01-drafts/)
-
-Mạch phễu O1 (Tiếp cận) → O2 (Hiểu vấn đề) → O4 (Cân nhắc mua) → O4 (Cân nhắc mua) → O5 (Tạo lead / đơn).
-
-| Ngày | Bài | Bốn trục | Nêu tên máy? |
-|---|---|---|---|
-| T2 28/09 20:30 | [Post 01 — 3 câu bố mẹ hay hỏi](01-drafts/2026-09-28-post-01-ba-cau-bo-me-hay-hoi.md) | P1 (Sinh viên / mua máy đầu tiên) · J1 (Đã thấy shop) · O1 (Tiếp cận) · CP08 (Sai lầm khi mua) | không |
-| T3 29/09 20:30 | [Post 02 — 13, 14 hay 15,6 inch](01-drafts/2026-09-29-post-02-chon-co-man-13-14-15.md) | P1 (Sinh viên / mua máy đầu tiên) · J2 (Bắt đầu quan tâm laptop cũ) · O2 (Hiểu vấn đề) · CP02 (Kiến thức) | không |
-| T4 30/09 20:30 | [Post 03 — Chưa tới 10 triệu mua được máy thế nào](01-drafts/2026-09-30-post-03-chua-toi-10-trieu.md) | P1 (Sinh viên / mua máy đầu tiên) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP01 (Tư vấn mua) | **có — 3 máy** |
-| T5 01/10 20:30 | [Post 04 — Thêm 700 nghìn để có gấp đôi ổ cứng](01-drafts/2026-10-01-post-04-256-hay-512.md) | P1 (Sinh viên / mua máy đầu tiên) · J3 (Đang so sánh) · O4 (Cân nhắc mua) · CP03 (So sánh) | **có — 2 cặp** |
-| T6 02/10 20:30 | [Post 05 — Latitude 7400 2in1, 3 điều nên biết](01-drafts/2026-10-02-post-05-latitude-7400-2in1.md) | P1 (Sinh viên / mua máy đầu tiên) · J4 (Đã inbox / gọi / ghé shop) · O5 (Tạo lead / đơn) · CP05 (Đánh giá sản phẩm) | **có — 1 máy** |
-
-**Bốn máy được nêu tên** (đã đối chiếu CSV 2026-09-20, cấu hình đọc theo tên — luật #13,
-bảo hành theo `warranty_tag` — luật #14): Latitude 7390 2in1 8.290.000đ · Latitude 7420 vỏ carbon
-9.380.000đ · Latitude 5310 2in1 9.880.000đ · Latitude 7400 2in1 10.680.000đ. Chi tiết + 3 bẫy dữ
-liệu đã xử lý: mục 5 của [ke-hoach.md](00-ke-hoach/ke-hoach.md).
-
----
-
-## 4. Bàn giao lên sheet — [04-ban-giao/](04-ban-giao/)
-
-Hai nhánh, hai sheet khác nhau (luật #21) — cách đẩy nằm trong README của từng nhánh:
-
-| Nhánh | File gốc | Nội dung | Bản Drive (2026-09-24) |
-|---|---|---|---|
-| [01-bai-dang/](04-ban-giao/01-bai-dang/) | [BAN-GIAO-TUAN-28-09-04-10.md](04-ban-giao/01-bai-dang/BAN-GIAO-TUAN-28-09-04-10.md) | Lưới 9×8, **2 khối**: 5 reel 12:15 + 5 bài viết 20:30 | https://docs.google.com/spreadsheets/d/1os858KNThkQBG37q169jAxdMnnMevEXkSR0jxNCyyGE |
-| [02-reel/](04-ban-giao/02-reel/) | [KICH-BAN-VIDEO-TUAN-28-09-04-10.md](04-ban-giao/02-reel/KICH-BAN-VIDEO-TUAN-28-09-04-10.md) | 5 kịch bản × 6 cảnh, 5 cột của sheet KB | https://docs.google.com/spreadsheets/d/113HxJNiapcllmf7lIOeuDJhw2JKCPKvUK9GKzPREDs8 |
-
-Thư mục Drive chứa cả hai: https://drive.google.com/drive/folders/1wbJJaGa7YhwX13XPFD9vX6eP2_NboQNB
-(My Drive của người dùng, **chưa chia sẻ cho ai**).
-
-Năm reel là **bản video của đúng bài đăng cùng ngày** — cùng 4 trục, cùng nguồn fact,
-không mở fact mới. Khuôn cũ 10 trường (`STT` / `TITLE` / `DATE & TIME`) đã bỏ.
-
----
-
-## 5. ⛔ Điều đang chặn
+## 3. ⛔ Điều đang chặn
 
 | # | Chặn gì | Ai gỡ |
 |---|---|---|
-| 1 | ~~Gate 6 chưa ai ký~~ → ✅ **người dùng ký "ok" 2026-09-24** | xong |
-| 2 | ~~Bài 3, 4, 5 và 3 reel cùng ngày chưa được phép đăng~~ → ✅ **Gate 2 chạy lại 2026-09-28**: 8/8 máy giữ nguyên giá · kho · `warranty_tag`, không máy nào rời danh sách trắng. Dữ liệu hạn **2026-10-05**, phủ trọn tuần | xong |
-| 3 | Bài 1, Bài 2 và 2 reel cùng ngày **không nêu tên máy** → đăng được ngay | xong |
-| 4 | 2 chỗ Gate 0 ở mục 4 `ke-hoach.md` chưa có người quyết | Người dùng / chủ shop |
-| 5 | Connector Google Drive **chỉ đọc ô** → phải copy dán tay vào sheet | Người phụ trách sheet |
-| 6 | **Chưa quay reel nào.** 5 kịch bản đã có, nhưng chưa có file video → khung 12:15 mỗi ngày chưa air được | Người quay |
-| 7 | Sáng mỗi ngày 30-09, 01-10, 02-10: gọi 0928939666 xác nhận máy còn hay hết | Người đăng |
+| 1 | ~~Gate 6 cho bản viết lại~~ → ✅ duyệt 2026-09-28 | xong |
+| 2 | ~~Tuần 2 trùng chương 3~~ → chương 3 dời 12/10 | xong |
+| 3 | ~~Giá tuần 2~~ → người dùng xác nhận vẫn đúng · KB5, KB6 hạn dùng 2026-10-11 | xong |
+| 4 | `kho-khach-that.md` trống → chưa có bài Feedback / Khách tại shop thật | Người bán — xin phép và ghi ca trong ngày |
+| 5 | Chưa chụp 8 bộ ảnh, chưa quay 9 video | Người chụp / người quay |
+| 6 | Connector Google Drive chỉ đọc ô → phải chạy Apps Script / nhập CSV tay | Người phụ trách sheet |
+| 7 | Sáng mỗi ngày đăng bài có giá: gọi 0928939666 xác nhận máy còn hay hết | Người đăng |
