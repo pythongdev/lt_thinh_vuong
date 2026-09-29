@@ -4,7 +4,7 @@ product: 10 máy — xem mục 12
 persona: P1 — Sinh viên / mua máy đầu tiên
 format: bộ ảnh ×8 · reels ×4
 risk: medium (có giá)
-status: approved (tuần 2 chờ kéo lại giá)
+status: approved (bài 10, 11, 21, 22 đã thay ở bản 3 — 2026-09-29)
 approved_by: người dùng (chat "duyệt") 2026-09-28
 created: 2026-09-28
 gates: { g0: ✅, g1: ✅, g2: ✅ tuần 1 · ⛔ tuần 2 chờ kéo giá, g3: ✅, g4: ✅, g5: ✅, g6: ✅ }
@@ -19,8 +19,12 @@ gates: { g0: ✅, g1: ✅, g2: ✅ tuần 1 · ⛔ tuần 2 chờ kéo giá, g3:
 > (số bài bên dưới = số khối trong file đó). **Kịch bản 5 cột** ở `04-ban-giao/02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md`.
 > File này giữ phần không lên sheet: strategy, hook thay thế, CTA, đo lường, trả lời inbox, fact table.
 >
+> ⚠️ **Bản 3 (2026-09-29):** 4 bộ ảnh bài 10, 11, 21, 22 **đã bị thay** bằng tuyến G (So sánh hai máy) và K (Dạy khách tự kiểm tra máy cũ)
+> → [2026-09-29-tuyen-G-K-I-content-package.md](2026-09-29-tuyen-G-K-I-content-package.md). Dòng của 4 bài đó bên dưới giữ làm lưu trữ, **không bàn giao**.
+> Còn hiệu lực: bài 3, 6, 7, 9, 14, 17, 18, 20.
+>
 > Tuyến E (Feedback khách hàng) và F (Hình ảnh khách tại cửa hàng): `kho-khach-that.md` trống →
-> không có bài. 4 khung của hai tuyến đang chạy tuyến B. Khuôn chờ ca: [2026-09-28-tuyen-E-F-khuon-cho-ca.md](2026-09-28-tuyen-E-F-khuon-cho-ca.md).
+> không có bài. Bản 2 cho 4 khung của hai tuyến chạy tuyến B; bản 3 đổi sang G / K. Khuôn chờ ca: [2026-09-28-tuyen-E-F-khuon-cho-ca.md](2026-09-28-tuyen-E-F-khuon-cho-ca.md).
 
 ---
 
@@ -32,14 +36,14 @@ gates: { g0: ✅, g1: ✅, g2: ✅ tuần 1 · ⛔ tuần 2 chờ kéo giá, g3:
 | 6 | T4 30-09 20:30 | D — Bảo hành – hậu mãi | Reels KB3 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O3 (Tin công ty) | CP07 (Hậu trường) |
 | 7 | T5 01-10 12:15 | C — Review sản phẩm | Reels KB4 · Latitude 7390 2in1 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O4 (Cân nhắc mua) | CP05 (Đánh giá sản phẩm) |
 | 9 | T6 02-10 12:15 | B — Hình ảnh sản phẩm | Bộ ảnh Latitude 7420 vỏ carbon | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
-| 10 | T6 02-10 20:30 | E → B (kho trống) | Bộ ảnh Latitude 5300 2in1 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
-| 11 | T7 03-10 12:15 | F → B (kho trống) | Bộ ảnh Latitude 7390 2in1 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
+| 10 | T6 02-10 20:30 | E → B (kho trống) · ⛔ **đã thay bản 3** | Bộ ảnh Latitude 5300 2in1 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
+| 11 | T7 03-10 12:15 | F → B (kho trống) · ⛔ **đã thay bản 3** | Bộ ảnh Latitude 7390 2in1 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
 | 14 | T3 06-10 12:15 | B — Hình ảnh sản phẩm | Bộ ảnh Latitude 9410 2in1 i7 512GB | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
 | 17 | T4 07-10 20:30 | D — Bảo hành – hậu mãi | Reels KB7 | P1 (Sinh viên / mua máy đầu tiên) | J6 (Quay lại (nâng cấp, mua thêm, bảo hành)) | O3 (Tin công ty) | CP07 (Hậu trường) |
 | 18 | T5 08-10 12:15 | C — Review sản phẩm | Reels KB8 · Latitude 7420 vỏ carbon | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O4 (Cân nhắc mua) | CP05 (Đánh giá sản phẩm) |
 | 20 | T6 09-10 12:15 | B — Hình ảnh sản phẩm | Bộ ảnh Inspiron 7415 2in1 | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
-| 21 | T6 09-10 20:30 | E → B (kho trống) | Bộ ảnh Latitude 7420 vỏ nhôm | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
-| 22 | T7 10-10 12:15 | F → B (kho trống) | Bộ ảnh Latitude 7400 2in1 i5 256GB | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
+| 21 | T6 09-10 20:30 | E → B (kho trống) · ⛔ **đã thay bản 3** | Bộ ảnh Latitude 7420 vỏ nhôm | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
+| 22 | T7 10-10 12:15 | F → B (kho trống) · ⛔ **đã thay bản 3** | Bộ ảnh Latitude 7400 2in1 i5 256GB | P1 (Sinh viên / mua máy đầu tiên) | J3 (Đang so sánh máy / shop) | O5 (Tạo lead / đơn) | CP10 (Hàng & ưu đãi) |
 
 **Vì sao các máy này:** tầng tiền của P1 (Sinh viên / mua máy đầu tiên) trong danh sách 36 (8–14 triệu),
 không lặp máy trong cùng một tuần trừ bài 11 (ảnh thật của chính chiếc đã review ở bài 7, hai ngày trước).
@@ -114,7 +118,7 @@ Ghi kết quả vào `05-ket-qua/` và `07_analytics/content-performance.md`.
 
 ## 12. Fact table
 
-Nguồn: `02_products/36-may-duoc-viet-2026-09-28.csv` (verified 2026-09-28, **hạn 2026-10-05**). Cấu hình đọc theo tên (luật #13).
+Nguồn: `02_products/36-may-duoc-viet-2026-09-28.csv` (verified 2026-09-28, soát lại 2026-09-29 không đổi → **hạn 2026-10-06**, `36-may-duoc-viet-2026-09-29.csv`). Cấu hình đọc theo tên (luật #13).
 Tuần 2 (bài 14, 18, 20, 21, 22) phải đối chiếu lại sau khi kéo dữ liệu mới.
 
 | Máy (tên sản phẩm) | Giá | Tình trạng | `warranty_tag` | Bẫy đã xử lý |

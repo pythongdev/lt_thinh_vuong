@@ -171,7 +171,7 @@ hoặc CP03 (So sánh). Được làm, nhưng **đủ cả bốn điều kiện*
 2. **Có câu thú nhận đời chip, hiện thành chữ trên màn** — *"Chip đời cũ hơn máy mới cùng giá. Nói trước."*
    Không có câu này thì không được dùng luận điểm RAM (journey P1, J3 (Đang so sánh máy / shop)).
 3. **Chỉ chia khoản chênh giữa hai máy**, không chia tổng giá cho số tháng học (file viết mục 11).
-4. **Máy dưới 10 triệu → mang ghi chú Gate 0 lệch ngân sách** (journey P1 mục 6, câu 2) cho tới khi có người chốt.
+4. ~~Máy dưới 10 triệu → mang ghi chú Gate 0 lệch ngân sách~~ → ✅ 2026-09-29: ngân sách P1 (Sinh viên / mua máy đầu tiên) chốt **8–15 triệu**, không cần ghi chú.
 
 Ví dụ đã viết: Chương 2 KB3 *"Dưới 10 triệu vẫn có 16GB RAM"* · KB4 *"700 nghìn đó mua được gì"*
 · Chương 1 `reel-05-ba-chiec-duoi-13-trieu`.
@@ -522,8 +522,7 @@ Chạy **sau** bảng 10 điểm chung ở `cach-viet-video-ngan-NGHIEN-CUU.md` 
    trước khi dùng bất kỳ tên máy / giá nào trong mục 5.1.
 4. 🟡 **Reel-02 chương 1 (`2026-09-23-reel-02-ba-thu-soi-30-giay.md`) đang khai CP04 (Quy trình kiểm tra)** — ô đó
    đang khoá trong `content-matrix.md`. Phải đổi sang CP08 (Sai lầm khi mua) trước khi đăng.
-5. 🟡 **Ngân sách P1 (Sinh viên / mua máy đầu tiên) 8–15 hay 10–15 triệu chưa ai chốt** (journey P1 mục 6, câu 2) →
-   mọi video loại D dùng máy dưới 10 triệu vẫn mang ghi chú Gate 0 lệch.
+5. ✅ ~~Ngân sách P1 (Sinh viên / mua máy đầu tiên) 8–15 hay 10–15 triệu~~ → người dùng chốt **8–15 triệu** (2026-09-29).
 6. 🟡 **Bản lề chưa có câu trả lời** về bảo hành — trong khi gần như toàn bộ tầng tiền của P1 (Sinh viên / mua máy đầu tiên)
    là máy xoay gập, và sinh viên là nhóm gập mở máy nhiều nhất. Chủ shop trả lời được thì mở ra cả
    một nhóm cảnh quay mới — quay lại sửa mục 5 và mục 10.

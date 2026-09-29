@@ -23,7 +23,7 @@ gates: { g0: ⚠️, g1: ✅, g2: ✅, g3: ✅, g4: ✅, g5: ✅, g6: ✅ }
 
 # Bài 3 — "Chưa tới 10 triệu thì mua được máy như thế nào?"
 
-> ⚠️ **Gate 0 mang ghi chú lệch** — xem mục 1.
+> ✅ **Gate 0 gỡ ghi chú lệch 2026-09-29** — ngân sách P1 (Sinh viên / mua máy đầu tiên) chốt 8–15 triệu, xem mục 1.
 > ✅ **Gate 2 đã chạy 2026-09-28** (`python3 tools/collection_fetch.py`): cả 3 máy **giữ nguyên
 > giá · kho · `warranty_tag` (6 Tháng)**, `compare_at > price`, không máy nào rời danh sách trắng.
 > Nguồn: `02_products/36-may-duoc-viet-2026-09-28.csv`. Hạn dùng dữ liệu: **2026-10-05**.
@@ -48,7 +48,7 @@ cái mất là đời chip và dung lượng ổ. Bài nói thẳng cả hai chi
 **Vì sao bài này quan trọng hơn vẻ ngoài của nó.** Nó mở rộng phễu xuống một tầng ngân sách mới
 mà không cần thêm hàng, không cần thêm fact mới, và không mâu thuẫn với bất kỳ bài nào của chương 1.
 
-### ⚠️ Gate 0 — ghi chú lệch, cần người dùng chốt
+### ✅ Gate 0 — ghi chú lệch đã gỡ 2026-09-29 (người dùng chốt P1 (Sinh viên / mua máy đầu tiên) = 8–15 triệu)
 
 `personas.md` chốt **P1 (Sinh viên / mua máy đầu tiên) = 10–15 triệu**, và tự ghi chú ở dòng 12–13:
 *"nhóm máy 6,88–9,88 triệu hiện không nằm trong ngân sách persona nào."*

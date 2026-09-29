@@ -1,4 +1,4 @@
-# 01-bai-dang — 22 nội dung lên sheet lịch đăng, 2 tuần 28/09 – 11/10/2026
+# 01-bai-dang — 24 nội dung lên sheet lịch đăng, 2 tuần 28/09 – 11/10/2026
 
 Nhánh **bài đăng**. Khuôn: [`post-template.md`](../../../../04_content/templates/post-template.md) —
 lưới **9 dòng × 8 cột**, cột A là nhãn, Thứ 2 ở cột B, Chủ Nhật ở cột H.
@@ -7,13 +7,13 @@ lưới **9 dòng × 8 cột**, cột A là nhãn, Thứ 2 ở cột B, Chủ Nh
 **Sheet đích — Digital Plan - Social (lịch đăng fanpage)**
 https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
 
-> Kịch bản quay 5 cột của 9 video nằm ở nhánh kia: [../02-reel/](../02-reel/) (luật #21).
+> Kịch bản quay 5 cột của 13 video nằm ở nhánh kia: [../02-reel/](../02-reel/) (luật #21).
 
 ## File
 
 | File | Nội dung | Trạng thái |
 |---|---|---|
-| [BAN-GIAO-2-TUAN-28-09-11-10.md](BAN-GIAO-2-TUAN-28-09-11-10.md) | **Bản gốc** — 22 khối, 6 tuyến bài, đủ 4 trục kèm tên tiếng Việt, CONTENT, BRIEF ẢNH, bình luận đầu | 🟢 viết lại 2026-09-28 · **Gate 6 duyệt 2026-09-28** |
+| [BAN-GIAO-2-TUAN-28-09-11-10.md](BAN-GIAO-2-TUAN-28-09-11-10.md) | **Bản gốc** — 24 khối, 9 tuyến bài, đủ 4 trục kèm tên tiếng Việt, CONTENT, BRIEF ẢNH, bình luận đầu | 🟢 bản 3 2026-09-29 · 18 khối duyệt 2026-09-28 · khối 10, 11, 21, 22, 23, 24 **"ok" 2026-09-29** |
 | [SHEET-2-TUAN-28-09-11-10-luoi.csv](SHEET-2-TUAN-28-09-11-10-luoi.csv) | Đúng lưới 9×8, 4 khối. Sheet → Tệp → Nhập → Chèn trang tính mới | 🟡 |
 | [SHEET-2-TUAN-28-09-11-10-ngang.csv](SHEET-2-TUAN-28-09-11-10-ngang.csv) | 1 nội dung = 1 dòng, chỉ để lọc / soát | 🟡 |
 | [day-len-sheet.gs](day-len-sheet.gs) | Apps Script — tạo tab mới, vẽ đúng lưới kèm định dạng | 🟡 |
@@ -35,6 +35,7 @@ Bản cũ 24/09 (10 nội dung giọng cũ) không xoá, nằm trong thư mục 
 ## Trước khi dán lên sheet team
 
 - [x] Người dùng duyệt bản 2026-09-28 (Gate 6)
+- [x] Người dùng duyệt 6 khối bản 3 (2026-09-29)
 - [ ] Dán 4 khối đúng chỗ, giữ nguyên thứ tự 9 dòng, không thêm lại `STT` / `TITLE` / `DATE & TIME`
 - [ ] `STATUS` giữ `CHỜ FEEDBACK`, chỉ đổi `ĐÃ AIR` sau khi bài đăng thật
 - [x] Giá tuần 2: người dùng xác nhận vẫn đúng 2026-09-28

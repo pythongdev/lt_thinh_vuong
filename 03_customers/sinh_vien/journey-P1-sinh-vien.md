@@ -111,9 +111,8 @@ khoảng tham khảo. Và có một lớp thứ hai: số tiền đó **phải g
 3. **Trả góp chưa xác minh** (`UNVERIFIED.md` #2). Ít chặn P1 hơn P2 vì tiền thường là một cục bố mẹ
    đưa — nhưng ⛔ tuyệt đối không hứa.
 
-🟠 **Ngân sách P1 đang lệch giữa hai file** (Gate 0 mục 4.2 của kế hoạch chương 2, **chưa ai chốt**):
-`personas.md` ghi **10–15 triệu**, còn `36-MAY-DUOC-VIET.md` gán **cả tầng 7–10 triệu cho P1**.
-Bảng dưới xếp cả hai tầng; bài nào dùng máy dưới 10 triệu thì Gate 0 mang ghi chú lệch cho tới khi có người chốt.
+✅ **Ngân sách P1 (Sinh viên / mua máy đầu tiên) = 8–15 triệu** — người dùng chốt 2026-09-29 (gỡ Gate 0 mục 4.2 kế hoạch chương 2).
+`personas.md` đã sửa theo. Bài dùng máy dưới 10 triệu **không còn** mang ghi chú Gate 0 lệch.
 
 **Bậc giá thật trong tầm P1 (Sinh viên / mua máy đầu tiên)** — 8 máy, nguồn `36-may-duoc-viet-2026-09-28.csv`,
 cấu hình đọc theo **tên sản phẩm** (luật #13), bảo hành theo `warranty_tag` (luật #14):
@@ -376,7 +375,7 @@ shop chưa đo, chưa cân. Chỉ nói **cơ chế**: RAM nhiều thì mở đư
 | # | Câu hỏi | Ai trả lời | Gỡ được gì | Nếu không trả lời kịp |
 |---|---|---|---|---|
 | 1 | **Mua máy có tặng kèm gì không** (túi, chuột, lót chuột)? Bút của X1 Yoga có thật được tặng không? (`UNVERIFIED.md` #9) | Chủ shop | Gỡ rò rỉ ở J4 (Đã inbox / gọi / ghé shop) — sinh viên so "gói" rất kỹ | Im lặng hoàn toàn về quà |
-| 2 | **Ngân sách P1 (Sinh viên / mua máy đầu tiên) là 8–15 hay 10–15 triệu?** (Gate 0 mục 4.2 chương 2) | Người dùng | Hợp lệ hoá mọi bài dùng máy dưới 10 triệu | Bài dùng máy dưới 10 triệu đăng kèm ghi chú Gate 0 lệch |
+| 2 | ~~**Ngân sách P1 (Sinh viên / mua máy đầu tiên) là 8–15 hay 10–15 triệu?**~~ ✅ **8–15 triệu** (người dùng chốt 2026-09-29) | Người dùng | Hợp lệ hoá mọi bài dùng máy dưới 10 triệu | Bài dùng máy dưới 10 triệu đăng kèm ghi chú Gate 0 lệch |
 | 3 | **"Nguyên zin chưa qua sửa chữa" có áp cho máy `Cũ` không?** (`UNVERIFIED.md` #24) | Chủ shop | Mở khoá 3 dòng máy rẻ nhất tầng P1 (7390, 5300, 5310) cho câu cam kết mạnh nhất | Bỏ hẳn câu đó khi viết về máy `Cũ`; ưu tiên máy Likenew |
 | 4 | **Cửa hàng mở mấy giờ, có mở Chủ nhật không, có cho khách (và bố mẹ) ngồi kiểm máy lâu không?** (`UNVERIFIED.md` #1) | Chủ shop | Mở góc "rủ bạn / đưa bố mẹ qua xem máy" | Chỉ nhắc địa chỉ + số điện thoại |
 | 5 | **Latitude 9410 2in1, 7420 carbon (cả bản 2in1), 9420 có cảm ứng không?** (`UNVERIFIED.md` #20b) | Kỹ thuật (bật máy) | Mở khoá "cảm ứng" cho 6 máy tầng 9–15 triệu (7420 carbon ×2, 9410 ×3, 9420) | Không viết cảm ứng / xoay gập cho các máy đó |

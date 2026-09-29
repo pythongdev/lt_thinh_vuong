@@ -669,7 +669,7 @@ Chạy trước `10_gates/README.md`, không thay thế nó.
 - [ ] Mọi con số (giá · bảo hành · ổ cứng · kho) truy được về `36-may-duoc-viet-*.csv`
       hoặc `policies.md`, và **đọc theo tên sản phẩm**, không theo tag (luật #13).
 - [ ] Máy `Cũ` → không có chữ "nguyên zin". Máy tên không ghi "Cảm ứng" → không viết cảm ứng / xoay gập.
-- [ ] Máy dưới 10 triệu → bài mang ghi chú Gate 0 lệch ngân sách (journey P1 mục 6, câu 2) cho tới khi có người chốt.
+- [x] ~~Máy dưới 10 triệu → ghi chú Gate 0 lệch ngân sách~~ → ngân sách P1 (Sinh viên / mua máy đầu tiên) chốt 8–15 triệu (2026-09-29).
 - [ ] Mã P / J / O / CP đều viết **kèm tên tiếng Việt** (luật bảng tra trong `CLAUDE.md`).
 - [ ] Đọc lại bằng giọng nói thường: có câu nào mình sẽ không nói thẳng với một bạn sinh viên
       **đang đứng trước mặt cùng bố mẹ** không? Có → sửa.

@@ -4,18 +4,19 @@
 > Trạng thái: bản đề xuất từ dải sản phẩm + giá thực tế trên laptoptv.vn (2026-09-05).
 > Cần đối chiếu với inbox/comment thật để hiệu chỉnh.
 >
-> **Cập nhật 2026-09-15 — chốt lại ngân sách:** P1 **10–15 triệu** · P2 **15–20 triệu** · P5 **từ 13 triệu/máy**.
+> **Cập nhật 2026-09-15 — chốt lại ngân sách:** P1 (Sinh viên / mua máy đầu tiên) **10–15 triệu** · P2 (Nhân viên văn phòng) **15–20 triệu** · P5 (Doanh nghiệp nhỏ mua theo lô) **từ 13 triệu/máy**.
+> **Cập nhật 2026-09-29 — người dùng chốt: P1 (Sinh viên / mua máy đầu tiên) = 8–15 triệu** (gỡ Gate 0 mục 4.2 kế hoạch chương 2).
 > (Cũ: P1 3–6tr · P2 5–12tr · P5 3–6tr/máy — bỏ vì phân khúc dưới 5 triệu đã đóng, xem `products.md` mục 0.)
 > Máy gợi ý dưới đây lấy từ danh sách **tồn kho xác thực** trong `02_products/products.md` —
 > giá và kho vẫn phải kiểm tra lại trước ngày đăng.
 >
-> ⚠️ Hệ quả: nhóm máy **6,88–9,88 triệu** (Latitude 7400 / 7390 / 5300 / 5310 / 7420 carbon)
-> hiện **không nằm trong ngân sách persona nào**.
+> ~~⚠️ Hệ quả: nhóm máy 6,88–9,88 triệu không nằm trong ngân sách persona nào.~~ → ✅ 2026-09-29: tầng 8–10 triệu
+> (Latitude 7390 / 7400 / 5300 / 5310 / 7420 carbon) thuộc P1 (Sinh viên / mua máy đầu tiên). Máy 7.690.000đ (7390 2in1 8GB) nằm ngay dưới mép 8 triệu — viết cho P1 được, vẫn trong danh sách 36.
 
 ---
 
 ## P1 — Sinh viên / mua máy đầu tiên
-- **Ngân sách:** 10 – 15 triệu
+- **Ngân sách:** 8 – 15 triệu (chốt 2026-09-29; trước đó 10 – 15 triệu)
 - **Cần:** học online, Word/Excel/PowerPoint, xem phim, pin đi cả buổi, nhẹ để mang tới trường
 - **Nỗi đau:** sợ mua phải "máy dựng", sợ hỏng sau vài tháng, không biết đọc cấu hình, bố mẹ hỏi "sao không mua mới"
 - **Trigger mua:** thấy rõ cùng số tiền thì máy cũ cho cấu hình gì so với máy mới, bảo hành rõ ràng, được xem máy trực tiếp, có người tư vấn không ép

@@ -7,7 +7,10 @@
 >
 > Nguồn: `02_products/catalog/collections/all-2026-09-22.csv` · **verified_at 2026-09-22**
 > Dữ liệu máy: `02_products/36-may-duoc-viet-2026-09-22.csv`
-> Kéo lại: `python3 tools/collection_fetch.py` — **hạn dùng 2026-10-05** (luật #10).
+> Kéo lại: `python3 tools/collection_fetch.py` — **hạn dùng 2026-10-06** (luật #10; gia hạn sau lần soát 2026-09-29).
+>
+> 🔄 **Đã soát lại 2026-09-29** với `02_products/catalog/collections/all-2026-09-29.csv`: **0 máy rời · 0 đổi giá · 0 đổi kho ·
+> 0 máy mới** so với 2026-09-28. Dữ liệu: `02_products/36-may-duoc-viet-2026-09-29.csv`. Xem mục "Soát lại 2026-09-29" cuối file.
 >
 > 🔄 **Đã soát lại 2026-09-28** với `02_products/catalog/collections/all-2026-09-28.csv`:
 > **0 máy rời danh sách**, 0 máy đổi giá, 4 máy mới đủ điều kiện kỹ thuật nhưng
@@ -199,3 +202,19 @@ Hai máy Latitude 9420 / 9430 2in1 nằm đúng phân khúc **15–18 triệu** 
    bản 8GB không ghi — cùng là máy "2in1" nên nhiều khả năng có, nhưng chưa được viết khi chưa xác nhận.
 3. 4 máy có tag sai CPU/RAM/GPU (Precision 7550 ×2, OmniBook X Flip, Inspiron 7445) —
    nhờ kỹ thuật bật máy xác nhận để mở khoá thông số cho bài viết.
+
+## 🔄 Soát lại 2026-09-29
+
+Nguồn: `02_products/catalog/collections/all-2026-09-29.csv` — 218 sản phẩm trong 3 danh mục, **40 máy** có
+`stock_tracked=yes` và `qty>0` (y như 2026-09-28). Chạy theo yêu cầu người dùng khi chốt bản 3 chương 2.
+
+| Việc | Số máy |
+|---|---|
+| Rời danh sách | **0** |
+| Đổi giá | **0** |
+| Đổi số lượng kho | **0** |
+| Đổi tên / tag bảo hành | **0** |
+| Máy mới đủ điều kiện | **0** (4 máy ở mục "Soát lại 2026-09-28" vẫn **chưa được viết**) |
+
+→ Danh sách được viết **vẫn đúng 36 máy**, giá giữ nguyên. Hạn dùng mới **2026-10-06**.
+Lần kéo sau: trước khi bàn giao chương 3 (tuần 12/10) và sáng ngày quay KB13 chương 2 (10/10).

@@ -2,6 +2,8 @@
 
 > **Chiến dịch:** [Sinh viên: những câu chương 1 chưa trả lời](../../INDEX.md) · **Persona:** P1 (Sinh viên / mua máy đầu tiên)
 > **Bản viết lại 2026-09-28** theo phản hồi của sếp — thay bản `BAN-GIAO-TUAN-28-09-04-10.md` (2026-09-24).
+> **Bản 3 — 2026-09-29 — 17 tuyến bài:** 4 khung E/F đổi từ bộ ảnh sản phẩm sang G (So sánh hai máy) và K (Dạy khách tự kiểm tra máy cũ)
+> để tuyến B không lên 4 bài / tuần · thêm 2 bài I (Tương tác – hỏi đáp) Chủ nhật (khối 23, 24). Khối 1–9, 12–20 giữ nguyên.
 > **Kế hoạch 2 tuần:** [00-ke-hoach/ke-hoach-2-tuan.md](../../00-ke-hoach/ke-hoach-2-tuan.md)
 > **Sheet đích:** https://docs.google.com/spreadsheets/d/1crOiBL4PmlywPIVcrQNE7NciKEd81IfUgujkz0j2VAc
 
@@ -9,11 +11,12 @@
 
 | | |
 |---|---|
-| Gate 0–5 | ✅ chạy lại trên cả 22 nội dung ngày 2026-09-28 · kiểm giọng 4 câu (`ngon-ngu-theo-persona.md` mục 5) |
-| **Gate 6 — người ký** | ✅ **người dùng duyệt ("duyệt") trong chat 2026-09-28** — tuần 2 vẫn phải kéo lại giá trước khi đăng |
-| Tuần 1 (28/09–04/10) | Giá đối chiếu `36-may-duoc-viet-2026-09-28.csv`, hạn 2026-10-05 — dùng được |
-| Tuần 2 (05/10–11/10) | ✅ Giá: người dùng xác nhận 2026-09-28 vẫn đúng. Sáng ngày đăng vẫn gọi 0928939666 |
-| Tuyến E, F | `kho-khach-that.md` đang trống → 4 khung E/F đổi sang tuyến B (luật #25). Có ca đã xin phép thì thay theo `01-drafts/2026-09-28-tuyen-E-F-khuon-cho-ca.md` |
+| Gate 0–5 | ✅ 22 nội dung bản 2 chạy 2026-09-28 · ✅ 6 khối mới (10, 11, 21, 22, 23, 24) chạy 2026-09-29 · kiểm giọng 4 câu (`ngon-ngu-theo-persona.md` mục 5) |
+| **Gate 6 — người ký** | ✅ khối 1–9, 12–20: người dùng duyệt 2026-09-28 · ✅ **khối 10, 11, 21, 22, 23, 24: người dùng nói "ok" 2026-09-29** |
+| Đã đăng chưa | ❌ **chưa đăng bài nào** (người dùng báo 2026-09-29) · khối 1, 2 (T2 28-09): đăng bù ngay cùng đợt với khối 3, 4 (29-09) — người dùng chốt 2026-09-29, một ngày nhiều bài cũng được. Nội dung giữ nguyên, lưới sheet vẫn để ở cột 28-09 |
+| Tuần 1 (28/09–04/10) | Giá đối chiếu `36-may-duoc-viet-2026-09-28.csv`, soát lại 2026-09-29 không đổi gì, hạn 2026-10-06 — dùng được. KB11 (khối 11) hạn dùng video 2026-10-06 |
+| Tuần 2 (05/10–11/10) | ✅ Giá: người dùng xác nhận 2026-09-28 vẫn đúng. KB13 (khối 22) hạn dùng 2026-10-11. Sáng ngày quay / ngày đăng vẫn gọi 0928939666 |
+| Tuyến E, F | `kho-khach-that.md` vẫn trống (soát 2026-09-29) → khung E → K, khung F → G (luật #25). Có ca đã xin phép thì thay theo `01-drafts/2026-09-28-tuyen-E-F-khuon-cho-ca.md` |
 | Đã chạm sheet chưa | ❌ chưa — connector chỉ đọc ô. Người phụ trách chạy `day-len-sheet.gs` hoặc nhập CSV |
 
 Sinh lại 3 file máy đọc sau khi sửa file này:
@@ -21,7 +24,7 @@ Sinh lại 3 file máy đọc sau khi sửa file này:
 
 ---
 
-## 0. Lịch 2 tuần — 22 nội dung, 6 tuyến bài
+## 0. Lịch 2 tuần — 24 nội dung, 9 tuyến bài
 
 | # | Ngày | Giờ | Tuyến bài | Dạng | Tên bài | Giá? |
 |---|---|---|---|---|---|---|
@@ -34,8 +37,9 @@ Sinh lại 3 file máy đọc sau khi sửa file này:
 | 7 | T5 01-10 | 12:15 | C · Review sản phẩm | Reels | Review Latitude 7390 2in1 | caption |
 | 8 | T5 01-10 | 20:30 | A · Tư vấn – kiến thức | post | Ví có 9 triệu rưỡi mua được gì | có |
 | 9 | T6 02-10 | 12:15 | B · Hình ảnh sản phẩm | Bộ ảnh | Latitude 7420 vỏ carbon | có |
-| 10 | T6 02-10 | 20:30 | E → B (kho trống) | Bộ ảnh | Latitude 5300 2in1 hai bản ổ | có |
-| 11 | T7 03-10 | 12:15 | F → B (kho trống) | Bộ ảnh | Latitude 7390 2in1 | có |
+| 10 | T6 02-10 | 20:30 | E → K · Dạy khách tự kiểm tra máy cũ (kho trống) | Reels | Mua lại máy anh chị khoá trên — soi 3 chỗ | không |
+| 11 | T7 03-10 | 12:15 | F → G · So sánh hai máy (kho trống) | Reels | Thêm 2,3 triệu: chip mới hay màn xoay | **trên hình** |
+| 23 | CN 04-10 | 12:15 | I · Tương tác – hỏi đáp | post | Môn nào bắt mở laptop nhiều nhất | không |
 | 12 | T2 05-10 | 12:15 | A · Tư vấn – kiến thức | Reels | Có đúng 9 triệu rưỡi — 3 máy | có |
 | 13 | T2 05-10 | 20:30 | A · Tư vấn – kiến thức | post | 256GB hay 512GB | có |
 | 14 | T3 06-10 | 12:15 | B · Hình ảnh sản phẩm | Bộ ảnh | Latitude 9410 2in1 i7 512GB | có |
@@ -45,26 +49,34 @@ Sinh lại 3 file máy đọc sau khi sửa file này:
 | 18 | T5 08-10 | 12:15 | C · Review sản phẩm | Reels | Review Latitude 7420 vỏ carbon | caption |
 | 19 | T5 08-10 | 20:30 | A · Tư vấn – kiến thức | Reels | 20 giây soi điểm chết | caption |
 | 20 | T6 09-10 | 12:15 | B · Hình ảnh sản phẩm | Bộ ảnh | Inspiron 7415 2in1 | có |
-| 21 | T6 09-10 | 20:30 | E → B (kho trống) | Bộ ảnh | Latitude 7420 vỏ nhôm | có |
-| 22 | T7 10-10 | 12:15 | F → B (kho trống) | Bộ ảnh | Latitude 7400 2in1 i5 256GB | có |
+| 21 | T6 09-10 | 20:30 | E → K · Dạy khách tự kiểm tra máy cũ (kho trống) | Reels | Học online — soi webcam, mic, loa, cấu hình | không |
+| 22 | T7 10-10 | 12:15 | F → G · So sánh hai máy (kho trống) | Reels | Thêm 1,4 triệu: lên 14 inch, đổi chip | **trên hình** |
+| 24 | CN 11-10 | 12:15 | I · Tương tác – hỏi đáp | post | Mua laptop, bạn để ra bao nhiêu | không |
+
+Số khối giữ theo bản 2 để các chỗ khác trỏ tới không lệch — 2 khối Chủ nhật mang số 23, 24.
 
 | Tuyến | Tuần 1 | Tuần 2 |
 |---|---|---|
 | A — Tư vấn – kiến thức (10 nội dung cũ, viết lại giọng) | 5 | 5 |
-| B — Hình ảnh sản phẩm | 2 (+2 thay E/F) | 2 (+2 thay E/F) |
+| B — Hình ảnh sản phẩm | 2 | 2 |
 | C — Review sản phẩm | 1 | 1 |
 | D — Bảo hành – hậu mãi | 1 | 1 |
-| E — Feedback khách hàng | 0 — kho trống | 0 — kho trống |
-| F — Hình ảnh khách tại cửa hàng | 0 — kho trống | 0 — kho trống |
-| **Tổng** | **11** | **11** |
+| E — Feedback khách hàng | 0 — kho trống → K | 0 — kho trống → K |
+| F — Hình ảnh khách tại cửa hàng | 0 — kho trống → G | 0 — kho trống → G |
+| G — So sánh hai máy | 1 | 1 |
+| K — Dạy khách tự kiểm tra máy cũ | 1 | 1 |
+| I — Tương tác – hỏi đáp (Chủ nhật) | 1 | 1 |
+| **Tổng** | **12** | **12** |
 
-CN 04-10 và CN 11-10: trực bình luận và tin nhắn, không đăng mới.
+Chủ nhật: đăng 1 bài I lúc 12:15, cả ngày trực bình luận và tin nhắn.
 Bốn trục P / J / O / CP, bình luận đầu, kịch bản trả lời inbox chỉ sống ở file này và `01-drafts/`, không lên sheet.
-Kịch bản 5 cột của 9 video: [../02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md](../02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md).
-
+Kịch bản 5 cột của 13 video: [../02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md](../02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md).
+Content Package của 6 khối mới: [../../01-drafts/2026-09-29-tuyen-G-K-I-content-package.md](../../01-drafts/2026-09-29-tuyen-G-K-I-content-package.md).
 ---
 
 ## 1 · Thứ 2 28-09 · 12:15 — Reels "Bố mẹ lo chữ cũ"
+
+> 📌 Chưa đăng đúng ngày → **đăng bù ngay cùng đợt với khối 3, 4 (29-09) — người dùng chốt 2026-09-29, một ngày nhiều bài cũng được**.
 
 | Dòng trong sheet | Giá trị |
 |---|---|
@@ -125,6 +137,8 @@ ______________________
 ---
 
 ## 2 · Thứ 2 28-09 · 20:30 — post "3 câu bố mẹ hay hỏi"
+
+> 📌 Chưa đăng đúng ngày → **đăng bù ngay cùng đợt với khối 3, 4 (29-09) — người dùng chốt 2026-09-29, một ngày nhiều bài cũng được**.
 
 | Dòng trong sheet | Giá trị |
 |---|---|
@@ -743,45 +757,49 @@ Bộ 7 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 7
 
 ---
 
-## 10 · Thứ 6 02-10 · 20:30 — Bộ ảnh Latitude 5300 2in1 hai bản ổ
+## 10 · Thứ 6 02-10 · 20:30 — Reels "Mua lại máy anh chị khoá trên — soi 3 chỗ"
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 02-10 (Thứ 6) · 20:30 |
-| **ĐỊNH DẠNG** | Bộ ảnh — Bộ hình ảnh sản phẩm Dell Latitude 5300 2in1 (bản 256GB + bản 512GB) — 8 ảnh |
-| **TUYẾN ND** | Sản phẩm |
-| **Tuyến bài (nội bộ)** | Khung E — Feedback khách hàng → `kho-khach-that.md` trống → đổi sang B — Hình ảnh sản phẩm (luật #25) |
-| **Tên bài (nội bộ)** | Bộ ảnh Latitude 5300 2in1 hai bản ổ |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Giáo dục |
+| **Tuyến bài (nội bộ)** | Khung E — Feedback khách hàng → `kho-khach-that.md` trống → đổi sang K — Dạy khách tự kiểm tra máy cũ (luật #25) |
+| **Tên bài (nội bộ)** | Mua lại máy anh chị khoá trên — soi bản lề, sạc + cổng, bàn phím + touchpad |
 | **Persona** | P1 (Sinh viên / mua máy đầu tiên) |
-| **Journey** | J3 (Đang so sánh máy / shop) |
-| **Objective** | O5 (Tạo lead / đơn) |
-| **Pillar** | CP10 (Hàng & ưu đãi) |
-| **Sản phẩm nêu tên** | Dell Latitude 5300 2in1 i7-8665U · 16GB · 256GB (8.980.000đ) và · 512GB (9.690.000đ) · 13.3" FHD cảm ứng · Cũ · BH 6 tháng |
-| **CTA** | Nhắn tin để shop kiểm tra máy còn không |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O3 (Tin công ty) |
+| **Pillar** | CP08 (Sai lầm khi mua) |
+| **Sản phẩm nêu tên** | *(không nêu tên máy — quay trên Dell Latitude 7420 [vỏ carbon], không lên tên, không lên giá)* |
+| **CTA** | Lưu lại, hôm đi xem máy mở ra làm theo |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH/ KB** | *(để trống — chưa chụp)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
 **CONTENT:**
 ```
-Hai chiếc giống hệt nhau. Cùng chip i7, cùng 16GB RAM. Khác đúng cái ổ.
+Anh khoá trên sắp ra trường, nhắn nhóm lớp: "Bán lại con laptop, để rẻ cho đứa nào cần."
+Nghe thì hời. Nhưng trước khi chuyển khoản, tự soi 3 chỗ này đã. Chưa tới 5 phút.
 
-💻 Dell Latitude 5300 2in1
-i7-8665U · RAM 16GB · màn 13,3 inch FHD cảm ứng, xoay gập 360 độ
-Máy cũ, dòng doanh nhân của Dell.
-💰 Bản ổ 256GB: 8.980.000đ
-💰 Bản ổ 512GB: 9.690.000đ
+1️⃣ Bản lề
+Mở nắp, gập lại, làm 4–5 lần. Nghe có tiếng kêu lạ không, nắp có lắc không.
+Mở tới giữa rồi thả tay: màn phải đứng yên.
 
-Tài liệu để hết trên Drive → bản 256GB là đủ.
-Hay quay dựng video bài nhóm, tải phim về xem → nghĩ tới bản 512GB.
+2️⃣ Sạc và cổng
+Cắm sạc: góc màn phải hiện biểu tượng đang sạc. Rút ra cắm lại vài lần xem có chập chờn không.
+Cắm USB lần lượt từng cổng. Máy nhận hết mới được.
 
-Bên mình chưa kiểm khe cắm ổ từng máy, nên không hứa sau này nâng ổ lên được.
+3️⃣ Bàn phím và touchpad
+Mở Word, gõ một lượt đủ các hàng phím, cả phím cách, Enter, Backspace.
+Rê touchpad khắp mặt, bấm thử chuột trái, chuột phải.
 
-Bảo hành 6 tháng bo mạch, màn hình, bàn phím. Pin 3 tháng. Trong 15 ngày đổi sang máy khác miễn phí.
+Chỗ nào lỗi thì hỏi thẳng trước khi trả tiền. Người quen càng nên nói rõ.
 
-👉 Nhắn tin để shop kiểm tra máy còn không.
+Mua ở đâu cũng soi được, kể cả ở bên mình.
+
+👉 Lưu lại, hôm đi xem máy mở ra làm theo.
 ______________________
 📍 LAPTOP THỊNH VƯỢNG
 ☎️ Mua hàng: 0928939666 (8h–20h30)
@@ -789,74 +807,73 @@ ______________________
 🌐 https://laptoptv.vn
 🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
 
-#laptopsinhvien #laptopcu #delllatitude #laptop2in1 #laptopthinhvuong
+#laptopcu #laptopsinhvien #kinhnghiemmualaptop #muamaydautien #laptopthinhvuong
 ```
 
 **First comment** *(người đăng tự chép xuống bình luận đầu)*:
 ```
-Dell Latitude 5300 2in1 · i7-8665U · 16GB · 13,3 inch FHD cảm ứng
-• Bản 256GB — 8.980.000đ
-https://laptoptv.vn/laptop-cu-dell-latitude-5300-2in1-core-i7-8665u-16gb-256gb-13-3-inch-fhd-cam-ung
-• Bản 512GB — 9.690.000đ
-https://laptoptv.vn/laptop-cu-dell-latitude-5300-2in1-core-i7-8665u-16gb-512gb-13-3-inch-fhd-cam-ung
+Chép lại mang đi xem máy:
+☐ Mở gập nắp 4–5 lần · thả tay giữa chừng, màn đứng yên
+☐ Cắm sạc: hiện biểu tượng đang sạc · rút cắm lại không chập chờn
+☐ Cắm USB từng cổng, máy nhận hết
+☐ Gõ đủ các hàng phím · rê touchpad khắp mặt · bấm chuột trái, phải
 
 📍 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội — ☎️ 0928939666 (8h–20h30)
 ```
 
-**BRIEF ẢNH:**
-Bộ 8 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 71 Thiên Hiền · nền tấm xám nhạt, đèn đều hai bên · logo Thịnh Vượng góc trái trên mọi ảnh · dán giấy nhớ "256" / "512" dưới đáy từng máy để khỏi lẫn khi chụp (không lọt khung).
-
-| Ảnh | Khung · góc | Chụp gì | Chữ trên ảnh |
-|---|---|---|---|
-| 1 | Trung · chính diện | Hai máy mở nắp đặt sát nhau cùng khung, màn bật | `LATITUDE 5300 2IN1` / `256GB — 512GB` / `Cùng máy · khác ổ` |
-| 2 | Trung · chính diện | Bản 256GB: màn bật ảnh trắng kín màn | — |
-| 3 | Cận · từ trên xuống | Bàn phím + touchpad bản 256GB | — |
-| 4 | Cận · ngang | Cạnh trái, thấy rõ các cổng | — |
-| 5 | Cận · ngang | Cạnh phải, thấy rõ các cổng | — |
-| 6 | Trung · chéo | Hai nắp lưng đóng đặt cạnh nhau, thấy logo Dell | — |
-| 7 | Cận | Vết xước / mòn thật — mỗi máy 1 ảnh nếu có (7a · 7b) | `Vết dùng thật của máy này` |
-| 8 | Trung · chéo | Bản 512GB dựng chữ A trên bàn học có vở, bút | — |
-
-- Máy nào không có vết xước → bỏ ảnh 7 của máy đó.
-- ⛔ Không chụp cửa sổ dung lượng ổ còn trống · không hứa nâng ổ · không giá trên ảnh · không "còn hàng", "còn X máy", "giảm giá", "ưu đãi" · không chữ "nguyên zin" (máy Cũ) · không bút cảm ứng.
+**BRIEF ẢNH (brief quay):**
+- Kịch bản 5 cột: `02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md` mục KB10 — 7 cảnh, 35 giây.
+- Quay dọc 9:16 · 1080×1920 · tại 71 Thiên Hiền · bàn học dựng (mặt bàn gỗ, vở, bút, cốc nước).
+- Máy: Dell Latitude 7420 [vỏ carbon] i5-1145G7 · 16GB · 256GB · 14" FHD — bản thường, không 2in1. Desktop mở sẵn 1 file Word trắng.
+- Đạo cụ: sạc của máy · 1 USB.
+- Voice: nhân viên bán hàng đọc, thu riêng. Chỉ quay tay. Phụ đề bắt buộc.
+- ⛔ Không tên máy, không giá trên hình · không xoay gập, không chạm màn · không gọi là "quy trình test của shop" · không nói bản lề có bảo hành · không nói shop khác bán máy lỗi.
 
 ---
 
-## 11 · Thứ 7 03-10 · 12:15 — Bộ ảnh Latitude 7390 2in1
+## 11 · Thứ 7 03-10 · 12:15 — Reels "Thêm 2,3 triệu: chip mới hay màn xoay"
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 03-10 (Thứ 7) · 12:15 |
-| **ĐỊNH DẠNG** | Bộ ảnh — Bộ hình ảnh sản phẩm Dell Latitude 7390 2in1 16GB — 8 ảnh |
+| **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Sản phẩm |
-| **Tuyến bài (nội bộ)** | Khung F — Hình ảnh khách tại cửa hàng → `kho-khach-that.md` trống → đổi sang B — Hình ảnh sản phẩm (luật #25) |
-| **Tên bài (nội bộ)** | Bộ ảnh Latitude 7390 2in1 16GB |
+| **Tuyến bài (nội bộ)** | Khung F — Hình ảnh khách tại cửa hàng → `kho-khach-that.md` trống → đổi sang G — So sánh hai máy (luật #25) |
+| **Tên bài (nội bộ)** | Thêm 2,3 triệu: chip đời mới hay màn xoay cảm ứng |
 | **Persona** | P1 (Sinh viên / mua máy đầu tiên) |
 | **Journey** | J3 (Đang so sánh máy / shop) |
-| **Objective** | O5 (Tạo lead / đơn) |
-| **Pillar** | CP10 (Hàng & ưu đãi) |
-| **Sản phẩm nêu tên** | Dell Latitude 7390 2in1 i5-8250U · 16GB · 256GB · 13.3" cảm ứng (8.290.000đ · Cũ · BH 6 tháng) |
-| **CTA** | Nhắn tin để shop kiểm tra máy còn không |
+| **Objective** | O4 (Cân nhắc mua) |
+| **Pillar** | CP03 (So sánh) |
+| **Sản phẩm nêu tên** | Dell Latitude 7400 2in1 i7-8665U · 16GB · 512GB · 14" FHD cảm ứng (10.680.000đ · Likenew · BH 6 tháng) · Dell Latitude 7420 [vỏ nhôm] i7-1185G7 · 16GB · 512GB · 14" FHD (12.980.000đ · Likenew · BH 6 tháng) |
+| **CTA** | Comment ngành học + việc hay làm trên máy, mình chỉ nên lấy chiếc nào |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH/ KB** | *(để trống — chưa chụp)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
 **CONTENT:**
 ```
-Hôm thứ 5 mình review chiếc này bằng video. Hôm nay là ảnh thật, đủ góc — kể cả chỗ trầy.
+Tối nằm phòng trọ mở hai tab so máy, so mãi không chọn được?
+Hai chiếc này cùng RAM 16GB, cùng ổ 512GB, cùng màn 14 inch. Chênh nhau 2.300.000đ.
 
-💻 Dell Latitude 7390 2in1
-i5-8250U · RAM 16GB · ổ 256GB · màn 13,3 inch cảm ứng, xoay gập 360 độ
-Máy cũ, dòng doanh nhân của Dell.
-💰 8.290.000đ
+💻 Dell Latitude 7400 2in1 — 10.680.000đ
+i7-8665U (chip đời 8) · RAM 16GB · ổ 512GB · màn 14 inch FHD cảm ứng, xoay gập 360 độ
 
-Bên mình có 2 bản 7390 2in1. Chiếc trong ảnh là bản 16GB RAM — nhắn tin nhớ ghi "16GB" để khỏi nhầm.
+💻 Dell Latitude 7420 [vỏ nhôm] — 12.980.000đ
+i7-1185G7 (chip đời 11) · RAM 16GB · ổ 512GB · màn 14 inch FHD
+Chiếc này KHÔNG cảm ứng, không xoay gập.
 
-Bảo hành 6 tháng bo mạch, màn hình, bàn phím. Pin 3 tháng. Trong 15 ngày đổi sang máy khác miễn phí.
+Thêm 2,3 triệu là bạn bỏ màn xoay cảm ứng, lấy chip đời mới hơn.
 
-👉 Nhắn tin để shop kiểm tra máy còn không.
+✅ Lấy 7400 2in1 nếu bạn hay chạm màn lật slide, gập ngược màn cho cả nhóm xem, dựng chữ A xem bài giảng trên bàn trọ chật.
+✅ Lấy 7420 vỏ nhôm nếu bạn chỉ gõ, không cần chạm màn, và muốn chip đời mới hơn.
+
+Nói trước: cả hai đều là chip đời cũ hơn máy mới cùng giá.
+
+Cả hai đều là máy likenew. Bảo hành 6 tháng bo mạch, màn hình, bàn phím. Pin 3 tháng. Trong 15 ngày đổi sang máy khác miễn phí.
+
+👉 Comment ngành bạn học + việc hay làm trên máy, mình chỉ nên lấy chiếc nào.
 ______________________
 📍 LAPTOP THỊNH VƯỢNG
 ☎️ Mua hàng: 0928939666 (8h–20h30)
@@ -864,33 +881,81 @@ ______________________
 🌐 https://laptoptv.vn
 🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
 
-#laptopsinhvien #laptopcu #delllatitude #laptop2in1 #laptopthinhvuong
+#laptopsinhvien #laptopcu #delllatitude #sosanhlaptop #laptopthinhvuong
 ```
 
 **First comment** *(người đăng tự chép xuống bình luận đầu)*:
 ```
-Dell Latitude 7390 2in1 · i5-8250U · 16GB · 256GB · 13,3 inch cảm ứng — 8.290.000đ
-https://laptoptv.vn/laptop-cu-dell-latitude-7390-2in1-ca-m-u-ng-core-i5-8250u-16gb-256gb-man-hinh-13-3-inch-xoay-ga-p-360
+• Dell Latitude 7400 2in1 · i7-8665U · 16GB · 512GB · 14 inch FHD cảm ứng — 10.680.000đ
+https://laptoptv.vn/laptop-cu-dell-latitude-7400-2in1-cam-ung-core-i7-8665u-ram-16gb-ssd-512gb-intel-uhd-graphic-14inch-cam-ung
+• Dell Latitude 7420 [vỏ nhôm] · i7-1185G7 · 16GB · 512GB · 14 inch FHD — 12.980.000đ
+https://laptoptv.vn/laptop-cu-dell-latitude-7420-vo-nhom-core-i7-1185g7-16gb-512gb-14-0-inch-fhd
 
 📍 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội — ☎️ 0928939666 (8h–20h30)
 ```
 
+**BRIEF ẢNH (brief quay):**
+- Kịch bản 5 cột: `02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md` mục KB11 — 9 cảnh, 44 giây. Video so sánh hai máy (loại D) — giá được hiện thành chữ trên màn.
+- Quay dọc 9:16 · 1080×1920 · tại quầy 71 Thiên Hiền · máy quay đặt chân máy.
+- Máy: Dell Latitude 7400 2in1 i7-8665U · 16GB · 512GB (bên trái) · Dell Latitude 7420 [vỏ nhôm] i7-1185G7 · 16GB · 512GB (bên phải). Hai máy bật sẵn, mở cùng một file slide.
+- Đạo cụ: tờ A5 bảo hành.
+- Sáng ngày quay: gọi 0928939666 xác minh cả 2 giá, hai máy có mặt ở shop cùng lúc. Hạn dùng video 2026-10-06 — không đăng lại sau hạn.
+- ⛔ Không xoay, không chạm màn chiếc 7420 · không "còn hàng" · không "máy này ngon hơn" · không nói chip đời 11 nhanh hơn bao nhiêu · không ghép ảnh máy trên mạng · không bút cảm ứng.
+
+---
+
+## 23 · Chủ Nhật 04-10 · 12:15 — post "Môn nào bắt mở laptop nhiều nhất"
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 04-10 (Chủ Nhật) · 12:15 |
+| **ĐỊNH DẠNG** | post |
+| **TUYẾN ND** | Tương tác |
+| **Tuyến bài (nội bộ)** | I — Tương tác – hỏi đáp (bài Chủ nhật, luật #25) |
+| **Tên bài (nội bộ)** | Môn nào bắt bạn mở laptop nhiều nhất |
+| **Persona** | P1 (Sinh viên / mua máy đầu tiên) |
+| **Journey** | J1 (Đã thấy shop) |
+| **Objective** | O1 (Tiếp cận) |
+| **Pillar** | CP01 (Tư vấn mua) |
+| **Sản phẩm nêu tên** | *(không nêu tên máy)* |
+| **CTA** | Comment tên môn |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Chủ nhật, soạn balo cho tuần mới. 🎒
+Tuần này bạn mở laptop cho môn nào nhiều nhất?
+Slide nhóm, báo cáo Word, Excel thống kê hay học online?
+
+👉 Comment tên môn, mình trả lời từng bạn nên để ý gì khi chọn máy.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopsinhvien #muamaydautien #laptopthinhvuong
+```
+
+**First comment** *(người đăng tự chép xuống bình luận đầu)*:
+```
+Hôm nay mình trực comment cả ngày. Ghi thêm năm mấy, ngành gì để mình trả lời sát hơn nhé.
+```
+
 **BRIEF ẢNH:**
-Bộ 8 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 71 Thiên Hiền · nền tấm xám nhạt, đèn đều hai bên · logo Thịnh Vượng góc trái trên mọi ảnh · chụp đúng chiếc đã quay video thứ 5.
+1 ảnh · 1:1 · 1080×1080px · dưới 1MB · chụp tại 71 Thiên Hiền.
 
 | Ảnh | Khung · góc | Chụp gì | Chữ trên ảnh |
 |---|---|---|---|
-| 1 | Trung · chéo 45°, ngang mặt bàn | Máy mở nắp, màn bật hình nền Windows | `LATITUDE 7390 2IN1` / `RAM 16GB · Ổ 256GB` / `13,3 inch cảm ứng` |
-| 2 | Trung · chính diện | Màn bật ảnh trắng kín màn | — |
-| 3 | Cận · từ trên xuống | Bàn phím + touchpad | — |
-| 4 | Cận · ngang | Cạnh trái, thấy rõ các cổng | — |
-| 5 | Cận · ngang | Cạnh phải, thấy rõ các cổng | — |
-| 6 | Trung · chéo | Nắp lưng đóng, thấy logo Dell | — |
-| 7 | Cận | Vết xước / mòn thật trên máy | `Vết dùng thật của máy này` |
-| 8 | Trung · chéo | Màn gập phẳng 360° đặt trên bàn học | — |
+| 1 | Trung · từ trên xuống | Bàn học dựng: laptop mở nắp màn tắt, balo mở khoá bên cạnh, 2 quyển vở, bút, thời khoá biểu in giấy (chữ mờ, không đọc được tên trường) | `TUẦN NÀY` / `MỞ LAPTOP CHO MÔN NÀO` / `NHIỀU NHẤT?` |
 
-- Máy không có vết xước → bỏ ảnh 7 và đổi câu mở caption thành "Hôm nay là ảnh thật, đủ góc."
-- ⛔ Không chữ "FHD" (tên máy không có) · không lấy nhầm bản 8GB · không giá trên ảnh · không "còn hàng", "còn X máy", "giảm giá", "ưu đãi" · không "nguyên zin" (máy Cũ) · không bút cảm ứng.
+- Chữ đặt ở hai phần ba trên của ảnh. Logo Thịnh Vượng góc trái trên.
+- ⛔ Không tên máy, không giá · không logo trường thật lọt khung · không treo quà, không "tag bạn bè" · không người trong khung.
 
 ---
 
@@ -1586,45 +1651,49 @@ Bộ 8 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 7
 
 ---
 
-## 21 · Thứ 6 09-10 · 20:30 — Bộ ảnh Latitude 7420 vỏ nhôm
-
-> ✅ **Giá tuần 2: người dùng xác nhận 2026-09-28 vẫn đúng** — không cần kéo lại trước khi bàn giao. Sáng ngày đăng vẫn gọi 0928939666 xác minh máy còn hay hết.
+## 21 · Thứ 6 09-10 · 20:30 — Reels "Học online — soi webcam, mic, loa, cấu hình"
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 09-10 (Thứ 6) · 20:30 |
-| **ĐỊNH DẠNG** | Bộ ảnh — Bộ hình ảnh sản phẩm Dell Latitude 7420 vỏ nhôm — 7 ảnh |
-| **TUYẾN ND** | Sản phẩm |
-| **Tuyến bài (nội bộ)** | Khung E — Feedback khách hàng → `kho-khach-that.md` trống → đổi sang B — Hình ảnh sản phẩm (luật #25) |
-| **Tên bài (nội bộ)** | Bộ ảnh Latitude 7420 vỏ nhôm |
+| **ĐỊNH DẠNG** | Reels |
+| **TUYẾN ND** | Giáo dục |
+| **Tuyến bài (nội bộ)** | Khung E — Feedback khách hàng → `kho-khach-that.md` trống → đổi sang K — Dạy khách tự kiểm tra máy cũ (luật #25) |
+| **Tên bài (nội bộ)** | Học online, thuyết trình nhóm — soi webcam, mic, loa và cấu hình |
 | **Persona** | P1 (Sinh viên / mua máy đầu tiên) |
-| **Journey** | J3 (Đang so sánh máy / shop) |
-| **Objective** | O5 (Tạo lead / đơn) |
-| **Pillar** | CP10 (Hàng & ưu đãi) |
-| **Sản phẩm nêu tên** | Dell Latitude 7420 [vỏ nhôm] i7-1185G7 · 16GB · 512GB · 14" FHD (12.980.000đ · Likenew · BH 6 tháng) |
-| **CTA** | Nhắn tin để shop kiểm tra máy còn không |
+| **Journey** | J2 (Bắt đầu quan tâm laptop cũ) |
+| **Objective** | O3 (Tin công ty) |
+| **Pillar** | CP08 (Sai lầm khi mua) |
+| **Sản phẩm nêu tên** | *(không nêu tên máy — quay trên Dell Latitude 7420 [vỏ carbon], không lên tên, không lên giá)* |
+| **CTA** | Lưu lại, hôm đi xem máy mở ra làm theo |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH/ KB** | *(để trống — chưa chụp)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
 **CONTENT:**
 ```
-Không cần cảm ứng, không cần xoay gập. Chỉ cần chip đời mới, RAM 16GB, ổ 512GB để khỏi ngồi dọn file.
+8h sáng học online. Bật cam lên, cả lớp chỉ thấy màn đen. Mic thì rè, cô gọi ba lần không nghe.
+Mua laptop cũ, soi luôn mấy chỗ này tại chỗ. Chưa tới 5 phút.
 
-💻 Dell Latitude 7420 [vỏ nhôm]
-i7-1185G7 · RAM 16GB · ổ 512GB · màn 14 inch FHD
-Máy likenew, dòng doanh nhân của Dell.
-💰 12.980.000đ
+1️⃣ Webcam
+Mở ứng dụng Camera. Hình lên, không nhoè, không sọc.
 
-Chiếc này KHÔNG cảm ứng, không xoay gập — bộ ảnh chụp đúng thế mở nắp thường.
+2️⃣ Mic
+Mở ứng dụng ghi âm, nói một câu rồi nghe lại. Tiếng rõ, không rè.
 
-Máy đã qua sử dụng nên có vết dùng — ảnh 7 chụp đúng chỗ đó.
+3️⃣ Loa
+Mở một video, vặn to dần. Hai bên loa cùng kêu, không rè.
 
-Bảo hành 6 tháng bo mạch, màn hình, bàn phím. Pin 3 tháng. Trong 15 ngày đổi sang máy khác miễn phí.
+4️⃣ Cấu hình có đúng lời người bán không
+Vào Settings → System → About: xem tên chip, xem RAM.
+Mở This PC: xem dung lượng ổ. Số hơi thấp hơn số ghi trên máy là bình thường, lệch hẳn thì hỏi lại.
+Người bán nói i5, 16GB, 256GB thì trên màn phải ra đúng vậy.
 
-👉 Nhắn tin để shop kiểm tra máy còn không.
+Mua ở đâu cũng soi được, kể cả ở bên mình.
+
+👉 Lưu lại, hôm đi xem máy mở ra làm theo.
 ______________________
 📍 LAPTOP THỊNH VƯỢNG
 ☎️ Mua hàng: 0928939666 (8h–20h30)
@@ -1632,76 +1701,76 @@ ______________________
 🌐 https://laptoptv.vn
 🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
 
-#laptopsinhvien #laptopcu #delllatitude #laptopthinhvuong
+#laptopcu #laptopsinhvien #kinhnghiemmualaptop #hoconline #laptopthinhvuong
 ```
 
 **First comment** *(người đăng tự chép xuống bình luận đầu)*:
 ```
-Dell Latitude 7420 [vỏ nhôm] · i7-1185G7 · 16GB · 512GB · 14 inch FHD — 12.980.000đ
-https://laptoptv.vn/laptop-cu-dell-latitude-7420-vo-nhom-core-i7-1185g7-16gb-512gb-14-0-inch-fhd
+Chép lại mang đi xem máy:
+☐ Camera: hình lên, không nhoè, không sọc
+☐ Ghi âm một câu, nghe lại: rõ, không rè
+☐ Mở video vặn to dần: hai loa cùng kêu
+☐ Settings → System → About: chip, RAM đúng lời bán
+☐ This PC: dung lượng ổ đúng lời bán
 
 📍 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội — ☎️ 0928939666 (8h–20h30)
 ```
 
-**BRIEF ẢNH:**
-Bộ 7 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 71 Thiên Hiền · nền tấm xám nhạt, đèn đều hai bên · logo Thịnh Vượng góc trái trên mọi ảnh · chụp đúng chiếc máy sẽ giao cho khách.
-
-| Ảnh | Khung · góc | Chụp gì | Chữ trên ảnh |
-|---|---|---|---|
-| 1 | Trung · chéo 45°, ngang mặt bàn | Máy mở nắp, màn bật hình nền Windows | `LATITUDE 7420 VỎ NHÔM` / `i7 · RAM 16GB · Ổ 512GB` / `14 inch · không cảm ứng` |
-| 2 | Trung · chính diện | Màn bật ảnh trắng kín màn | — |
-| 3 | Cận · từ trên xuống | Bàn phím + touchpad | — |
-| 4 | Cận · ngang | Cạnh trái, thấy rõ các cổng | — |
-| 5 | Cận · ngang | Cạnh phải, thấy rõ các cổng | — |
-| 6 | Trung · chéo | Nắp lưng nhôm đóng, thấy logo Dell | — |
-| 7 | Cận | Vết xước / mòn thật trên máy | `Vết dùng thật của máy này` |
-
-- Máy không có vết xước → bỏ ảnh 7 và xoá dòng "Máy đã qua sử dụng nên có vết dùng…" trong caption.
-- ⛔ Không chụp thế xoay gập, không tay chạm màn · không lấy nhầm bản vỏ carbon · không giá trên ảnh · không "còn hàng", "còn X máy", "giảm giá", "ưu đãi".
+**BRIEF ẢNH (brief quay):**
+- Kịch bản 5 cột: `02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md` mục KB12 — 7 cảnh, 38 giây.
+- Quay dọc 9:16 · 1080×1920 · tại 71 Thiên Hiền · bàn học dựng (vở, bút, tai nghe để cạnh).
+- Máy: Dell Latitude 7420 [vỏ carbon] i5-1145G7 · 16GB · 256GB · 14" FHD — bản thường, không 2in1 (cùng chiếc quay KB10 nếu còn).
+- Desktop mở sẵn: ứng dụng Camera · ứng dụng ghi âm · 1 video không có nhạc bản quyền · Settings → System → About · This PC.
+- Voice: nhân viên bán hàng đọc, thu riêng. Chỉ quay tay và màn hình. Phụ đề bắt buộc.
+- ⛔ Không tên máy, không giá trên hình · không quay mặt người qua webcam (hướng webcam vào quyển vở) · không xoay gập, không chạm màn · không gọi là "quy trình test của shop" · không nói shop khác bán máy lỗi.
 
 ---
 
-## 22 · Thứ 7 10-10 · 12:15 — Bộ ảnh Latitude 7400 2in1 i5 256GB
+## 22 · Thứ 7 10-10 · 12:15 — Reels "Thêm 1,4 triệu: lên 14 inch, đổi chip"
 
-> ✅ **Giá tuần 2: người dùng xác nhận 2026-09-28 vẫn đúng** — không cần kéo lại trước khi bàn giao. Sáng ngày đăng vẫn gọi 0928939666 xác minh máy còn hay hết.
+> ✅ **Giá tuần 2: người dùng xác nhận 2026-09-28 vẫn đúng** cho cả 2 máy (đã có trong bàn giao ở bài 3 và bài 20). Sáng ngày quay và sáng ngày đăng vẫn gọi 0928939666.
+> ✅ **Gate 0:** Latitude 5310 2in1 dưới 10 triệu nằm trong ngân sách P1 (Sinh viên / mua máy đầu tiên) **8–15 triệu** — người dùng chốt 2026-09-29. Không còn ghi chú lệch.
 
 | Dòng trong sheet | Giá trị |
 |---|---|
 | **DATE & TIME** | 10-10 (Thứ 7) · 12:15 |
-| **ĐỊNH DẠNG** | Bộ ảnh — Bộ hình ảnh sản phẩm Dell Latitude 7400 2in1 i5 16GB 256GB — 8 ảnh |
+| **ĐỊNH DẠNG** | Reels |
 | **TUYẾN ND** | Sản phẩm |
-| **Tuyến bài (nội bộ)** | Khung F — Hình ảnh khách tại cửa hàng → `kho-khach-that.md` trống → đổi sang B — Hình ảnh sản phẩm (luật #25) |
-| **Tên bài (nội bộ)** | Bộ ảnh Latitude 7400 2in1 i5 256GB |
+| **Tuyến bài (nội bộ)** | Khung F — Hình ảnh khách tại cửa hàng → `kho-khach-that.md` trống → đổi sang G — So sánh hai máy (luật #25) |
+| **Tên bài (nội bộ)** | Thêm 1,4 triệu: lên 14 inch, đổi chip |
 | **Persona** | P1 (Sinh viên / mua máy đầu tiên) |
 | **Journey** | J3 (Đang so sánh máy / shop) |
-| **Objective** | O5 (Tạo lead / đơn) |
-| **Pillar** | CP10 (Hàng & ưu đãi) |
-| **Sản phẩm nêu tên** | Dell Latitude 7400 2in1 i5-8365U · 16GB · 256GB · 14" FHD cảm ứng (9.280.000đ · Likenew · BH 6 tháng) |
-| **CTA** | Nhắn tin để shop kiểm tra máy còn không |
+| **Objective** | O4 (Cân nhắc mua) |
+| **Pillar** | CP03 (So sánh) |
+| **Sản phẩm nêu tên** | Dell Latitude 5310 2in1 i5-10210U · 16GB · 512GB · 13.3" FHD cảm ứng (9.880.000đ · Cũ · BH 6 tháng) · Dell Inspiron 7415 2in1 Ryzen 7-5700U · 16GB · 512GB · 14" FHD cảm ứng (11.280.000đ · Likenew · BH 6 tháng) |
+| **CTA** | Comment ngành học + việc hay làm trên máy, mình chỉ nên lấy chiếc nào |
 | **CONTENT** | ↓ khối dưới |
 | **BRIEF ẢNH** | ↓ khối dưới |
-| **LINK ẢNH/ KB** | *(để trống — chưa chụp)* |
+| **LINK ẢNH/ KB** | *(để trống — chưa quay)* |
 | **FORMAT** | Post caption |
 | **STATUS** | CHỜ FEEDBACK |
 
 **CONTENT:**
 ```
-Thích chiếc 7400 2in1 hôm thứ 3 mà ví thiếu 1,4 triệu? Có bản này.
+Bàn gấp giảng đường chỉ vừa một quyển vở. Về phòng trọ lại muốn màn to, mở hai cửa sổ.
+Hai chiếc này cùng xoay gập, cùng cảm ứng, cùng RAM 16GB, cùng ổ 512GB. Chênh 1.400.000đ.
 
-Cùng thân máy xoay gập, cùng màn 14 inch cảm ứng, cùng 16GB RAM. Khác chip và ổ.
+💻 Dell Latitude 5310 2in1 — 9.880.000đ
+i5-10210U · RAM 16GB · ổ 512GB · màn 13,3 inch FHD cảm ứng, xoay gập 360 độ · máy cũ
 
-💻 Dell Latitude 7400 2in1
-i5-8365U · RAM 16GB · ổ 256GB · màn 14 inch FHD cảm ứng, xoay gập 360 độ
-Máy likenew, dòng doanh nhân của Dell.
-💰 9.280.000đ
+💻 Dell Inspiron 7415 2in1 — 11.280.000đ
+Ryzen 7-5700U · RAM 16GB · ổ 512GB · màn 14 inch FHD cảm ứng, xoay gập 360 độ · máy likenew
 
-Bản i7 · 16GB · 512GB: 10.680.000đ. Chênh 1.400.000đ — đổi lại chip i5 và ổ 256GB.
+Thêm 1,4 triệu: màn to hơn 0,7 inch, chip Ryzen 7 thay cho i5, máy likenew thay cho máy cũ.
 
-Bên mình có 3 bản 7400 2in1. Nhắn tin nhớ ghi "i5 16GB 256GB" để khỏi nhầm.
+✅ Lấy 5310 2in1 nếu bạn mang máy lên giảng đường, thư viện mỗi ngày, bàn chật, balo nhỏ.
+✅ Lấy Inspiron 7415 2in1 nếu bạn ngồi phòng trọ nhiều, hay mở tài liệu một bên, bài đang gõ một bên.
 
-Bảo hành 6 tháng bo mạch, màn hình, bàn phím. Pin 3 tháng. Trong 15 ngày đổi sang máy khác miễn phí.
+Nói trước: cả hai đều là chip đời cũ hơn máy mới cùng giá.
 
-👉 Nhắn tin để shop kiểm tra máy còn không.
+Bảo hành cả hai: 6 tháng bo mạch, màn hình, bàn phím. Pin 3 tháng. Trong 15 ngày đổi sang máy khác miễn phí.
+
+👉 Comment ngành bạn học + việc hay làm trên máy, mình chỉ nên lấy chiếc nào.
 ______________________
 📍 LAPTOP THỊNH VƯỢNG
 ☎️ Mua hàng: 0928939666 (8h–20h30)
@@ -1709,34 +1778,80 @@ ______________________
 🌐 https://laptoptv.vn
 🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
 
-#laptopsinhvien #laptopcu #delllatitude #laptop2in1 #laptopthinhvuong
+#laptopsinhvien #laptopcu #laptop2in1 #sosanhlaptop #laptopthinhvuong
 ```
 
 **First comment** *(người đăng tự chép xuống bình luận đầu)*:
 ```
-Dell Latitude 7400 2in1 · i5-8365U · 16GB · 256GB · 14 inch FHD cảm ứng — 9.280.000đ
-https://laptoptv.vn/laptop-cu-dell-latitude-7400-2in1-cam-ung-core-i5-8365u-ram-16gb-ssd-256gb-intel-uhd-graphic-14inch-cam-ung
+• Dell Latitude 5310 2in1 · i5-10210U · 16GB · 512GB · 13,3 inch FHD cảm ứng — 9.880.000đ
+https://laptoptv.vn/laptop-cu-dell-latitude-5310-2in1-cam-ung-core-i5-10210u-16gb-512gb-man-hinh-13-3-inch-fhd-cam-ung
+• Dell Inspiron 7415 2in1 · Ryzen 7-5700U · 16GB · 512GB · 14 inch FHD cảm ứng — 11.280.000đ
+https://laptoptv.vn/likenew-dell-inspiron-7415-2in1-ryzen-7-5700u-16gb-512gb-14-inch-fhd-cam-ung
 
 📍 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội — ☎️ 0928939666 (8h–20h30)
 ```
 
+**BRIEF ẢNH (brief quay):**
+- Kịch bản 5 cột: `02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md` mục KB13 — 9 cảnh, 46 giây. Video so sánh hai máy (loại D) — giá được hiện thành chữ trên màn.
+- Quay dọc 9:16 · 1080×1920 · tại quầy 71 Thiên Hiền · máy quay đặt chân máy.
+- Máy: Dell Latitude 5310 2in1 i5-10210U · 16GB · 512GB (bên trái) · Dell Inspiron 7415 2in1 Ryzen 7-5700U · 16GB · 512GB (bên phải). Hai máy bật sẵn, mỗi máy mở một trang tài liệu bên trái và một file Word bên phải.
+- Đạo cụ: 1 quyển vở A4 · tờ A5 bảo hành.
+- Sáng ngày quay: gọi 0928939666 xác minh cả 2 giá, hai máy có mặt ở shop cùng lúc. Hạn dùng video 2026-10-11 — không đăng lại sau hạn.
+- ⛔ Không "nguyên zin" (5310 là máy Cũ) · không "dòng doanh nhân" cho Inspiron · không cân nặng, không số giờ pin · không "còn hàng" · không "máy này ngon hơn" · không ghép ảnh máy trên mạng · không bút cảm ứng.
+
+---
+
+## 24 · Chủ Nhật 11-10 · 12:15 — post "Mua laptop, bạn để ra bao nhiêu"
+
+| Dòng trong sheet | Giá trị |
+|---|---|
+| **DATE & TIME** | 11-10 (Chủ Nhật) · 12:15 |
+| **ĐỊNH DẠNG** | post |
+| **TUYẾN ND** | Tương tác |
+| **Tuyến bài (nội bộ)** | I — Tương tác – hỏi đáp (bài Chủ nhật, luật #25) |
+| **Tên bài (nội bộ)** | Mua laptop, bạn định để ra bao nhiêu |
+| **Persona** | P1 (Sinh viên / mua máy đầu tiên) |
+| **Journey** | J1 (Đã thấy shop) |
+| **Objective** | O1 (Tiếp cận) |
+| **Pillar** | CP01 (Tư vấn mua) |
+| **Sản phẩm nêu tên** | *(không nêu tên máy)* |
+| **CTA** | Comment số tiền đang có |
+| **CONTENT** | ↓ khối dưới |
+| **BRIEF ẢNH** | ↓ khối dưới |
+| **LINK ẢNH/ KB** | *(để trống — chưa có ảnh)* |
+| **FORMAT** | Post caption |
+| **STATUS** | CHỜ FEEDBACK |
+
+**CONTENT:**
+```
+Trưa chủ nhật. Lương làm thêm vừa về, hoặc bố mẹ vừa gửi. 💸
+Nếu mua laptop, bạn định để ra bao nhiêu?
+
+👉 Comment đúng con số bạn có, mình trả lời từng bạn: với số đó chọn được máy nào.
+______________________
+📍 LAPTOP THỊNH VƯỢNG
+☎️ Mua hàng: 0928939666 (8h–20h30)
+🔧 Bảo hành – kỹ thuật: 0825998855 (8h–17h30)
+🌐 https://laptoptv.vn
+🏠 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
+
+#laptopsinhvien #muamaydautien #laptopthinhvuong
+```
+
+**First comment** *(người đăng tự chép xuống bình luận đầu)*:
+```
+Hôm nay mình trực comment cả ngày. Ghi thêm ngành học để mình gợi ý sát hơn nhé.
+```
+
 **BRIEF ẢNH:**
-Bộ 8 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 71 Thiên Hiền · nền tấm xám nhạt, đèn đều hai bên · logo Thịnh Vượng góc trái trên mọi ảnh · chụp đúng chiếc máy sẽ giao cho khách.
+1 ảnh · 1:1 · 1080×1080px · dưới 1MB · chụp tại quầy 71 Thiên Hiền.
 
 | Ảnh | Khung · góc | Chụp gì | Chữ trên ảnh |
 |---|---|---|---|
-| 1 | Trung · chéo 45°, ngang mặt bàn | Máy mở nắp, màn bật hình nền Windows | `LATITUDE 7400 2IN1` / `i5 · RAM 16GB · Ổ 256GB` / `14 inch cảm ứng` |
-| 2 | Trung · chính diện | Màn bật ảnh trắng kín màn | — |
-| 3 | Cận · từ trên xuống | Bàn phím + touchpad | — |
-| 4 | Cận · ngang | Cạnh trái, thấy rõ các cổng | — |
-| 5 | Cận · ngang | Cạnh phải, thấy rõ các cổng | — |
-| 6 | Trung · chéo | Nắp lưng đóng, thấy logo Dell | — |
-| 7 | Cận | Vết xước / mòn thật trên máy | `Vết dùng thật của máy này` |
-| 8 | Trung · từ trên xuống | Máy gập phẳng 360°, màn mở một file PDF | — |
+| 1 | Trung · chéo 45°, ngang mặt quầy | Laptop gập nắp trên quầy, bên cạnh 1 ví vải mở và 1 tờ giấy nhớ viết tay "? triệu" | `MUA LAPTOP` / `BẠN ĐỊNH ĐỂ RA` / `BAO NHIÊU?` |
 
-- Máy không có vết xước → bỏ ảnh 7.
-- ⚠️ Tag web của máy này ghi ổ 512GB — **sai so với tên**. Viết theo tên: 256GB (luật #13). Trước khi chụp mở `This PC` kiểm ổ; thấy 512GB thì dừng, báo người viết.
-- ⛔ Không lấy nhầm bản i5 8GB hay bản i7 · không bút cảm ứng · không giá trên ảnh · không "còn hàng", "còn X máy", "giảm giá", "ưu đãi".
+- Chữ đặt ở hai phần ba trên của ảnh. Logo Thịnh Vượng góc trái trên.
+- ⛔ Không tiền mặt thật trong khung · không tên máy, không giá · không giá dán trên kệ lọt khung · không treo quà, không "tag bạn bè".
 
 ---
 
@@ -1747,14 +1862,18 @@ Bộ 8 ảnh · 4:5 · 1080×1350px · dưới 1MB mỗi ảnh · chụp tại 7
 | 1 | ~~Trùng lịch chương 3~~ | ✅ người dùng quyết 2026-09-28: chương 3 dời sang 12–18/10 |
 | 2 | ~~Gate 6 bản mới chưa ký~~ → ✅ duyệt 2026-09-28 | xong |
 | 3 | ~~Tuần 2 dùng giá hạn 2026-10-05~~ | ✅ người dùng xác nhận giá vẫn đúng 2026-09-28 |
-| 4 | `kho-khach-that.md` trống → 4 khung E/F đang chạy tuyến B | Có ca đã xin phép trước ngày đăng → thay khối 10, 11, 21, 22 bằng khuôn E/F |
+| 4 | `kho-khach-that.md` trống → khung E chạy K (Dạy khách tự kiểm tra máy cũ), khung F chạy G (So sánh hai máy) — bản 3, 2026-09-29 | Có ca đã xin phép trước ngày đăng → thay khối 10, 11, 21, 22 bằng khuôn E/F |
 | 5 | Hai ghi chú cũ về bảng quy đổi `TUYẾN ND` (CP03 (So sánh), CP01 (Tư vấn mua) chưa có chỗ rõ ràng) | Giữ như bản 24/09: xếp vào **Sản phẩm** |
+| 6 | ~~Khối 1, 2 (T2 28-09) đã qua ngày, chưa đăng~~ | ✅ đăng bù ngay cùng đợt với khối 3, 4 (29-09) — người dùng chốt 2026-09-29, một ngày nhiều bài cũng được |
+| 7 | ~~Ngân sách P1 (Sinh viên / mua máy đầu tiên) 8–15 hay 10–15 triệu (Gate 0)~~ | ✅ người dùng chốt **8–15 triệu** 2026-09-29 |
 
-## Điều cả 22 nội dung đều không được viết
+## Điều cả 24 nội dung đều không được viết
 
 Trả góp · freeship · quà tặng · "còn hàng" / "còn X máy" / "sắp hết" (luật #12) · cân nặng máy ·
 số giờ pin · "mượt", "bản lề chắc", "cảm ứng nhạy" · tên đối thủ (luật #9) · "chính hãng" cho máy cũ ·
 "rẻ nhất" / "tốt nhất" / "số 1" / "sốc" · bảo hành khác 6 tháng bo mạch – màn – phím và 3 tháng pin (luật #14) ·
 "nguyên zin" cho máy Cũ (7390, 5300, 5310) · hứa nâng ổ cứng · máy dưới 5 triệu (luật #16) ·
 máy ngoài danh sách 36 (luật #20) · giá trên hình ở video không phải loại so sánh ·
-"ghé shop sau giờ học" (chưa có fact giờ mở cửa).
+"ghé shop sau giờ học" (chưa có fact giờ mở cửa) ·
+"quy trình test của shop" cho video K (CP04 (Quy trình kiểm tra) còn khoá) · bản lề có bảo hành (chưa có fact) ·
+treo quà, "tag bạn bè" ở bài I · "dòng doanh nhân" cho Inspiron.

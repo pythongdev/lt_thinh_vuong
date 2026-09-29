@@ -45,7 +45,8 @@ Kênh chính: Facebook fanpage. Người dùng là người viết content của
     Máy không có tên trong danh sách đó → **không viết bài bán, không làm hook, không nêu tên
     làm ví dụ**. Tư vấn inbox/comment cho khách hỏi máy khác thì **vẫn làm bình thường**.
     Đã soát lại **2026-09-28**: 0 máy rời danh sách, 0 máy đổi giá, 4 máy mới đủ điều kiện
-    kỹ thuật nhưng **đã chốt KHÔNG mở khoá** — vẫn đúng 36 máy. Hết hạn **2026-10-05** → chạy
+    kỹ thuật nhưng **đã chốt KHÔNG mở khoá** — vẫn đúng 36 máy. Soát lại **2026-09-29**: không đổi gì.
+    Hết hạn **2026-10-06** → chạy
     `python3 tools/collection_fetch.py` rồi đối chiếu lại như mục "Soát lại" trong file danh sách.
 21. 🎬 **Video bàn giao phải có kịch bản 5 cột**, không chỉ caption. Khuôn:
     `04_content/templates/reel_template/kich-ban-video-sheet.md` — `STT · BỐI CẢNH · NỘI DỤNG - VOICE

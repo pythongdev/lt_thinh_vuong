@@ -1,4 +1,4 @@
-# 02-reel — 9 kịch bản video, 2 tuần 28/09 – 11/10/2026
+# 02-reel — 13 kịch bản video, 2 tuần 28/09 – 11/10/2026
 
 Nhánh **reels / video** của chương 2 (sinh viên). Khuôn:
 [`kich-ban-video-sheet.md`](../../../../04_content/templates/reel_template/kich-ban-video-sheet.md) —
@@ -8,7 +8,7 @@ trên mỗi kịch bản 1 dòng tiêu đề merge.
 **Sheet đích — sheet kịch bản video (KB) của team**
 https://docs.google.com/spreadsheets/d/1Nu5cBftCJJzjJqWgRzXE0XYIR2pvmdHHCnwAsrsgoa8
 
-## Chín kịch bản
+## Mười ba kịch bản
 
 | KB | Ngày đăng | Tuyến bài | Tên | Giá trên hình? |
 |---|---|---|---|---|
@@ -21,12 +21,16 @@ https://docs.google.com/spreadsheets/d/1Nu5cBftCJJzjJqWgRzXE0XYIR2pvmdHHCnwAsrsg
 | KB7 | T4 07-10 · 20:30 | Bảo hành – hậu mãi | Cài lại Windows mùa thi | không |
 | KB8 | T5 08-10 · 12:15 | Review sản phẩm | Review Latitude 7420 vỏ carbon | không |
 | KB9 | T5 08-10 · 20:30 | Tư vấn – kiến thức | 20 giây soi điểm chết | không |
+| KB10 | T6 02-10 · 20:30 | Dạy khách tự kiểm tra máy cũ (thay Feedback) | Mua lại máy anh chị khoá trên — soi 3 chỗ | không |
+| KB11 | T7 03-10 · 12:15 | So sánh hai máy (thay Khách tại shop) | Thêm 2,3 triệu: chip mới hay màn xoay | **có** — hạn 2026-10-06 |
+| KB12 | T6 09-10 · 20:30 | Dạy khách tự kiểm tra máy cũ (thay Feedback) | Học online — soi webcam, mic, loa, cấu hình | không |
+| KB13 | T7 10-10 · 12:15 | So sánh hai máy (thay Khách tại shop) | Thêm 1,4 triệu: lên 14 inch, đổi chip | **có** — hạn 2026-10-11 |
 
 ## File
 
 | File | Nội dung | Trạng thái |
 |---|---|---|
-| [KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md](KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md) | **Bản gốc** — 9 kịch bản, 71 cảnh | 🟢 viết lại 2026-09-28 · **Gate 6 duyệt 2026-09-28** |
+| [KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md](KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md) | **Bản gốc** — 13 kịch bản, 103 cảnh | 🟢 bản 3 2026-09-29 · KB1–KB9 duyệt 2026-09-28 · KB10–KB13 **"ok" 2026-09-29** |
 | [KICH-BAN-VIDEO-2-TUAN-28-09-11-10.csv](KICH-BAN-VIDEO-2-TUAN-28-09-11-10.csv) | Bản nhập tay — Tệp → Nhập → Chèn trang tính mới | 🟡 |
 | [day-len-kb-sheet.gs](day-len-kb-sheet.gs) | Apps Script hàm `dayLenKB` — tạo tab mới, điền cảnh, merge dòng tiêu đề | 🟡 |
 

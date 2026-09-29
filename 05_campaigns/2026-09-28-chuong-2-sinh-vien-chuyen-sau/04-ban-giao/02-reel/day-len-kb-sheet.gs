@@ -575,9 +575,261 @@ function dayLenKB() {
     "\"Soi ở đâu cũng được. Về nhà đổi ý thì còn mười lăm ngày đổi máy khác.\"",
     "Nhắn tin, shop kiểm tra máy còn không",
     "32–36s"
+  ],
+  [
+    "Kịch bản 10: Mua lại máy anh chị khoá trên - soi 3 chỗ - không mẫu - voice thật (nhân viên bán hàng đọc, thu riêng) · 35 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền, bàn học dựng (mặt bàn gỗ, 2 quyển vở, bút, cốc nước) · Máy: Dell Latitude 7420 [vỏ carbon] i5-1145G7 16GB 256GB 14 inch FHD (bản thường, không 2in1), bật sẵn, desktop mở 1 file Word trắng · Đạo cụ: sạc của máy · 1 USB · Chỉ quay tay · Phụ đề bắt buộc · ⛔ Không tên máy, không giá trên hình, không xoay gập, không chạm màn, không gọi là \"quy trình test của shop\", không nói bản lề có bảo hành, không nói shop khác bán máy lỗi",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Trung · từ trên xuống · laptop gập nắp giữa bàn học, hai tay đặt hai bên máy",
+    "\"Anh khoá trên bán lại laptop, để rẻ. Khoan chuyển khoản đã.\"",
+    "Mua lại máy anh chị khoá trên?",
+    "0–4s · chỉ thấy tay"
+  ],
+  [
+    "2",
+    "Cận · ngang mặt bàn · tay mở nắp, gập lại, mở lại, làm 3 lần",
+    "\"Một: bản lề. Mở gập vài lần. Nghe có tiếng kêu lạ không, nắp có lắc không.\"",
+    "1 · Bản lề",
+    "4–10s · thu tiếng bản lề thật, không nhạc đè"
+  ],
+  [
+    "3",
+    "Cận · ngang · tay mở nắp tới khoảng 100° rồi thả tay",
+    "\"Mở tới giữa, thả tay. Màn phải đứng yên.\"",
+    "Thả tay — màn đứng yên",
+    "10–14s · giữ khung 3 giây sau khi thả tay · ⛔ không mở nắp quá góc thường"
+  ],
+  [
+    "4",
+    "Cận · ngang · tay cắm sạc vào cổng sạc, máy quay lia lên góc phải dưới màn thấy biểu tượng pin đang sạc",
+    "\"Hai: sạc. Cắm vào phải hiện đang sạc. Rút ra cắm lại vài lần.\"",
+    "2 · Sạc và cổng",
+    "14–20s"
+  ],
+  [
+    "5",
+    "Cận · ngang · tay cắm USB lần lượt vào từng cổng, mỗi lần màn hiện thông báo nhận thiết bị",
+    "\"Cắm USB từng cổng. Máy nhận hết mới được.\"",
+    "Cắm từng cổng",
+    "20–25s · cổng nào không nhận → dừng quay, báo người viết"
+  ],
+  [
+    "6",
+    "Cận · từ trên xuống · tay gõ một lượt các hàng phím trong file Word, rồi rê touchpad khắp mặt, bấm chuột trái, chuột phải",
+    "\"Ba: gõ đủ từng hàng phím. Rê touchpad khắp mặt, bấm cả hai bên.\"",
+    "3 · Bàn phím + touchpad",
+    "25–31s · chữ gõ hiện rõ trên màn"
+  ],
+  [
+    "7",
+    "Toàn · chéo 45° · máy mở nắp trên bàn học, tay rút ra khỏi khung",
+    "\"Mua ở đâu cũng soi được, kể cả ở bên mình. Lưu lại nhé.\"",
+    "Lưu lại — hôm đi xem máy mở ra làm theo",
+    "31–35s"
+  ],
+  [
+    "Kịch bản 11: Thêm 2,3 triệu - chip mới hay màn xoay - không mẫu - voice thật (nhân viên bán hàng đọc, không đọc giá) · 44 giây · Quay dọc 9:16 1080x1920 tại quầy 71 Thiên Hiền, máy quay đặt chân máy · Máy: Dell Latitude 7400 2in1 i7-8665U 16GB 512GB 14 inch FHD cảm ứng (đặt bên trái) · Dell Latitude 7420 [vỏ nhôm] i7-1185G7 16GB 512GB 14 inch FHD (bên phải, bản thường, không 2in1) · Hai máy bật sẵn, mở cùng một file slide · Đạo cụ: tờ A5 bảo hành · Giá trên hình: gọi 0928939666 xác minh cả 2 giá sáng ngày quay, hai máy có mặt ở shop cùng lúc · HẠN DÙNG VIDEO: 2026-10-06 (hạn danh sách 36, soát lại 2026-09-29) — không đăng lại sau hạn · Phụ đề bắt buộc · ⛔ Không xoay, không chạm màn chiếc 7420, không \"còn hàng\", không \"máy này ngon hơn\", không nói chip đời 11 nhanh hơn bao nhiêu, không bút cảm ứng, không ghép ảnh máy trên mạng",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Toàn · ngang mặt quầy · hai máy mở nắp cạnh nhau, cùng mở một file slide",
+    "\"Cùng RAM, cùng ổ, cùng mười bốn inch. Chênh hai triệu ba.\"",
+    "Latitude 7400 2in1 — 10.680.000đ · Latitude 7420 vỏ nhôm — 12.980.000đ",
+    "0–5s · chữ giá đặt ngay trên từng máy"
+  ],
+  [
+    "2",
+    "Cận · chéo · chiếc 7400 2in1, ngón tay chạm màn lật sang slide kế tiếp",
+    "\"Chiếc bên trái: màn cảm ứng. Chạm là lật slide.\"",
+    "7400 2in1: màn cảm ứng",
+    "5–10s"
+  ],
+  [
+    "3",
+    "Trung · ngang · tay xoay màn chiếc 7400 ra sau thành chữ A, mặt màn quay về máy quay",
+    "\"Xoay gập ba trăm sáu mươi độ. Dựng chữ A cho cả nhóm xem.\"",
+    "Xoay gập 360°",
+    "10–15s"
+  ],
+  [
+    "4",
+    "Cận · chéo · chiếc 7420 vỏ nhôm, ngón tay dừng cách màn khoảng 2cm rồi rút lại",
+    "\"Chiếc bên phải: không cảm ứng, không xoay gập. Nói trước.\"",
+    "7420 vỏ nhôm: KHÔNG cảm ứng",
+    "15–20s · ⛔ không chạm màn, không mở nắp quá góc thường"
+  ],
+  [
+    "5",
+    "Cận · chính diện · màn chiếc 7420 mở Settings → System → About, ngón tay chỉ dòng tên chip",
+    "\"Đổi lại, chip i7 đời mười một. Chiếc kia i7 đời tám.\"",
+    "Chip: đời 11 — đời 8",
+    "20–26s · tên chip trên màn khác i7-1185G7 → dừng quay, báo người viết"
+  ],
+  [
+    "6",
+    "Trung · chính diện · khung tĩnh hai máy",
+    "\"Nói luôn: cả hai chip đều cũ hơn máy mới cùng giá.\"",
+    "Chip đời cũ hơn máy mới cùng giá. Nói trước.",
+    "26–30s · giữ chữ ít nhất 3 giây"
+  ],
+  [
+    "7",
+    "Cận · từ trên xuống · tay đặt tờ A5 bảo hành giữa hai máy, rút tay ra",
+    "\"Cả hai likenew. Sáu tháng bo mạch, màn, phím. Pin ba tháng.\"",
+    "Cùng bảo hành 6 tháng · pin 3 tháng",
+    "30–35s"
+  ],
+  [
+    "8",
+    "Trung · cùng góc cảnh 1 · tay đặt lên chiếc trái, rồi chiếc phải",
+    "\"Hay chạm màn, lật màn cho nhóm xem: bên trái. Chỉ gõ, muốn chip mới: bên phải.\"",
+    "Chạm, lật màn → 7400 2in1 · Chỉ gõ → 7420 vỏ nhôm",
+    "35–41s"
+  ],
+  [
+    "9",
+    "Toàn · ngang · quầy, hai máy trong khung",
+    "\"Comment ngành bạn học, mình chỉ nên lấy chiếc nào.\"",
+    "Comment ngành học — mình chỉ máy",
+    "41–44s"
+  ],
+  [
+    "Kịch bản 12: Học online - soi webcam, mic, loa, cấu hình - không mẫu - voice thật (nhân viên bán hàng đọc, thu riêng) · 38 giây · Quay dọc 9:16 1080x1920 tại 71 Thiên Hiền, bàn học dựng (vở, bút, tai nghe để cạnh) · Máy: Dell Latitude 7420 [vỏ carbon] i5-1145G7 16GB 256GB 14 inch FHD (bản thường, không 2in1), bật sẵn · Đạo cụ: desktop mở sẵn ứng dụng Camera, ứng dụng ghi âm, 1 video không có nhạc bản quyền, cửa sổ Settings → System → About, cửa sổ This PC · Chỉ quay tay và màn hình · Phụ đề bắt buộc · ⛔ Không tên máy, không giá trên hình, không quay mặt người qua webcam (hướng webcam vào quyển vở), không xoay gập, không chạm màn, không gọi là \"quy trình test của shop\", không nói shop khác bán máy lỗi",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Cận · chính diện màn · cửa sổ Camera đang mở, webcam hướng vào quyển vở mở trên bàn",
+    "\"Tám giờ học online. Bật cam lên mà màn đen là toang.\"",
+    "Học online — soi 4 chỗ này",
+    "0–4s"
+  ],
+  [
+    "2",
+    "Cận · chính diện · cửa sổ Camera, tay đưa quyển vở lại gần rồi ra xa webcam",
+    "\"Một: webcam. Mở Camera. Hình lên, không nhoè, không sọc.\"",
+    "1 · Webcam",
+    "4–10s · ⛔ không quay mặt người · máy không có webcam → dừng quay, báo người viết"
+  ],
+  [
+    "3",
+    "Cận · chéo · màn ứng dụng ghi âm, tay bấm ghi, người đọc ngoài khung nói một câu, tay bấm nghe lại",
+    "\"Hai: mic. Ghi âm một câu, nghe lại. Rõ, không rè.\"",
+    "2 · Mic",
+    "10–17s · thu tiếng phát lại từ loa máy thật"
+  ],
+  [
+    "4",
+    "Cận · ngang · video đang phát, tay bấm phím tăng âm lượng từng nấc",
+    "\"Ba: loa. Vặn to dần. Hai bên cùng kêu, không rè.\"",
+    "3 · Loa",
+    "17–22s · ⛔ không dùng video có nhạc bản quyền"
+  ],
+  [
+    "5",
+    "Cận · chính diện · cửa sổ Settings → System → About, ngón tay chỉ dòng tên chip rồi dòng RAM",
+    "\"Bốn: cấu hình. Vào About xem chip, xem RAM.\"",
+    "4 · Cấu hình đúng lời bán?",
+    "22–28s · tên chip trên màn khác i5-1145G7 → dừng quay, báo người viết"
+  ],
+  [
+    "6",
+    "Cận · chính diện · cửa sổ This PC, ngón tay chỉ dung lượng ổ",
+    "\"Mở This PC xem ổ. Số hơi thấp hơn là bình thường. Lệch hẳn thì hỏi lại.\"",
+    "Người bán nói gì — màn phải ra đúng vậy",
+    "28–34s"
+  ],
+  [
+    "7",
+    "Toàn · chéo 45° · máy trên bàn học, tay gập nắp",
+    "\"Mua ở đâu cũng soi được, kể cả ở bên mình. Lưu lại nhé.\"",
+    "Lưu lại — hôm đi xem máy mở ra làm theo",
+    "34–38s"
+  ],
+  [
+    "Kịch bản 13: Thêm 1,4 triệu - lên 14 inch, đổi chip - không mẫu - voice thật (nhân viên bán hàng đọc, không đọc giá) · 46 giây · Quay dọc 9:16 1080x1920 tại quầy 71 Thiên Hiền, máy quay đặt chân máy · Máy: Dell Latitude 5310 2in1 i5-10210U 16GB 512GB 13.3 inch FHD cảm ứng (đặt bên trái) · Dell Inspiron 7415 2in1 Ryzen 7-5700U 16GB 512GB 14 inch FHD cảm ứng (bên phải) · Hai máy bật sẵn, mỗi máy mở một trang tài liệu bên trái và một file Word bên phải · Đạo cụ: 1 quyển vở A4 · tờ A5 bảo hành · Giá trên hình: gọi 0928939666 xác minh cả 2 giá sáng ngày quay, hai máy có mặt ở shop cùng lúc · HẠN DÙNG VIDEO: 2026-10-11 (hết tuần 2 — người dùng xác nhận giá 2026-09-28) — không đăng lại sau hạn · Phụ đề bắt buộc · ⛔ Không \"nguyên zin\" (5310 là máy Cũ), không \"dòng doanh nhân\" cho Inspiron, không cân nặng, không số giờ pin, không \"còn hàng\", không \"máy này ngon hơn\", không bút cảm ứng, không ghép ảnh máy trên mạng",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "1",
+    "Toàn · ngang mặt quầy · hai máy mở nắp cạnh nhau",
+    "\"Cùng xoay gập, cùng cảm ứng, RAM mười sáu, ổ năm trăm mười hai. Chênh một triệu tư.\"",
+    "Latitude 5310 2in1 — 9.880.000đ · Inspiron 7415 2in1 — 11.280.000đ",
+    "0–6s · chữ giá đặt ngay trên từng máy"
+  ],
+  [
+    "2",
+    "Trung · từ trên xuống · hai máy gập nắp đặt sát nhau, quyển vở A4 đặt ngay dưới",
+    "\"Khác thứ nhất: màn. Mười ba phẩy ba với mười bốn.\"",
+    "Màn 13,3 inch — 14 inch",
+    "6–12s · hai máy thẳng hàng mép trên"
+  ],
+  [
+    "3",
+    "Cận · chính diện · màn chiếc 5310 mở tài liệu một bên, Word một bên; cắt sang màn chiếc 7415 cùng khung",
+    "\"Mở hai cửa sổ cạnh nhau. Màn mười bốn rộng hơn chút.\"",
+    "Hai cửa sổ cạnh nhau",
+    "12–18s · quay 5310 trước, 7415 sau, cùng khoảng cách máy quay"
+  ],
+  [
+    "4",
+    "Cận · chính diện · màn Settings → System → About chiếc 5310, ngón tay chỉ tên chip; cắt sang chiếc 7415",
+    "\"Khác thứ hai: chip. Bên trái Intel i5 đời mười. Bên phải AMD Ryzen 7.\"",
+    "Chip: i5-10210U — Ryzen 7-5700U",
+    "18–25s · tên chip trên màn khác tên máy → dừng quay, báo người viết"
+  ],
+  [
+    "5",
+    "Trung · chính diện · khung tĩnh hai máy",
+    "\"Nói trước: cả hai chip đều cũ hơn máy mới cùng giá.\"",
+    "Chip đời cũ hơn máy mới cùng giá. Nói trước.",
+    "25–29s · giữ chữ ít nhất 3 giây"
+  ],
+  [
+    "6",
+    "Cận · lần lượt nắp lưng chiếc 5310 rồi chiếc 7415, dừng ở chỗ có vết dùng",
+    "\"Tên trên web: bên trái máy cũ, bên phải likenew. Vết dùng thì soi tận mắt.\"",
+    "Máy cũ — Likenew",
+    "29–34s · quay đúng vết thật, không che · máy không có vết → quay nắp lưng thường"
+  ],
+  [
+    "7",
+    "Cận · từ trên xuống · tay đặt tờ A5 bảo hành giữa hai máy, rút tay ra",
+    "\"Bảo hành như nhau. Sáu tháng bo mạch, màn, phím. Pin ba tháng.\"",
+    "Cùng bảo hành 6 tháng · pin 3 tháng",
+    "34–38s"
+  ],
+  [
+    "8",
+    "Trung · cùng góc cảnh 1 · tay đặt lên chiếc trái, rồi chiếc phải",
+    "\"Lên giảng đường mỗi ngày, bàn chật: bên trái. Ngồi trọ nhiều, mở hai cửa sổ: bên phải.\"",
+    "Mang đi học mỗi ngày → 5310 · Ngồi trọ, hai cửa sổ → 7415",
+    "38–43s"
+  ],
+  [
+    "9",
+    "Toàn · ngang · quầy, hai máy trong khung",
+    "\"Comment ngành bạn học, mình chỉ nên lấy chiếc nào.\"",
+    "Comment ngành học — mình chỉ máy",
+    "43–46s"
   ]
 ];
-  var TITLE_ROWS = [2, 9, 16, 26, 39, 46, 53, 62, 75];
+  var TITLE_ROWS = [2, 9, 16, 26, 39, 46, 53, 62, 75, 82, 90, 100, 108];
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   if (ss.getSheetByName(TAB)) {

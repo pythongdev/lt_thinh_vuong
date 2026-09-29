@@ -101,7 +101,7 @@ Cần chọn một trong hai:
 
 👉 **5 bài chương 2 đã né hẳn CP04** để không phụ thuộc vào quyết định này. Chương 1 thì đang chờ nó.
 
-### 4.2 🟠 Ngân sách P1 trong `personas.md` không phủ được Bài 3
+### 4.2 ✅ Ngân sách P1 trong `personas.md` không phủ được Bài 3 — **gỡ 2026-09-29: người dùng chốt P1 (Sinh viên / mua máy đầu tiên) = 8–15 triệu**, `personas.md` đã sửa
 
 `personas.md` chốt **P1 (Sinh viên / mua máy đầu tiên) = 10–15 triệu**, và tự ghi chú ở dòng 12–13:
 *"nhóm máy 6,88–9,88 triệu hiện không nằm trong ngân sách persona nào."*
@@ -165,7 +165,7 @@ Bài 4 nêu thêm 4 máy (2 cặp ở mục 3). Bài 1 và Bài 2 **không nêu 
 | 2 | **Gate 6 — người ký duyệt** (luật #8) | Cả 5 bài | Dừng ở bước 3 quy trình bàn giao, không chạm sheet |
 | 3 | Gọi shop xác nhận **giá + máy còn hay hết** sáng hôm đăng | Bài 3 · 4 · 5 | Máy nào hết thì rút khỏi bài, **không thay bằng máy ngoài danh sách 36** |
 | 4 | **Bản lề có nằm trong diện bảo hành 6 tháng không?** `policies.md` chỉ ghi main / màn hình / bàn phím | Bài 5 | Bài 5 chỉ dạy cách soi bản lề, **không nói gì về bảo hành bản lề**. Vẫn đăng được |
-| 5 | Chốt mục **4.1** (ổ khoá CP04) và **4.2** (ngân sách P1) | Chương 1 · Bài 3 | Bài 3 đăng kèm ghi chú Gate 0 lệch |
+| 5 | Chốt mục **4.1** (ổ khoá CP04 (Quy trình kiểm tra)) và ~~**4.2** (ngân sách P1 (Sinh viên / mua máy đầu tiên))~~ ✅ 8–15 triệu (2026-09-29) | Chương 1 · Bài 3 | Bài 3 đăng kèm ghi chú Gate 0 lệch |
 | 6 | Bài **"Có 13 triệu: nên mua hãng nào?"** của chương 1 vẫn bị chặn — chờ chủ shop trả lời có được mở đầu bằng "shop mình bán Dell nhiều nhất" hay không | Chương 1 | Ô Thứ Năm 24/09 để trống |
 
 ---
