@@ -14,7 +14,7 @@
 | # | Chiến dịch | Tuần đăng | Viết cho ai | Số bài | Trạng thái |
 |---|---|---|---|---|---|
 | 1 | [Sinh viên có 13 triệu](2026-09-21-chuong-1-sinh-vien-13-trieu/INDEX.md) | 21–27/09/2026 | P1 — Sinh viên / mua máy đầu tiên | 11 nội dung (6 Reels · 4 bài viết · 4 Story) | 🟡 Soạn xong — **Gate 6 chưa ký**, chưa lên sheet |
-| 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–11/10/2026 (**2 tuần**) | P1 — Sinh viên / mua máy đầu tiên | 24 nội dung · 9 tuyến bài (10 tư vấn · 4 bộ ảnh SP · 2 review · 2 bảo hành · 2 so sánh hai máy · 2 tự kiểm tra máy cũ · 2 tương tác CN) · 13 kịch bản video | 🟢 **Bản 3 — 17 tuyến bài (2026-09-29)**: Gate 6 "ok" 2026-09-29 · khối 1, 2 đăng bù cùng đợt 29-09 · Drive: lưới bài đăng đã lên, KB chưa lên · chưa lên sheet team |
+| 2 | [Sinh viên: những câu chương 1 chưa trả lời](2026-09-28-chuong-2-sinh-vien-chuyen-sau/INDEX.md) | 28/09–11/10/2026 (**2 tuần**) | P1 — Sinh viên / mua máy đầu tiên | 24 nội dung · 9 tuyến bài (10 tư vấn · 4 bộ ảnh SP · 2 review · 2 bảo hành · 2 so sánh hai máy · 2 tự kiểm tra máy cũ · 2 tương tác CN) · 13 kịch bản video | 🟢 **Bản 3 — 17 tuyến bài (2026-09-29)**: Gate 6 "ok" 2026-09-29 · khối 1, 2 đăng bù cùng đợt 29-09 · Drive: bản 3 đã lên đủ · chưa lên sheet team |
 | 3 | [Dân văn phòng 15–19 triệu](2026-10-05-chuong-3-van-phong-15-18-trieu/INDEX.md) | **12–25/10/2026 (2 tuần)** — khung 22 nội dung chờ duyệt, bản 22/09 sẽ viết lại theo luật #23–#25 | P2 — Nhân viên văn phòng | 22 nội dung · 6 tuyến (khung) — 10 cũ viết lại + 12 mới | 🟡 Khung chờ duyệt dạng bài · chưa viết chi tiết |
 
 **Chưa có chiến dịch nào đăng thật.** Cả 3 đều đang chờ người ký Gate 6 (luật #8: AI không tự

@@ -32,7 +32,7 @@ Chi tiết từng câu sửa: [00-ke-hoach/ke-hoach-2-tuan.md](00-ke-hoach/ke-ho
 | [01-drafts/](01-drafts/) | 5 Content Package tuyến tư vấn (caption bên trong là bản cũ, có ghi chú) · [Content Package gộp tuyến B / C / D](01-drafts/2026-09-28-tuyen-B-C-D-content-package.md) (4 bộ ảnh đã thay ở bản 3) · [Content Package tuyến G / K / I — bản 3](01-drafts/2026-09-29-tuyen-G-K-I-content-package.md) · [khuôn chờ ca tuyến Feedback / Khách tại shop](01-drafts/2026-09-28-tuyen-E-F-khuon-cho-ca.md) | ✅ bản 2 duyệt 2026-09-28 · ✅ G / K / I "ok" 2026-09-29 |
 | [02-approved/](02-approved/) | — | ⬜ trống |
 | [03-published/](03-published/) | — | ⬜ trống |
-| [04-ban-giao/](04-ban-giao/) | [01-bai-dang/](04-ban-giao/01-bai-dang/) lưới 9×8, 24 nội dung, 4 khối · [02-reel/](04-ban-giao/02-reel/) 13 kịch bản, 103 cảnh | 🟢 sinh lại 2026-09-29, 2 script chạy sạch · Gate 6 "ok" 2026-09-29 · Drive: 4/4 lưới bài đăng đã lên, KB chưa lên (connector mất kết nối) |
+| [04-ban-giao/](04-ban-giao/) | [01-bai-dang/](04-ban-giao/01-bai-dang/) lưới 9×8, 24 nội dung, 4 khối · [02-reel/](04-ban-giao/02-reel/) 13 kịch bản, 103 cảnh | 🟢 sinh lại 2026-09-29, 2 script chạy sạch · Gate 6 "ok" 2026-09-29 · Drive: bản 3 đã lên đủ (4 lưới + 2 phần KB) · Bản 2 đổi tên ĐÃ THAY |
 | [05-ket-qua/](05-ket-qua/) | — | ⬜ điền sau khi đăng |
 
 ---

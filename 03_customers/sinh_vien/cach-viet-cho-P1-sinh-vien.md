@@ -21,31 +21,27 @@
 > **chưa có dữ liệu comment/inbox thật** để đối chiếu — đặc biệt chưa biết bao nhiêu tin nhắn do **bố mẹ** gửi.
 > Khi có log thật thì quay lại cắt bớt cái không chạy.
 
+> **Hiệu chỉnh 2026-09-30:** áp dụng [nghiên cứu cách dùng từ](../../16_research/cach-viet-laptop-cho-sinh-vien/01-nghien-cuu-cach-dung-tu.md)
+> và [cách chuyển nguồn thành bài](../../16_research/cach-viet-laptop-cho-sinh-vien/02-chuyen-noi-dung-nguon-thanh-bai.md).
+> Đây là đề xuất biên tập, chưa kiểm chứng bằng phản hồi người đọc; ví dụ tự viết không phải lời khách hàng thật.
+> Nghiên cứu không xác nhận giá, cấu hình, hiệu năng hay chính sách. Các bảng sản phẩm giữ mốc dữ liệu cũ,
+> phải kiểm tra nguồn chuẩn trước khi dùng. Bản tóm tắt notebook chưa đối chiếu video gốc nên không trích như lời tác giả.
+> Mỗi bài chọn một tình huống học; chỉ dùng nhánh bố mẹ khi người đọc cần trao đổi với gia đình.
+
 ---
 
 ## 0. Một câu phải nhớ trước khi gõ chữ đầu tiên
 
-Người đọc là **một bạn 18–21 tuổi sắp phải bỏ ra số tiền lớn nhất đời mình tới giờ —
-mà phần lớn số tiền đó không phải của mình.** Họ đọc trên điện thoại, trong giờ nghỉ giữa tiết,
-trên giường ký túc lúc 22h, hoặc đang lướt nhóm lớp. Họ không đọc để trở thành người rành laptop.
-Họ đọc vì **sợ chọn sai rồi không dám nói với ai**.
+Bắt đầu bằng **một việc người đọc cần làm trên máy**, rồi giúp họ biết phải kiểm tra gì trước khi mua.
+Không mặc định sinh viên ít tiền, không hiểu công nghệ, phải xin phép bố mẹ hoặc sợ bị lừa.
 
-Ba hệ quả lên câu chữ:
+1. **Chọn một tình huống:** mua máy đầu tiên, làm bài nhóm, mang máy lên lớp, dùng phần mềm môn học hoặc trao đổi với gia đình.
+2. **Hỏi việc học trước cấu hình:** tên và phiên bản phần mềm, ứng dụng mở cùng lúc, ngân sách gồm phụ kiện, lịch mang máy và thiết bị cần kết nối.
+3. **Viết như giúp một người bạn:** xưng “mình – bạn”, câu ngắn, giải thích thuật ngữ cần thiết, kết bằng một việc có thể làm tiếp.
 
-1. **Viết cho người không biết gì về máy** → không một thuật ngữ nào đứng trơ trọi. Mỗi thông số
-   phải đi kèm một việc học cụ thể, trong cùng một câu.
-2. **Viết cho người phải xin phép** → bài phải chứa được **một câu họ đọc lại cho bố mẹ nghe**
-   mà không ngượng. Câu nghe như quảng cáo = câu bố mẹ gạt đi.
-3. **Viết cho người có ngân sách cứng** → giá phải là con số thật, không "tầm", không "chỉ từ".
-   Họ không co giãn được 2 triệu — nói mơ hồ là họ tự loại mình.
-
-> ⚠️ Khác biệt lớn nhất so với P2 (Nhân viên văn phòng): P2 hỏi *"đáng không"*,
-> P1 hỏi *"đủ không"* và *"có bị lừa không"*. Câu chữ cho P2 là **chứng minh**.
-> Câu chữ cho P1 là **trấn an bằng công cụ** — không trấn an suông, mà đưa cho họ thứ tự kiểm được.
->
-> ⚠️ Khác biệt thứ hai: P1 có **hai người đọc**. Sinh viên đọc bài; bố mẹ **không đọc bài** nhưng
-> nghe lại qua lời con. Mỗi bài trọng điểm phải viết cho người thứ nhất và **trang bị cho người thứ nhất
-> nói lại với người thứ hai** (mục 8).
+Nhánh “câu mang về nhà” ở mục 8 chỉ áp dụng khi gia đình tham gia quyết định. Với người tự mua,
+đưa danh sách để họ tự so máy. Ngân sách 8–15 triệu là phạm vi nội dung của persona trong dự án,
+không phải kết luận về khả năng chi trả của mọi sinh viên.
 
 ---
 
@@ -61,133 +57,39 @@ Ba hệ quả lên câu chữ:
 > nghĩ theo logic nào, đang nhìn đời mình ra sao, đang cảm thấy gì* — và câu chữ phải
 > đổi theo thế nào. **Sai nhịp cảm xúc thì đúng nội dung vẫn trượt.**
 
-### 1.0 Ba câu chốt trước khi đọc bảng dài
+### 1.0 Ba điều cần xác định trước khi chọn giọng
 
-1. **P1 (Sinh viên / mua máy đầu tiên) không mua máy — họ mua quyền tự quyết lần đầu tiên.**
-   Chiếc laptop đầu tiên là món lớn đầu tiên họ được chọn. Chọn đúng = được tin; chọn sai =
-   bị nhắc lại suốt. Mọi câu chữ của ta là vật liệu để họ **chọn được và giải thích được**.
-2. **Nỗi sợ lớn nhất không phải hết tiền — mà là bị lừa vì mình không biết gì.** Càng non càng nghi.
-   Lời khen làm họ nghi thêm; công cụ tự kiểm làm họ yên.
-3. **Họ không đơn độc — họ có quá nhiều người góp ý.** Bố mẹ, anh chị, nhóm lớp, bạn cùng phòng,
-   video trên mạng, mỗi người nói một kiểu. Câu nào **giúp họ lọc bớt** tiếng ồn thì được giữ lại;
-   câu nào thêm một luồng ý kiến nữa thì bị lướt.
+1. Người đọc đang cần hoàn thành việc học nào, và đang thiếu thông tin gì?
+2. Họ tự quyết hay cần trao đổi với gia đình? Không tự gán người trả tiền.
+3. Bài giúp họ tự kiểm tra điều gì? Không dùng nỗi sợ hoặc lời khen máy thay cho hướng dẫn.
+
+Các bảng dưới là **kịch bản có thể gặp**, không phải chân dung chung. Nhánh gia đình chỉ dùng khi đã chọn
+đúng nhóm đó; các câu về cảm xúc là giả thuyết để kiểm chứng, không đưa vào caption như sự thật.
 
 ---
 
-### J0 (Chưa biết shop) — "Sắp phải có máy rồi"
+### 1.1 Bảng tra nhanh: câu hỏi có thể gặp → giọng và câu mẫu
 
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | Chưa chạy logic chọn shop. Logic đang chạy là **logic "cần máy nhưng chưa biết bắt đầu từ đâu"**: gõ "laptop cho sinh viên", xem vài video, thấy toàn tên chip và con số. Họ tìm **một điểm bám**, và thứ họ bám vào thường là chữ duy nhất họ nhận ra: "i7" |
-| **Cái nhìn về cuộc sống lúc này** | Vừa vào môi trường mới, mọi thứ đều phải tự lo lần đầu: thuê trọ, đi chợ, đăng ký môn. Laptop là **một việc nữa trong danh sách việc người lớn** mà họ chưa từng làm |
-| **Cảm xúc chủ đạo** | **Hoang mang** — không phải *muốn*. Biết phải mua, không biết chọn gì, không biết hỏi ai cho đúng |
-| **Cảm xúc nằm dưới, họ không nói ra** | **Sợ lộ ra là mình không biết.** Hỏi trong nhóm lớp thì ngại bị cười; hỏi người bán thì sợ bị dắt mũi |
-| **→ Giọng phải viết** | Giọng **anh chị khoá trên kể lại**, không phải người bán. Hook là một tình huống học quen thuộc hoặc **một sai lầm ai cũng dễ mắc**. Bài phải cho họ cảm giác **"không biết cũng bình thường, đây là chỗ bắt đầu"** |
-| **✅ Câu đúng nhịp** | *"Chọn laptop mà chỉ nhìn chữ i7 là cách mất tiền nhanh nhất — và gần như ai mua máy đầu tiên cũng từng làm vậy."* |
-| **⛔ Câu sai nhịp** | Bất kỳ câu nào có giá, tên máy, tên shop. Và mọi câu ngụ ý "bạn không biết gì" — sự thật đó họ đã tự thấy, nói ra là đóng bài |
+Câu hỏi dưới đây là ví dụ biên tập, không phải trích dẫn khách thật. Chọn theo nhu cầu đã biết,
+không coi mỗi nhịp hành trình là một trạng thái cảm xúc cố định.
 
-### J1 (Đã thấy shop) — "À, có shop ở Mỹ Đình bán máy cũ"
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | Họ **chấm bài viết, chưa chấm shop**: *"bài này nói dễ hiểu → người viết chắc biết việc, và không coi mình là con gà"*. Đồng thời lần đầu thử ý "máy cũ" — và mang ý đó về nói ở nhà |
-| **Cái nhìn về cuộc sống lúc này** | Tiền **không phải của mình hẳn**. Mỗi quyết định tiêu tiền đều phải qua một vòng hỏi ý kiến. Ý "mua máy cũ" là ý họ **phải bảo vệ** trước người lớn — và thường bị hỏi vặn ngay |
-| **Cảm xúc chủ đạo** | **Tò mò + chột dạ.** Thấy máy cũ có lý, nhưng vừa nói ra đã nghe *"sao không mua mới?"* và không trả lời được |
-| **Cảm xúc nằm dưới** | **Muốn được coi là người lớn**: muốn trả lời bố mẹ bằng lý lẽ, không phải bằng "con thấy trên mạng bảo thế" |
-| **→ Giọng phải viết** | Giọng **đưa câu trả lời mang về nhà được**: ngắn, có lý lẽ, **nói trước điểm yếu** để bố mẹ không tự phát hiện. Đây là nhịp duy nhất mà CTA "gửi cho người khác đọc" có lý do thật ngay từ đầu |
-| **✅ Câu đúng nhịp** | *"Bố mẹ hỏi 'sao không mua mới' — đây là 3 câu trả lời, câu nào cũng có số thật."* |
-| **⛔ Câu sai nhịp** | Giới thiệu shop, đưa địa chỉ lên đầu bài. Và mọi câu **chê cách nghĩ của bố mẹ** ("bố mẹ không hiểu công nghệ đâu") — sinh viên sẽ không gửi một bài chê bố mẹ mình cho bố mẹ đọc |
-
-### J2 (Bắt đầu quan tâm laptop cũ) — "Máy cũ có ổn không? Chọn thế nào?"
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | Đã chịu ý "máy cũ", nhưng va ngay vào **logic sợ bị lừa**: *"người bán nói gì mình cũng phải tin, vì mình không kiểm được"*. Và **logic thiếu từ vựng**: không biết 13 hay 14 inch khác gì, 256 hay 512 khác gì, RAM để làm gì |
-| **Cái nhìn về cuộc sống lúc này** | Có **nhiều thời gian nghiên cứu hơn P2 (Nhân viên văn phòng)** — đọc bài dài, xem video, hỏi nhóm lớp. Nhưng càng đọc càng rối vì mỗi nguồn dùng một bộ từ khác nhau |
-| **Cảm xúc chủ đạo** | **Sợ bị lừa** — mạnh hơn ham rẻ rất nhiều. Sợ máy dựng, sợ máy "đã bị thay đồ" |
-| **Cảm xúc nằm dưới** | **Muốn có một danh sách để cầm theo.** Một thứ cụ thể giúp họ không phải *tin* ai cả — và có thể giơ ra cho bố mẹ xem: *"con tự kiểm theo cái này"* |
-| **→ Giọng phải viết** | Giọng **cho mượn công cụ, kể cả khi họ mua chỗ khác**. Dịch mọi thông số thành việc học (mục 4). Tự chỉ ra điều bất lợi của mình (mục 7) — **điểm chết màn hình không được bảo hành**, `policies.md` |
-| **✅ Câu đúng nhịp** | *"Điểm chết trên màn hình thì bên mình không bảo hành — nên bạn phải soi ngay lúc máy còn nằm trước mặt. Lưu bài lại, hôm đi xem máy mở ra làm theo."* |
-| **⛔ Câu sai nhịp** | Trấn an suông: *"yên tâm, máy bên mình chuẩn hết"* — sinh viên càng non càng nghi câu này. Và **"máy cũ giá rẻ cho sinh viên"** — nghe như bố thí |
-
-### J3 (Đang so sánh máy / shop) — "Máy nào vừa tiền em?" ← **ĐIỂM QUYẾT ĐỊNH CHUYỂN VỀ NHÀ**
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | **Logic trần ngân sách**: *"mình có đúng 9 triệu (hoặc 13 triệu) — trong số tiền đó cái nào tốt nhất?"*. So **giá trước, bảo hành sau** (ngược P2). Rồi đến lúc chốt thì bật logic thứ hai: *"mình giải thích với bố mẹ thế nào đây?"* |
-| **Cái nhìn về cuộc sống lúc này** | Quyết định này **không kết thúc ở màn hình điện thoại** — nó kết thúc ở một cuộc gọi về nhà hoặc một bữa cơm. Mọi thứ họ hiểu ở đây phải **nói lại được trong 1 phút** |
-| **Cảm xúc chủ đạo** | **Lo bị hớ + lo bị hỏi vặn.** Có máy ưng rồi nhưng sợ bị hỏi "sao không mua mới", "bảo hành có 6 tháng thôi à" |
-| **Cảm xúc nằm dưới** | **Muốn có người chốt hộ, nhưng không muốn bị bán.** Và thêm một lớp riêng của P1: **sợ phải xin thêm tiền** — ai gợi ý máy vượt ngân sách là người không hiểu mình |
-| **→ Giọng phải viết** | Giọng **người tư vấn chia theo tầng tiền, không bỏ ai ra ngoài**. Ba việc bắt buộc: <br>① máy **có tên, có giá thật**, xếp theo tầng tiền; <br>② **câu thú nhận đời chip** đặt ngay cạnh luận điểm RAM (mục 7); <br>③ **một đoạn ngắn mang về nhà được** (mục 8). <br>Giảm lựa chọn xuống **2 máy** mỗi tầng tiền |
-| **✅ Câu đúng nhịp** | *"Máy mình chip đời cũ hơn máy mới cùng giá, nói trước. Đổi lại bạn được gấp đôi RAM, màn 14 inch và bộ vỏ của dòng máy làm ra để mang đi cả ngày."* |
-| **⛔ Câu sai nhịp** | Nêu tên đối thủ (luật #9). "Tốt nhất", "đáng mua nhất". Gợi ý **"thêm chút nữa lên máy xịn hơn"** khi họ chưa hỏi. Và **giục** |
-
-### J4 (Đã inbox / gọi / ghé shop) — "Máy này còn không? Bố mẹ em hỏi…"
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | Đã chọn được máy. Giờ là **vòng kiểm tra cuối — nhưng người kiểm là hai người**: sinh viên hỏi *"còn không, có tặng gì không"*; bố mẹ hỏi (qua con, hoặc tự gọi) *"shop ở đâu, có thật không, hỏng thì tìm ai"* |
-| **Cái nhìn về cuộc sống lúc này** | Một cục 9–15 triệu **được chuyển khoản từ quê lên** hoặc là **6 tháng đi làm thêm**. Tiền đó có tên, có mặt người đưa. Mất nó là mất cả lòng tin của người đã đưa |
-| **Cảm xúc chủ đạo** | **Hồi hộp + cảnh giác cao nhất.** Một câu nói vống ở đây phá sạch cả chuỗi bài |
-| **Cảm xúc nằm dưới** | **Sợ bị coi là trẻ con dễ bán.** Để ý xem ta có đẩy lên máy đắt hơn không, có trả lời qua loa vì nghĩ "sinh viên thì mua được bao nhiêu" không |
-| **→ Giọng phải viết** | Giọng **ngắn, chắc, tôn trọng như với người lớn, dám nói chưa biết**. **Tốc độ trả lời quan trọng hơn câu hay.** Chủ động **mời bố mẹ gọi trực tiếp hoặc đến cùng** — đây là câu xây niềm tin cho cả hai lớp một lúc |
-| **✅ Câu đúng nhịp** | *"Bố mẹ muốn hỏi trực tiếp thì cứ gọi 0928939666. Cửa hàng ở 71 Thiên Hiền, Mỹ Đình 1 — hai người qua xem cùng cũng được."* |
-| **⛔ Câu sai nhịp** | "Còn mấy máy cuối", "chốt nhanh kẻo hết" (luật #12). Hứa **quà tặng, trả góp, freeship, ưu đãi sinh viên** (`UNVERIFIED.md` #9, #2, `policies.md`). Dùng "nguyên zin" cho máy `Cũ`. Đặt giá ở dòng đầu |
-
-### J5 (Đã mua) — "Máy đầu tiên của mình"
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | Logic **khoe + chưa biết phải soi gì**. Lần đầu có máy nên **không có mốc so sánh**: tiếng quạt thế là to hay bình thường? Pin tụt thế là nhanh hay bình thường? Không biết luật **30 ngày phải báo lỗi** |
-| **Cái nhìn về cuộc sống lúc này** | Cái máy là **bằng chứng mình chọn được**. Bố mẹ gọi hỏi *"máy dùng được không con"* — câu trả lời lúc này quyết định lần sau bố mẹ có để con tự chọn nữa không |
-| **Cảm xúc chủ đạo** | **Vui, háo hức** — và lo ngầm |
-| **Cảm xúc nằm dưới** | **Sợ làm hỏng máy vì chưa quen.** Tự cài lại Windows, tải phần mềm lạ, để cốc nước cạnh máy ở phòng trọ |
-| **→ Giọng phải viết** | Giọng **anh chị dặn dò, giao việc cụ thể**: 2–3 việc làm trong 15 ngày đầu. Nhắc cả mốc bất lợi (`policies.md`): **lỗi phát sinh không báo trong 30 ngày là mất quyền bảo hành** · **vào nước, rơi vỡ không được bảo hành**. Nhắc **cài Windows, cài phần mềm miễn phí trọn đời** — đúng thứ họ sẽ cần |
-| **✅ Câu đúng nhịp** | *"15 ngày đầu cứ soi kỹ. Có gì nhắn shop. Và đừng để cốc nước cạnh máy — vào nước là không bảo hành được."* |
-| **⛔ Câu sai nhịp** | Xin đánh giá 5 sao ngay ngày đầu. Giọng dạy đời kiểu "sinh viên hay làm hỏng máy lắm" |
-
-### J6 (Quay lại) — cài lại máy, vệ sinh, bảo hành
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | Mùa thi Windows lỗi, máy nóng, cần phần mềm môn mới. Logic mặc định: *"máy cũ mà, bắt đầu hỏng rồi"* hoặc *"mang ra chắc mất tiền"*. Nếu có lời giải thích đúng (bụi, keo khô, Windows lỗi chứ không phải máy hỏng) thì logic đổi thành *"mang ra shop là xong"* |
-| **Cái nhìn về cuộc sống lúc này** | **Không có ngân sách phát sinh.** Mọi khoản chi ngoài dự kiến đều phải tính bằng bữa ăn. Thứ giá trị nhất ở nhịp này là **một lý do quay lại không tốn đồng nào** |
-| **Cảm xúc chủ đạo** | **Ngại** — ngại mang máy mua lâu rồi ra, ngại bị tính tiền, ngại bị hỏi "em làm gì mà hỏng Win" |
-| **Cảm xúc nằm dưới** | Đang âm thầm chấm lại quyết định — và **câu trả lời sẽ được kể cho cả phòng ký túc** |
-| **→ Giọng phải viết** | Giọng **mời, không bán, không trách**. Nói thẳng hai chữ **miễn phí** và **trọn đời** — cái họ ngại là bị tính tiền. Nhịp tự nhiên: **đầu mỗi học kỳ, trước mùa thi** |
-| **✅ Câu đúng nhịp** | *"Sắp thi mà Windows lỗi thì mang máy qua cài lại — miễn phí trọn đời, không hỏi máy mua lúc nào."* |
-| **⛔ Câu sai nhịp** | Thu cũ đổi mới (`UNVERIFIED.md` #6). Hứa nâng RAM / thay ổ — chưa mở máy kiểm khe cắm. Chào máy mới lúc họ mang máy cũ tới |
-
-### J7 (Giới thiệu người khác) — bạn cùng phòng, cùng lớp, và bố mẹ
-
-| | |
-|---|---|
-| **Tư duy logic đang chạy** | P1 lan **theo cụm và theo mùa**: cả phòng ký túc, cả lớp năm nhất cần máy trong cùng 1–2 tháng. Họ tính **rủi ro trong nhóm bạn**: *"giới thiệu mà nó mua hỏng thì cả phòng biết"* |
-| **Cái nhìn về cuộc sống lúc này** | Trong một phòng ký túc, **người đầu tiên mua máy ổn trở thành người được hỏi**. Và kênh thứ hai: bố mẹ hài lòng thì kể cho họ hàng có con sắp vào đại học |
-| **Cảm xúc chủ đạo** | **Tự hào** — ít kín đáo hơn P2 (Nhân viên văn phòng), sinh viên thích khoe hơn |
-| **Cảm xúc nằm dưới** | Muốn được là **người rành máy của nhóm** — thứ vị thế mà 3 tháng trước họ còn thiếu |
-| **→ Giọng phải viết** | Đưa cho họ **một câu ngắn để gửi vào nhóm lớp**, không mùi quảng cáo. Mạnh nhất là kể **ca shop khuyên sinh viên mua máy rẻ hơn số tiền đang có** — nhưng ⛔ **chỉ khi có ca thật đã xin phép** |
-| **✅ Câu đúng nhịp** | *"Lớp bạn có ai đang định mua máy thì gửi bài này vào nhóm."* |
-| **⛔ Câu sai nhịp** | Hứa thưởng / giảm giá cho người giới thiệu — **chưa có chương trình nào được xác minh**. Dựng chuyện khách hàng |
-
----
-
-### 1.1 Bảng tra nhanh: cảm xúc chủ đạo → giọng văn
-
-| Nhịp | Cảm xúc chủ đạo | Giọng phải viết | Câu hỏi thật họ đang hỏi |
+| Nhịp | Câu hỏi có thể gặp | Giọng và điều cần đưa | Câu mẫu |
 |---|---|---|---|
-| J0 (Chưa biết shop) | Hoang mang + sợ lộ ra là mình không biết | Anh chị khoá trên kể lại | *"Bắt đầu từ đâu?"* |
-| J1 (Đã thấy shop) | Tò mò + chột dạ trước câu hỏi của bố mẹ | Đưa câu trả lời mang về nhà | *"Nói với bố mẹ thế nào?"* |
-| J2 (Bắt đầu quan tâm laptop cũ) | Sợ bị lừa + muốn có danh sách cầm theo | Cho mượn công cụ | *"Làm sao biết máy này không bị dựng?"* |
-| J3 (Đang so sánh máy / shop) | Lo hớ + lo bị hỏi vặn + sợ phải xin thêm tiền | Chia theo tầng tiền, thú nhận trước | *"Số tiền này có đủ không, và mình giải thích thế nào?"* |
-| J4 (Đã inbox / gọi / ghé shop) | Hồi hộp + cảnh giác cao nhất, cho cả hai người | Ngắn, chắc, mời bố mẹ gọi trực tiếp | *"Shop này có thật và có đáng tin không?"* |
-| J5 (Đã mua) | Vui + sợ tự làm hỏng | Anh chị dặn dò, giao việc | *"Mình phải để ý gì?"* |
-| J6 (Quay lại) | Ngại bị tính tiền | Mời, không bán, không trách | *"Mang ra có mất tiền không?"* |
-| J7 (Giới thiệu người khác) | Tự hào, muốn được là người rành máy | Cho câu để gửi vào nhóm lớp | *"Giới thiệu rồi có bị cả phòng trách không?"* |
+| J0 (Chưa biết shop) | “Bắt đầu chọn máy từ đâu?” | Gần gũi, mở bằng việc học, cho một điểm bắt đầu | “Tối làm slide, sáng mang máy lên lớp. Thử ghi các việc bạn cần làm trước khi so cấu hình.” |
+| J1 (Đã thấy shop) | “Bài này giúp mình kiểm tra được gì?” | Giải thích rõ, không thúc mua; chỉ dùng góc gia đình khi phù hợp | “Nếu đang trao đổi với bố mẹ, bạn có thể bắt đầu từ những môn sắp học.” |
+| J2 (Bắt đầu quan tâm laptop cũ) | “Đọc cấu hình và kiểm máy thế nào?” | Giải thích thuật ngữ, đưa 2–3 điều tự kiểm | “Bạn cần dùng phần mềm nào? Ghi cả phiên bản để đối chiếu cấu hình.” |
+| J3 (Đang so sánh máy / shop) | “Trong ngân sách này, hai máy khác gì?” | So đúng cấu hình có nguồn, nêu hạn chế; hỏi phần mềm trước khi gợi ý | “Bạn muốn so hai máy cho việc học nào? Mình sẽ đối chiếu cả cấu hình và chính sách của từng chiếc.” |
+| J4 (Đã inbox / gọi / ghé shop) | “Máy còn không, giá và điều kiện mua thế nào?” | Ngắn, rõ; chưa biết thì kiểm tra rồi trả lời | “Bạn đợi mình kiểm tra lại tình trạng máy và giá hiện tại nhé.” |
+| J5 (Đã mua) | “Mình cần để ý gì khi bắt đầu dùng?” | Hướng dẫn việc cụ thể, nhắc điều kiện bảo hành đúng nguồn | “Trong lúc dùng, nếu thấy lỗi thì báo shop sớm và ghi lại lúc lỗi xảy ra.” |
+| J6 (Quay lại) | “Máy có vấn đề, cần hỗ trợ gì và mất phí không?” | Hỏi biểu hiện, giải thích phạm vi dịch vụ; không đoán nguyên nhân | “Bạn mô tả giúp mình máy gặp vấn đề lúc làm gì để bên mình kiểm tra.” |
+| J7 (Giới thiệu người khác) | “Bạn mình đang tìm máy, gửi gì cho bạn?” | Đưa bài hướng dẫn hữu ích, không tự dựng lời giới thiệu | “Bạn nào đang chuẩn bị xem laptop thì gửi danh sách này cho bạn ấy.” |
+
+Không nói thay người đọc rằng họ sợ bị lừa, muốn chứng minh đã lớn hoặc phải xin thêm tiền.
+Khi có phản hồi thật, cập nhật câu hỏi và từ vựng; không suy cảm xúc chỉ từ tuổi hoặc nghề.
 
 ### 1.2 Bốn cảm xúc không bao giờ được chạm vào
 
-P2 (Nhân viên văn phòng) có ba. P1 có **bốn** — thêm một cái vì có bố mẹ đứng sau:
+Tránh hạ thấp hoàn cảnh, hiểu biết hoặc người thân của người đọc:
 
 | ⛔ Đừng làm họ thấy | Câu vô tình gây ra | Viết lại thành |
 |---|---|---|
@@ -196,21 +98,19 @@ P2 (Nhân viên văn phòng) có ba. P1 có **bốn** — thêm một cái vì c
 | **thấy mình đang bị hối** | "chỉ còn hôm nay", "nhanh tay kẻo hết", "mùa nhập học cháy hàng" | bỏ hẳn — và luật #12 cũng đã cấm |
 | **thấy bố mẹ mình bị chê** | "bố mẹ không hiểu công nghệ đâu", "đừng nghe người lớn" | "bố mẹ hỏi vậy là đúng — đây là cách trả lời" |
 
-### 1.3 Lỗi nhịp cảm xúc — lỗi nặng nhất của file này
+### 1.3 Kiểm tra giọng có đúng câu hỏi của người đọc không
 
-Đúng nội dung + sai nhịp cảm xúc = bài trượt, và **không nhìn ra được từ bảng số liệu**.
+Giọng và CTA cần hợp câu hỏi bài đang giải quyết. Những hệ quả dưới đây là rủi ro biên tập, chưa phải kết quả đo.
 
 | Lỗi | Xảy ra thế nào | Hệ quả |
 |---|---|---|
 | Dùng giọng J4 (Đã inbox / gọi / ghé shop) cho người ở J2 (Bắt đầu quan tâm laptop cũ) | Bài dạy soi máy nhưng kết bằng "inbox chốt máy ngay" | Người đang sợ bị lừa thấy đúng cái mình sợ → lướt |
 | Dùng giọng J0 (Chưa biết shop) cho người ở J3 (Đang so sánh máy / shop) | Bài kể lại nỗi hoang mang, không đưa máy nào, không đưa giá | Người có đúng 9 triệu không biết mình mua được gì → đi hỏi chỗ khác |
-| Viết J3 (Đang so sánh máy / shop) mà **thiếu đoạn mang về nhà** | Bài so máy rất kỹ, nhưng toàn thông số | Sinh viên hiểu, nhưng không kể lại được → "để em hỏi bố mẹ đã" rồi mất hút |
+| Bài cho nhóm trao đổi với gia đình nhưng thiếu lý do dễ giải thích | Bài chỉ có thông số | Bổ sung việc học, điều đã kiểm tra và điều còn chưa rõ |
 | Dùng giọng bán cho người ở J6 (Quay lại) | Mời cài lại Win rồi chào luôn máy mới | Hỏng cả J6 (Quay lại) lẫn J7 (Giới thiệu người khác) — cả phòng ký túc nghe kể |
 
-> **Cách tự kiểm trong 10 giây:** đọc lại bài và hỏi *"người đọc bài này đang cảm thấy gì
-> lúc bấm vào?"* — nếu câu trả lời không khớp cột **Cảm xúc chủ đạo** ở bảng 1.1,
-> đổi giọng trước khi sửa câu. Rồi hỏi thêm câu thứ hai, riêng cho P1:
-> *"nếu sinh viên đọc to đoạn này cho bố mẹ nghe, bố mẹ có gật không?"*
+> **Cách tự kiểm:** bài đang trả lời câu hỏi nào ở bảng 1.1, và đọc xong người đọc biết kiểm tra gì?
+> Nếu chọn nhánh gia đình, đoạn giải thích có nói rõ lý do chọn và điều còn chưa biết không?
 
 ---
 
@@ -224,23 +124,23 @@ hiểu mình". Dùng từ kỹ thuật thì họ thấy "lại một người n�
 
 | ⛔ Đừng viết | ✅ Viết | Vì sao |
 |---|---|---|
-| "đa nhiệm mượt mà" | "mở bài giảng online, file Word và mười tab tra tài liệu cùng lúc mà không phải đóng bớt" | Cái đầu là lời hứa hiệu năng (chưa đo). Cái sau là **cơ chế** + việc học thật |
+| "đa nhiệm mượt mà" | "bạn có học online, mở Word và tra tài liệu cùng lúc không? Ghi lại để kiểm tra cấu hình" | Cái đầu là lời hứa hiệu năng (chưa đo). Cái sau hỏi việc sử dụng, không khẳng định máy đáp ứng được |
 | "đáp ứng tốt nhu cầu học tập" | "gõ tiểu luận, làm slide thuyết trình, học online" | Nói tên việc thật, không nói tên nhóm việc |
 | "cấu hình khủng", "chiến game nhẹ" | bỏ hẳn | Tiếng của P3 (Game thủ). Và "game nhẹ" là lời hứa hiệu năng |
-| "máy cũ giá rẻ cho sinh viên" | "máy doanh nhân đã qua sử dụng" · "đúng tầng tiền của bạn" | Sinh viên **không muốn mua đồ rẻ** — họ muốn mua **không bị hớ** |
+| "máy cũ giá rẻ cho sinh viên" | "máy doanh nhân đã qua sử dụng" · "đúng tầng tiền của bạn" | Không gán hoàn cảnh tài chính hoặc động cơ cho cả nhóm |
 | "chỉ với 9.280.000đ", "chỉ từ 8 triệu" | "9.280.000đ" | "Chỉ với" là ngôn ngữ bán hàng; "chỉ từ" làm người có đúng 8 triệu tưởng có máy cho mình |
-| "tầm 10 triệu" | "10.680.000đ" | Ngân sách cứng — 680 nghìn là một tuần tiền ăn |
-| "bền bỉ, dùng hết 4 năm đại học" | "máy sinh ra để bỏ balo mang đi cả ngày" | Không hứa tuổi thọ — bảo hành 6 tháng |
+| "tầm 10 triệu" | "10.680.000đ" | Giá máy phải chính xác; không quy đổi sang tiền ăn của người đọc |
+| "bền bỉ, dùng hết 4 năm đại học" | "thử xếp máy và bộ sạc vào balo bạn dùng đi học" | Không hứa tuổi thọ — bảo hành 6 tháng |
 | "bao test", "full box", "zin 100%" | "được kiểm tra khi nhận" / dùng đúng chữ trong `policies.md` | Tiếng chợ mạng — sai tone thương hiệu |
 | "các em", "em iu", "ib em nhé ạ" | "bạn" + câu hoàn chỉnh | Tone: tư vấn thật, **ngang hàng**. "Các em" là giọng người lớn nói xuống — chạm đúng cảm xúc cấm thứ hai ở mục 1.2 |
 | "ưu đãi sinh viên", "giá sinh viên" | bỏ hẳn | Chưa có chương trình nào có nguồn |
 
-### 2.2 Từ được giữ nguyên, khách nào cũng hiểu
+### 2.2 Thuật ngữ quen vẫn cần giải thích khi người đọc chưa biết
 
-RAM · ổ cứng · màn hình · pin · bảo hành · cảm ứng · xoay gập · inch.
-
-⚠️ Khác P2 (Nhân viên văn phòng): **"SSD" không nằm trong danh sách này** — sinh viên mua máy đầu tiên
-thường không phân biệt SSD với ổ cứng. Viết "ổ cứng 512GB" hoặc "ổ 512GB".
+Không mặc định ai cũng hiểu RAM, SSD hay inch. Giải thích ngay lần đầu khi thuật ngữ cần cho quyết định:
+“RAM là bộ nhớ làm việc khi ứng dụng đang chạy; ổ SSD là nơi lưu phần mềm, bài và ảnh.”
+Kích thước màn hình tính bằng inch không thay cho việc mở thử tài liệu xem chữ có dễ đọc.
+Không cần chèn “ní”, “khum”, “u là trời” để giả giọng sinh viên; dùng từ đời sống đúng cảnh là đủ.
 
 ### 2.3 Thuật ngữ phải dịch ngay trong câu
 
@@ -251,8 +151,8 @@ thường không phân biệt SSD với ổ cứng. Viết "ổ cứng 512GB" ho
 | Ryzen 7-5700U | "chip Ryzen 7" |
 | 2in1 | "màn xoay gập" (dùng nhất quán trong cả chiến dịch) |
 | RAM 16GB | "RAM 16GB" + ngay sau đó một việc học (mục 4). Không bao giờ để trơ |
-| 256GB / 512GB | "ổ 256GB / ổ 512GB" + "đủ cho mấy năm tài liệu" **chỉ khi nói theo cơ chế**, không hứa số năm |
-| DDR4, NVMe, Iris Xe, UHD Graphics | bỏ — không nói gì với P1 |
+| 256GB / 512GB | "ổ 256GB / ổ 512GB" + hỏi dung lượng tài liệu, phần mềm cần lưu; không suy ra số năm sử dụng |
+| DDR4, NVMe, Iris Xe, UHD Graphics | chỉ dùng nếu giúp trả lời yêu cầu phần mềm; giải thích công dụng ngay trong câu |
 | FHD / 2K | chỉ viết khi **tên sản phẩm có ghi** (luật #13). Tên không ghi → chỉ viết kích thước inch (ví dụ Latitude 7390 2in1 bản 16GB: tên **không có FHD** — `UNVERIFIED.md` #20b) |
 | Likenew / Cũ | "gần như mới" / "đã qua sử dụng" — và **không** gắn "nguyên zin" cho máy `Cũ` (`UNVERIFIED.md` #24) |
 
@@ -273,9 +173,9 @@ Dòng 3 — lời hứa của bài, không phải của máy                (lý
 Ví dụ đạt (bài mở đường J0 — Chưa biết shop):
 
 ```
-Lần đầu đi mua laptop, hầu như ai cũng hỏi đúng một câu: "máy này i mấy?"
-Câu đó làm không ít bạn trả nhiều tiền hơn cho một chiếc máy chậm hơn.
-Có 3 thứ cần nhìn trước chữ i7 — đọc 1 phút là nhớ.
+Tối làm slide, sáng mang laptop lên lớp: chọn máy bắt đầu từ đâu?
+Tên chip và RAM chưa cho biết máy có hợp việc học của bạn.
+Thử ghi lại phần mềm cần dùng, ngân sách và cách mang máy đi học.
 ```
 
 Ví dụ đạt (bài J1 — Đã thấy shop, viết để gửi bố mẹ):
@@ -292,9 +192,11 @@ và dính hai chữ cấm ("giá sinh viên", giọng "các bạn tân sinh viê
 
 ### 3.2 Độ dài theo dạng bài
 
+Các khoảng dưới là mốc soạn nháp, chưa phải độ dài tối ưu đã đo. Điều chỉnh theo số câu hỏi cần giải quyết.
+
 | Dạng | Độ dài | Ghi chú riêng cho P1 |
 |---|---|---|
-| Bài viết kiến thức (CP02 — Kiến thức, CP08 — Sai lầm khi mua) | 150–280 từ | Sinh viên chịu đọc dài hơn P2 (Nhân viên văn phòng) — **nếu mỗi đoạn dạy được một thứ** |
+| Bài viết kiến thức (CP02 — Kiến thức, CP08 — Sai lầm khi mua) | 150–280 từ | Mỗi đoạn trả lời một câu hỏi; chưa có dữ liệu so độ dài với nhóm khác |
 | Bài chia tầng tiền (CP01 — Tư vấn mua) | 180–280 từ | Mỗi máy **đúng 1 dòng**: tên · giá · 1 việc học. Không nhồi thông số |
 | Bài bán (CP05 — Đánh giá sản phẩm, CP10 — Hàng & ưu đãi) | 120–200 từ | Giá **không** đặt ở dòng đầu |
 | Bộ ảnh lật | 6–8 chữ/ảnh tiêu đề, ≤25 từ/ảnh | Phải **gửi được vào nhóm lớp** và **đưa bố mẹ xem được** |
@@ -308,38 +210,34 @@ và dính hai chữ cấm ("giá sinh viên", giọng "các bạn tân sinh viê
   số làm cho việc trông có điểm dừng, và in ra / chụp màn hình mang theo được.
 - **Bảng tầng tiền:** mỗi tầng một khối, giá viết đủ số (9.280.000đ), không viết "9tr3".
 - Emoji: bài kiến thức và bài trust **không dùng**. Bài chia tầng tiền và bài hàng hoá tối đa 2.
-  Sinh viên quen emoji hơn P2, nhưng **bố mẹ thì không** — và bài J1–J3 là bài sẽ được chuyển cho bố mẹ.
+  Đây là quy ước trình bày; chưa có dữ liệu so thói quen dùng emoji giữa các nhóm.
 
 ---
 
-## 4. Công thức gốc: dịch thông số thành một khoảnh khắc trong ngày đi học
+## 4. Công thức gốc: từ việc học đến thông số và điều cần kiểm tra
 
-Kỹ thuật dùng nhiều nhất cho persona này. Bốn bước, **dừng đúng ở bước 4**:
+Đi từ việc học đến điều cần kiểm tra, không suy từ một thông số thành lời hứa:
 
 ```
-1. THÔNG SỐ    — lấy từ tên sản phẩm (luật #13)
-2. CƠ CHẾ      — nó làm được gì về mặt nguyên lý
-3. KHOẢNH KHẮC — nó xuất hiện ở đâu trong một ngày đi học / một học kỳ
-4. DỪNG        — không hứa kết quả, không hứa tốc độ, không hứa số năm
+1. VIỆC HỌC    — phần mềm, tài liệu, lịch mang máy hoặc thiết bị cần nối
+2. THÔNG SỐ   — lấy từ nguồn sản phẩm đã xác minh; giải thích công dụng nếu cần
+3. KIỂM TRA   — đối chiếu yêu cầu phần mềm hoặc thử việc cụ thể
+4. GIỚI HẠN   — nói điều chưa biết, không hứa tốc độ hay số năm sử dụng
 ```
 
-Ví dụ chạy đủ bốn bước:
-
-> **RAM 16GB** → máy giữ được nhiều thứ trong chỗ nhớ cùng lúc → *"mở bài giảng online, file Word
-> và mười tab tra tài liệu cùng lúc mà không phải đóng bớt cái nào"* →
-> **dừng**. Không viết thêm "chạy mượt", "không lag", "dùng thoải mái 4 năm".
-
-Bảng dịch sẵn (mở rộng từ journey P1, trục 4 — Giá trị sản phẩm đem lại):
-
-| Thông số | Khoảnh khắc trong ngày đi học |
+| Tiêu chí | Câu viết theo việc học |
 |---|---|
-| RAM 16GB | Học online mà vẫn mở Word ghi chép và tra tài liệu, không phải đóng bớt |
-| Ổ 512GB | Không phải xoá tài liệu năm nhất để lấy chỗ cho năm ba |
-| Màn xoay gập, cảm ứng | Dựng máy kiểu lều trên cái bàn chật ở phòng trọ để xem bài giảng · xoay màn cho cả nhóm xem slide khi làm bài nhóm |
-| Màn 14 inch | Hai người chụm đầu xem một màn khi làm bài nhóm mà không phải nheo mắt |
-| Máy 13–14 inch, dòng doanh nhân | Máy sinh ra để bỏ balo mang đi cả ngày — giảng đường sang thư viện sang quán |
-| Cài Windows, cài phần mềm miễn phí trọn đời | Hỏng Windows mùa thi thì mang qua cài lại, không mất tiền |
-| Vệ sinh + tra keo tản nhiệt miễn phí trọn đời | Máy nóng dần sau vài tháng thì mang ra, không phải chịu đựng đến hết kỳ |
+| RAM | “Bạn thường mở những ứng dụng nào cùng lúc? Ghi lại để đối chiếu cấu hình.” Không lấy 16GB làm mức tối thiểu cho mọi sinh viên. |
+| CPU / GPU | “Môn học dùng phần mềm nào, phiên bản nào?” Chỉ khuyên GPU riêng khi có yêu cầu phù hợp; không mặc định ưu tiên card rời. |
+| Ổ SSD | “Bạn cần lưu những phần mềm và tài liệu nào?” Dung lượng ghi trên máy không phải dung lượng còn trống, không suy ra đủ dùng nhiều năm. |
+| Màn hình | “Mở tài liệu học và xem chữ có dễ đọc với bạn không.” Chỉ bàn màu sắc, tần số quét khi việc học cần và có thông số xác minh. |
+| Mang máy | “Tính cả máy và bộ sạc khi mang lên lớp.” Không suy cân nặng hay độ bền từ nhãn “doanh nhân” hoặc cỡ màn. |
+| Cổng kết nối | “Bạn cần nối máy chiếu, USB hay màn hình ngoài nào?” Kiểm tra cổng và đầu chuyển tương thích trên đúng máy. |
+| Xoay gập / cảm ứng | Minh họa tư thế xem bài giảng hoặc chia sẻ slide trên máy đã xác minh tính năng; không coi đây là nhu cầu bắt buộc. |
+| Nâng cấp | Hỏi khả năng nâng RAM / thay ổ của đúng phiên bản; chưa kiểm tra thì không hứa. |
+
+Nếu nêu cấu hình tối thiểu cho phần mềm, ghi nguồn chính thức, phiên bản và ngày kiểm tra.
+Cảnh mở nhiều ứng dụng chỉ minh họa tình huống, không chứng minh máy đáp ứng tốt.
 
 ⛔ **Ranh giới tuyệt đối:** shop **chưa đo** hiệu năng, thời lượng pin (`UNVERIFIED.md` #14), nhiệt độ,
 và **chưa cân máy nào**. Nên trục này **không được xây bằng con số** — chỉ bằng cơ chế và khoảnh khắc.
@@ -359,14 +257,14 @@ mỗi cái ghi rõ **pattern** và **dùng cho nhịp nào**. Quy tắc chung: �
 | Pattern | Hook | Dùng cho |
 |---|---|---|
 | Story | *"Tuần đầu nhập học, bài tập đầu tiên đã phải nộp bằng file. Và bạn vẫn chưa có máy."* | J0 (Chưa biết shop) · CP08 (Sai lầm khi mua) |
-| Mistake | *"Lần đầu mua laptop, hầu như ai cũng hỏi đúng một câu: 'máy này i mấy?'"* | J0 (Chưa biết shop) · CP08 (Sai lầm khi mua) |
+| Mistake | *"Chọn laptop cho môn sắp học: bạn đã có danh sách phần mềm chưa?"* | J0 (Chưa biết shop) · CP08 (Sai lầm khi mua) |
 
 ### Sự kiện 2 — Máy anh chị để lại / máy cấp 3 không chịu nổi học online
 
 | Pattern | Hook | Dùng cho |
 |---|---|---|
 | Pain | *"Máy anh trai để lại, mở bài giảng online là quạt kêu như máy sấy."* | J2 (Bắt đầu quan tâm laptop cũ) · CP02 (Kiến thức) |
-| Contrarian | *"Máy cũ chậm dần — nhiều khi không phải do máy hết thời, mà do lâu rồi chưa ai mở ra vệ sinh."* | J1 (Đã thấy shop) · CP02 (Kiến thức) |
+| Contrarian | *"Máy chậm lúc học online? Ghi lại lúc nào xảy ra để nhờ kiểm tra, đừng vội kết luận phải đổi máy."* | J1 (Đã thấy shop) · CP02 (Kiến thức) |
 
 ### Sự kiện 3 — Bố mẹ đồng ý cho tiền, kèm câu hỏi
 
@@ -392,13 +290,12 @@ mỗi cái ghi rõ **pattern** và **dùng cho nhịp nào**. Quy tắc chung: �
 > ⚠️ Bài dạy tự soi máy khai **CP08 (Sai lầm khi mua)**, không khai CP04 (Quy trình kiểm tra) —
 > CP04 (Quy trình kiểm tra) **đang khoá** trong `content-matrix.md` (journey P1, J2).
 
-### Hook mạnh nhất của persona này — pattern "tự chỉ chỗ mình bị soi"
+### Hook có thể thử cho bài tự kiểm tra — pattern "tự chỉ chỗ mình bị soi"
 
 > *"Điểm chết trên màn hình — cái này bên mình không bảo hành. Nên bạn phải soi ngay tại quầy."*
 > (`policies.md`, mục Trường hợp từ chối bảo hành)
 
-Với P1 hook này **mạnh hơn cả với P2 (Nhân viên văn phòng)**, vì nó biến thành thứ sinh viên cầm đưa
-bố mẹ: *"Con không tin lời shop, con tự kiểm theo danh sách này."* Xem cách triển khai ở mục 7.
+Chưa có dữ liệu để xếp hook này mạnh hơn các cách mở khác. Thử với bài hướng dẫn tự soi máy, đo lượt lưu và câu hỏi nhận được.
 
 ### ⛔ Hook cấm với P1
 
@@ -421,8 +318,8 @@ Lỗi thứ hai, riêng P1: **quên rằng CTA "gửi cho bố mẹ" là CTA th�
 
 | Nhịp | CTA đúng | Vì sao |
 |---|---|---|
-| J0 (Chưa biết shop) | *"Bạn học ngành gì, đang có khoảng bao nhiêu tiền? Comment mình đọc."* | Xin **thông tin**, không xin hành động mua. Hai thông tin này là đủ để tư vấn |
-| J1 (Đã thấy shop) | *"Lưu lại, hoặc gửi bài này cho bố mẹ đọc."* | Persona duy nhất mà "chia sẻ cho người khác" có lý do thật ngay từ J1 |
+| J0 (Chưa biết shop) | *"Bạn học ngành gì, đang có khoảng bao nhiêu tiền? Comment mình đọc."* | Xin **thông tin**, không xin hành động mua. Đây là thông tin mở đầu; cần hỏi thêm phần mềm và cách sử dụng trước khi gợi ý máy |
+| J1 (Đã thấy shop) | *"Gửi bài này cho bố mẹ xem cùng."* (chỉ với bài về gia đình) | Bài khác có thể chọn “Lưu danh sách này để dùng khi xem máy”; không ghép hai lời kêu gọi |
 | J2 (Bắt đầu quan tâm laptop cũ) | *"Lưu bài lại, hôm đi xem máy mở ra soi."* | Đổi lấy một cú lưu — và biến bài thành công cụ họ sẽ quay lại |
 | J3 (Đang so sánh máy / shop) | *"Comment số tiền đang có và ngành học, shop gợi ý 2 máy."* | Vẫn chưa bán — đang **giữ khách ở lại**, và **2 máy** là con số đủ để chốt mà không rối |
 | J4 (Đã inbox / gọi / ghé shop) | *"Nhắn tin để shop kiểm tra máy còn không."* hoặc *"Bố mẹ muốn hỏi trực tiếp thì gọi 0928939666."* | Đây mới là chỗ được chốt. Vế thứ hai dành riêng cho lớp quyết định bố mẹ |
@@ -431,8 +328,7 @@ Lỗi thứ hai, riêng P1: **quên rằng CTA "gửi cho bố mẹ" là CTA th�
 | J7 (Giới thiệu người khác) | *"Lớp bạn có ai đang định mua máy thì gửi bài này vào nhóm."* | ⛔ Không hứa thưởng / giảm giá cho người giới thiệu — chưa có chương trình nào được xác minh |
 
 **Quy tắc viết CTA cho P1:**
-- Một bài **một** CTA. Hai CTA = không CTA nào chạy. ("Lưu lại **hoặc** gửi bố mẹ" ở J1 là **một**
-  hành động chia sẻ, hai cách làm — không tính là hai CTA.)
+- Một bài **một** CTA. “Lưu lại” và “gửi bố mẹ” là hai hành động khác nhau: chọn một, không ghép bằng “hoặc”.
 - CTA phải là **một việc làm trong 5 giây** trên điện thoại.
 - ⛔ **Không viết "ghé sau giờ học", "qua shop chiều nay"** — chưa có fact giờ mở cửa cửa hàng
   (`UNVERIFIED.md` #1). 8h–20h30 là **giờ tổng đài bán hàng**, chỉ dùng được cho việc **gọi điện**.
@@ -442,9 +338,7 @@ Lỗi thứ hai, riêng P1: **quên rằng CTA "gửi cho bố mẹ" là CTA th�
 
 ## 7. Kỹ thuật lõi: cách viết điều bất lợi cho chính mình
 
-Trục chặn số một của P1 là **niềm tin vào sản phẩm** (journey mục 0) — và với sinh viên nó là nỗi sợ
-*"bị lừa vì mình không biết gì"*. Nỗi sợ đó **không giải được bằng lời khen**. Nó giải được bằng việc
-ta nói ra điều người bán bình thường giấu đi, **rồi đưa công cụ tự kiểm**.
+Khi người mua còn băn khoăn về máy, nêu điều đã biết, giới hạn và cách tự kiểm. Chưa có dữ liệu để xếp niềm tin là trở ngại lớn nhất của mọi sinh viên.
 
 ### Công thức ba nhịp
 
@@ -454,29 +348,26 @@ ta nói ra điều người bán bình thường giấu đi, **rồi đưa công
 3. ĐƯA CÔNG CỤ để họ tự kiểm chứng — biến bất lợi thành việc họ làm được
 ```
 
-Năm điều bất lợi của P1, mỗi cái chạy đủ công thức, đều có nguồn:
+Năm tình huống cần nói rõ giới hạn; chính sách và sản phẩm phải đối chiếu nguồn trước khi dùng:
 
 | Điều bất lợi | Viết thành |
 |---|---|
 | Điểm chết màn hình **không** được bảo hành (`policies.md`) | *"Màn hình có trong bảo hành. Riêng điểm chết thì không — nên phải soi ngay lúc máy còn nằm trước mặt bạn. Mở một ảnh trắng kín màn, rồi một ảnh đen kín màn, rà từ góc này sang góc kia."* |
-| Chip đời cũ hơn máy mới cùng tiền | *"Máy mình chip đời cũ hơn máy mới cùng giá, nói trước. Đổi lại bạn được gấp đôi RAM, màn 14 inch và bộ vỏ của dòng máy làm ra để mang đi cả ngày."* — **không có câu này thì không được dùng luận điểm RAM** (journey P1, J3) |
-| Hoàn tiền bị khấu trừ 10% (máy lỗi) / 20% (đổi ý) (`policies.md`) | *"Trong 15 ngày, máy lỗi thì đổi máy khác miễn phí."* — nói đúng phần miễn phí, **không** quảng bá "15 ngày hoàn tiền". Trên máy 10.680.000đ, 10% là ~1,07 triệu — gần một tháng tiền trọ; để sinh viên tự phát hiện là mất cả khách lẫn bố mẹ |
+| So sánh đời chip / RAM khi thiếu máy đối trọng | *"Muốn so máy cũ với máy mới cùng giá, cần có cấu hình đã xác minh của cả hai; không chỉ so dung lượng RAM."* — **không có dữ liệu cả hai máy thì bỏ so sánh**, chỉ nói thông số máy đang xét |
+| Hoàn tiền bị khấu trừ 10% (máy lỗi) / 20% (đổi ý) (`policies.md`) | *"Trong 15 ngày, máy lỗi thì đổi máy khác miễn phí."* — nói đúng phần miễn phí, **không** quảng bá "15 ngày hoàn tiền". Trên máy 10.680.000đ, 10% là ~1,07 triệu; cần giải thích rõ điều kiện, không quy đổi sang tiền trọ của người đọc |
 | 3 dòng máy rẻ nhất tầng P1 là phân khúc `Cũ` (Latitude 7390 2in1, 5300 2in1, 5310 2in1) | *"Máy này thuộc nhóm đã qua sử dụng, không phải nhóm gần như mới — nên bạn soi kỹ vỏ, bản lề và màn khi xem máy."* — ⛔ **không** dùng "nguyên zin chưa qua sửa chữa" (`UNVERIFIED.md` #24) |
-| Latitude 7420 vỏ carbon 9.380.000đ — tên **không có "Cảm ứng"**, không có "2in1" | *"Chiếc này chip đời mới nhất ở tầng dưới 10 triệu. Đổi lại nó không xoay gập, không cảm ứng — nói trước để bạn khỏi chọn nhầm."* (journey P1, trục 1) |
+| Latitude 7420 vỏ carbon 9.380.000đ — tên **không có "Cảm ứng"**, không có "2in1" | *"Tên sản phẩm hiện chưa ghi cảm ứng hoặc xoay gập. Mình cần kiểm tra đúng phiên bản trước khi trả lời bạn."* (journey P1, trục 1) |
 
 ### Cách nói về bảo hành 6 tháng khi nó đứng cạnh 9–12 tháng của nơi khác
 
-Sinh viên so **giá trước, bảo hành sau** — nhưng **bố mẹ so bảo hành trước**. Điểm này rơi đúng lúc
-quyết định chuyển về nhà (J3 → J4). **Không đôi co về con số.** Đổi thước đo — từ *độ dài bảo hành*
-sang *toàn bộ những gì con được chăm sau khi mua*:
+Khi người đọc hỏi về thời hạn bảo hành, nói rõ thời hạn và phạm vi của đúng máy. Dịch vụ hỗ trợ là phần riêng, không dùng để che chênh lệch bảo hành. Không mặc định sinh viên và bố mẹ ưu tiên khác nhau.
 
 > ✅ *"Bảo hành 6 tháng cho main, màn hình, bàn phím. Pin 3 tháng.
 > Trong 15 ngày đầu, máy lỗi là đổi máy khác.
 > Còn vệ sinh, tra keo tản nhiệt, cài Windows, cài phần mềm thì miễn phí trọn đời —
 > cái này không có hạn."*
 
-Ba câu, cả ba có nguồn trong `policies.md`. Với P1, câu cuối còn nặng hơn với P2 (Nhân viên văn phòng):
-**sinh viên là nhóm hay tự cài lại máy nhất và hay làm hỏng Windows nhất**.
+Các điều khoản lấy từ `policies.md` và phải đối chiếu lại khi dùng. Dịch vụ này có thể hữu ích khi người mua cần hỗ trợ phần mềm; chưa có dữ liệu để xếp nhóm nào cần nhiều nhất.
 
 ⛔ Cấm trong đoạn này: nêu tên đối thủ (luật #9). Chỉ được nói mặt bằng chung —
 *"Nhiều nơi cho đổi trả 7 ngày. Bên mình 15 ngày."*
@@ -485,33 +376,31 @@ Ba câu, cả ba có nguồn trong `policies.md`. Với P1, câu cuối còn n�
 
 ## 8. Câu mang về nhà — kỹ thuật riêng của P1
 
-Mục này **P2 (Nhân viên văn phòng) không có**. Nó tồn tại vì điểm rơi lớn nhất của P1 là khoảnh khắc
-*"để em hỏi bố mẹ đã"* — và lý do rơi không phải giá, mà là **sinh viên không có câu trả lời mang về nhà**.
+Chỉ dùng khi bài hướng tới sinh viên đang trao đổi với gia đình. Chưa có dữ liệu chứng minh đây là điểm rơi lớn nhất. Với người tự mua, thay bằng danh sách lý do chọn và điều còn cần kiểm tra.
 
 ### 8.1 Câu mang về nhà phải đạt 4 điều
 
 1. **Nói lại được trong 1 phút** — tối đa 4–5 câu ngắn.
-2. **Có số thật** — giá, tháng bảo hành, số ngày đổi trả, năm đăng ký kinh doanh. Bố mẹ tin số hơn tính từ.
-3. **Nói trước điểm yếu** — chip đời cũ, bảo hành 6 tháng. Bố mẹ tự phát hiện ra = con bị mắng là
-   "bị lừa mà không biết".
+2. **Có số thật** — giá, tháng bảo hành, số ngày đổi trả, năm đăng ký kinh doanh. Dùng số có nguồn, không dùng lời khen chung.
+3. **Nói trước điểm yếu** — chip đời cũ, bảo hành 6 tháng. Nêu đúng giới hạn của máy đang xét, không đoán phản ứng của gia đình.
 4. **Có một thứ bố mẹ tự kiểm được** — số điện thoại gọi được, địa chỉ đến được.
 
 ### 8.2 Khuôn đoạn mang về nhà (dùng trong bài J1 và J3)
 
 > *"Nếu bố mẹ hỏi, bạn có thể nói:
-> Máy này đời cũ hơn máy mới cùng giá, nhưng RAM gấp đôi — mở nhiều thứ học cùng lúc không phải đóng bớt.
+> Con sẽ ghi lại phần mềm môn học cần dùng rồi đối chiếu cấu hình của máy, cả chỗ còn chưa rõ.
 > Bảo hành 6 tháng main, màn, phím; pin 3 tháng. 15 ngày đầu lỗi thì đổi máy khác.
 > Cài lại Windows, vệ sinh máy thì miễn phí trọn đời.
 > Cửa hàng ở 71 Thiên Hiền, Mỹ Đình 1, đăng ký kinh doanh từ 2015 — bố mẹ gọi 0928939666 hỏi trực tiếp được."*
 
-Mọi vế đều có nguồn: `policies.md` (bảo hành, đổi trả, dịch vụ trọn đời) · `company-facts.md`
+Phần việc học là câu mẫu, không phải kết quả kiểm tra máy. Phần chính sách và liên hệ cần đối chiếu: `policies.md` (bảo hành, đổi trả, dịch vụ trọn đời) · `company-facts.md`
 (địa chỉ, số điện thoại, đăng ký kinh doanh 31/12/2015).
 
 ### 8.3 Ba câu bố mẹ hay hỏi — và câu trả lời được phép viết
 
 | Bố mẹ hỏi | ✅ Trả lời được viết | ⛔ Không được viết |
 |---|---|---|
-| *"Sao không mua mới?"* | Cùng tiền, máy doanh nhân đã qua sử dụng cho RAM 16GB, màn 14 inch — **kèm câu thú nhận chip đời cũ hơn** | ⛔ Không nêu tên máy mới nào làm đối trọng — danh sách 36 **không có máy mới nào dưới 15 triệu** |
+| *"Sao không mua mới?"* | Mua mới hay đã qua sử dụng đều cần đối chiếu việc học, cấu hình, tình trạng và bảo hành; không kết luận loại nào hơn khi thiếu dữ liệu đối trọng | ⛔ Không nêu tên máy mới nào làm đối trọng — danh sách 36 **không có máy mới nào dưới 15 triệu** |
 | *"Máy người ta dùng rồi, hỏng thì sao?"* | 6 tháng main/màn/phím, pin 3 tháng · 15 ngày đổi máy nếu lỗi · dịch vụ trọn đời | ⛔ Không "như máy mới", không "bảo hành dài", không "dùng hết đại học" |
 | *"Shop này có thật không?"* | 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm · 0928939666 · đăng ký kinh doanh từ 31/12/2015 | ⛔ Không giờ mở cửa (`UNVERIFIED.md` #1). Không "uy tín số 1", không số khách đã phục vụ (chưa có nguồn) |
 
@@ -523,14 +412,12 @@ Mọi vế đều có nguồn: `policies.md` (bảo hành, đổi trả, dịch 
 
 ---
 
-## 9. Bốn câu "thật" nên có trong mọi bài dài cho P1
+## 9. Bốn cách nói rõ giới hạn khi cần
 
-Sinh viên nghe quảng cáo qua video cả ngày và **càng non càng nghi**. Một câu tự hạ nhiệt đặt đúng chỗ
-làm cả bài đáng tin hơn:
+Chọn câu cần thiết cho nội dung, không bắt buộc nhét cả bốn câu vào mỗi bài:
 
-1. **Câu giới hạn lời hứa:** *"Cái này không phải lời hứa máy chạy nhanh. Nó chỉ là: nhiều chỗ nhớ thì
-   mở được nhiều thứ cùng lúc mà không phải đóng bớt."*
-2. **Câu thú nhận đánh đổi:** *"Máy mình chip đời cũ hơn máy mới cùng giá, nói trước."*
+1. **Câu giới hạn lời hứa:** *"RAM chưa đủ để kết luận máy chạy nhanh. Cần đối chiếu cả phần mềm và những ứng dụng bạn dùng cùng lúc."*
+2. **Câu thú nhận đánh đổi:** *"Nếu so với máy mới cùng giá, cần kiểm tra đúng cấu hình của cả hai trước."*
 3. **Câu chỉ chỗ bị soi:** *"Đây là chỗ bạn nên kiểm tra kỹ nhất trước khi trả tiền."*
 4. **Câu không bán dư:** *"Nếu bạn chỉ cần gõ tiểu luận và học online thì không cần lên tới tầng này —
    giữ lại tiền."* — đúng tinh thần persona: *"có người tư vấn không ép"* (`personas.md`).
@@ -539,8 +426,7 @@ làm cả bài đáng tin hơn:
 
 ## 10. Mẫu trả lời comment và inbox
 
-J4 (Đã inbox / gọi / ghé shop) là chỗ **bố mẹ bước vào**. Bài viết đưa khách tới đây rồi,
-câu trả lời hỏng là mất đơn — và mất luôn lòng tin của người trả tiền. Mọi mẫu dưới đây **không hứa gì ngoài nguồn**.
+Ở J4 (Đã inbox / gọi / ghé shop), trả lời đúng câu người mua hỏi. Chỉ mời bố mẹ tham gia khi người mua cần. Mẫu có sản phẩm hoặc chính sách phải kiểm nguồn trước khi dùng.
 
 ### 10.1 "Máy này còn không shop?"
 
@@ -553,7 +439,7 @@ câu trả lời hỏng là mất đơn — và mất luôn lòng tin của ngư
 ### 10.2 "Em có X triệu thì mua được máy gì?"
 
 > *"Với X triệu, mình gợi ý bạn 2 máy: [máy 1 — giá — 1 việc học], [máy 2 — giá — 1 việc học].
-> Bạn học ngành gì để mình nói rõ nên nghiêng về chiếc nào?"*
+> Bạn cần phần mềm nào, phiên bản nào, có mang máy đi học thường xuyên không? Mình đối chiếu rồi mới gợi ý chiếc hợp hơn."*
 
 - Chỉ nêu máy **có giá ≤ số tiền khách nói**. Không gợi ý máy vượt ngân sách khi khách chưa hỏi.
 - Trong **inbox** được tư vấn cả máy ngoài danh sách 36 và máy dưới 5 triệu (luật #16, #20 —
@@ -568,7 +454,7 @@ ThinkPad X1 Yoga Gen 6** dù tên web có chữ "(Kèm bút)": `policies.md` kh�
 
 ### 10.4 "Có giảm giá cho sinh viên không?"
 
-> *"Hiện bên mình chưa có chương trình riêng cho sinh viên. Giá trên web là giá đang bán.
+> *"Mình cần kiểm tra với cửa hàng xem hiện có chương trình riêng cho sinh viên không.
 > Bạn cho mình biết khoảng tiền, mình tìm chiếc vừa nhất cho bạn."*
 
 ⛔ Không bịa ưu đãi. Không nói "inbox để được giá tốt".
@@ -585,7 +471,7 @@ ThinkPad X1 Yoga Gen 6** dù tên web có chữ "(Kèm bút)": `policies.md` kh�
 > *"Dạ, cửa hàng ở 71 Thiên Hiền, Mỹ Đình 1, Nam Từ Liêm, đăng ký kinh doanh từ 2015.
 > Máy bảo hành 6 tháng main, màn hình, bàn phím; pin 3 tháng. Trong 15 ngày đầu máy lỗi thì đổi máy khác.
 > Sau này cài lại Windows, vệ sinh máy thì miễn phí trọn đời.
-> Anh/chị muốn qua xem cùng cháu thì cứ qua, hoặc gọi số này bất cứ lúc nào cần hỏi."*
+> Anh/chị có thể gọi 0928939666 trong giờ tổng đài 8h–20h30 để hỏi thêm và xác nhận giờ ghé cửa hàng."*
 
 - Xưng hô với bố mẹ: **"anh/chị"**, lễ phép, câu hoàn chỉnh.
 - ⛔ Không hứa giờ mở cửa (`UNVERIFIED.md` #1). Không hứa "máy dùng được 4 năm".
@@ -606,7 +492,7 @@ ThinkPad X1 Yoga Gen 6** dù tên web có chữ "(Kèm bút)": `policies.md` kh�
   (`UNVERIFIED.md` #24). Trả lời bằng **cách kiểm chứng** thay vì bằng cam kết:
 
 > *"Bạn cứ qua soi trực tiếp, rủ bạn đi cùng càng tốt: xoay hết hành trình bản lề, thả tay giữa chừng
-> xem màn có trôi, mở ảnh trắng và ảnh đen soi điểm chết. Soi xong vẫn chưa chắc thì còn 15 ngày đổi máy."*
+> xem màn có trôi, mở ảnh trắng và ảnh đen soi điểm chết. Các bước này không xác nhận toàn bộ lịch sử sửa chữa. Trong 15 ngày đầu, máy lỗi thì đổi máy khác theo chính sách."*
 
 ### 10.9 "Máy này dùng hết 4 năm đại học được không?"
 
@@ -655,16 +541,15 @@ Ngoài danh sách cấm chung (`fanpage-sheet.md` mục 4), persona này cấm t
 
 Chạy trước `10_gates/README.md`, không thay thế nó.
 
-- [ ] **Giọng bài khớp cảm xúc chủ đạo của nhịp J đã khai** (bảng mục 1.1) — kiểm trước tiên,
-      vì sai nhịp cảm xúc thì đúng nội dung vẫn trượt.
+- [ ] Bài trả lời một câu hỏi cụ thể của người đọc (bảng 1.1), không mặc định hoàn cảnh, mức hiểu biết hoặc cảm xúc.
 - [ ] Không chạm vào bốn thứ ở mục 1.2: làm người đọc thấy mình **nghèo** · thấy mình **dốt / trẻ con**
       · thấy mình **đang bị hối** · thấy **bố mẹ mình bị chê**.
-- [ ] Ba dòng đầu có **một tình huống thật của sinh viên**, không có giá máy, không có tên shop.
+- [ ] Ba dòng đầu có **một tình huống học cụ thể**; cảnh giả định không kể thành ca khách thật, không có giá máy, không có tên shop.
 - [ ] Mỗi thông số trong bài đã đi đủ **4 bước** của mục 4 và **dừng đúng chỗ**.
-- [ ] Bài J1 (Đã thấy shop) / J3 (Đang so sánh máy / shop) có **đoạn mang về nhà** đạt 4 điều ở mục 8.1.
-- [ ] Có luận điểm RAM → **có câu thú nhận đời chip** đứng ngay cạnh.
+- [ ] Bài chọn tình huống trao đổi với gia đình có **đoạn mang về nhà**; bài khác có điều người đọc tự kiểm tra.
+- [ ] Có lời khuyên RAM / GPU → gắn với phần mềm; so sánh hai máy phải có nguồn cho cả hai.
 - [ ] Bài có **đúng một** CTA, và CTA đó khớp với nhịp J đã khai báo.
-- [ ] Có ít nhất **một câu thật** trong mục 9.
+- [ ] Nêu giới hạn liên quan nếu có lời khuyên kỹ thuật hoặc so sánh, theo mục 9.
 - [ ] Không câu nào trong danh sách mục 11.
 - [ ] Mọi con số (giá · bảo hành · ổ cứng · kho) truy được về `36-may-duoc-viet-*.csv`
       hoặc `policies.md`, và **đọc theo tên sản phẩm**, không theo tag (luật #13).
@@ -672,17 +557,31 @@ Chạy trước `10_gates/README.md`, không thay thế nó.
 - [x] ~~Máy dưới 10 triệu → ghi chú Gate 0 lệch ngân sách~~ → ngân sách P1 (Sinh viên / mua máy đầu tiên) chốt 8–15 triệu (2026-09-29).
 - [ ] Mã P / J / O / CP đều viết **kèm tên tiếng Việt** (luật bảng tra trong `CLAUDE.md`).
 - [ ] Đọc lại bằng giọng nói thường: có câu nào mình sẽ không nói thẳng với một bạn sinh viên
-      **đang đứng trước mặt cùng bố mẹ** không? Có → sửa.
+      **đang đứng trước mặt** không? Có → sửa.
 - [ ] Câu hỏi cuối: **nếu người đọc chỉ đọc mỗi hook rồi lướt, họ có hiểu sai gì không?**
 
 ---
+
+### 12.1 Bố cục bài hướng dẫn theo tình huống
+
+- **Facebook ngắn:** một cảnh học → một vướng mắc → 2–3 điều tự kiểm tra → giới hạn kỹ thuật nếu có → đúng một CTA.
+- **Website dài:** tiêu đề nêu vấn đề; mỗi phần trả lời một câu hỏi về phần mềm, ngân sách, màn hình, cách mang máy hoặc cổng; cuối bài có danh sách mang đi xem máy.
+- Không nhét năm tiêu chí vào mọi bài. Có thể tách thành loạt: chọn theo phần mềm, đọc cấu hình, xem màn hình, mang máy, nối máy chiếu.
+- Nếu thêm sản phẩm: ghi nguồn, ngày kiểm tra và hạn chế của từng máy. Xem [bài mẫu](../../16_research/cach-viet-laptop-cho-sinh-vien/02-chuyen-noi-dung-nguon-thanh-bai.md); đây là nháp minh họa, chưa thay Content Package.
+
+### 12.2 Kiểm chứng giọng viết
+
+Dùng comment/inbox đã được phép sử dụng và bỏ thông tin nhận dạng. Ghi cách người đọc gọi việc học,
+nhờ một nhóm nhỏ sinh viên đọc nháp để chỉ từ khó hiểu và câu giống quảng cáo. Nếu thử hai hook,
+giữ thân bài và CTA tương đương; theo dõi lượt lưu trên lượt tiếp cận và chất lượng câu hỏi.
+Chênh lệch vài bài chỉ là tín hiệu, chưa đủ kết luận vì còn thời điểm đăng và phân phối.
 
 ## 13. Việc còn nợ ở file này
 
 1. 🟡 Mục 1, mục 5, mục 8 và mục 10 **chưa đối chiếu comment/inbox thật**. Khi có log của khách sinh viên →
    giữ cái chạy, cắt cái không chạy, ghi lại vào `07_analytics/learned-patterns.md`.
-   Riêng mục 1 và mục 8: **đếm bao nhiêu tin nhắn do bố mẹ gửi hoặc nhắc tới bố mẹ**. Tỉ lệ thấp → hạ mục 8
-   từ "kỹ thuật lõi" xuống "kỹ thuật phụ", và bỏ CTA "gửi cho bố mẹ" ở J1 (Đã thấy shop).
+   Riêng mục 1 và mục 8: **đếm bao nhiêu tin nhắn do bố mẹ gửi hoặc nhắc tới bố mẹ**. Dùng kết quả để điều chỉnh mục 8
+   về mức ưu tiên phù hợp; nhánh gia đình chỉ dùng khi đúng tình huống, không cần chờ có dữ liệu mới giới hạn phạm vi.
 2. ⛔ Danh sách máy được viết **hết hạn 2026-10-05** → chạy `python3 tools/collection_fetch.py`
    trước khi dùng bất kỳ tên máy / giá nào trong file này (mục 7, mục 10.8, mục 11).
 3. Bảy câu hỏi đang chặn persona này nằm ở journey P1 mục 6. Câu **1 (quà tặng)**, **3 (nguyên zin cho máy `Cũ`)**

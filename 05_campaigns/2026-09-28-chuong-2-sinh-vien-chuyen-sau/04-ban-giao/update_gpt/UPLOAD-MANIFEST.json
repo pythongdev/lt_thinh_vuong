@@ -1,0 +1,103 @@
+{
+  "status": "NOT_UPLOADED",
+  "reason": "Google Drive plugin not installed/connected in this session",
+  "target_parent_id": "1wbJJaGa7YhwX13XPFD9vX6eP2_NboQNB",
+  "target_folder_name": "2026-09-30 · update_gpt — CHỜ FEEDBACK",
+  "files": [
+    {
+      "path": "01-bai-dang/BAN-GIAO-2-TUAN-28-09-11-10.md",
+      "sha256": "71b7e30dabb339366476bd8e97ce18a4d26ecdb7d11e877e529dbfe10b0b0447",
+      "bytes": 101676
+    },
+    {
+      "path": "01-bai-dang/README.md",
+      "sha256": "27843b9b8b3368ad4feec1ab1b2155a1df3dd338aac3b12380d13b419ae90290",
+      "bytes": 460
+    },
+    {
+      "path": "01-bai-dang/SHEET-2-TUAN-28-09-11-10-luoi.csv",
+      "sha256": "b500c8795de107156e6bafb1194f3ff90b9618154dd2a43eafccfe1843434f0c",
+      "bytes": 62695
+    },
+    {
+      "path": "01-bai-dang/SHEET-2-TUAN-28-09-11-10-ngang.csv",
+      "sha256": "53f5b9465be3a615ea9702a82e98e9d5d27de606bc5a2147e451f45f2d1b1854",
+      "bytes": 62362
+    },
+    {
+      "path": "01-bai-dang/UPDATE-GPT-BAI-DANG.xlsx",
+      "sha256": "0795bb48a199d846c07f92083fca70639e0190845b4c7a021dd9dec99abf8f62",
+      "bytes": 26331
+    },
+    {
+      "path": "01-bai-dang/day-len-sheet.gs",
+      "sha256": "8911978c1397710367817317d5d6a7b0c1a3dfe8fb53b0523849ce5d3a3b0790",
+      "bytes": 66775
+    },
+    {
+      "path": "02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.csv",
+      "sha256": "01b43b6d3413d70423cb6cc92d61fd376d1c7aec001d79c9dee69032c00379f0",
+      "bytes": 33122
+    },
+    {
+      "path": "02-reel/KICH-BAN-VIDEO-2-TUAN-28-09-11-10.md",
+      "sha256": "e55a50d810d04d40ae6b4a090722f6ff14d48669cda4d29a9100282c3e10b406",
+      "bytes": 47929
+    },
+    {
+      "path": "02-reel/README.md",
+      "sha256": "b3cf777cddb814bd1295813e42c02abd8f112312d7242fcc5d9a2258f907279b",
+      "bytes": 480
+    },
+    {
+      "path": "02-reel/UPDATE-GPT-KICH-BAN.xlsx",
+      "sha256": "6d2e30a3e18e7c8a3415b2182cd76698feba19e08fbe17cf3a4a5a36a4541ad2",
+      "bytes": 19323
+    },
+    {
+      "path": "02-reel/day-len-kb-sheet.gs",
+      "sha256": "62ff4bb5fb5a57830398d2e4a9917b8b873dae764247d0d458fc93d48cbda264",
+      "bytes": 39528
+    },
+    {
+      "path": "README.md",
+      "sha256": "67d1c5d04a958a13d6990b4a30326a95455659e26358fa10d30a7643aede8e80",
+      "bytes": 1825
+    },
+    {
+      "path": "SOAT-NOI-DUNG.md",
+      "sha256": "51dc09111795024dba576eaabf1a0a48c7c6e0eaef356ba732c04fdb9f35e277",
+      "bytes": 9408
+    },
+    {
+      "path": "drive_ready/01-BAI-DANG-TUAN-1-1215.csv",
+      "sha256": "ed9b56c19e99982946cbdd05d01767e30efb32dbc5a20e3521dd36cabd498c8e",
+      "bytes": 18090
+    },
+    {
+      "path": "drive_ready/02-BAI-DANG-TUAN-1-2030.csv",
+      "sha256": "a735d81c54a1f969902a0f17345b8dbcb508cb310268ec71e09f18d4e26405e0",
+      "bytes": 13368
+    },
+    {
+      "path": "drive_ready/03-BAI-DANG-TUAN-2-1215.csv",
+      "sha256": "760f245385bb9b25ab778172696c52129ee0df4f34f2a9b3cbc1c774768d62d3",
+      "bytes": 18479
+    },
+    {
+      "path": "drive_ready/04-BAI-DANG-TUAN-2-2030.csv",
+      "sha256": "aec5d7a8856a666ced03e19acd65049c8ccf78c733fa424372ee923082c0bd47",
+      "bytes": 12692
+    },
+    {
+      "path": "drive_ready/05-KICH-BAN-KB1-KB6.csv",
+      "sha256": "c14993b66ed08ea802925e87d894dc634c447374b11555bb86af9c7bd6d0aedc",
+      "bytes": 15812
+    },
+    {
+      "path": "drive_ready/06-KICH-BAN-KB7-KB13.csv",
+      "sha256": "fce916a6092b7f89eb096bc54b0d002a1beee18d830e379d7f5fd267907786b5",
+      "bytes": 17374
+    }
+  ]
+}

@@ -3,12 +3,12 @@
 > **Dùng để làm gì:** đây là lớp **hình ảnh và cảnh quay**, không phải lớp câu chữ.
 > `cach-viet-cho-P1-sinh-vien.md` trả lời *viết thành câu như thế nào*.
 > File này trả lời *quay cái gì, cắt ở đâu, chữ trên màn viết ra sao* cho đúng persona này —
-> bối cảnh xem (có **người xem thứ hai là bố mẹ**), ba loại video chính (+ một loại dùng dè),
+> bối cảnh xem (có nhánh **gia đình cùng xem**), ba loại video chính (+ một loại dùng dè),
 > hook 3 giây kèm hình giây 0, kho cảnh có sẵn tại shop, quy cách chữ overlay,
 > CTA theo nhịp, và bảng chấm trước khi cầm máy quay.
 >
 > **Dùng chung với:**
-> · `03_customers/sinh_vien/cach-viet-cho-P1-sinh-vien.md` (lớp câu chữ — bảng cảm xúc 1.1, từ vựng 2.1, câu mang về nhà mục 8)
+> · `03_customers/sinh_vien/cach-viet-cho-P1-sinh-vien.md` (lớp câu chữ — bảng câu hỏi và giọng 1.1, từ vựng 2.1, câu mang về nhà mục 8)
 > · `03_customers/sinh_vien/journey-P1-sinh-vien.md` (4 trục quyết định · J0→J7 · lớp quyết định bố mẹ)
 > · `16_research/cach-viet-video-ngan-NGHIEN-CUU.md` (nguyên tắc chung mọi video ngắn — **đọc trước file này**)
 > · `04_content/formats/reels.md` (**luật format chính thức** — mâu thuẫn thì file đó thắng)
@@ -27,39 +27,28 @@
 > **Chưa có số retention thật của video nào cho persona này** → mục 2, mục 4 và mục 9 là **giả thuyết**.
 > Có số rồi thì quay lại cắt cái không chạy.
 
+> **Hiệu chỉnh 2026-09-30:** áp dụng [nghiên cứu cách dùng từ](../../16_research/cach-viet-laptop-cho-sinh-vien/01-nghien-cuu-cach-dung-tu.md)
+> và [cách chuyển nguồn thành bài](../../16_research/cach-viet-laptop-cho-sinh-vien/02-chuyen-noi-dung-nguon-thanh-bai.md).
+> Đây là đề xuất biên tập, chưa kiểm chứng bằng phản hồi người đọc; ví dụ tự viết không phải lời khách hàng thật.
+> Nghiên cứu không xác nhận giá, cấu hình, hiệu năng hay chính sách. Các bảng sản phẩm giữ mốc dữ liệu cũ,
+> phải kiểm tra nguồn chuẩn trước khi dùng. Bản tóm tắt notebook chưa đối chiếu video gốc nên không trích như lời tác giả.
+> Mỗi bài chọn một tình huống học; chỉ dùng nhánh bố mẹ khi người đọc cần trao đổi với gia đình.
+
 ---
 
 ## 0. Bối cảnh xem — thứ quyết định mọi thứ còn lại
 
-Video cho P2 (Nhân viên văn phòng) được xem trong một căn phòng có đồng nghiệp.
-**Video cho P1 (Sinh viên / mua máy đầu tiên) được xem hai lần, bởi hai người khác nhau:**
-lần đầu là sinh viên lướt một mình; lần hai là **bố mẹ**, khi con gửi link qua Zalo / Messenger
-kèm câu *"con định mua cái này"*. Đó là toàn bộ khác biệt.
+Chọn một tình huống xem: nghỉ giữa tiết, xem ở nhà, trao đổi trong nhóm lớp hoặc gửi gia đình cùng xem.
+Đây là các khả năng để dựng video, chưa có dữ liệu xác nhận giờ xem hay hành vi phổ biến nhất.
+**Bố mẹ chỉ là người xem thứ hai khi video chọn tình huống trao đổi với gia đình.**
 
-Bốn tình huống xem thật (giả thuyết từ chân dung ở `journey-P1-sinh-vien.md` mục 1):
+- Tắt tiếng vẫn hiểu nhờ phụ đề và chữ rõ; bật tiếng nghe được câu hoàn chỉnh, xưng “mình – bạn”.
+- Mở bằng việc học cụ thể và đưa 2–3 điều kiểm tra. Không mặc định người xem ít tiền hoặc không rành máy.
+- Có thể giữ một khung để lưu danh sách câu hỏi. Riêng video chính sách phải ghi đủ điều kiện, không chỉ ba con số.
+- Không cần tiếng lóng để tạo giọng trẻ. Tránh hình/chữ khen máy hoặc ngụ ý hiệu năng chưa kiểm chứng.
 
-1. **Giờ nghỉ giữa tiết, ngồi ở giảng đường / hành lang** — không mở tiếng, 5–10 phút rảnh.
-2. **Nằm trên giường ký túc / phòng trọ lúc 22h** — lúc duy nhất họ chịu xem hết một video 40 giây,
-   có thể mở tiếng.
-3. **Trong nhóm lớp / nhóm phòng** — một bạn gửi video vào, cả nhóm cùng xem và bình luận.
-4. **Bố mẹ mở link con gửi** — trên điện thoại, thường mở tiếng, xem một lần, **chấm bằng cảm giác
-   "người nói có đàng hoàng không"**, không chấm bằng thông số.
-
-Năm hệ quả cứng lên cách dựng:
-
-| Hệ quả | Vì sao |
-|---|---|
-| **Chữ trên màn là bản chính, tiếng là bản phụ** | Giảng đường không mở tiếng. Tắt tiếng mà vẫn hiểu hết thì mới tính là video xong |
-| **Tiếng cũng phải đứng được một mình** | Riêng P1: bố mẹ mở tiếng. Lời thoại phải nghe như **người lớn nói với người lớn** — không "các em", không tiếng lóng mạng |
-| **Khung hình không được làm người xem thấy mình nghèo trước bạn bè** | Video bị gửi vào nhóm lớp. Chữ to *"LAPTOP SINH VIÊN GIÁ RẺ"* → không ai dám gửi. Xem mục 1.2 file viết: bốn cảm xúc không được chạm |
-| **Không có giây nào để chào hỏi** | Tình huống 1 và 3 đều là thời gian đi mượn |
-| **Phải có một khung hình chụp màn hình được** | Sinh viên chụp màn gửi bố mẹ nhanh hơn gửi link. Khung chứa 3 con số (6 tháng · 3 tháng pin · 15 ngày) là **khung đáng tiền nhất** của video (chương 2 KB1 cảnh 5 đã làm đúng) |
-
-> ⚠️ Khác biệt lớn nhất so với video cho P2 (Nhân viên văn phòng): P2 (Nhân viên văn phòng) xem để **yên tâm về cái máy**.
-> P1 (Sinh viên / mua máy đầu tiên) xem để **có cái mà nói lại với bố mẹ**. Video cho P2 (Nhân viên văn phòng) được chấm
-> bằng "máy có đáng tin không". Video cho P1 (Sinh viên / mua máy đầu tiên) được chấm hai lần — lần hai bởi người
-> chưa từng thấy shop. **Thô vẫn tin hơn** (`cach-viet-video-ngan-NGHIEN-CUU.md` mục 7.2), nhưng thô
-> **không** có nghĩa là xuề xoà: người nói phải ăn mặc, ngồi, nói như đang tiếp một phụ huynh.
+Ví dụ cùng một chủ đề: cảnh chuẩn bị slide → liệt kê thiết bị cần nối → kiểm tra cổng và đầu chuyển.
+Không cần đưa bố mẹ, nỗi sợ mất tiền hoặc cả năm tiêu chí chọn máy vào video này.
 
 ---
 
@@ -69,7 +58,7 @@ Cùng một tiêu chí với P2 (Nhân viên văn phòng):
 
 > **Kể lại được bằng chữ mà không mất gì → viết bài. Mất đi khi kể bằng chữ → quay video.**
 
-Riêng P1 (Sinh viên / mua máy đầu tiên) thêm một tiêu chí thứ hai:
+Với video đã chọn nhánh gia đình, có thêm tiêu chí:
 
 > **Thứ cần bố mẹ *thấy* (người thật, quầy thật, giấy bảo hành thật) → quay video.
 > Thứ cần bố mẹ *đọc lại* (bảng giá, điều khoản) → viết bài.**
@@ -93,10 +82,7 @@ tiếp cận tốt nhất** (`fanpage-sheet.md` mục 3.6). Nhận định này 
 
 ## 2. Ba loại video chính cho P1 (Sinh viên / mua máy đầu tiên) — và một loại dùng dè
 
-Ba loại A · B · C bám đúng trục chặn số một của persona — **niềm tin vào sản phẩm**, mà với
-sinh viên là nỗi sợ *"bị lừa vì mình không biết gì"* (`journey-P1-sinh-vien.md` mục 0, trục 2) —
-và điểm rơi lớn nhất **J3 (Đang so sánh máy / shop) → J4 (Đã inbox / gọi / ghé shop)**:
-khoảnh khắc *"để em hỏi bố mẹ đã"*. Loại D được làm, nhưng có điều kiện.
+Chọn loại theo câu hỏi cần giải quyết. Chưa có dữ liệu xếp loại nào hiệu quả nhất; loại C chỉ dành cho tình huống gia đình cùng quyết định.
 
 ### Loại A — Chỉ ra một chỗ nhìn nhầm
 
@@ -128,15 +114,14 @@ Giọng: **anh chị khoá trên kể lại** (bảng 1.1 file viết, nhịp J0
 trong `content-matrix.md` (journey P1, nhịp J2 (Bắt đầu quan tâm laptop cũ)). Reel-02 chương 1 đang khai CP04 (Quy trình kiểm tra)
 → phải sửa trước khi đăng (mục 13).
 
-Với P1 (Sinh viên / mua máy đầu tiên) loại này mạnh hơn cả với P2 (Nhân viên văn phòng): nó biến thành thứ sinh viên
-cầm đưa bố mẹ — *"con không tin lời shop, con tự kiểm theo cái này"*. Đây là loại nên làm nhiều nhất.
+Loại này giúp người mua mang danh sách đi xem máy. Chưa có số liệu để kết luận nên làm nhiều nhất hoặc hiệu quả hơn ở nhóm khác.
 
 ⛔ Chỉ quay động tác **khách tự làm**. Không quay "quy trình test của shop" — chưa được kỹ thuật ký
 (`UNVERIFIED.md` #7, #12).
 
 ### Loại C — Video gửi cho bố mẹ
 
-**Loại này P2 (Nhân viên văn phòng) không có.**
+Chỉ chọn khi người mua cần trao đổi với gia đình; không bắt buộc cho mọi sinh viên.
 
 | | |
 |---|---|
@@ -149,8 +134,8 @@ cầm đưa bố mẹ — *"con không tin lời shop, con tự kiểm theo cái
 
 Mẫu câu gốc lấy từ mục 7 và mục 8 của file viết:
 
-> *"Bố mẹ không phản đối chiếc máy. Bố mẹ phản đối chữ 'cũ'."* (chương 2 KB1, cảnh 1)
-> *"Sáu tháng cho bo mạch, màn hình, bàn phím. Pin ba tháng. Mười lăm ngày đổi sang máy khác."* (`policies.md`)
+> *"Bố mẹ hỏi ‘sao không mua mới?’ Bạn có thể bắt đầu từ việc học cần dùng máy."* (chương 2 KB1, cảnh 1)
+> *"Sáu tháng cho bo mạch, màn hình, bàn phím. Pin ba tháng. Mười lăm ngày đầu, máy lỗi thì đổi máy khác."* (`policies.md`)
 
 Ba luật riêng của loại C:
 
@@ -159,7 +144,7 @@ Ba luật riêng của loại C:
 2. **Phải có một khung chụp màn hình được** chứa đủ 3 con số — bảo hành 6 tháng main / màn / phím,
    pin 3 tháng, 15 ngày đổi máy nếu lỗi. Đọc chậm, giữ khung ≥ 5 giây.
 3. **Được phép nói "mua mới cũng là lựa chọn đúng"** — đây là câu không bán dư (file viết mục 9, câu 4),
-   và là câu làm bố mẹ tin người nói nhất.
+   không mặc định lựa chọn nào luôn tốt hơn.
 
 ### Loại D — Chia tầng tiền / so hai máy cùng dòng (dùng dè)
 
@@ -168,8 +153,7 @@ hoặc CP03 (So sánh). Được làm, nhưng **đủ cả bốn điều kiện*
 
 1. **Chỉ máy của chính shop, chỉ máy trong `36-MAY-DUOC-VIET.md`** — luật #9 cấm nêu tên đối thủ,
    kể cả trong hình (ảnh web, bảng giá, logo lọt khung đều tính là nêu tên).
-2. **Có câu thú nhận đời chip, hiện thành chữ trên màn** — *"Chip đời cũ hơn máy mới cùng giá. Nói trước."*
-   Không có câu này thì không được dùng luận điểm RAM (journey P1, J3 (Đang so sánh máy / shop)).
+2. **So sánh có nguồn cho đúng hai cấu hình**, nêu giới hạn của từng máy. Không mặc định máy cũ có RAM gấp đôi máy mới cùng giá; thiếu dữ liệu đối trọng thì bỏ so sánh.
 3. **Chỉ chia khoản chênh giữa hai máy**, không chia tổng giá cho số tháng học (file viết mục 11).
 4. ~~Máy dưới 10 triệu → mang ghi chú Gate 0 lệch ngân sách~~ → ✅ 2026-09-29: ngân sách P1 (Sinh viên / mua máy đầu tiên) chốt **8–15 triệu**, không cần ghi chú.
 
@@ -206,14 +190,10 @@ Ba con số phải nhớ (`cach-viet-video-ngan-NGHIEN-CUU.md` mục 1, 2):
 - **Đổi hình mỗi 3–5 giây** → kịch bản 30 giây ra **6–8 dòng** trong bảng 5 cột.
 - **Tối đa 3 ý.** Có 5 ý đáng nói nghĩa là có 2 video.
 
-Riêng cho P1 (Sinh viên / mua máy đầu tiên), nhịp 3–8s có hai dạng — chọn một:
-
-> **Nhịp 3–8s là HỆ QUẢ VỚI TIỀN hoặc HỆ QUẢ VỚI BỐ MẸ — không phải hệ quả kỹ thuật.**
-> ⛔ *"Chip đời cũ thì chạy chậm hơn"*
-> ✅ *"Trả nhiều tiền hơn cho một chiếc máy chậm hơn."* (hệ quả với tiền)
-> ✅ *"Bố hỏi lại đúng một câu là không trả lời được."* (hệ quả với bố mẹ)
-> Cái thứ nhất nói về cái máy. Hai cái sau nói về **số tiền không phải của mình** và **lần đầu được
-> tự quyết** — đó mới là thứ giữ họ ở lại (file viết mục 1.0).
+Nhịp 3–8s nêu **vướng mắc trong tình huống đã chọn**: chưa biết phần mềm cần gì, chưa rõ cổng máy chiếu,
+hoặc chưa tính bộ sạc trong balo. Tiền và câu hỏi của gia đình chỉ dùng khi đúng chủ đề.
+Ví dụ: “Mai thuyết trình, bạn đã kiểm tra máy nối được với máy chiếu chưa?”
+Không dùng “trả nhiều tiền hơn cho máy chậm hơn” khi chưa có phép so sánh xác minh.
 
 ---
 
@@ -227,7 +207,7 @@ Quy tắc chung: **không giá, không tên máy** ở hook video J0–J2.
 
 | Chữ overlay (giây 0) | Hình giây 0 | Dùng cho |
 |---|---|---|
-| **"Máy này i mấy?"** — câu hỏi làm mất tiền | Cận ngón tay chỉ vào chữ i7 trên tem dán máy | J0 (Chưa biết shop) · CP08 (Sai lầm khi mua) |
+| **"Môn học cần phần mềm nào?"** | Cận tay ghi tên phần mềm từ hướng dẫn môn học vào sổ | J0 (Chưa biết shop) · CP08 (Sai lầm khi mua) |
 | **"Bài đầu tiên. Nộp bằng file."** | Cận quyển vở giao bài đặt cạnh một mặt bàn **trống**, chưa có máy | J0 (Chưa biết shop) · CP08 (Sai lầm khi mua) |
 
 ### Sự kiện 2 — Máy anh chị / máy cấp 3 không chịu nổi học online
@@ -235,13 +215,13 @@ Quy tắc chung: **không giá, không tên máy** ở hook video J0–J2.
 | Chữ overlay (giây 0) | Hình giây 0 | Dùng cho |
 |---|---|---|
 | **"Quạt kêu như máy sấy"** | Bàn tay mở nắp lưng máy, lộ quạt tản nhiệt đầy bụi | J2 (Bắt đầu quan tâm laptop cũ) · CP02 (Kiến thức) |
-| **"Không phải máy hết thời"** | Chổi quét lớp bụi khỏi cánh quạt | J1 (Đã thấy shop) · CP02 (Kiến thức) |
+| **"Máy chậm? Cần kiểm tra gì?"** | Chổi quét lớp bụi khỏi cánh quạt | J1 (Đã thấy shop) · CP02 (Kiến thức) |
 
 ### Sự kiện 3 — Bố mẹ đồng ý cho tiền, kèm câu hỏi
 
 | Chữ overlay (giây 0) | Hình giây 0 | Dùng cho |
 |---|---|---|
-| **"Bố mẹ phản đối chữ 'cũ'"** | Quầy tư vấn, hai ghế cùng phía bàn, ghế còn trống | J1 (Đã thấy shop) · CP08 (Sai lầm khi mua) |
+| **"Bố mẹ hỏi về máy cũ?"** | Quầy tư vấn, hai ghế cùng phía bàn, ghế còn trống | J1 (Đã thấy shop) · CP08 (Sai lầm khi mua) |
 | **"Sao không mua mới?"** | Bàn tay đặt tờ giấy bảo hành xuống mặt quầy | J1 (Đã thấy shop) · CP08 (Sai lầm khi mua) |
 
 ### Sự kiện 4 — Tự tích đủ tiền làm thêm
@@ -260,7 +240,7 @@ Quy tắc chung: **không giá, không tên máy** ở hook video J0–J2.
 | **"Cùng chữ i5. Khác nhau thế này."** | Cận hai cửa sổ `Settings → About` đặt cạnh nhau, tay chỉ dòng tên chip | J2 (Bắt đầu quan tâm laptop cũ) · CP02 (Kiến thức) |
 | **"Đi xem máy cùng bạn? Soi 3 chỗ."** | Hai bàn tay cùng cầm một chiếc máy nhấc khỏi mặt bàn | J2 (Bắt đầu quan tâm laptop cũ) · CP08 (Sai lầm khi mua) |
 
-### Hook mạnh nhất — tự chỉ chỗ mình bị soi
+### Hook có thể thử — hướng dẫn tự kiểm tra
 
 | Chữ overlay (giây 0) | Hình giây 0 | Nguồn |
 |---|---|---|
@@ -292,10 +272,10 @@ Không dàn dựng, không ghép ảnh điểm chết lấy trên mạng (chươ
 |---|---|---|
 | **Quầy tư vấn, hai ghế cùng phía bàn** | Phụ huynh đi cùng con — bằng chứng "bố mẹ đến xem cùng được" | Không quay rõ mặt người nếu chưa xin phép; chỉ bàn tay và cái ghế |
 | **Bàn học chật** (kê lại cho chỉ còn ~50cm, có vở, bút, dây sạc) | Tư thế dựng lều để xem bài giảng trên bàn phòng trọ | Không nói "phòng trọ của bạn X" — không phải cảnh thật của khách |
-| **Hai–ba người chụm đầu trước một màn** | Xoay màn cho cả nhóm xem slide khi làm bài nhóm · màn 14 inch đủ cho hai người | Chỉ dùng máy **tên có ghi "Cảm ứng"** cho cảnh chạm màn (mục 5.1) |
+| **Hai–ba người chụm đầu trước một màn** | Xoay màn cho cả nhóm xem slide khi làm bài nhóm · mở tài liệu để người xem tự đánh giá chữ có dễ đọc | Chỉ dùng máy **tên có ghi "Cảm ứng"** cho cảnh chạm màn (mục 5.1) |
 | **Balo đi học + quyển vở A4** làm mốc | Cỡ 13,3 / 14 / 15,6 inch khác nhau thế nào khi nhét vào balo | ⛔ Không nói, không ghi cân nặng — chưa cân máy nào (`UNVERIFIED.md` #12) |
 | **Màn hình trắng / màn hình đen toàn khung** | Soi điểm chết, hở sáng | Phải quay máy **thật**, không ghép hình |
-| **Cửa sổ `Settings → About`** cận dòng tên chip | Chip đời mấy — **câu thú nhận đời chip** có hình | Không quay phần mềm chấm điểm / benchmark |
+| **Cửa sổ `Settings → About`** cận dòng tên chip | Đọc tên CPU đúng phiên bản, không suy ra tốc độ | Không quay phần mềm chấm điểm / benchmark |
 | **Bàn tay gõ một lượt bàn phím · cắm thử từng cổng** | Động tác tự soi khách làm được ở mọi cửa hàng | Không nói đây là "quy trình test của shop" (`UNVERIFIED.md` #7) |
 | **Bản lề, tay gập chậm 0→360°, thả tay giữa chừng** | Soi bản lề máy xoay gập | ⛔ Không nói "bản lề chắc" — bản lề **không** nằm trong diện bảo hành đã công bố |
 | **Bàn kỹ thuật** — tua vít, chổi, keo tản nhiệt · màn cài Windows | Vệ sinh, tra keo, **cài Windows, cài phần mềm miễn phí trọn đời** — vũ khí riêng của P1 (Sinh viên / mua máy đầu tiên) (journey P1, trục 3) | Không ngụ ý máy sẽ nhanh hơn sau khi vệ sinh |
@@ -331,19 +311,19 @@ Latitude 9410 2in1 có 3 bản. Thiếu một vế là khách bấm nhầm sang 
 
 ---
 
-## 6. Dịch thông số thành một cảnh quay
+## 6. Từ việc học đến cảnh quay và điều cần kiểm tra
 
 Bản hình của công thức 4 bước ở mục 4 file viết. Cột cuối là chỗ **phải dừng** —
 quay tiếp là thành lời hứa hiệu năng, mà shop chưa đo gì cả.
 
 | Thông số | Khoảnh khắc đi học | Quay cái gì | ⛔ Dừng trước khi |
 |---|---|---|---|
-| RAM 16GB | Học online mà vẫn mở Word ghi chép và tra tài liệu | Màn có sẵn bài giảng + Word + vài tab, tay chuyển qua lại | …quay đồng hồ đếm giây, nói "mượt", "không lag" |
-| Ổ 512GB | Không phải xoá tài liệu năm nhất để lấy chỗ cho năm ba | Hai máy giống hệt, chữ trên màn chỉ ra chỗ khác duy nhất | …nói "đủ dùng 4 năm", hứa nâng ổ về sau |
+| RAM 16GB | Học online mà vẫn mở Word ghi chép và tra tài liệu | Tay ghi danh sách ứng dụng cần mở cùng lúc; chữ “Đối chiếu yêu cầu phần mềm” | …quay đồng hồ đếm giây, nói "mượt", "không lag" |
+| Ổ 512GB | Ghi dung lượng phần mềm và tài liệu cần lưu | Hai máy giống hệt, chữ trên màn chỉ ra chỗ khác duy nhất | …nói "đủ dùng 4 năm", hứa nâng ổ về sau |
 | Màn xoay gập, cảm ứng | Dựng lều trên bàn chật · xoay màn cho nhóm xem slide | Bàn học chật; hai–ba người chụm đầu | …nói "cảm ứng nhạy", "bản lề chắc" |
 | Màn 13,3 / 14 / 15,6 inch | Nhét vào balo đi học cả ngày | Ba máy cạnh balo và vở A4, cùng khung | …nói cân nặng, "nhẹ", "mỏng nhẹ" |
-| Chip đời 8 so với đời 11 | Câu thú nhận: đời cũ hơn máy mới cùng giá | Cận `Settings → About`, tay chỉ tên chip | …so điểm, so tốc độ |
-| Dòng doanh nhân (Latitude) | Máy sinh ra để bỏ balo đi lại cả ngày | Nhấc máy cho vào balo, kéo khoá | …nói "bền bỉ", "dùng hết đại học" |
+| Chip đời 8 so với đời 11 | Đọc tên CPU của đúng hai cấu hình được so | Cận `Settings → About`, tay chỉ tên chip | …so điểm, so tốc độ |
+| Dòng doanh nhân (Latitude) | Thử xếp máy cùng bộ sạc vào balo đi học | Nhấc máy cho vào balo, kéo khoá | …nói "bền bỉ", "dùng hết đại học" |
 | Cài Windows, cài phần mềm miễn phí trọn đời | Hỏng Windows mùa thi thì mang qua cài lại | Màn cài đặt Windows trên bàn kỹ thuật | …hứa "sửa miễn phí", "bảo hành lỗi phần mềm" |
 | Vệ sinh + tra keo miễn phí trọn đời | Máy nóng dần sau vài tháng thì mang ra | Tháo nắp, chổi quét quạt | …nói máy sẽ chạy nhanh trở lại |
 
@@ -374,8 +354,8 @@ Bảng đổi chữ overlay (rút từ bảng từ vựng mục 2.1 file viết,
 | "LAPTOP SINH VIÊN GIÁ RẺ" | "MÁY DOANH NHÂN ĐÃ QUA SỬ DỤNG" |
 | "GIÁ SINH VIÊN" · "ƯU ĐÃI TÂN SINH VIÊN" | (bỏ — không có chương trình nào có nguồn) |
 | "CHỈ TỪ 8 TRIỆU" | "CÓ ĐÚNG 9 TRIỆU?" (số tiền của khách) |
-| "ĐA NHIỆM MƯỢT MÀ" | "HỌC ONLINE + WORD + 10 TAB" |
-| "SSD 512GB" | "Ổ 512GB" (P1 (Sinh viên / mua máy đầu tiên) không phân biệt SSD — file viết mục 2.2) |
+| "ĐA NHIỆM MƯỢT MÀ" | "BẠN MỞ ỨNG DỤNG NÀO?" |
+| "SSD 512GB" | "Ổ SSD: lưu bài và ảnh" (giải thích ở lời thoại, rồi nêu dung lượng đã xác minh khi cần) |
 | "DÙNG HẾT 4 NĂM ĐẠI HỌC" | (bỏ — không hứa tuổi thọ) |
 | "PIN CẢ NGÀY ĐI HỌC" | (bỏ — chưa đo pin) |
 | "BẢO HÀNH DÀI HẠN" | "BẢO HÀNH 6 THÁNG · PIN 3 THÁNG" |
@@ -389,8 +369,8 @@ Bảng đổi chữ overlay (rút từ bảng từ vựng mục 2.1 file viết,
 
 **Đếm từ trước khi quay.** 30 giây ≤ 90 từ.
 
-Giọng đọc phải khớp **cảm xúc chủ đạo của nhịp J đã khai** — bảng 1.1 của file viết.
-Riêng P1 (Sinh viên / mua máy đầu tiên), giọng còn phải qua được **người nghe thứ hai**: bố mẹ.
+Giọng đọc phải hợp câu hỏi và tình huống đã chọn — bảng 1.1 của file viết.
+Với loại C, đọc thử theo tình huống người mua gửi video cho gia đình cùng nghe.
 Xưng **"mình – bạn"** với sinh viên; ⛔ không "các em", không "em iu", không "ib em nhé ạ".
 
 | Loại video | Voice | Vì sao |
@@ -414,7 +394,7 @@ Câu chốt phải trả đúng lời hứa của hook, có chi tiết cụ th�
 | Nhịp | CTA của video | Đo bằng |
 |---|---|---|
 | J0 (Chưa biết shop) | *"Bạn học ngành gì, đang có khoảng bao nhiêu tiền? Comment mình đọc."* | Bình luận · % xem hết |
-| J1 (Đã thấy shop) | *"Gửi video này cho bố mẹ xem cùng."* | **Chia sẻ** |
+| J1 (Đã thấy shop) | Loại C: *"Gửi video này cho bố mẹ xem cùng."* Bài hướng dẫn khác chọn *"Lưu danh sách này để dùng khi xem máy."* — chỉ dùng một câu | **Chia sẻ** hoặc **lượt lưu**, theo CTA đã chọn |
 | J2 (Bắt đầu quan tâm laptop cũ) | *"Lưu lại, hôm đi xem máy mở ra làm theo."* | **Lượt lưu** |
 | J3 (Đang so sánh máy / shop) | *"Comment số tiền đang có và ngành học, shop gợi ý 2 máy."* | Bình luận có số tiền |
 | J4 (Đã inbox / gọi / ghé shop) | *"Nhắn tin để shop kiểm tra máy còn không."* hoặc *"Bố mẹ muốn hỏi trực tiếp thì gọi 0928939666."* (8h–20h30 — giờ tổng đài bán hàng) | Inbox · cuộc gọi |
@@ -423,7 +403,7 @@ Câu chốt phải trả đúng lời hứa của hook, có chi tiết cụ th�
 
 **Bốn luật CTA không được phá:**
 
-1. **Một video một CTA.** Hai CTA = không CTA nào chạy.
+1. **Một video một CTA.** “Lưu” và “gửi” là hai hành động; chọn một, không ghép bằng “hoặc”.
 2. **Video O1 (Tiếp cận) và O2 (Hiểu vấn đề) không được gắn CTA chốt đơn** — sai objective
    và giết reach (`04_content/formats/reels.md` § Lỗi thường gặp).
 3. ⛔ **Không viết "ghé shop sau giờ học", "qua shop chiều nay"** — chưa có fact giờ mở cửa cửa hàng
@@ -431,10 +411,7 @@ Câu chốt phải trả đúng lời hứa của hook, có chi tiết cụ th�
    Kỹ thuật – bảo hành: 0825998855 (8h–17h30).
 4. ⛔ **Không "inbox nhận ưu đãi sinh viên"**, không hứa thưởng cho người giới thiệu — không có chương trình nào có nguồn.
 
-**Kiểu kết hợp với persona này:** *khung mang về nhà* — cảnh cuối (hoặc gần cuối) là khung chụp
-màn hình được chứa 3 con số, rồi CTA. Khác P2 (Nhân viên văn phòng) chuộng *vòng lặp*: sinh viên không
-xem lại để thích — họ **chụp lại để gửi**. Kiểu vòng lặp vẫn dùng được cho loại A không có con số
-(ví dụ video xoay gập: cảnh cuối cắt nhanh các tư thế rồi dừng ở tư thế đầu).
+Chọn khung kết theo câu hỏi của video: danh sách điều cần kiểm tra hoặc thông tin chính sách có đủ điều kiện. Khung gửi gia đình dùng cho loại C. Chưa có dữ liệu để khẳng định sinh viên thích chụp màn hình hơn xem lại.
 
 ---
 
@@ -464,23 +441,22 @@ Cộng thêm vào danh sách câu cấm ở mục 11 file viết và mục 5 c�
 | Gộp bảo hành thành "6–12 tháng" | Luật #14 — bảo hành đọc theo tag từng máy |
 | Cảnh người bán chỉ tay thuyết phục, câu chê bố mẹ ("bố mẹ không hiểu công nghệ") | Video sẽ không được gửi cho bố mẹ — mất đúng kênh quyết định |
 | Nhạc trend cắt ngang lời thoại | Người xem tắt tiếng không nghe được, bố mẹ bật tiếng thì nghe không ra chữ |
-| Hiệu ứng chuyển cảnh bay lượn, zoom giật, sticker meme | Thô thì tin. Và bố mẹ xem video đầy meme sẽ nghĩ "chỗ này bán hàng kiểu tiktok" |
+| Hiệu ứng chuyển cảnh bay lượn, zoom giật, sticker meme | Tránh hiệu ứng làm che chữ hoặc khó theo dõi thao tác; không đoán cách bố mẹ đánh giá video |
 
 ---
 
-## 11. Bảng chấm trước khi quay — 7 điểm riêng của P1 (Sinh viên / mua máy đầu tiên)
+## 11. Bảng chấm trước khi quay — các điểm riêng của P1 (Sinh viên / mua máy đầu tiên)
 
 Chạy **sau** bảng 10 điểm chung ở `cach-viet-video-ngan-NGHIEN-CUU.md` mục 9, và **trước**
 7 gate ở `10_gates/README.md`. Không thay thế cái nào cả.
 
 - [ ] **Tắt tiếng đọc lại toàn bộ chữ overlay — có hiểu hết video không?** Không → viết lại chữ,
       đừng sửa lời thoại.
-- [ ] **Bật tiếng, nghe như bố mẹ nghe — có câu nào nghe như quảng cáo, như tiếng lóng, hay như chê
-      bố mẹ không?** Có → sửa lời (file viết mục 1.2, 8.4).
+- [ ] **Bật tiếng và đọc thử lời thoại:** câu có tự nhiên, thuật ngữ có dễ hiểu không? Loại C kiểm thêm việc đọc cho gia đình nghe (file viết mục 1.2, 8.4).
 - [ ] Nếu sinh viên gửi video này vào **nhóm lớp**, có chữ nào làm họ thấy mình nghèo / dốt không?
       Có → đổi thẻ chữ (mục 0, mục 7).
-- [ ] Nhịp 3–8s là **hệ quả với tiền / với bố mẹ** hay hệ quả kỹ thuật? Kỹ thuật → viết lại (mục 3).
-- [ ] Có luận điểm RAM → **câu thú nhận đời chip hiện thành chữ trên màn** ngay cạnh?
+- [ ] Nhịp 3–8s nêu đúng vướng mắc của một tình huống học; không gán hoàn cảnh hay cảm xúc cho mọi sinh viên?
+- [ ] RAM / GPU gắn với phần mềm; so sánh có nguồn cả hai máy; hình và chữ không ngụ ý hiệu năng chưa đo?
 - [ ] Mọi máy lọt khung đều có tên trong `36-MAY-DUOC-VIET.md`; tên nhắc trong lời/chữ **kèm CPU + RAM + ổ**
       nếu máy có bản song sinh; máy `Cũ` không dính chữ "nguyên zin"; máy tên không có "Cảm ứng"
       không bị quay xoay gập / chạm màn?
@@ -489,13 +465,26 @@ Chạy **sau** bảng 10 điểm chung ở `cach-viet-video-ngan-NGHIEN-CUU.md` 
 
 ---
 
+### 11.1 Loạt tình huống có thể quay
+
+| Chủ đề | Cảnh và điều cần kiểm tra |
+|---|---|
+| Chọn theo phần mềm | Tay ghi tên/phiên bản từ hướng dẫn môn học; chưa rõ thì hỏi giảng viên |
+| Đọc cấu hình | Tách RAM (bộ nhớ làm việc) và SSD (lưu dữ liệu); không đặt ngưỡng RAM chung |
+| Xem màn hình | Mở tài liệu mẫu, đổi cỡ chữ; không kết luận “đẹp” hoặc “chuẩn màu” khi chưa xác minh |
+| Mang máy đi học | Xếp máy **và bộ sạc** vào balo; không suy cân nặng từ kích thước |
+| Nối máy chiếu | Cận cổng máy và thiết bị cần nối; kiểm tra đầu chuyển trên đúng máy trước khi khẳng định tương thích |
+
+Mỗi video chọn một dòng, tối đa 2–3 điều kiểm tra và một CTA. Cảnh tái hiện dùng tài liệu mẫu,
+không kể thành trải nghiệm khách thật. Kịch bản cuối vẫn cần đủ Content Package và quy cách bàn giao.
+
 ## 12. Từ ý tưởng tới file bàn giao — 6 bước
 
 | Bước | Làm gì | Ở đâu |
 |---|---|---|
 | 1 | Chọn loại A / B / C / D ở mục 2, khai đủ 4 trục **kèm tên tiếng Việt** | — |
 | 2 | Viết draft đủ 12 thành phần (`04_content/content-package.md`), có bảng script theo mốc giây, visual direction, thumbnail, bảng nguồn fact | `05_campaigns/<chiến-dịch>/01-drafts/` |
-| 3 | Chấm bảng 10 điểm chung + 7 điểm mục 11 · chạy đủ **7 gate** | draft |
+| 3 | Chấm bảng 10 điểm chung + các điểm mục 11 · chạy đủ **7 gate** | draft |
 | 4 | Copy `04_content/templates/reel_template/KICH-BAN-VIDEO-MAU.md` → rút thành `KICH-BAN-VIDEO-<tuần>.md` **5 cột**, mỗi cảnh 1 dòng | `04-ban-giao/02-reel/` |
 | 5 | `python3 tools/kich_ban_to_sheet.py <file>` → sinh `.csv` + `.gs`, không còn dòng ⚠️ nào | `04-ban-giao/02-reel/` |
 | 6 | **Người dùng đọc và nói "ok"** (Gate 6) → mới upload Drive / đụng sheet KB | — |
@@ -524,10 +513,10 @@ Chạy **sau** bảng 10 điểm chung ở `cach-viet-video-ngan-NGHIEN-CUU.md` 
    đang khoá trong `content-matrix.md`. Phải đổi sang CP08 (Sai lầm khi mua) trước khi đăng.
 5. ✅ ~~Ngân sách P1 (Sinh viên / mua máy đầu tiên) 8–15 hay 10–15 triệu~~ → người dùng chốt **8–15 triệu** (2026-09-29).
 6. 🟡 **Bản lề chưa có câu trả lời** về bảo hành — trong khi gần như toàn bộ tầng tiền của P1 (Sinh viên / mua máy đầu tiên)
-   là máy xoay gập, và sinh viên là nhóm gập mở máy nhiều nhất. Chủ shop trả lời được thì mở ra cả
+   là máy xoay gập; chưa có dữ liệu so tần suất gập mở giữa các nhóm. Chủ shop trả lời được thì mở ra cả
    một nhóm cảnh quay mới — quay lại sửa mục 5 và mục 10.
 7. 🟡 **Giả thuyết "người xem thứ hai là bố mẹ" (mục 0) chưa kiểm.** Khi có log inbox: đếm tin nhắn
    **do bố mẹ gửi hoặc nhắc tới bố mẹ**, và bình luận dưới video loại C có nhắc bố mẹ không.
-   Tỉ lệ thấp → hạ loại C xuống "dùng dè" và bỏ luật "khung chụp màn hình được" khỏi bảng chấm mục 11.
+   Dùng kết quả để điều chỉnh tần suất loại C; nhánh gia đình đã giới hạn theo tình huống, không áp cho mọi video.
 8. 🟡 Dạng video 01 ("B-roll mượn + thẻ gọi tên", `16_research/video/`) đã map sang P1 (Sinh viên / mua máy đầu tiên)
    nhưng chưa thử chạy — hợp nhất với loại A và loại B.
